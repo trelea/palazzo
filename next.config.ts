@@ -14,21 +14,7 @@ const nextConfig = {
       },
     ],
   },
-  // Keep the libsql native client out of the webpack bundle so it (and its
-  // native `.node` binary) gets traced into the serverless function instead —
-  // otherwise Vercel throws "Cannot find module 'libsql'" at runtime.
-  serverExternalPackages: ['jose', '@libsql/client', 'libsql'],
-
-  // pnpm nests libsql + its native `.node` binaries under node_modules/.pnpm,
-  // which Vercel's file tracer misses. Force them into every server function so
-  // the runtime `require('libsql')` resolves.
-  outputFileTracingIncludes: {
-    '**': [
-      './node_modules/.pnpm/libsql@*/node_modules/libsql/**/*',
-      './node_modules/.pnpm/@libsql+linux-x64-gnu@*/node_modules/@libsql/linux-x64-gnu/**/*',
-      './node_modules/.pnpm/@libsql+linux-x64-musl@*/node_modules/@libsql/linux-x64-musl/**/*',
-    ],
-  },
+  serverExternalPackages: ['jose'],
 
   // Your Next.js config here
   webpack: (webpackConfig: any, { isServer, webpack }: any) => {
@@ -36,6 +22,18 @@ const nextConfig = {
       '.cjs': ['.cts', '.cjs'],
       '.js': ['.ts', '.tsx', '.js', '.jsx'],
       '.mjs': ['.mts', '.mjs'],
+    }
+
+    // On the production server build, swap @libsql/client's native "node" entry
+    // for its pure-JS "web" build (fetch-based). Remote Turso (libsql://) works
+    // fully over it, and it needs NO native `libsql` addon — which is what broke
+    // on Vercel serverless ("Cannot find module 'libsql'"). Dev keeps the node
+    // client so a local `file:` DATABASE_URI still works.
+    if (isServer && process.env.NODE_ENV === 'production') {
+      webpackConfig.resolve.alias = {
+        ...(webpackConfig.resolve.alias || {}),
+        '@libsql/client$': '@libsql/client/web',
+      }
     }
 
     // @payloadcms/plugin-cloud-storage's `/utilities` barrel re-exports the
