@@ -14,9 +14,10 @@ const nextConfig = {
       },
     ],
   },
-  // Packages with Cloudflare Workers (workerd) specific code
-  // Read more: https://opennext.js.org/cloudflare/howtos/workerd
-  serverExternalPackages: ['jose', 'pg-cloudflare'],
+  // Keep the libsql native client out of the webpack bundle so it (and its
+  // native `.node` binary) gets traced into the serverless function instead —
+  // otherwise Vercel throws "Cannot find module 'libsql'" at runtime.
+  serverExternalPackages: ['jose', '@libsql/client', 'libsql'],
 
   // Your Next.js config here
   webpack: (webpackConfig: any, { isServer, webpack }: any) => {
