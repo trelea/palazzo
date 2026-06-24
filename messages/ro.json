@@ -1,0 +1,95 @@
+{
+  "HomePage": {
+    "hero": {
+      "headline": "Natură și știință,",
+      "headlineAccent": "în echilibru",
+      "subtitle": "Fizioterapie dovedită și puterea blândă a plantelor medicinale — grijă pentru corp și minte.",
+      "ctaBook": "Programează o probă gratuită",
+      "ctaLearn": "Povestea noastră"
+    },
+    "intro": {
+      "heading": "Palazzo Aesthetics",
+      "body": "Îmbinăm fizioterapia practică cu tradiția consacrată a fitoterapiei. Rădăcinile noastre istorice, alături de o formare medicală continuă, ne permit să oferim o soluție naturală și eficientă pentru fiecare nevoie — atât pentru sănătatea, cât și pentru frumusețea ta."
+    },
+    "services": {
+      "title": "Serviciile noastre",
+      "physiotherapyDesc": "Terapie manuală personalizată și recuperare pentru a calma durerea, a reda mobilitatea și a reconstrui forța. Fiecare program este adaptat corpului tău — combinând tehnici manuale, exerciții țintite și îndrumare pentru recuperare, ca să te miști din nou liber și cu încredere.",
+      "phytotherapyDesc": "Proprietățile curative ale plantelor officinale, valorificate în tratamente și ritualuri de îngrijire pentru corp și minte. Compresa noastră emblematică din plante și extractele naturale lucrează blând cu corpul tău pentru a calma inflamația, a reda echilibrul și a susține starea de bine zi de zi.",
+      "serviceLabel": "Serviciu",
+      "focusLabel": "Focus",
+      "physiotherapyFocus": "Ameliorarea durerii & mobilitate",
+      "phytotherapyFocus": "Îngrijire naturală din plante",
+      "discover": "Descoperă",
+      "trialTitle": "Ești la prima vizită?",
+      "trialDesc": "Programează o probă gratuită și încearcă pe propria piele unul dintre tratamentele noastre.",
+      "trialCta": "Programează-te"
+    },
+    "stats": {
+      "title": "Tradiție și cercetare pentru îngrijirea corpului tău",
+      "subtitle": "Prin cercetare și inovație maximizăm eficacitatea extractelor din plante și a fizioterapiei dovedite.",
+      "yearsLabel": "Ani de experiență",
+      "treatmentsLabel": "Tratamente oferite",
+      "clientsLabel": "Clienți mulțumiți",
+      "satisfactionLabel": "Ne-ar recomanda"
+    },
+    "featured": {
+      "eyebrow": "Unicitate & calitate certificată",
+      "title": "Inima îngrijirii noastre: Impacul de Plante Officinale",
+      "body": "Compresa noastră emblematică din plante, cu puternica sa acțiune antiinflamatoare naturală, este baza versatilă a tuturor specializărilor noastre — de la fizioterapie la fitoterapie. Creată cu respect pentru natură, este esența a tot ceea ce facem.",
+      "cta": "Explorează fitoterapia"
+    },
+    "story": {
+      "heading": "Povestea noastră",
+      "lead": "Palazzo este prezentul și viitorul unei lungi povești de dragoste pentru starea de bine naturală.",
+      "body1": "Urmăm exemplul celor dinaintea noastră — care, cu sacrificiu și dăruire, au visat să ajute cât mai mulți oameni să se simtă bine și să se vindece.",
+      "body2": "Acea pasiune a dus la studiul atent al celebrului Impac de Plante Officinale, cu puternica sa acțiune antiinflamatoare naturală, pe care îl folosim și astăzi cu dragoste și respect pentru natură.",
+      "body3": "Pășim pe aceleași urme, oferind instrumente naturale și eficiente pentru îngrijirea și sănătatea oamenilor — atât în clinică, cât și acasă. Experiența, inovația tehnologică și cercetarea științifică sunt și vor rămâne mereu reperele noastre.",
+      "motto": "In natura, vita."
+    },
+    "instagram": {
+      "heading": "Urmărește-ne",
+      "body": "Alătură-te comunității noastre pe Instagram și Facebook pentru tratamente, sfaturi și cele mai noi noutăți de la Palazzo Aesthetics.",
+      "cta": "Descoperă"
+    },
+    "partners": {
+      "heading": "Partenerii noștri"
+    },
+    "cta": {
+      "newClientHeading": "Ești un client nou?",
+      "newClientBody": "Vrei să încerci tratamentele noastre? Programează o vizită pentru a încerca pe propria piele unul dintre tratamentele noastre.",
+      "newClientButton": "Programează o probă gratuită",
+      "newsletterHeading": "In natura vita",
+      "newsletterBody": "Rămâi la curent cu promoțiile și noile tratamente.",
+      "newsletterPlaceholder": "introdu adresa ta de email",
+      "newsletterButton": "Abonează-te",
+      "newsletterConsent": "Prin abonare accepți termenii politicii noastre de confidențialitate și ești de acord să primești emailuri informative de la Palazzo Aesthetics."
+    }
+  },
+  "Nav": {
+    "home": "Acasă",
+    "about": "Despre noi",
+    "services": "Servicii",
+    "physiotherapy": "Fizioterapie",
+    "phytotherapy": "Fitoterapie",
+    "news": "Noutăți",
+    "contact": "Contacte",
+    "book": "Programează-te",
+    "openMenu": "Deschide meniul",
+    "closeMenu": "Închide meniul",
+    "language": "Limbă",
+    "brandTagline": "Aesthetics"
+  },
+  "Footer": {
+    "tagline": "Unde frumusețea întâlnește eleganța atemporală.",
+    "explore": "Explorează",
+    "services": "Servicii",
+    "contact": "Contacte",
+    "hours": "Program de lucru",
+    "weekdays": "Lun – Vin",
+    "saturday": "Sâmbătă",
+    "sunday": "Duminică",
+    "closed": "Închis",
+    "followUs": "Urmărește-ne",
+    "rights": "Toate drepturile rezervate."
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "HomePage": {
+    "hero": {
+      "headline": "Nature and science,",
+      "headlineAccent": "in balance",
+      "subtitle": "Proven physiotherapy and the gentle power of medicinal herbs — care for body and mind.",
+      "ctaBook": "Book a free trial",
+      "ctaLearn": "Our story"
+    },
+    "intro": {
+      "heading": "Palazzo Aesthetics",
+      "body": "We combine hands-on physiotherapy with the time-honoured tradition of phytotherapy. Our historical roots, paired with continuous medical training, let us offer a natural and effective solution for every need — for your health and your beauty alike."
+    },
+    "services": {
+      "title": "Our services",
+      "physiotherapyDesc": "Personalised manual therapy and rehabilitation to relieve pain, restore mobility and rebuild strength. Every programme is tailored to your body — combining hands-on techniques, targeted exercise and recovery guidance to get you moving freely and confidently again.",
+      "phytotherapyDesc": "The healing properties of officinal herbs, harnessed in treatments and care rituals for body and mind. Our signature herbal compress and natural extracts work gently with your body to soothe inflammation, restore balance and support lasting, everyday wellbeing.",
+      "serviceLabel": "Service",
+      "focusLabel": "Focus",
+      "physiotherapyFocus": "Pain relief & mobility",
+      "phytotherapyFocus": "Natural herbal care",
+      "discover": "Discover",
+      "trialTitle": "New here?",
+      "trialDesc": "Book a free trial and experience one of our treatments first-hand.",
+      "trialCta": "Book now"
+    },
+    "stats": {
+      "title": "Tradition and research for the care of your body",
+      "subtitle": "Through research and innovation we maximise the efficacy of herbal extracts and proven physiotherapy.",
+      "yearsLabel": "Years of experience",
+      "treatmentsLabel": "Treatments offered",
+      "clientsLabel": "Happy clients",
+      "satisfactionLabel": "Would recommend us"
+    },
+    "featured": {
+      "eyebrow": "Uniqueness & certified quality",
+      "title": "The heart of our care: the Officinal Herbal Pack",
+      "body": "Our signature herbal compress, with its powerful natural anti-inflammatory action, is the versatile base across all our specializations — from physiotherapy to phytotherapy. Crafted with respect for nature, it is the essence of everything we do.",
+      "cta": "Explore phytotherapy"
+    },
+    "story": {
+      "heading": "Our story",
+      "lead": "Palazzo is the present and future of a long love story for natural wellbeing.",
+      "body1": "We follow the example of those who came before us — who, with sacrifice and dedication, dreamed of helping as many people as possible to feel well and heal themselves.",
+      "body2": "That passion led to the careful study of the famous Officinal Herbal Pack, with its potent natural anti-inflammatory action, which we still use today with love and respect for nature.",
+      "body3": "We walk in those footsteps, providing natural and effective tools for people's care and health — in our clinic and at home alike. Experience, technological innovation and scientific research are, and always will be, our points of reference.",
+      "motto": "In natura, vita."
+    },
+    "instagram": {
+      "heading": "Follow our journey",
+      "body": "Join our community on Instagram and Facebook for treatments, tips and the latest news from Palazzo Aesthetics.",
+      "cta": "Discover"
+    },
+    "partners": {
+      "heading": "Our partners"
+    },
+    "cta": {
+      "newClientHeading": "Are you a new client?",
+      "newClientBody": "Want to try our treatments? Book an appointment to experience one of our treatments first-hand.",
+      "newClientButton": "Book a free trial",
+      "newsletterHeading": "In natura vita",
+      "newsletterBody": "Stay up to date on promotions and new treatments.",
+      "newsletterPlaceholder": "enter your email",
+      "newsletterButton": "Subscribe",
+      "newsletterConsent": "By subscribing you accept the terms of our privacy policy and consent to receive information emails from Palazzo Aesthetics."
+    }
+  },
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "physiotherapy": "Physiotherapy",
+    "phytotherapy": "Phytotherapy",
+    "news": "News",
+    "contact": "Contact",
+    "book": "Book appointment",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "brandTagline": "Aesthetics"
+  },
+  "Footer": {
+    "tagline": "Where beauty meets timeless elegance.",
+    "explore": "Explore",
+    "services": "Services",
+    "contact": "Contact",
+    "hours": "Opening hours",
+    "weekdays": "Mon – Fri",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "closed": "Closed",
+    "followUs": "Follow us",
+    "rights": "All rights reserved."
+  }
+}
