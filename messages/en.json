@@ -1,4 +1,29 @@
 {
+  "Cta": {
+    "appointmentHeading": "Book your appointment",
+    "appointmentBody": "Want to try our treatments? Book an appointment and experience the care of Palazzo Aesthetics first-hand.",
+    "appointmentButton": "Book an appointment",
+    "formHeading": "Contact us",
+    "formNameLabel": "Name",
+    "formNamePlaceholder": "Your name",
+    "formSurnameLabel": "Surname",
+    "formSurnamePlaceholder": "Your surname",
+    "formEmailLabel": "Email",
+    "formEmailPlaceholder": "you@example.com",
+    "formPhoneLabel": "Phone",
+    "formPhonePlaceholder": "+373 00 000 000",
+    "formSubmit": "Send message",
+    "formConsent": "By submitting you accept our privacy policy and consent to be contacted by Palazzo Aesthetics."
+  },
+  "Contacts": {
+    "title": "Get in touch",
+    "lead": "Visit us at the studio, send us a message, or book your appointment — we're here to help.",
+    "infoHeading": "Contact",
+    "emailLabel": "Email",
+    "addressLabel": "Address",
+    "hoursLabel": "Opening hours",
+    "directions": "Get directions"
+  },
   "HomePage": {
     "hero": {
       "headline": "Nature and science,",
@@ -9,7 +34,9 @@
     },
     "intro": {
       "heading": "Palazzo Aesthetics",
-      "body": "We combine hands-on physiotherapy with the time-honoured tradition of phytotherapy. Our historical roots, paired with continuous medical training, let us offer a natural and effective solution for every need — for your health and your beauty alike."
+      "body": "We combine hands-on physiotherapy with the time-honoured tradition of phytotherapy. Our historical roots, paired with continuous medical training, let us offer a natural and effective solution for every need — for your health and your beauty alike.",
+      "physioLine": "Hands-on rehabilitation that restores movement and eases pain.",
+      "phytoLine": "Plant-based remedies drawn from a long phytotherapy tradition."
     },
     "services": {
       "title": "Our services",
@@ -28,9 +55,13 @@
       "title": "Tradition and research for the care of your body",
       "subtitle": "Through research and innovation we maximise the efficacy of herbal extracts and proven physiotherapy.",
       "yearsLabel": "Years of experience",
+      "yearsDesc": "Decades of hands-on practice refining every treatment we offer.",
       "treatmentsLabel": "Treatments offered",
+      "treatmentsDesc": "A broad range of physiotherapy and phytotherapy programmes.",
       "clientsLabel": "Happy clients",
-      "satisfactionLabel": "Would recommend us"
+      "clientsDesc": "People who trusted us with their recovery and wellbeing.",
+      "satisfactionLabel": "Would recommend us",
+      "satisfactionDesc": "Clients who would gladly send friends and family our way."
     },
     "featured": {
       "eyebrow": "Uniqueness & certified quality",

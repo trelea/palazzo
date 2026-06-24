@@ -2,12 +2,12 @@ import { useTranslations } from 'next-intl'
 import {
   ArrowRight,
   Award,
-  Check,
   FlaskConical,
   HeartPulse,
   Leaf,
-  Quote,
   ShieldCheck,
+  Star,
+  Users,
 } from 'lucide-react'
 
 import { Link } from '@/i18n/navigation'
@@ -15,8 +15,8 @@ import { cn } from '@/lib/utils'
 import { SERVICE_LINKS, CONTACT, type ServiceKey } from '@/lib/site'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
-import { Input } from '@/components/ui/input'
 import { Card } from '@/components/ui/card'
+import { AppointmentCta } from '@/components/appointment-cta'
 import { ShimmerButton } from '@/components/ui/shimmer-button'
 import { NumberTicker } from '@/components/ui/number-ticker'
 import { Marquee } from '@/components/ui/marquee'
@@ -206,14 +206,14 @@ function Hero() {
                 shimmerColor="#ffffff"
                 borderRadius="0px"
                 shimmerDuration="3s"
-                className="w-full px-7 py-3 text-sm font-medium sm:w-44"
+                className="w-full px-7 py-3 text-sm font-medium sm:w-auto"
               >
                 <Link href="/contacts">{t('ctaBook')}</Link>
               </ShimmerButton>
               <Button
                 asChild
                 variant="ghost"
-                className="h-auto w-full justify-center rounded-none px-7 py-3 text-sm text-foreground hover:bg-muted sm:w-44"
+                className="h-auto w-full justify-center rounded-none px-7 py-3 text-sm text-foreground hover:bg-muted sm:w-auto"
               >
                 <Link href="/about-us">
                   {t('ctaLearn')}
@@ -230,10 +230,10 @@ function Hero() {
 
 /* ───────────────────────── Brand intro ───────────────────────── */
 
-/** The two disciplines Palazzo is built on — labels/icons reused across the page. */
+/** The two disciplines Palazzo is built on — paired with a one-line descriptor. */
 const INTRO_PILLARS = [
-  { key: 'physiotherapy', Icon: HeartPulse },
-  { key: 'phytotherapy', Icon: Leaf },
+  { key: 'physiotherapy', Icon: HeartPulse, lineKey: 'physioLine' },
+  { key: 'phytotherapy', Icon: Leaf, lineKey: 'phytoLine' },
 ] as const
 
 function Intro() {
@@ -242,62 +242,74 @@ function Intro() {
 
   return (
     <section className="relative isolate overflow-hidden py-24 lg:py-32">
-      {/* Ambient field — drifting particles over a soft central brand glow. */}
-      <Particles
-        className="absolute inset-0 -z-10"
-        quantity={70}
-        ease={80}
-        size={0.5}
-        color="#51623D"
-      />
+      {/* Soft brand glow anchored to the image side — keeps the section calm. */}
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute top-1/2 left-1/2 -z-10 size-[36rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-brand/5 blur-3xl"
+        className="pointer-events-none absolute top-1/2 -left-24 -z-10 size-[34rem] -translate-y-1/2 rounded-full bg-brand/5 blur-3xl"
       />
 
-      <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
-        <Reveal inView>
-          <Badge
-            variant="outline"
-            className="gap-1.5 rounded-none border-brand/20 bg-brand-subtle/40 px-4 py-1.5 text-xs font-medium tracking-wide text-brand uppercase backdrop-blur-sm"
-          >
-            <Leaf className="size-3.5" />
-            {tn('physiotherapy')} · {tn('phytotherapy')}
-          </Badge>
-        </Reveal>
+      <div className="mx-auto grid max-w-7xl items-start gap-14 px-4 sm:px-6 lg:grid-cols-2 lg:gap-20 lg:px-8">
+        {/* ── Image collage — modern room layered with the legacy gallery wall ── */}
+        <Reveal direction="right" inView className="order-last lg:order-first">
+          <div className="relative mx-auto max-w-md lg:mx-0 lg:max-w-none">
+            {/* Primary — the modern, evidence-led treatment room. */}
+            <div className="relative aspect-4/5 overflow-hidden rounded-3xl border border-brand/15 shadow-xl">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/intro2.jpeg"
+                alt="A modern Palazzo Aesthetics treatment room"
+                className="size-full object-cover"
+              />
+              <BorderBeam size={120} duration={11} colorFrom="#51623D" colorTo="#9bb06f" />
+            </div>
 
-        <Reveal delay={0.1} inView>
-          <h2 className="mt-6 font-heading text-4xl font-semibold tracking-tight sm:text-5xl">
-            <AccentText>{t('heading')}</AccentText>
-          </h2>
-        </Reveal>
-
-        <Reveal delay={0.2} inView>
-          <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-pretty text-muted-foreground sm:text-lg">
-            {t('body')}
-          </p>
-        </Reveal>
-
-        <Reveal delay={0.3} inView>
-          <div className="mt-12 flex flex-col items-stretch justify-center gap-4 sm:flex-row">
-            {INTRO_PILLARS.map(({ key, Icon }) => (
-              <div
-                key={key}
-                className="relative overflow-hidden rounded-2xl border border-brand/10 bg-card/60 px-6 py-4 backdrop-blur-sm sm:min-w-52"
-              >
-                <div className="flex items-center justify-center gap-3">
-                  <span className="inline-flex size-9 items-center justify-center rounded-xl bg-brand/10 text-brand">
-                    <Icon className="size-5" />
-                  </span>
-                  <span className="font-heading text-base font-medium text-foreground">
-                    {tn(key)}
-                  </span>
-                </div>
-                <BorderBeam size={60} duration={8} colorFrom="#51623D" colorTo="#9bb06f" />
-              </div>
-            ))}
+            {/* Secondary — the framed "fisioterapia" gallery wall, tilted, overlapping. */}
+            <figure className="absolute -bottom-10 -right-4 w-52 -rotate-3 overflow-hidden rounded-2xl border border-white/70 bg-white p-1.5 shadow-2xl ring-1 ring-black/5 transition-transform duration-500 ease-out hover:rotate-0 sm:-right-10 sm:w-72">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/intro1.jpeg"
+                alt="Framed physiotherapy illustrations on the clinic wall"
+                className="aspect-4/3 w-full rounded-xl object-cover"
+              />
+            </figure>
           </div>
         </Reveal>
+
+        {/* ── Editorial copy + discipline pillars ── */}
+        <div className="lg:pl-4">
+          <Reveal inView>
+            <h2 className="font-heading text-4xl font-semibold tracking-tight sm:text-5xl">
+              <AccentText>{t('heading')}</AccentText>
+            </h2>
+          </Reveal>
+
+          <Reveal delay={0.2} inView>
+            <p className="mt-6 max-w-xl text-base leading-relaxed text-pretty text-muted-foreground sm:text-lg">
+              {t('body')}
+            </p>
+          </Reveal>
+
+          <Reveal delay={0.3} inView>
+            <div className="mt-10 space-y-px overflow-hidden rounded-2xl border border-brand/10 bg-card/40 backdrop-blur-sm">
+              {INTRO_PILLARS.map(({ key, Icon, lineKey }) => (
+                <div
+                  key={key}
+                  className="flex items-start gap-4 border-b border-brand/10 px-6 py-5 last:border-b-0"
+                >
+                  <span className="inline-flex size-10 shrink-0 items-center justify-center rounded-xl bg-brand/10 text-brand">
+                    <Icon className="size-5" />
+                  </span>
+                  <div>
+                    <p className="font-heading text-base font-medium text-foreground">{tn(key)}</p>
+                    <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
+                      {t(lineKey)}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </Reveal>
+        </div>
       </div>
     </section>
   )
@@ -452,10 +464,10 @@ function Services() {
 /* ─────────────────────────── Stats ─────────────────────────── */
 
 const STATS = [
-  { value: 25, suffix: '+', labelKey: 'stats.yearsLabel' },
-  { value: 30, suffix: '+', labelKey: 'stats.treatmentsLabel' },
-  { value: 5000, suffix: '+', labelKey: 'stats.clientsLabel' },
-  { value: 98, suffix: '%', labelKey: 'stats.satisfactionLabel' },
+  { value: 25, suffix: '+', Icon: Award, labelKey: 'stats.yearsLabel', descKey: 'stats.yearsDesc' },
+  { value: 30, suffix: '+', Icon: HeartPulse, labelKey: 'stats.treatmentsLabel', descKey: 'stats.treatmentsDesc' },
+  { value: 5000, suffix: '+', Icon: Users, labelKey: 'stats.clientsLabel', descKey: 'stats.clientsDesc' },
+  { value: 98, suffix: '%', Icon: Star, labelKey: 'stats.satisfactionLabel', descKey: 'stats.satisfactionDesc' },
 ] as const
 
 function Stats() {
@@ -472,18 +484,30 @@ function Stats() {
         </div>
       </Reveal>
 
-      <div className="mt-14 grid grid-cols-2 gap-8 lg:grid-cols-4">
+      <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {STATS.map((stat, i) => (
           <Reveal key={stat.labelKey} delay={0.1 + i * 0.1} inView>
-            <div className="text-center">
-              <div className="font-heading text-4xl font-semibold tracking-tight text-brand sm:text-5xl">
-                <NumberTicker value={stat.value} className="text-brand" />
-                {stat.suffix}
+            <Card className="flex h-full min-h-64 flex-col overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-brand-muted to-[#7a8c54] p-0 text-center text-brand-foreground shadow-sm">
+              {/* UP — icon + the headline figure */}
+              <div className="flex flex-1 flex-col items-center justify-center gap-3 p-8 sm:p-9">
+                <span className="inline-flex size-11 items-center justify-center rounded-full bg-white/10 text-brand-foreground">
+                  <stat.Icon className="size-5" strokeWidth={1.5} />
+                </span>
+                <div className="font-heading text-4xl font-light tracking-tight sm:text-5xl">
+                  <NumberTicker value={stat.value} className="text-brand-foreground" />
+                  {stat.suffix}
+                </div>
               </div>
-              <p className="mt-2 text-sm text-muted-foreground">
-                {t(stat.labelKey as 'stats.yearsLabel')}
-              </p>
-            </div>
+              {/* BOTTOM — title + paragraph */}
+              <div className="border-t border-white/10 bg-white/5 p-7">
+                <p className="font-heading text-xl font-normal text-brand-foreground sm:text-2xl">
+                  {t(stat.labelKey as 'stats.yearsLabel')}
+                </p>
+                <p className="mt-3 text-base leading-relaxed font-light text-brand-foreground/70">
+                  {t(stat.descKey as 'stats.yearsDesc')}
+                </p>
+              </div>
+            </Card>
           </Reveal>
         ))}
       </div>
@@ -741,77 +765,6 @@ function Partners() {
   )
 }
 
-/* ──────────────────── New client + newsletter CTA ──────────────────── */
-
-function ClosingCta() {
-  const t = useTranslations('HomePage.cta')
-
-  return (
-    <section className="mx-auto max-w-7xl px-4 pt-8 pb-24 sm:px-6 lg:px-8">
-      <div className="grid gap-6 lg:grid-cols-2">
-        {/* New client */}
-        <Reveal direction="right" inView>
-          <Card className="relative h-full overflow-hidden rounded-3xl border-brand/20 bg-gradient-to-br from-brand to-brand-muted p-8 text-brand-foreground sm:p-10">
-            <Quote className="size-9 text-white/30" />
-            <h2 className="mt-4 font-heading text-2xl font-semibold tracking-tight sm:text-3xl">
-              {t('newClientHeading')}
-            </h2>
-            <p className="mt-3 max-w-md text-sm leading-relaxed text-brand-foreground/80">
-              {t('newClientBody')}
-            </p>
-            <ShimmerButton
-              asChild
-              background="#ffffff"
-              shimmerColor="#51623D"
-              borderRadius="10px"
-              shimmerDuration="3s"
-              className="mt-7 px-6 py-3 text-sm font-medium !text-brand"
-            >
-              <Link href="/contacts">{t('newClientButton')}</Link>
-            </ShimmerButton>
-            <BorderBeam size={140} duration={12} colorFrom="#ffffff" colorTo="#9bb06f" />
-          </Card>
-        </Reveal>
-
-        {/* Newsletter */}
-        <Reveal direction="left" inView>
-          <Card className="flex h-full flex-col justify-center rounded-3xl p-8 shadow-sm sm:p-10">
-            <span className="inline-flex size-11 items-center justify-center rounded-xl bg-brand/10 text-brand">
-              <Leaf className="size-5" />
-            </span>
-            <h2 className="mt-5 font-heading text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
-              {t('newsletterHeading')}
-            </h2>
-            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-              {t('newsletterBody')}
-            </p>
-            {/* Visual-only sign-up; wire to a provider/route handler when available */}
-            <form className="mt-6 flex flex-col gap-3 sm:flex-row">
-              <Input
-                type="email"
-                required
-                placeholder={t('newsletterPlaceholder')}
-                aria-label={t('newsletterPlaceholder')}
-                className="h-11 flex-1"
-              />
-              <Button
-                type="submit"
-                className="h-11 rounded-lg bg-brand px-6 text-brand-foreground hover:bg-brand-muted"
-              >
-                <Check className="size-4" />
-                {t('newsletterButton')}
-              </Button>
-            </form>
-            <p className="mt-4 text-xs leading-relaxed text-muted-foreground">
-              {t('newsletterConsent')}
-            </p>
-          </Card>
-        </Reveal>
-      </div>
-    </section>
-  )
-}
-
 /* ─────────────────────────── Page ─────────────────────────── */
 
 export default function Home() {
@@ -825,7 +778,7 @@ export default function Home() {
       <Story />
       <SocialCta />
       <Partners />
-      <ClosingCta />
+      <AppointmentCta />
     </>
   )
 }

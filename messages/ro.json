@@ -1,4 +1,29 @@
 {
+  "Cta": {
+    "appointmentHeading": "Programează-te",
+    "appointmentBody": "Vrei să încerci tratamentele noastre? Programează-te și descoperă pe viu grija Palazzo Aesthetics.",
+    "appointmentButton": "Programează o vizită",
+    "formHeading": "Contactează-ne",
+    "formNameLabel": "Prenume",
+    "formNamePlaceholder": "Prenumele tău",
+    "formSurnameLabel": "Nume",
+    "formSurnamePlaceholder": "Numele tău",
+    "formEmailLabel": "Email",
+    "formEmailPlaceholder": "tu@exemplu.com",
+    "formPhoneLabel": "Telefon",
+    "formPhonePlaceholder": "+373 00 000 000",
+    "formSubmit": "Trimite mesajul",
+    "formConsent": "Prin trimitere accepți politica noastră de confidențialitate și ești de acord să fii contactat de Palazzo Aesthetics."
+  },
+  "Contacts": {
+    "title": "Hai să luăm legătura",
+    "lead": "Vino la noi în studio, scrie-ne un mesaj sau programează-te — suntem aici pentru tine.",
+    "infoHeading": "Contacte",
+    "emailLabel": "Email",
+    "addressLabel": "Adresă",
+    "hoursLabel": "Program de lucru",
+    "directions": "Vezi pe hartă"
+  },
   "HomePage": {
     "hero": {
       "headline": "Natură și știință,",
@@ -9,7 +34,9 @@
     },
     "intro": {
       "heading": "Palazzo Aesthetics",
-      "body": "Îmbinăm fizioterapia practică cu tradiția consacrată a fitoterapiei. Rădăcinile noastre istorice, alături de o formare medicală continuă, ne permit să oferim o soluție naturală și eficientă pentru fiecare nevoie — atât pentru sănătatea, cât și pentru frumusețea ta."
+      "body": "Îmbinăm fizioterapia practică cu tradiția consacrată a fitoterapiei. Rădăcinile noastre istorice, alături de o formare medicală continuă, ne permit să oferim o soluție naturală și eficientă pentru fiecare nevoie — atât pentru sănătatea, cât și pentru frumusețea ta.",
+      "physioLine": "Reabilitare practică ce redă mișcarea și alină durerea.",
+      "phytoLine": "Remedii din plante, dintr-o tradiție îndelungată a fitoterapiei."
     },
     "services": {
       "title": "Serviciile noastre",
@@ -28,9 +55,13 @@
       "title": "Tradiție și cercetare pentru îngrijirea corpului tău",
       "subtitle": "Prin cercetare și inovație maximizăm eficacitatea extractelor din plante și a fizioterapiei dovedite.",
       "yearsLabel": "Ani de experiență",
+      "yearsDesc": "Decenii de practică în care ne-am perfecționat fiecare tratament.",
       "treatmentsLabel": "Tratamente oferite",
+      "treatmentsDesc": "O gamă largă de programe de fizioterapie și fitoterapie.",
       "clientsLabel": "Clienți mulțumiți",
-      "satisfactionLabel": "Ne-ar recomanda"
+      "clientsDesc": "Oameni care ne-au încredințat recuperarea și starea lor de bine.",
+      "satisfactionLabel": "Ne-ar recomanda",
+      "satisfactionDesc": "Clienți care ne-ar recomanda cu drag prietenilor și familiei."
     },
     "featured": {
       "eyebrow": "Unicitate & calitate certificată",
