@@ -17,6 +17,10 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Card } from '@/components/ui/card'
 import { AppointmentCta } from '@/components/appointment-cta'
+import { SectionTitle } from '@/components/section-title'
+import { Reveal } from '@/components/reveal'
+import { DotTexture } from '@/components/dot-texture'
+import { GridBackdrop } from '@/components/grid-backdrop'
 import { ShimmerButton } from '@/components/ui/shimmer-button'
 import { NumberTicker } from '@/components/ui/number-ticker'
 import { Marquee } from '@/components/ui/marquee'
@@ -80,51 +84,6 @@ const SOCIAL_LINKS = [
   { key: 'facebook', label: 'Facebook', href: CONTACT.social.facebook, Icon: FacebookIcon },
 ] as const
 
-/** Soft radial-dot texture, reused across image-less sections (see footer). */
-function DotTexture() {
-  return (
-    <div
-      aria-hidden="true"
-      className="pointer-events-none absolute inset-0 -z-10 text-brand opacity-[0.05] [background-image:radial-gradient(currentColor_1px,transparent_1px)] [background-size:18px_18px]"
-    />
-  )
-}
-
-/**
- * Server-rendered entrance animation (CSS only, no client JS) — drop-in
- * replacement for Magic UI's client `BlurFade`. Plays on load via
- * tw-animate-css utilities; `delay` is in seconds to match the old API.
- */
-function Reveal({
-  children,
-  className,
-  delay = 0,
-  direction = 'up',
-}: {
-  children: React.ReactNode
-  className?: string
-  delay?: number
-  direction?: 'up' | 'down' | 'left' | 'right'
-  /** Accepted for call-site compatibility; CSS reveal plays on load. */
-  inView?: boolean
-}) {
-  const slide = {
-    up: 'slide-in-from-bottom-3',
-    down: 'slide-in-from-top-3',
-    left: 'slide-in-from-right-4',
-    right: 'slide-in-from-left-4',
-  }[direction]
-
-  return (
-    <div
-      className={cn('animate-in fade-in-0 fill-mode-both duration-700 ease-out', slide, className)}
-      style={delay ? { animationDelay: `${delay * 1000}ms` } : undefined}
-    >
-      {children}
-    </div>
-  )
-}
-
 /**
  * Server-rendered gradient text — inlines Magic UI's `AuroraText` markup so it
  * needs no client boundary. Animation runs via the `animate-aurora` keyframes
@@ -165,6 +124,12 @@ function Hero() {
 
   return (
     <section className="relative isolate flex min-h-[90vh] items-start overflow-hidden bg-background lg:items-center">
+      {/* Ambient animated grid behind the copy. On phones it floats just above the
+          full-bleed photo (-z-10) so it stays visible; on desktop it drops behind
+          the photo (lg:-z-20, earlier in the DOM) so the photo paints over it on
+          the right while the grid shows behind the copy on the left. */}
+      <GridBackdrop className="-z-10 lg:-z-20" />
+
       {/* Photo — full-bleed on mobile, confined to the right ~58% on large screens */}
       <div className="absolute inset-y-0 right-0 -z-20 w-full lg:w-[58%]">
         {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -278,9 +243,7 @@ function Intro() {
         {/* ── Editorial copy + discipline pillars ── */}
         <div className="lg:pl-4">
           <Reveal inView>
-            <h2 className="font-heading text-4xl font-semibold tracking-tight sm:text-5xl">
-              <AccentText>{t('heading')}</AccentText>
-            </h2>
+            <SectionTitle>{t('heading')}</SectionTitle>
           </Reveal>
 
           <Reveal delay={0.2} inView>
@@ -327,9 +290,7 @@ function Services() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <Reveal inView>
           <div className="max-w-2xl">
-            <h2 className="font-heading text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-              {t('services.title')}
-            </h2>
+            <SectionTitle>{t('services.title')}</SectionTitle>
           </div>
         </Reveal>
 
@@ -477,9 +438,7 @@ function Stats() {
     <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
       <Reveal inView>
         <div className="max-w-2xl">
-          <h2 className="font-heading text-3xl font-semibold tracking-tight text-balance text-foreground sm:text-4xl">
-            {t('stats.title')}
-          </h2>
+          <SectionTitle>{t('stats.title')}</SectionTitle>
           <p className="mt-4 text-muted-foreground">{t('stats.subtitle')}</p>
         </div>
       </Reveal>
@@ -533,9 +492,7 @@ function Featured() {
               <ShieldCheck className="size-3.5" />
               {t('eyebrow')}
             </Badge>
-            <h2 className="mt-5 font-heading text-3xl font-semibold tracking-tight text-balance text-foreground sm:text-4xl">
-              {t('title')}
-            </h2>
+            <SectionTitle className="mt-5">{t('title')}</SectionTitle>
             <p className="mt-5 text-base leading-relaxed text-pretty text-muted-foreground">
               {t('body')}
             </p>
@@ -576,21 +533,22 @@ function Story() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
       <div className="grid items-center gap-12 lg:grid-cols-2">
-        {/* Decorative panel — swap for a real heritage photo later */}
+        {/* The Palazzo team — photographed in the clinic. */}
         <Reveal direction="right" inView>
-          <div className="relative aspect-square overflow-hidden rounded-3xl border border-brand/15 bg-gradient-to-tr from-brand-subtle via-background to-brand/10 lg:aspect-4/3">
-            {/* TODO: replace with generated "our story" photo, e.g. /story.jpg */}
-            <div className="absolute inset-0 flex items-center justify-center">
-              <Leaf className="size-28 text-brand/30" strokeWidth={0.75} />
-            </div>
+          <div className="relative aspect-square overflow-hidden rounded-3xl border border-brand/15 shadow-xl lg:aspect-4/3">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/our-story-img.jpg"
+              alt="The Palazzo Aesthetics team"
+              className="size-full object-cover object-center"
+            />
+            <BorderBeam size={120} duration={11} colorFrom="#51623D" colorTo="#9bb06f" />
           </div>
         </Reveal>
 
         <Reveal direction="left" inView>
           <div>
-            <h2 className="font-heading text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-              {t('heading')}
-            </h2>
+            <SectionTitle>{t('heading')}</SectionTitle>
             <p className="mt-5 text-lg leading-relaxed text-pretty text-foreground/90">
               {t('lead')}
             </p>
@@ -669,9 +627,7 @@ function SocialCta() {
                 <InstagramIcon className="size-3.5" />
                 @palazzo.aesthetics
               </Badge>
-              <h2 className="mt-5 font-heading text-3xl font-semibold tracking-tight text-balance text-foreground sm:text-4xl lg:text-5xl">
-                {t('heading')}
-              </h2>
+              <SectionTitle className="mt-5">{t('heading')}</SectionTitle>
               <p className="mx-auto mt-4 max-w-md text-pretty text-muted-foreground">{t('body')}</p>
 
               <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
@@ -741,9 +697,7 @@ function Partners() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
       <Reveal inView>
-        <h2 className="font-heading text-xl font-semibold tracking-tight text-foreground sm:text-2xl">
-          {t('heading')}
-        </h2>
+        <SectionTitle>{t('heading')}</SectionTitle>
       </Reveal>
       <div className="relative mt-10">
         <Marquee pauseOnHover className="[--duration:30s]">

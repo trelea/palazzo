@@ -71,10 +71,10 @@
     },
     "story": {
       "heading": "Our story",
-      "lead": "Palazzo is the present and future of a long love story for natural wellbeing.",
-      "body1": "We follow the example of those who came before us — who, with sacrifice and dedication, dreamed of helping as many people as possible to feel well and heal themselves.",
-      "body2": "That passion led to the careful study of the famous Officinal Herbal Pack, with its potent natural anti-inflammatory action, which we still use today with love and respect for nature.",
-      "body3": "We walk in those footsteps, providing natural and effective tools for people's care and health — in our clinic and at home alike. Experience, technological innovation and scientific research are, and always will be, our points of reference.",
+      "lead": "Palazzo started with a simple belief — that real care comes from people, not just protocols.",
+      "body1": "What began as a small clinic is today a close-knit team of physiotherapists and wellbeing specialists who share one goal: helping you move, feel and live better.",
+      "body2": "Everyone brings their own expertise, but we work as one — pairing hands-on physiotherapy with the natural power of phytotherapy to treat the whole person, not just the symptom.",
+      "body3": "We learn together, grow together and stay close to the people we care for. That's the Palazzo difference: modern methods with genuine, human attention.",
       "motto": "In natura, vita."
     },
     "instagram": {
@@ -122,5 +122,141 @@
     "closed": "Closed",
     "followUs": "Follow us",
     "rights": "All rights reserved."
+  },
+  "AboutPage": {
+    "title": "About us",
+    "lead": "We're a team of physiotherapists and wellbeing specialists who believe care should be personal, natural and grounded in evidence.",
+    "story": {
+      "heading": "Our story",
+      "body1": "Palazzo began with a small clinic and a big conviction — that real recovery comes from treating the whole person, not just the symptom.",
+      "body2": "Over the years we've grown into a multidisciplinary practice, pairing hands-on physiotherapy with the natural power of phytotherapy under one roof.",
+      "body3": "Today that same conviction guides everything we do: modern methods, natural remedies and the patience to see each person through to lasting results."
+    },
+    "who": {
+      "heading": "Who we are",
+      "body1": "Behind Palazzo is a close-knit team of physiotherapists, movement specialists and phytotherapy experts who genuinely love what they do.",
+      "body2": "We learn together, share what works, and stay close to the people we care for — so every plan is built around you, not a template."
+    },
+    "why": {
+      "heading": "Why choose us",
+      "subtitle": "What makes the Palazzo approach different.",
+      "evidenceTitle": "Evidence-led care",
+      "evidenceDesc": "Every treatment is grounded in current research and proven clinical practice.",
+      "naturalTitle": "Natural therapies",
+      "naturalDesc": "We combine physiotherapy with phytotherapy to support your body the gentle way.",
+      "personalTitle": "Personalised plans",
+      "personalDesc": "No two bodies are the same — your programme is built around your goals and history.",
+      "teamTitle": "Specialist team",
+      "teamDesc": "A multidisciplinary team means the right expert for every stage of your recovery.",
+      "techTitle": "Modern technology",
+      "techDesc": "Up-to-date equipment and techniques for faster, more comfortable results.",
+      "followupTitle": "Ongoing follow-up",
+      "followupDesc": "We stay with you beyond the clinic — at home and through every milestone."
+    },
+    "results": {
+      "heading": "Our results & services",
+      "subtitle": "Numbers we're proud of — and the services behind them.",
+      "clientsLabel": "Clients treated",
+      "clientsDesc": "People who've trusted us with their recovery and wellbeing.",
+      "satisfactionLabel": "Satisfaction",
+      "satisfactionDesc": "Clients who'd recommend Palazzo to friends and family.",
+      "teamLabel": "Specialists",
+      "teamDesc": "Therapists and experts across physiotherapy and phytotherapy.",
+      "experienceLabel": "Years of care",
+      "experienceDesc": "Refining our approach and growing alongside our community."
+    },
+    "services": {
+      "heading": "Our services",
+      "subtitle": "Two disciplines, one integrated approach to your health.",
+      "physiotherapyDesc": "Hands-on assessment, rehabilitation and movement therapy to restore strength and mobility.",
+      "phytotherapyDesc": "Natural, plant-based remedies that complement your treatment and support recovery.",
+      "cta": "Learn more"
+    }
+  },
+  "ServicePages": {
+    "physiotherapy": {
+      "hero": {
+        "title": "Move better with",
+        "titleAccent": "Physiotherapy",
+        "subtitle": "Hands-on, evidence-based treatment to relieve pain, restore movement and get you back to doing what you love.",
+        "cta": "Book an appointment"
+      },
+      "description": {
+        "heading": "What is physiotherapy?",
+        "body1": "Physiotherapy is a hands-on, movement-based therapy that assesses and treats the root cause of pain and restricted mobility — not just the symptoms.",
+        "body2": "At Palazzo, every session begins with a thorough assessment. From there your physiotherapist designs a tailored programme of manual therapy, targeted exercise and modern techniques to rebuild strength, flexibility and confidence."
+      },
+      "helps": {
+        "heading": "How physiotherapy helps",
+        "body": "Whether you're recovering from an injury, managing a chronic condition or simply moving less freely than you'd like, physiotherapy meets you where you are and guides you forward.",
+        "point1": "Relieves acute and chronic pain without relying on medication.",
+        "point2": "Restores joint mobility, muscle strength and balance.",
+        "point3": "Speeds recovery after injury, surgery or sport.",
+        "point4": "Prevents re-injury with lasting movement habits."
+      },
+      "benefits": {
+        "heading": "The benefits you'll feel",
+        "subtitle": "What physiotherapy at Palazzo gives you, session after session.",
+        "item1Title": "Less pain",
+        "item1Desc": "Targeted treatment that calms pain at its source.",
+        "item2Title": "Better mobility",
+        "item2Desc": "Move more freely, with greater range and ease.",
+        "item3Title": "Faster recovery",
+        "item3Desc": "Get back to work, sport and life sooner.",
+        "item4Title": "More strength",
+        "item4Desc": "Rebuild the muscle and stability you've lost.",
+        "item5Title": "Lasting results",
+        "item5Desc": "Habits and exercises that keep you well long-term.",
+        "item6Title": "Personal guidance",
+        "item6Desc": "A dedicated therapist with you at every step."
+      },
+      "cta": {
+        "heading": "Book your physiotherapy session",
+        "body": "Take the first step towards moving and feeling better. Our team is ready to help.",
+        "button": "Book now"
+      }
+    },
+    "phytotherapy": {
+      "hero": {
+        "title": "Heal naturally with",
+        "titleAccent": "Phytotherapy",
+        "subtitle": "The healing power of plants — natural, science-backed remedies that support your body gently and effectively.",
+        "cta": "Book an appointment"
+      },
+      "description": {
+        "heading": "What is phytotherapy?",
+        "body1": "Phytotherapy is the therapeutic use of plants and their active compounds to prevent and treat illness — one of the oldest forms of medicine, refined by modern science.",
+        "body2": "At Palazzo, we pair traditional botanical knowledge with current research to create natural remedies that complement your care, support recovery and strengthen your body's own balance."
+      },
+      "helps": {
+        "heading": "How phytotherapy helps",
+        "body": "Plant-based therapy works with your body rather than against it, offering gentle, effective support for a wide range of everyday concerns.",
+        "point1": "Calms inflammation with potent natural compounds.",
+        "point2": "Supports the immune system and overall vitality.",
+        "point3": "Complements physiotherapy and speeds recovery.",
+        "point4": "Promotes relaxation, better sleep and balance."
+      },
+      "benefits": {
+        "heading": "The benefits you'll feel",
+        "subtitle": "What phytotherapy at Palazzo gives you, naturally.",
+        "item1Title": "Natural relief",
+        "item1Desc": "Gentle remedies that work with your body.",
+        "item2Title": "Less inflammation",
+        "item2Desc": "Plant compounds that soothe and calm.",
+        "item3Title": "Stronger immunity",
+        "item3Desc": "Support your body's natural defences.",
+        "item4Title": "More energy",
+        "item4Desc": "Restore vitality and everyday balance.",
+        "item5Title": "Better rest",
+        "item5Desc": "Calm the mind and sleep more deeply.",
+        "item6Title": "Whole-body care",
+        "item6Desc": "Treating the person, not just the symptom."
+      },
+      "cta": {
+        "heading": "Book your phytotherapy session",
+        "body": "Discover what natural, plant-based care can do for you. We're here to help.",
+        "button": "Book now"
+      }
+    }
   }
 }

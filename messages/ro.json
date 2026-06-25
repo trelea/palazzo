@@ -71,10 +71,10 @@
     },
     "story": {
       "heading": "Povestea noastră",
-      "lead": "Palazzo este prezentul și viitorul unei lungi povești de dragoste pentru starea de bine naturală.",
-      "body1": "Urmăm exemplul celor dinaintea noastră — care, cu sacrificiu și dăruire, au visat să ajute cât mai mulți oameni să se simtă bine și să se vindece.",
-      "body2": "Acea pasiune a dus la studiul atent al celebrului Impac de Plante Officinale, cu puternica sa acțiune antiinflamatoare naturală, pe care îl folosim și astăzi cu dragoste și respect pentru natură.",
-      "body3": "Pășim pe aceleași urme, oferind instrumente naturale și eficiente pentru îngrijirea și sănătatea oamenilor — atât în clinică, cât și acasă. Experiența, inovația tehnologică și cercetarea științifică sunt și vor rămâne mereu reperele noastre.",
+      "lead": "Palazzo a pornit de la o convingere simplă — că adevărata grijă vine de la oameni, nu doar de la protocoale.",
+      "body1": "Ceea ce a început ca o mică clinică este astăzi o echipă unită de fizioterapeuți și specialiști în stare de bine, care împărtășesc un singur scop: să te ajute să te miști, să te simți și să trăiești mai bine.",
+      "body2": "Fiecare își aduce propria expertiză, dar lucrăm ca unul singur — îmbinând fizioterapia practică cu puterea naturală a fitoterapiei pentru a îngriji omul în întregime, nu doar simptomul.",
+      "body3": "Învățăm împreună, creștem împreună și rămânem aproape de oamenii de care avem grijă. Aceasta este diferența Palazzo: metode moderne cu atenție umană autentică.",
       "motto": "In natura, vita."
     },
     "instagram": {
@@ -122,5 +122,141 @@
     "closed": "Închis",
     "followUs": "Urmărește-ne",
     "rights": "Toate drepturile rezervate."
+  },
+  "AboutPage": {
+    "title": "Despre noi",
+    "lead": "Suntem o echipă de fizioterapeuți și specialiști în stare de bine, care cred că îngrijirea trebuie să fie personală, naturală și bazată pe dovezi.",
+    "story": {
+      "heading": "Povestea noastră",
+      "body1": "Palazzo a început cu o clinică mică și o convingere mare — că vindecarea adevărată vine din tratarea omului în întregime, nu doar a simptomului.",
+      "body2": "De-a lungul anilor ne-am dezvoltat într-o practică multidisciplinară, îmbinând fizioterapia practică cu puterea naturală a fitoterapiei sub același acoperiș.",
+      "body3": "Astăzi, aceeași convingere ne ghidează în tot ceea ce facem: metode moderne, remedii naturale și răbdarea de a însoți fiecare persoană până la rezultate durabile."
+    },
+    "who": {
+      "heading": "Cine suntem",
+      "body1": "În spatele Palazzo se află o echipă unită de fizioterapeuți, specialiști în mișcare și experți în fitoterapie care iubesc cu adevărat ceea ce fac.",
+      "body2": "Învățăm împreună, împărtășim ce funcționează și rămânem aproape de oamenii de care avem grijă — astfel încât fiecare plan este construit în jurul tău, nu după un șablon."
+    },
+    "why": {
+      "heading": "De ce să ne alegi",
+      "subtitle": "Ce face diferită abordarea Palazzo.",
+      "evidenceTitle": "Îngrijire bazată pe dovezi",
+      "evidenceDesc": "Fiecare tratament se bazează pe cercetări actuale și pe practica clinică dovedită.",
+      "naturalTitle": "Terapii naturale",
+      "naturalDesc": "Combinăm fizioterapia cu fitoterapia pentru a-ți susține corpul în mod blând.",
+      "personalTitle": "Planuri personalizate",
+      "personalDesc": "Niciun corp nu este la fel — programul tău este construit în jurul obiectivelor și istoricului tău.",
+      "teamTitle": "Echipă de specialiști",
+      "teamDesc": "O echipă multidisciplinară înseamnă expertul potrivit pentru fiecare etapă a recuperării tale.",
+      "techTitle": "Tehnologie modernă",
+      "techDesc": "Echipamente și tehnici de ultimă generație pentru rezultate mai rapide și mai confortabile.",
+      "followupTitle": "Monitorizare continuă",
+      "followupDesc": "Rămânem alături de tine dincolo de clinică — acasă și la fiecare etapă importantă."
+    },
+    "results": {
+      "heading": "Rezultatele și serviciile noastre",
+      "subtitle": "Cifre cu care ne mândrim — și serviciile din spatele lor.",
+      "clientsLabel": "Clienți tratați",
+      "clientsDesc": "Oameni care ne-au încredințat recuperarea și starea lor de bine.",
+      "satisfactionLabel": "Satisfacție",
+      "satisfactionDesc": "Clienți care ar recomanda Palazzo prietenilor și familiei.",
+      "teamLabel": "Specialiști",
+      "teamDesc": "Terapeuți și experți în fizioterapie și fitoterapie.",
+      "experienceLabel": "Ani de îngrijire",
+      "experienceDesc": "Ne perfecționăm abordarea și creștem alături de comunitatea noastră."
+    },
+    "services": {
+      "heading": "Serviciile noastre",
+      "subtitle": "Două discipline, o singură abordare integrată pentru sănătatea ta.",
+      "physiotherapyDesc": "Evaluare practică, reabilitare și terapie prin mișcare pentru a reda forța și mobilitatea.",
+      "phytotherapyDesc": "Remedii naturale, pe bază de plante, care îți completează tratamentul și sprijină recuperarea.",
+      "cta": "Află mai mult"
+    }
+  },
+  "ServicePages": {
+    "physiotherapy": {
+      "hero": {
+        "title": "Mișcă-te mai bine cu",
+        "titleAccent": "Fizioterapie",
+        "subtitle": "Tratament practic, bazat pe dovezi, pentru a calma durerea, a reda mișcarea și a te readuce la ceea ce iubești.",
+        "cta": "Programează-te"
+      },
+      "description": {
+        "heading": "Ce este fizioterapia?",
+        "body1": "Fizioterapia este o terapie practică, bazată pe mișcare, care evaluează și tratează cauza profundă a durerii și a mobilității reduse — nu doar simptomele.",
+        "body2": "La Palazzo, fiecare ședință începe cu o evaluare amănunțită. De acolo, fizioterapeutul tău creează un program personalizat de terapie manuală, exerciții țintite și tehnici moderne pentru a reconstrui forța, flexibilitatea și încrederea."
+      },
+      "helps": {
+        "heading": "Cum te ajută fizioterapia",
+        "body": "Fie că te recuperezi după o accidentare, gestionezi o afecțiune cronică sau pur și simplu te miști mai greu decât ai vrea, fizioterapia te întâlnește acolo unde ești și te ghidează mai departe.",
+        "point1": "Calmează durerea acută și cronică fără a depinde de medicamente.",
+        "point2": "Reda mobilitatea articulară, forța musculară și echilibrul.",
+        "point3": "Accelerează recuperarea după accidentări, intervenții sau sport.",
+        "point4": "Previne reaccidentarea prin obiceiuri de mișcare durabile."
+      },
+      "benefits": {
+        "heading": "Beneficiile pe care le vei simți",
+        "subtitle": "Ce îți oferă fizioterapia la Palazzo, ședință după ședință.",
+        "item1Title": "Mai puțină durere",
+        "item1Desc": "Tratament țintit care calmează durerea la sursă.",
+        "item2Title": "Mobilitate mai bună",
+        "item2Desc": "Mișcă-te mai liber, cu mai multă amplitudine și ușurință.",
+        "item3Title": "Recuperare mai rapidă",
+        "item3Desc": "Revino la muncă, sport și viață mai devreme.",
+        "item4Title": "Mai multă forță",
+        "item4Desc": "Reconstruiește mușchii și stabilitatea pierdute.",
+        "item5Title": "Rezultate durabile",
+        "item5Desc": "Obiceiuri și exerciții care te mențin bine pe termen lung.",
+        "item6Title": "Îndrumare personală",
+        "item6Desc": "Un terapeut dedicat alături de tine la fiecare pas."
+      },
+      "cta": {
+        "heading": "Programează-ți ședința de fizioterapie",
+        "body": "Fă primul pas spre a te mișca și a te simți mai bine. Echipa noastră este gata să te ajute.",
+        "button": "Programează acum"
+      }
+    },
+    "phytotherapy": {
+      "hero": {
+        "title": "Vindecă-te natural cu",
+        "titleAccent": "Fitoterapie",
+        "subtitle": "Puterea vindecătoare a plantelor — remedii naturale, susținute științific, care îți sprijină corpul blând și eficient.",
+        "cta": "Programează-te"
+      },
+      "description": {
+        "heading": "Ce este fitoterapia?",
+        "body1": "Fitoterapia este utilizarea terapeutică a plantelor și a compușilor lor activi pentru a preveni și trata bolile — una dintre cele mai vechi forme de medicină, rafinată de știința modernă.",
+        "body2": "La Palazzo, îmbinăm cunoștințele botanice tradiționale cu cercetările actuale pentru a crea remedii naturale care îți completează îngrijirea, sprijină recuperarea și întăresc echilibrul natural al corpului."
+      },
+      "helps": {
+        "heading": "Cum te ajută fitoterapia",
+        "body": "Terapia pe bază de plante lucrează cu corpul tău, nu împotriva lui, oferind sprijin blând și eficient pentru o gamă largă de probleme cotidiene.",
+        "point1": "Calmează inflamația cu compuși naturali puternici.",
+        "point2": "Susține sistemul imunitar și vitalitatea generală.",
+        "point3": "Completează fizioterapia și accelerează recuperarea.",
+        "point4": "Promovează relaxarea, un somn mai bun și echilibrul."
+      },
+      "benefits": {
+        "heading": "Beneficiile pe care le vei simți",
+        "subtitle": "Ce îți oferă fitoterapia la Palazzo, în mod natural.",
+        "item1Title": "Alinare naturală",
+        "item1Desc": "Remedii blânde care lucrează cu corpul tău.",
+        "item2Title": "Mai puțină inflamație",
+        "item2Desc": "Compuși vegetali care calmează și liniștesc.",
+        "item3Title": "Imunitate mai puternică",
+        "item3Desc": "Sprijină apărarea naturală a corpului tău.",
+        "item4Title": "Mai multă energie",
+        "item4Desc": "Reda vitalitatea și echilibrul de zi cu zi.",
+        "item5Title": "Odihnă mai bună",
+        "item5Desc": "Liniștește mintea și dormi mai profund.",
+        "item6Title": "Îngrijire completă",
+        "item6Desc": "Tratăm omul, nu doar simptomul."
+      },
+      "cta": {
+        "heading": "Programează-ți ședința de fitoterapie",
+        "body": "Descoperă ce poate face pentru tine îngrijirea naturală, pe bază de plante. Suntem aici să te ajutăm.",
+        "button": "Programează acum"
+      }
+    }
   }
 }

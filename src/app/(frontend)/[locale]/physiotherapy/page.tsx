@@ -1,3 +1,5 @@
+import { ServicePage } from '@/components/service-page'
+
 export default function Physiotherapy() {
-  return <section>Physiotherapy</section>
+  return <ServicePage service="physiotherapy" />
 }

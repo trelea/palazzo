@@ -11,6 +11,7 @@ import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Button } from '@/components/ui/button'
 import { BorderBeam } from '@/components/ui/border-beam'
+import { SectionTitle } from '@/components/section-title'
 
 /** Minimalist underline input — a thin bottom rule in brand green that darkens on focus. */
 const FIELD_INPUT =
@@ -53,9 +54,7 @@ export function AppointmentCta({ className }: { className?: string }) {
             <span className="inline-flex size-11 shrink-0 items-center justify-center rounded-full bg-white/10">
               <CalendarCheck className="size-5" />
             </span>
-            <h2 className="font-heading text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
-              {t('appointmentHeading')}
-            </h2>
+            <SectionTitle tone="onBrand">{t('appointmentHeading')}</SectionTitle>
           </div>
           <p className="mt-5 max-w-md text-base leading-relaxed text-brand-foreground/85 sm:text-lg">
             {t('appointmentBody')}
