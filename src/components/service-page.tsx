@@ -10,9 +10,11 @@ import {
   TrendingUp,
 } from 'lucide-react'
 
-import { Link } from '@/i18n/navigation'
 import type { ServiceKey } from '@/lib/site'
+import { calBookingLink } from '@/lib/site'
+import { CAL_EMBED_CONFIG_ATTR } from '@/lib/cal'
 import { AppointmentCta } from '@/components/appointment-cta'
+import { CalEmbedInit } from '@/components/cal-embed-init'
 import { SectionTitle } from '@/components/section-title'
 import { Reveal } from '@/components/reveal'
 import { GridBackdrop } from '@/components/grid-backdrop'
@@ -58,6 +60,8 @@ export function ServicePage({ service }: { service: ServiceKey }) {
 
   return (
     <>
+      <CalEmbedInit namespace={service} />
+
       {/* ── Hero — split text + image with an animated brand-grid backdrop ── */}
       <section className="relative isolate flex min-h-[80vh] items-center overflow-hidden bg-background py-16 lg:py-0">
         {/* Subtle animated grid, brand-tinted and faded toward the edges. */}
@@ -85,14 +89,17 @@ export function ServicePage({ service }: { service: ServiceKey }) {
 
             <BlurFade delay={0.5}>
               <ShimmerButton
-                asChild
+                type="button"
                 background="var(--brand)"
                 shimmerColor="#ffffff"
                 borderRadius="0px"
                 shimmerDuration="3s"
                 className="mt-9 px-7 py-3 text-sm font-medium"
+                data-cal-namespace={service}
+                data-cal-link={calBookingLink(service)}
+                data-cal-config={CAL_EMBED_CONFIG_ATTR}
               >
-                <Link href="/contacts">{t('hero.cta')}</Link>
+                {t('hero.cta')}
               </ShimmerButton>
             </BlurFade>
           </div>
@@ -219,17 +226,18 @@ export function ServicePage({ service }: { service: ServiceKey }) {
                 </p>
               </div>
               <ShimmerButton
-                asChild
+                type="button"
                 background="#ffffff"
                 shimmerColor="#51623D"
                 borderRadius="0px"
                 shimmerDuration="3s"
                 className="shrink-0 px-8 py-4 text-sm font-medium !text-brand"
+                data-cal-namespace={service}
+                data-cal-link={calBookingLink(service)}
+                data-cal-config={CAL_EMBED_CONFIG_ATTR}
               >
-                <Link href="/contacts">
-                  {t('cta.button')}
-                  <ArrowRight className="size-4" />
-                </Link>
+                {t('cta.button')}
+                <ArrowRight className="size-4" />
               </ShimmerButton>
             </div>
             <BorderBeam size={180} duration={14} colorFrom="#ffffff" colorTo="#9bb06f" />
@@ -238,7 +246,7 @@ export function ServicePage({ service }: { service: ServiceKey }) {
       </section>
 
       {/* ── Standard booking + contact form ── */}
-      <AppointmentCta />
+      <AppointmentCta service={service} />
     </>
   )
 }

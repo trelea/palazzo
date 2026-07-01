@@ -1,16 +1,24 @@
 'use client'
 
-import type { ReactNode } from 'react'
-import { useTranslations } from 'next-intl'
-import { ArrowRight, CalendarCheck, Mail, Phone } from 'lucide-react'
+import { useState, type FormEvent, type ReactNode } from 'react'
+import { useLocale, useTranslations } from 'next-intl'
+import { ArrowRight, CalendarCheck, CheckCircle2, Loader2, Mail, Phone } from 'lucide-react'
 
 import { Link } from '@/i18n/navigation'
-import { CONTACT } from '@/lib/site'
+import { CONTACT, calBookingLink, type ServiceKey } from '@/lib/site'
+import { CAL_EMBED_CONFIG_ATTR } from '@/lib/cal'
 import { cn } from '@/lib/utils'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Button } from '@/components/ui/button'
 import { BorderBeam } from '@/components/ui/border-beam'
+import {
+  Dialog,
+  DialogClose,
+  DialogContent,
+  DialogDescription,
+  DialogTitle,
+} from '@/components/ui/dialog'
 import { SectionTitle } from '@/components/section-title'
 
 /** Minimalist underline input — a thin bottom rule in brand green that darkens on focus. */
@@ -42,8 +50,54 @@ function Field({ id, label, children }: { id: string; label: string; children: R
  * Client component: the form submit is handled locally. Wire `onSubmit` to a
  * real endpoint/route handler when one is available.
  */
-export function AppointmentCta({ className }: { className?: string }) {
+type SubmitStatus = 'idle' | 'sending' | 'success' | 'error'
+
+export function AppointmentCta({
+  className,
+  service,
+}: {
+  className?: string
+  /**
+   * When set (only from `ServicePage`), the book button opens the Cal.com
+   * modal for this service instead of linking to `/contacts`. Requires a
+   * `<CalEmbedInit namespace={service} />` mounted on the page (ServicePage
+   * does this) so the click listener is already registered.
+   */
+  service?: ServiceKey
+}) {
   const t = useTranslations('Cta')
+  const locale = useLocale()
+
+  const [status, setStatus] = useState<SubmitStatus>('idle')
+
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault()
+    if (status === 'sending') return
+
+    const form = event.currentTarget
+    const formData = new FormData(form)
+    const payload = {
+      name: String(formData.get('name') ?? ''),
+      surname: String(formData.get('surname') ?? ''),
+      email: String(formData.get('email') ?? ''),
+      phone: String(formData.get('phone') ?? ''),
+      locale,
+    }
+
+    setStatus('sending')
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      })
+      if (!res.ok) throw new Error('Request failed')
+      form.reset()
+      setStatus('success')
+    } catch {
+      setStatus('error')
+    }
+  }
 
   return (
     <section className={cn('mx-auto max-w-7xl px-4 pt-8 pb-24 sm:px-6 lg:px-8', className)}>
@@ -60,16 +114,31 @@ export function AppointmentCta({ className }: { className?: string }) {
             {t('appointmentBody')}
           </p>
 
-          {/* Booking button lives in this panel. */}
-          <Button
-            asChild
-            className="mt-8 h-auto w-fit rounded-lg bg-white px-6 py-3 text-sm font-medium text-brand hover:bg-white/90"
-          >
-            <Link href="/contacts">
+          {/* Booking button lives in this panel. On service pages this opens
+              the Cal.com modal for that service; elsewhere it links to
+              /contacts. */}
+          {service ? (
+            <Button
+              type="button"
+              data-cal-namespace={service}
+              data-cal-link={calBookingLink(service)}
+              data-cal-config={CAL_EMBED_CONFIG_ATTR}
+              className="mt-8 h-auto w-fit rounded-lg bg-white px-6 py-3 text-sm font-medium text-brand hover:bg-white/90"
+            >
               {t('appointmentButton')}
               <ArrowRight className="size-4" />
-            </Link>
-          </Button>
+            </Button>
+          ) : (
+            <Button
+              asChild
+              className="mt-8 h-auto w-fit rounded-lg bg-white px-6 py-3 text-sm font-medium text-brand hover:bg-white/90"
+            >
+              <Link href="/contacts">
+                {t('appointmentButton')}
+                <ArrowRight className="size-4" />
+              </Link>
+            </Button>
+          )}
 
           <div className="mt-8 space-y-3 border-t border-white/15 pt-8">
             {CONTACT.phone && (
@@ -111,8 +180,7 @@ export function AppointmentCta({ className }: { className?: string }) {
             {t('formHeading')}
           </h2>
 
-          {/* Visual-only submit; wire to a provider/route handler when available. */}
-          <form className="mt-8 flex flex-col gap-7" onSubmit={(e) => e.preventDefault()}>
+          <form className="mt-8 flex flex-col gap-7" onSubmit={handleSubmit}>
             <div className="grid gap-7 sm:grid-cols-2">
               <Field id="cta-name" label={t('formNameLabel')}>
                 <Input
@@ -162,16 +230,56 @@ export function AppointmentCta({ className }: { className?: string }) {
 
             <Button
               type="submit"
+              disabled={status === 'sending'}
               className="mt-1 h-auto w-fit rounded-lg bg-brand px-6 py-3 text-sm font-medium text-brand-foreground hover:bg-brand-muted"
             >
-              {t('formSubmit')}
-              <ArrowRight className="size-4" />
+              {status === 'sending' ? t('formSending') : t('formSubmit')}
+              {status === 'sending' ? (
+                <Loader2 className="size-4 animate-spin" />
+              ) : (
+                <ArrowRight className="size-4" />
+              )}
             </Button>
+
+            <div aria-live="polite" className="min-h-5">
+              {status === 'error' && (
+                <p className="text-sm font-medium text-destructive">{t('formError')}</p>
+              )}
+            </div>
 
             <p className="text-sm leading-relaxed text-muted-foreground">{t('formConsent')}</p>
           </form>
         </div>
       </div>
+
+      {/* Confirmation modal — opens once the submission succeeds. */}
+      <Dialog
+        open={status === 'success'}
+        onOpenChange={(open) => {
+          if (!open) setStatus('idle')
+        }}
+      >
+        <DialogContent className="sm:max-w-sm">
+          <div className="flex flex-col items-center gap-5 px-2 py-4 text-center">
+            <span className="flex size-14 items-center justify-center rounded-full bg-brand/10">
+              <CheckCircle2 className="size-7 text-brand" strokeWidth={1.5} />
+            </span>
+
+            <div className="space-y-2">
+              <DialogTitle className="text-2xl">{t('successDialogTitle')}</DialogTitle>
+              <DialogDescription className="text-balance">
+                {t('successDialogBody')}
+              </DialogDescription>
+            </div>
+
+            <DialogClose asChild>
+              <Button className="mt-1 h-auto w-full rounded-lg bg-brand px-6 py-2.5 text-sm font-medium text-brand-foreground hover:bg-brand-muted">
+                {t('successDialogClose')}
+              </Button>
+            </DialogClose>
+          </div>
+        </DialogContent>
+      </Dialog>
     </section>
   )
 }

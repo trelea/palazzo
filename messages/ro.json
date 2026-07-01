@@ -13,6 +13,11 @@
     "formPhoneLabel": "Telefon",
     "formPhonePlaceholder": "+373 00 000 000",
     "formSubmit": "Trimite mesajul",
+    "formSending": "Se trimite…",
+    "formError": "A apărut o eroare. Încearcă din nou sau scrie-ne direct pe email.",
+    "successDialogTitle": "Mulțumim!",
+    "successDialogBody": "Mesajul tău a fost trimis. Echipa noastră te va contacta cât mai curând posibil.",
+    "successDialogClose": "Închide",
     "formConsent": "Prin trimitere accepți politica noastră de confidențialitate și ești de acord să fii contactat de Palazzo Aesthetics."
   },
   "Contacts": {

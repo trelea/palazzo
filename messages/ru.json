@@ -13,6 +13,11 @@
     "formPhoneLabel": "Телефон",
     "formPhonePlaceholder": "+373 00 000 000",
     "formSubmit": "Отправить сообщение",
+    "formSending": "Отправка…",
+    "formError": "Что-то пошло не так. Попробуйте ещё раз или напишите нам напрямую.",
+    "successDialogTitle": "Спасибо!",
+    "successDialogBody": "Ваше сообщение отправлено. Наша команда свяжется с вами в ближайшее время.",
+    "successDialogClose": "Закрыть",
     "formConsent": "Отправляя форму, вы принимаете нашу политику конфиденциальности и соглашаетесь на связь с Palazzo Aesthetics."
   },
   "Contacts": {
