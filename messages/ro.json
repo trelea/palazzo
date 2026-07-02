@@ -115,6 +115,13 @@
     "language": "Limbă",
     "brandTagline": "Aesthetics"
   },
+  "NewsPage": {
+    "title": "Noutăți",
+    "lead": "Noutăți, evenimente și sfaturi de sănătate de la echipa Palazzo Aesthetics.",
+    "empty": "Momentan nu există noutăți — reveniți în curând.",
+    "readMore": "Citește mai mult",
+    "back": "Înapoi la noutăți"
+  },
   "Footer": {
     "tagline": "Unde frumusețea întâlnește eleganța atemporală.",
     "explore": "Explorează",

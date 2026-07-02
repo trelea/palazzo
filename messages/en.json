@@ -115,6 +115,13 @@
     "language": "Language",
     "brandTagline": "Aesthetics"
   },
+  "NewsPage": {
+    "title": "News",
+    "lead": "Updates, events and health tips from the Palazzo Aesthetics team.",
+    "empty": "No news yet — check back soon.",
+    "readMore": "Read more",
+    "back": "Back to news"
+  },
   "Footer": {
     "tagline": "Where beauty meets timeless elegance.",
     "explore": "Explore",
