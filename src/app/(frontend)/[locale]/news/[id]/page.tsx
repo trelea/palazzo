@@ -99,9 +99,17 @@ export default async function NewsDetail({ params }: Props) {
       />
 
       {/* ── Header — first image sits behind the hero, under a readable overlay ── */}
-      <section className="relative isolate overflow-hidden px-4 pt-12 pb-10 sm:px-6 lg:px-8 lg:pt-20 lg:pb-14">
-        {hero?.url ? (
-          <>
+      {/* Taller, vertically-centered header (like the home hero) so the photo
+          has room for the fade to read as a soft transition, not a hard box. */}
+      <section className="relative isolate flex min-h-[30vh] items-center overflow-hidden px-4 pt-12 pb-10 sm:px-6 lg:min-h-[42vh] lg:px-8 lg:pt-20 lg:pb-14">
+        {/* Same ambient grid as the home hero: above the photo on phones
+            (-z-10), behind it on desktop (lg:-z-20) so the photo paints over
+            it on the right while the grid shows behind the copy on the left. */}
+        <GridBackdrop className="-z-10 lg:-z-20" />
+
+        {hero?.url && (
+          /* Full-bleed on mobile; from lg the photo occupies only the right half. */
+          <div className="absolute inset-y-0 right-0 -z-20 w-full lg:w-1/2">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={hero.url}
@@ -109,17 +117,14 @@ export default async function NewsDetail({ params }: Props) {
               aria-hidden="true"
               fetchPriority="high"
               decoding="async"
-              className="absolute inset-0 -z-20 size-full object-cover object-center"
+              className="size-full object-cover object-center"
             />
-            <div
-              aria-hidden="true"
-              className="absolute inset-0 -z-10 bg-gradient-to-r from-background/55 via-background/30 to-background/5"
-            />
-          </>
-        ) : (
-          <GridBackdrop />
+            {/* Multi-stop fade from the page background into the photo — the
+                same transition the home hero uses. */}
+            <div aria-hidden="true" className="absolute inset-0 hero-fade-y lg:hero-fade-x" />
+          </div>
         )}
-        <div className="mx-auto max-w-7xl">
+        <div className="mx-auto w-full max-w-7xl">
           <Reveal>
             <Link
               href="/news"
