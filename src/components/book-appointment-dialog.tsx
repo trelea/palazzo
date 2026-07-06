@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, type ReactNode } from 'react'
-import { useTranslations } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 import { getCalApi } from '@calcom/embed-react'
 import { ArrowRight, HeartPulse, Leaf } from 'lucide-react'
 import { Slot } from 'radix-ui'
@@ -31,10 +31,10 @@ const SERVICE_ICON: Record<ServiceKey, typeof Leaf> = {
  * the same click — because it doesn't rely on Cal's document-level click
  * listener reading the clicked element.
  */
-export async function openCalModal(service: ServiceKey) {
+export async function openCalModal(service: ServiceKey, locale: string) {
   const cal = await getCalApi({ namespace: service })
   cal('ui', CAL_EMBED_UI_CONFIG)
-  cal('modal', { calLink: calBookingLink(service), config: CAL_EMBED_MODAL_CONFIG })
+  cal('modal', { calLink: calBookingLink(service, locale), config: CAL_EMBED_MODAL_CONFIG })
 }
 
 /**
@@ -49,7 +49,8 @@ export function BookServiceTrigger({
   service: ServiceKey
   children: ReactNode
 }) {
-  return <Slot.Root onClick={() => void openCalModal(service)}>{children}</Slot.Root>
+  const locale = useLocale()
+  return <Slot.Root onClick={() => void openCalModal(service, locale)}>{children}</Slot.Root>
 }
 
 /**
@@ -70,6 +71,7 @@ export function BookAppointmentDialog({
   const t = useTranslations('BookDialog')
   const tn = useTranslations('Nav')
   const ts = useTranslations('HomePage.services')
+  const locale = useLocale()
 
   const [open, setOpen] = useState(false)
   // Cal's embed script only loads once the dialog is first opened — the
@@ -80,7 +82,7 @@ export function BookAppointmentDialog({
   function pick(service: ServiceKey) {
     setOpen(false)
     onServiceSelected?.()
-    void openCalModal(service)
+    void openCalModal(service, locale)
   }
 
   return (

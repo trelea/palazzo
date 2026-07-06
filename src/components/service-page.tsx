@@ -1,4 +1,4 @@
-import { useTranslations } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 import {
   Activity,
   ArrowRight,
@@ -56,6 +56,7 @@ const BENEFIT_ITEMS = [
 export function ServicePage({ service }: { service: ServiceKey }) {
   const t = useTranslations(`ServicePages.${service}`)
   const tn = useTranslations('Nav')
+  const locale = useLocale()
   const { heroImg, helpsImg } = SERVICE_CONFIG[service]
 
   return (
@@ -96,7 +97,7 @@ export function ServicePage({ service }: { service: ServiceKey }) {
                 shimmerDuration="3s"
                 className="mt-9 px-7 py-3 text-sm font-medium"
                 data-cal-namespace={service}
-                data-cal-link={calBookingLink(service)}
+                data-cal-link={calBookingLink(service, locale)}
                 data-cal-config={CAL_EMBED_CONFIG_ATTR}
               >
                 {t('hero.cta')}
@@ -233,7 +234,7 @@ export function ServicePage({ service }: { service: ServiceKey }) {
                 shimmerDuration="3s"
                 className="shrink-0 px-8 py-4 text-sm font-medium !text-brand"
                 data-cal-namespace={service}
-                data-cal-link={calBookingLink(service)}
+                data-cal-link={calBookingLink(service, locale)}
                 data-cal-config={CAL_EMBED_CONFIG_ATTR}
               >
                 {t('cta.button')}

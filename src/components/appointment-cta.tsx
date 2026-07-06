@@ -121,7 +121,7 @@ export function AppointmentCta({
             <Button
               type="button"
               data-cal-namespace={service}
-              data-cal-link={calBookingLink(service)}
+              data-cal-link={calBookingLink(service, locale)}
               data-cal-config={CAL_EMBED_CONFIG_ATTR}
               className="mt-8 h-auto w-fit rounded-lg bg-white px-6 py-3 text-sm font-medium text-brand hover:bg-white/90"
             >

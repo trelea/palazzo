@@ -69,13 +69,16 @@ export const CONTACT = {
 export const LOGO_SRC = '/palazzo-logo.svg'
 
 /**
- * Cal.com scheduling username. Event-type slugs under this account are
- * `phytotherapy` / `physiotherapy` — a 1:1 match with `ServiceKey` — so a
- * booking link is simply `${CAL_COM_USERNAME}/${service}`.
+ * Cal.com scheduling username. Each service has one event type per site
+ * locale, each with a forced "Interface language" in Cal.com (the embed
+ * otherwise follows the visitor's browser language, not the site language):
+ * English uses the bare `ServiceKey` slug (`physiotherapy`), Romanian and
+ * Russian use locale-suffixed copies (`physiotherapy-ro`, `physiotherapy-ru`).
  */
 export const CAL_COM_USERNAME = 'palazzo-aesthetics-ygvhv1'
 
-/** Cal.com `username/event-type-slug` booking link for a given service. */
-export function calBookingLink(service: ServiceKey): string {
-  return `${CAL_COM_USERNAME}/${service}`
+/** Cal.com `username/event-type-slug` booking link for a service in the given locale. */
+export function calBookingLink(service: ServiceKey, locale: string): string {
+  const slug = locale === 'en' ? service : `${service}-${locale}`
+  return `${CAL_COM_USERNAME}/${slug}`
 }
