@@ -1,4 +1,6 @@
+import type { Metadata } from 'next'
 import { useTranslations } from 'next-intl'
+import { getTranslations } from 'next-intl/server'
 import {
   ArrowRight,
   Award,
@@ -12,6 +14,7 @@ import {
 
 import { Link } from '@/i18n/navigation'
 import { SERVICE_LINKS } from '@/lib/site'
+import { pageMetadata } from '@/lib/seo'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 import { AppointmentCta } from '@/components/appointment-cta'
@@ -21,6 +24,21 @@ import { DotTexture } from '@/components/dot-texture'
 import { GridBackdrop } from '@/components/grid-backdrop'
 import { NumberTicker } from '@/components/ui/number-ticker'
 import { BorderBeam } from '@/components/ui/border-beam'
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  const t = await getTranslations({ locale, namespace: 'Meta.about' })
+  return pageMetadata({
+    locale,
+    path: '/about-us',
+    title: t('title'),
+    description: t('description'),
+  })
+}
 
 /** Reasons to choose Palazzo — copy lives in the `AboutPage.why` i18n namespace. */
 const WHY_ITEMS = [

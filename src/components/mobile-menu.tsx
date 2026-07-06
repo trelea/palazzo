@@ -8,6 +8,7 @@ import { Link, usePathname } from '@/i18n/navigation'
 import { NAV_ITEMS, LOGO_SRC, type ServiceKey } from '@/lib/site'
 import { cn } from '@/lib/utils'
 import { ShimmerButton } from '@/components/ui/shimmer-button'
+import { BookAppointmentDialog } from '@/components/book-appointment-dialog'
 import { NavLink } from '@/components/nav-link'
 import {
   Collapsible,
@@ -16,7 +17,6 @@ import {
 } from '@/components/ui/collapsible'
 import {
   Sheet,
-  SheetClose,
   SheetContent,
   SheetHeader,
   SheetTitle,
@@ -129,17 +129,19 @@ export function MobileMenu() {
         </div>
 
         <div className="mt-auto border-t px-6 py-5">
-          <SheetClose asChild>
+          {/* Not wrapped in SheetClose — the sheet must stay mounted while the
+              nested service-picker dialog is open; picking a service closes
+              both via `onServiceSelected`. */}
+          <BookAppointmentDialog onServiceSelected={close}>
             <ShimmerButton
-              asChild
               background="var(--brand)"
               shimmerColor="#ffffff"
               borderRadius="10px"
               className="w-full px-5 py-3 text-base font-medium"
             >
-              <Link href="/contacts">{t('book')}</Link>
+              {t('book')}
             </ShimmerButton>
-          </SheetClose>
+          </BookAppointmentDialog>
         </div>
       </SheetContent>
     </Sheet>

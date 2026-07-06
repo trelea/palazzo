@@ -6,5 +6,8 @@ export const CAL_EMBED_UI_CONFIG = {
   layout: 'month_view' as const,
 }
 
+/** Config passed to Cal.com modals — shared by data-attribute and programmatic triggers. */
+export const CAL_EMBED_MODAL_CONFIG = { layout: 'month_view' as const }
+
 /** JSON string for the `data-cal-config` attribute on trigger elements. */
-export const CAL_EMBED_CONFIG_ATTR = JSON.stringify({ layout: 'month_view' })
+export const CAL_EMBED_CONFIG_ATTR = JSON.stringify(CAL_EMBED_MODAL_CONFIG)

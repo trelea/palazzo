@@ -1,7 +1,10 @@
+import type { Metadata } from 'next'
 import { useTranslations } from 'next-intl'
+import { getTranslations } from 'next-intl/server'
 import { ArrowUpRight, Clock, Mail, MapPin } from 'lucide-react'
 
 import { CONTACT } from '@/lib/site'
+import { pageMetadata } from '@/lib/seo'
 import { Card } from '@/components/ui/card'
 import { AppointmentCta } from '@/components/appointment-cta'
 import { GridBackdrop } from '@/components/grid-backdrop'
@@ -11,6 +14,21 @@ import { GridBackdrop } from '@/components/grid-backdrop'
 const MAP_SRC = `https://maps.google.com/maps?q=${encodeURIComponent(
   `${CONTACT.address}, Chișinău`,
 )}&z=16&t=k&output=embed`
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  const t = await getTranslations({ locale, namespace: 'Meta.contacts' })
+  return pageMetadata({
+    locale,
+    path: '/contacts',
+    title: t('title'),
+    description: t('description'),
+  })
+}
 
 export default function Contacts() {
   const t = useTranslations('Contacts')

@@ -4,7 +4,6 @@ import { useState, type FormEvent, type ReactNode } from 'react'
 import { useLocale, useTranslations } from 'next-intl'
 import { ArrowRight, CalendarCheck, CheckCircle2, Loader2, Mail, Phone } from 'lucide-react'
 
-import { Link } from '@/i18n/navigation'
 import { CONTACT, calBookingLink, type ServiceKey } from '@/lib/site'
 import { CAL_EMBED_CONFIG_ATTR } from '@/lib/cal'
 import { cn } from '@/lib/utils'
@@ -20,6 +19,7 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog'
 import { SectionTitle } from '@/components/section-title'
+import { BookAppointmentDialog } from '@/components/book-appointment-dialog'
 
 /** Minimalist underline input — a thin bottom rule in brand green that darkens on focus. */
 const FIELD_INPUT =
@@ -115,8 +115,8 @@ export function AppointmentCta({
           </p>
 
           {/* Booking button lives in this panel. On service pages this opens
-              the Cal.com modal for that service; elsewhere it links to
-              /contacts. */}
+              the Cal.com modal for that service; elsewhere it opens the
+              service-picker dialog first. */}
           {service ? (
             <Button
               type="button"
@@ -129,15 +129,15 @@ export function AppointmentCta({
               <ArrowRight className="size-4" />
             </Button>
           ) : (
-            <Button
-              asChild
-              className="mt-8 h-auto w-fit rounded-lg bg-white px-6 py-3 text-sm font-medium text-brand hover:bg-white/90"
-            >
-              <Link href="/contacts">
+            <BookAppointmentDialog>
+              <Button
+                type="button"
+                className="mt-8 h-auto w-fit rounded-lg bg-white px-6 py-3 text-sm font-medium text-brand hover:bg-white/90"
+              >
                 {t('appointmentButton')}
                 <ArrowRight className="size-4" />
-              </Link>
-            </Button>
+              </Button>
+            </BookAppointmentDialog>
           )}
 
           <div className="mt-8 space-y-3 border-t border-white/15 pt-8">

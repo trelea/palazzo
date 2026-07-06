@@ -1,3 +1,4 @@
+import type { Metadata } from 'next'
 import { useTranslations } from 'next-intl'
 import {
   ArrowRight,
@@ -10,6 +11,8 @@ import {
   Users,
 } from 'lucide-react'
 
+import { languageAlternates } from '@/lib/seo'
+
 import { Link } from '@/i18n/navigation'
 import { cn } from '@/lib/utils'
 import { SERVICE_LINKS, CONTACT, type ServiceKey } from '@/lib/site'
@@ -17,6 +20,10 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Card } from '@/components/ui/card'
 import { AppointmentCta } from '@/components/appointment-cta'
+import {
+  BookAppointmentDialog,
+  BookServiceTrigger,
+} from '@/components/book-appointment-dialog'
 import { SectionTitle } from '@/components/section-title'
 import { Reveal } from '@/components/reveal'
 import { DotTexture } from '@/components/dot-texture'
@@ -26,6 +33,16 @@ import { NumberTicker } from '@/components/ui/number-ticker'
 import { Marquee } from '@/components/ui/marquee'
 import { BorderBeam } from '@/components/ui/border-beam'
 import { Particles } from '@/components/ui/particles'
+
+/** Title/description/OG come from the locale layout; only canonical + hreflang here. */
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  return { alternates: languageAlternates(locale, '/') }
+}
 
 /** Olive/sage palette derived from the brand colour (#51623D) for the aurora accent. */
 const AURORA_COLORS = ['#51623D', '#7a8c54', '#9bb06f', '#51623D']
@@ -165,16 +182,17 @@ function Hero() {
 
           <Reveal delay={0.4}>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
-              <ShimmerButton
-                asChild
-                background="var(--brand)"
-                shimmerColor="#ffffff"
-                borderRadius="0px"
-                shimmerDuration="3s"
-                className="w-full px-7 py-3 text-sm font-medium sm:w-auto"
-              >
-                <Link href="/contacts">{t('ctaBook')}</Link>
-              </ShimmerButton>
+              <BookAppointmentDialog>
+                <ShimmerButton
+                  background="var(--brand)"
+                  shimmerColor="#ffffff"
+                  borderRadius="0px"
+                  shimmerDuration="3s"
+                  className="w-full px-7 py-3 text-sm font-medium sm:w-auto"
+                >
+                  {t('ctaBook')}
+                </ShimmerButton>
+              </BookAppointmentDialog>
               <Button
                 asChild
                 variant="ghost"
@@ -364,13 +382,14 @@ function Services() {
                       </div>
                     </dl>
 
-                    <Button
-                      asChild
-                      variant="secondary"
-                      className="mt-5 h-auto rounded-none px-6 py-2.5 text-sm font-medium"
-                    >
-                      <Link href="/contacts">{tn('book')}</Link>
-                    </Button>
+                    <BookServiceTrigger service={service.key}>
+                      <Button
+                        variant="secondary"
+                        className="mt-5 h-auto rounded-none px-6 py-2.5 text-sm font-medium"
+                      >
+                        {tn('book')}
+                      </Button>
+                    </BookServiceTrigger>
                   </div>
 
                   <BorderBeam size={150} duration={12} colorFrom="#ffffff" colorTo="#9bb06f" />
@@ -401,16 +420,17 @@ function Services() {
                     {t('services.trialDesc')}
                   </p>
                 </div>
-                <ShimmerButton
-                  asChild
-                  background="#ffffff"
-                  shimmerColor="#51623D"
-                  borderRadius="0px"
-                  shimmerDuration="3s"
-                  className="shrink-0 px-8 py-4 text-sm font-medium !text-brand"
-                >
-                  <Link href="/contacts">{t('services.trialCta')}</Link>
-                </ShimmerButton>
+                <BookAppointmentDialog>
+                  <ShimmerButton
+                    background="#ffffff"
+                    shimmerColor="#51623D"
+                    borderRadius="0px"
+                    shimmerDuration="3s"
+                    className="shrink-0 px-8 py-4 text-sm font-medium !text-brand"
+                  >
+                    {t('services.trialCta')}
+                  </ShimmerButton>
+                </BookAppointmentDialog>
               </div>
 
               <BorderBeam size={180} duration={14} colorFrom="#ffffff" colorTo="#9bb06f" />

@@ -1,3 +1,4 @@
+import type { Metadata } from 'next'
 import { getFormatter, getLocale, getTranslations } from 'next-intl/server'
 import { ArrowRight, Newspaper } from 'lucide-react'
 import configPromise from '@payload-config'
@@ -11,12 +12,28 @@ import { Reveal } from '@/components/reveal'
 import { GridBackdrop } from '@/components/grid-backdrop'
 import { lexicalExcerpt } from '@/lib/lexical'
 import { newsDesc, newsTitle, type AppLocale } from '@/lib/news'
+import { pageMetadata } from '@/lib/seo'
 import type { Media, News } from '@/payload-types'
 
 /** First image of a news doc, when present and populated (depth >= 1). */
 function coverOf(doc: News): Media | null {
   const first = doc.images?.[0]?.image
   return first && typeof first === 'object' ? first : null
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  const t = await getTranslations({ locale, namespace: 'Meta.news' })
+  return pageMetadata({
+    locale,
+    path: '/news',
+    title: t('title'),
+    description: t('description'),
+  })
 }
 
 export default async function NewsPage() {

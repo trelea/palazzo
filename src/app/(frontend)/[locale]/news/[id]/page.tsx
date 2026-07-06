@@ -22,6 +22,7 @@ import {
 import { cn } from '@/lib/utils'
 import { lexicalExcerpt } from '@/lib/lexical'
 import { newsDesc, newsTitle, type AppLocale } from '@/lib/news'
+import { pageMetadata } from '@/lib/seo'
 import type { Media, News } from '@/payload-types'
 
 type Props = { params: Promise<{ locale: string; id: string }> }
@@ -43,10 +44,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const id = parseId(rawId)
   const doc = id ? await fetchNews(id) : null
   if (!doc) return {}
-  return {
-    title: `${newsTitle(doc, locale as AppLocale)} | Palazzo Aesthetics`,
+  const cover = doc.images?.[0]?.image
+  return pageMetadata({
+    locale,
+    path: `/news/${id}`,
+    title: newsTitle(doc, locale as AppLocale),
     description: lexicalExcerpt(newsDesc(doc, locale as AppLocale)),
-  }
+    ogImage: cover && typeof cover === 'object' && cover.url ? cover.url : undefined,
+  })
 }
 
 /**

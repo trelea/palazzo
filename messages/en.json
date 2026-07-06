@@ -101,6 +101,30 @@
       "newsletterConsent": "By subscribing you accept the terms of our privacy policy and consent to receive information emails from Palazzo Aesthetics."
     }
   },
+  "Meta": {
+    "tagline": "Physiotherapy & Phytotherapy",
+    "description": "Palazzo Aesthetics — physiotherapy and phytotherapy clinic in Chișinău. Evidence-led care for body and mind: pain relief, mobility and natural plant-based therapies. Book your appointment online.",
+    "about": {
+      "title": "About us",
+      "description": "Discover the story of Palazzo Aesthetics — a family tradition of care since 1956, uniting evidence-led physiotherapy and natural phytotherapy in Chișinău."
+    },
+    "contacts": {
+      "title": "Contact",
+      "description": "Get in touch with Palazzo Aesthetics: address, opening hours and email. Visit us at Str. Igor Vieru 16/1, Chișinău, or book an appointment online."
+    },
+    "news": {
+      "title": "News",
+      "description": "Updates, events and health tips from the Palazzo Aesthetics team in Chișinău."
+    },
+    "physiotherapy": {
+      "title": "Physiotherapy",
+      "description": "Evidence-led physiotherapy in Chișinău: pain relief, mobility and recovery with personalised treatment plans. Book your session at Palazzo Aesthetics."
+    },
+    "phytotherapy": {
+      "title": "Phytotherapy",
+      "description": "Natural plant-based care in Chișinău: phytotherapy consultations and personalised herbal remedies. Book your session at Palazzo Aesthetics."
+    }
+  },
   "Nav": {
     "home": "Home",
     "about": "About",
@@ -114,6 +138,10 @@
     "closeMenu": "Close menu",
     "language": "Language",
     "brandTagline": "Aesthetics"
+  },
+  "BookDialog": {
+    "title": "Book an appointment",
+    "description": "Choose the service you would like to schedule."
   },
   "NewsPage": {
     "title": "News",

@@ -101,6 +101,30 @@
       "newsletterConsent": "Prin abonare accepți termenii politicii noastre de confidențialitate și ești de acord să primești emailuri informative de la Palazzo Aesthetics."
     }
   },
+  "Meta": {
+    "tagline": "Fizioterapie & Fitoterapie",
+    "description": "Palazzo Aesthetics — clinică de fizioterapie și fitoterapie în Chișinău. Îngrijire bazată pe dovezi pentru corp și minte: ameliorarea durerii, mobilitate și terapii naturale din plante. Programează-te online.",
+    "about": {
+      "title": "Despre noi",
+      "description": "Descoperă povestea Palazzo Aesthetics — o tradiție de familie din 1956, care unește fizioterapia bazată pe dovezi și fitoterapia naturală la Chișinău."
+    },
+    "contacts": {
+      "title": "Contacte",
+      "description": "Contactează Palazzo Aesthetics: adresă, program și e-mail. Vizitează-ne pe Str. Igor Vieru 16/1, Chișinău, sau programează-te online."
+    },
+    "news": {
+      "title": "Noutăți",
+      "description": "Noutăți, evenimente și sfaturi de sănătate de la echipa Palazzo Aesthetics din Chișinău."
+    },
+    "physiotherapy": {
+      "title": "Fizioterapie",
+      "description": "Fizioterapie bazată pe dovezi la Chișinău: ameliorarea durerii, mobilitate și recuperare cu planuri de tratament personalizate. Programează-te la Palazzo Aesthetics."
+    },
+    "phytotherapy": {
+      "title": "Fitoterapie",
+      "description": "Îngrijire naturală din plante la Chișinău: consultații de fitoterapie și remedii personalizate din plante. Programează-te la Palazzo Aesthetics."
+    }
+  },
   "Nav": {
     "home": "Acasă",
     "about": "Despre noi",
@@ -114,6 +138,10 @@
     "closeMenu": "Închide meniul",
     "language": "Limbă",
     "brandTagline": "Aesthetics"
+  },
+  "BookDialog": {
+    "title": "Programează o vizită",
+    "description": "Alege serviciul pe care vrei să îl programezi."
   },
   "NewsPage": {
     "title": "Noutăți",
