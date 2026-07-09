@@ -60,7 +60,7 @@ const RESULT_STATS = [
 
 /** Per-service presentation metadata — descriptions live in `AboutPage.services`. */
 const SERVICE_META = {
-  physiotherapy: { img: '/physiotherapy-service.jpg', descKey: 'services.physiotherapyDesc' },
+  phytoaestetica: { img: '/phytoaestetica-vibes.jpg', descKey: 'services.phytoaesteticaDesc' },
   phytotherapy: { img: '/phytotherapy-service.jpg', descKey: 'services.phytotherapyDesc' },
 } as const
 
@@ -111,7 +111,7 @@ export default function AboutUs() {
             <div className="relative aspect-square overflow-hidden rounded-3xl border border-brand/15 shadow-xl lg:aspect-4/3">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/intro2.jpeg"
+                src="/our-story-img.jpg"
                 alt="A modern Palazzo Aesthetics treatment room"
                 className="size-full object-cover object-center"
               />
@@ -128,7 +128,7 @@ export default function AboutUs() {
             <div className="relative aspect-square overflow-hidden rounded-3xl border border-brand/15 shadow-xl lg:aspect-4/3">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/our-story-img.jpg"
+                src="/our-team.jpg"
                 alt="The Palazzo Aesthetics team"
                 className="size-full object-cover object-center"
               />

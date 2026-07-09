@@ -1,7 +1,7 @@
 'use client'
 
 import { useTranslations } from 'next-intl'
-import { ArrowRight, ChevronDown, HeartPulse, Leaf } from 'lucide-react'
+import { ArrowRight, ChevronDown, Leaf, Sparkles } from 'lucide-react'
 
 import { Link, usePathname } from '@/i18n/navigation'
 import { SERVICE_LINKS, type ServiceKey } from '@/lib/site'
@@ -16,7 +16,7 @@ import { BorderBeam } from '@/components/ui/border-beam'
 
 /** Icon per discipline — mirrors the homepage service metadata. */
 const SERVICE_ICON: Record<ServiceKey, typeof Leaf> = {
-  physiotherapy: HeartPulse,
+  phytoaestetica: Sparkles,
   phytotherapy: Leaf,
 }
 

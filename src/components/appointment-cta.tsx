@@ -166,7 +166,7 @@ export function AppointmentCta({
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/photo2.jpeg"
-              alt="A Palazzo Aesthetics physiotherapy treatment room"
+              alt="A Palazzo Aesthetics treatment room"
               className="size-full object-cover object-center [mask-image:linear-gradient(to_bottom,transparent_0%,#000_55%)] [-webkit-mask-image:linear-gradient(to_bottom,transparent_0%,#000_55%)]"
             />
           </div>

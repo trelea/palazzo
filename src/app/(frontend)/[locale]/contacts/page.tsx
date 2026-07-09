@@ -3,7 +3,7 @@ import { useTranslations } from 'next-intl'
 import { getTranslations } from 'next-intl/server'
 import { ArrowUpRight, Clock, Mail, MapPin } from 'lucide-react'
 
-import { CONTACT } from '@/lib/site'
+import { CONTACT, OPENING_HOURS_LABEL } from '@/lib/site'
 import { pageMetadata } from '@/lib/seo'
 import { Card } from '@/components/ui/card'
 import { AppointmentCta } from '@/components/appointment-cta'
@@ -106,11 +106,11 @@ export default function Contacts() {
                   <dl className="mt-1.5 space-y-1 text-base">
                     <div className="flex justify-between gap-8">
                       <dt className="text-muted-foreground">{tf('weekdays')}</dt>
-                      <dd className="text-foreground">09:00 – 20:00</dd>
+                      <dd className="text-right text-foreground">{OPENING_HOURS_LABEL}</dd>
                     </div>
                     <div className="flex justify-between gap-8">
                       <dt className="text-muted-foreground">{tf('saturday')}</dt>
-                      <dd className="text-foreground">10:00 – 16:00</dd>
+                      <dd className="text-foreground">{tf('closed')}</dd>
                     </div>
                     <div className="flex justify-between gap-8">
                       <dt className="text-muted-foreground">{tf('sunday')}</dt>

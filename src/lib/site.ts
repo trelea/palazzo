@@ -7,7 +7,7 @@
  * NOTE: contact details below are placeholders — replace with the real ones.
  */
 
-export type ServiceKey = 'physiotherapy' | 'phytotherapy'
+export type ServiceKey = 'phytoaestetica' | 'phytotherapy'
 export type LinkKey = 'home' | 'about' | 'news' | 'contact'
 
 export type ServiceLink = {
@@ -24,7 +24,7 @@ export type NavLink = {
 
 /** Service offerings, grouped under the "Services" menu. */
 export const SERVICE_LINKS: ServiceLink[] = [
-  { href: '/physiotherapy', key: 'physiotherapy' },
+  { href: '/phytoaestetica', key: 'phytoaestetica' },
   { href: '/phytotherapy', key: 'phytotherapy' },
 ]
 
@@ -54,8 +54,8 @@ export const CONTACT = {
   // No phone number yet — set both once available and it shows up automatically.
   phone: null as string | null,
   phoneHref: null as string | null,
-  email: 'rcv.hw.oficial@gmail.com',
-  emailHref: 'mailto:rcv.hw.oficial@gmail.com',
+  email: 'palazzo.aesthetics@gmail.com',
+  emailHref: 'mailto:palazzo.aesthetics@gmail.com',
   address: 'Str. Igor Vieru 16/1',
   mapHref:
     'https://www.google.com/maps/search/?api=1&query=' +
@@ -66,19 +66,38 @@ export const CONTACT = {
   },
 } as const
 
+/**
+ * Weekday working hours (Mon–Fri, closed weekends) with a lunch break —
+ * mirrored in the Cal.com availability schedule. Rendered in the footer and
+ * contacts page and emitted as `openingHoursSpecification` in the
+ * LocalBusiness JSON-LD, so on-page copy and structured data always agree.
+ */
+export const OPENING_HOURS = [
+  { opens: '08:00', closes: '13:00' },
+  { opens: '14:00', closes: '18:00' },
+] as const
+
+/** Display string for the weekday hours, e.g. `08:00 – 13:00, 14:00 – 18:00`. */
+export const OPENING_HOURS_LABEL = OPENING_HOURS.map((w) => `${w.opens} – ${w.closes}`).join(', ')
+
 export const LOGO_SRC = '/palazzo-logo.svg'
 
 /**
  * Cal.com scheduling username. Each service has one event type per site
  * locale, each with a forced "Interface language" in Cal.com (the embed
- * otherwise follows the visitor's browser language, not the site language):
- * English uses the bare `ServiceKey` slug (`physiotherapy`), Romanian and
- * Russian use locale-suffixed copies (`physiotherapy-ro`, `physiotherapy-ru`).
+ * otherwise follows the visitor's browser language, not the site language).
+ * Slugs are set per event type in Cal.com and don't follow a single pattern,
+ * so they are mapped explicitly here.
  */
 export const CAL_COM_USERNAME = 'palazzo-aesthetics-ygvhv1'
 
+const CAL_EVENT_SLUGS: Record<ServiceKey, Record<string, string>> = {
+  phytoaestetica: { en: 'phyto-esthetics', ro: 'fitoestetica', ru: 'фито-эстетика' },
+  phytotherapy: { en: 'phytotherapy', ro: 'phytotherapy-ro', ru: 'phytotherapy-ru' },
+}
+
 /** Cal.com `username/event-type-slug` booking link for a service in the given locale. */
 export function calBookingLink(service: ServiceKey, locale: string): string {
-  const slug = locale === 'en' ? service : `${service}-${locale}`
+  const slug = CAL_EVENT_SLUGS[service][locale] ?? CAL_EVENT_SLUGS[service].en
   return `${CAL_COM_USERNAME}/${slug}`
 }

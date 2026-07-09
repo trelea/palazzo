@@ -33,23 +33,23 @@
     "hero": {
       "headline": "Natură și știință,",
       "headlineAccent": "în echilibru",
-      "subtitle": "Fizioterapie dovedită și puterea blândă a plantelor medicinale — grijă pentru corp și minte.",
+      "subtitle": "Îngrijire estetică pe bază de plante și puterea blândă a plantelor medicinale — frumusețe și stare de bine pentru corp și minte.",
       "ctaBook": "Programează o probă gratuită",
       "ctaLearn": "Povestea noastră"
     },
     "intro": {
       "heading": "Palazzo Aesthetics",
-      "body": "Îmbinăm fizioterapia practică cu tradiția consacrată a fitoterapiei. Rădăcinile noastre istorice, alături de o formare medicală continuă, ne permit să oferim o soluție naturală și eficientă pentru fiecare nevoie — atât pentru sănătatea, cât și pentru frumusețea ta.",
-      "physioLine": "Reabilitare practică ce redă mișcarea și alină durerea.",
+      "body": "Îmbinăm îngrijirea fitoestetică modernă cu tradiția consacrată a fitoterapiei. Rădăcinile noastre istorice, alături de o formare medicală continuă, ne permit să oferim o soluție naturală și eficientă pentru fiecare nevoie — atât pentru sănătatea, cât și pentru frumusețea ta.",
+      "aestheticsLine": "Tratamente estetice pe bază de plante care tonifică, remodelează și redau strălucirea pielii.",
       "phytoLine": "Remedii din plante, dintr-o tradiție îndelungată a fitoterapiei."
     },
     "services": {
       "title": "Serviciile noastre",
-      "physiotherapyDesc": "Terapie manuală personalizată și recuperare pentru a calma durerea, a reda mobilitatea și a reconstrui forța. Fiecare program este adaptat corpului tău — combinând tehnici manuale, exerciții țintite și îndrumare pentru recuperare, ca să te miști din nou liber și cu încredere.",
+      "phytoaesteticaDesc": "Programe și produse fitoestetice personalizate, dezvoltate în peste 65 de ani de experiență și cercetare asupra proprietăților benefice ale plantelor medicinale. Tratamente care îți lasă pielea radiantă, întinerită și tonifiată și reduc vizibil semnele celulitei — totul în timp ce te relaxezi.",
       "phytotherapyDesc": "Proprietățile curative ale plantelor officinale, valorificate în tratamente și ritualuri de îngrijire pentru corp și minte. Compresa noastră emblematică din plante și extractele naturale lucrează blând cu corpul tău pentru a calma inflamația, a reda echilibrul și a susține starea de bine zi de zi.",
       "serviceLabel": "Serviciu",
       "focusLabel": "Focus",
-      "physiotherapyFocus": "Ameliorarea durerii & mobilitate",
+      "phytoaesteticaFocus": "Tonifiere & remodelare",
       "phytotherapyFocus": "Îngrijire naturală din plante",
       "discover": "Descoperă",
       "trialTitle": "Ești la prima vizită?",
@@ -58,11 +58,11 @@
     },
     "stats": {
       "title": "Tradiție și cercetare pentru îngrijirea corpului tău",
-      "subtitle": "Prin cercetare și inovație maximizăm eficacitatea extractelor din plante și a fizioterapiei dovedite.",
+      "subtitle": "Prin cercetare și inovație maximizăm eficacitatea extractelor din plante și a tratamentelor noastre fitoestetice.",
       "yearsLabel": "Ani de experiență",
       "yearsDesc": "Decenii de practică în care ne-am perfecționat fiecare tratament.",
       "treatmentsLabel": "Tratamente oferite",
-      "treatmentsDesc": "O gamă largă de programe de fizioterapie și fitoterapie.",
+      "treatmentsDesc": "O gamă largă de programe de fitoestetică și fitoterapie.",
       "clientsLabel": "Clienți mulțumiți",
       "clientsDesc": "Oameni care ne-au încredințat recuperarea și starea lor de bine.",
       "satisfactionLabel": "Ne-ar recomanda",
@@ -71,14 +71,14 @@
     "featured": {
       "eyebrow": "Unicitate & calitate certificată",
       "title": "Inima îngrijirii noastre: Impacul de Plante Officinale",
-      "body": "Compresa noastră emblematică din plante, cu puternica sa acțiune antiinflamatoare naturală, este baza versatilă a tuturor specializărilor noastre — de la fizioterapie la fitoterapie. Creată cu respect pentru natură, este esența a tot ceea ce facem.",
+      "body": "Compresa noastră emblematică din plante, cu puternica sa acțiune antiinflamatoare naturală, este baza versatilă a tuturor specializărilor noastre — de la fitoestetică la fitoterapie. Creată cu respect pentru natură, este esența a tot ceea ce facem.",
       "cta": "Explorează fitoterapia"
     },
     "story": {
       "heading": "Povestea noastră",
       "lead": "Palazzo a pornit de la o convingere simplă — că adevărata grijă vine de la oameni, nu doar de la protocoale.",
-      "body1": "Ceea ce a început ca o mică clinică este astăzi o echipă unită de fizioterapeuți și specialiști în stare de bine, care împărtășesc un singur scop: să te ajute să te miști, să te simți și să trăiești mai bine.",
-      "body2": "Fiecare își aduce propria expertiză, dar lucrăm ca unul singur — îmbinând fizioterapia practică cu puterea naturală a fitoterapiei pentru a îngriji omul în întregime, nu doar simptomul.",
+      "body1": "Ceea ce a început ca o mică clinică este astăzi o echipă unită de specialiști în estetică și stare de bine, care împărtășesc un singur scop: să te ajute să te simți, să arăți și să trăiești mai bine.",
+      "body2": "Fiecare își aduce propria expertiză, dar lucrăm ca unul singur — îmbinând îngrijirea fitoestetică cu puterea naturală a fitoterapiei pentru a îngriji omul în întregime, nu doar simptomul.",
       "body3": "Învățăm împreună, creștem împreună și rămânem aproape de oamenii de care avem grijă. Aceasta este diferența Palazzo: metode moderne cu atenție umană autentică.",
       "motto": "In natura, vita."
     },
@@ -102,11 +102,11 @@
     }
   },
   "Meta": {
-    "tagline": "Fizioterapie & Fitoterapie",
-    "description": "Palazzo Aesthetics — clinică de fizioterapie și fitoterapie în Chișinău. Îngrijire bazată pe dovezi pentru corp și minte: ameliorarea durerii, mobilitate și terapii naturale din plante. Programează-te online.",
+    "tagline": "Fitoestetică & Fitoterapie",
+    "description": "Palazzo Aesthetics — clinică de fitoestetică și fitoterapie în Chișinău. Îngrijire naturală pentru corp și minte: tonifierea pielii, remodelare corporală și terapii din plante. Programează-te online.",
     "about": {
       "title": "Despre noi",
-      "description": "Descoperă povestea Palazzo Aesthetics — o tradiție de familie din 1956, care unește fizioterapia bazată pe dovezi și fitoterapia naturală la Chișinău."
+      "description": "Descoperă povestea Palazzo Aesthetics — o tradiție de familie din 1956, care unește estetica pe bază de plante și fitoterapia naturală la Chișinău."
     },
     "contacts": {
       "title": "Contacte",
@@ -116,9 +116,9 @@
       "title": "Noutăți",
       "description": "Noutăți, evenimente și sfaturi de sănătate de la echipa Palazzo Aesthetics din Chișinău."
     },
-    "physiotherapy": {
-      "title": "Fizioterapie",
-      "description": "Fizioterapie bazată pe dovezi la Chișinău: ameliorarea durerii, mobilitate și recuperare cu planuri de tratament personalizate. Programează-te la Palazzo Aesthetics."
+    "phytoaestetica": {
+      "title": "Fitoestetică",
+      "description": "Tratamente fitoestetice la Chișinău: remodelare corporală, tonifierea pielii și reducerea celulitei cu programe personalizate pe bază de plante. Programează-te la Palazzo Aesthetics."
     },
     "phytotherapy": {
       "title": "Fitoterapie",
@@ -129,7 +129,7 @@
     "home": "Acasă",
     "about": "Despre noi",
     "services": "Servicii",
-    "physiotherapy": "Fizioterapie",
+    "phytoaestetica": "Fitoestetică",
     "phytotherapy": "Fitoterapie",
     "news": "Noutăți",
     "contact": "Contacte",
@@ -165,16 +165,16 @@
   },
   "AboutPage": {
     "title": "Despre noi",
-    "lead": "Suntem o echipă de fizioterapeuți și specialiști în stare de bine, care cred că îngrijirea trebuie să fie personală, naturală și bazată pe dovezi.",
+    "lead": "Suntem o echipă de specialiști în estetică și stare de bine, care cred că îngrijirea trebuie să fie personală, naturală și bazată pe dovezi.",
     "story": {
       "heading": "Povestea noastră",
       "body1": "Palazzo a început cu o clinică mică și o convingere mare — că vindecarea adevărată vine din tratarea omului în întregime, nu doar a simptomului.",
-      "body2": "De-a lungul anilor ne-am dezvoltat într-o practică multidisciplinară, îmbinând fizioterapia practică cu puterea naturală a fitoterapiei sub același acoperiș.",
+      "body2": "De-a lungul anilor ne-am dezvoltat într-o practică multidisciplinară, îmbinând îngrijirea fitoestetică cu puterea naturală a fitoterapiei sub același acoperiș.",
       "body3": "Astăzi, aceeași convingere ne ghidează în tot ceea ce facem: metode moderne, remedii naturale și răbdarea de a însoți fiecare persoană până la rezultate durabile."
     },
     "who": {
       "heading": "Cine suntem",
-      "body1": "În spatele Palazzo se află o echipă unită de fizioterapeuți, specialiști în mișcare și experți în fitoterapie care iubesc cu adevărat ceea ce fac.",
+      "body1": "În spatele Palazzo se află o echipă unită de specialiști în estetică și experți în fitoterapie care iubesc cu adevărat ceea ce fac.",
       "body2": "Învățăm împreună, împărtășim ce funcționează și rămânem aproape de oamenii de care avem grijă — astfel încât fiecare plan este construit în jurul tău, nu după un șablon."
     },
     "why": {
@@ -183,7 +183,7 @@
       "evidenceTitle": "Îngrijire bazată pe dovezi",
       "evidenceDesc": "Fiecare tratament se bazează pe cercetări actuale și pe practica clinică dovedită.",
       "naturalTitle": "Terapii naturale",
-      "naturalDesc": "Combinăm fizioterapia cu fitoterapia pentru a-ți susține corpul în mod blând.",
+      "naturalDesc": "Combinăm fitoestetica cu fitoterapia pentru a-ți susține corpul în mod blând.",
       "personalTitle": "Planuri personalizate",
       "personalDesc": "Niciun corp nu este la fel — programul tău este construit în jurul obiectivelor și istoricului tău.",
       "teamTitle": "Echipă de specialiști",
@@ -201,58 +201,93 @@
       "satisfactionLabel": "Satisfacție",
       "satisfactionDesc": "Clienți care ar recomanda Palazzo prietenilor și familiei.",
       "teamLabel": "Specialiști",
-      "teamDesc": "Terapeuți și experți în fizioterapie și fitoterapie.",
+      "teamDesc": "Terapeuți și experți în fitoestetică și fitoterapie.",
       "experienceLabel": "Ani de îngrijire",
       "experienceDesc": "Ne perfecționăm abordarea și creștem alături de comunitatea noastră."
     },
     "services": {
       "heading": "Serviciile noastre",
       "subtitle": "Două discipline, o singură abordare integrată pentru sănătatea ta.",
-      "physiotherapyDesc": "Evaluare practică, reabilitare și terapie prin mișcare pentru a reda forța și mobilitatea.",
+      "phytoaesteticaDesc": "Programe estetice pe bază de plante care tonifică pielea, reduc celulita și redau strălucirea naturală.",
       "phytotherapyDesc": "Remedii naturale, pe bază de plante, care îți completează tratamentul și sprijină recuperarea.",
       "cta": "Află mai mult"
     }
   },
   "ServicePages": {
-    "physiotherapy": {
+    "phytoaestetica": {
       "hero": {
-        "title": "Mișcă-te mai bine cu",
-        "titleAccent": "Fizioterapie",
-        "subtitle": "Tratament practic, bazat pe dovezi, pentru a calma durerea, a reda mișcarea și a te readuce la ceea ce iubești.",
+        "title": "Simte-te frumoasă cu",
+        "titleAccent": "Fitoestetică",
+        "subtitle": "Programe fitoestetice personalizate, născute din peste 65 de ani de cercetare asupra plantelor medicinale — piele radiantă și tonifiată, prin excelența naturii și a științei.",
         "cta": "Programează-te"
       },
       "description": {
-        "heading": "Ce este fizioterapia?",
-        "body1": "Fizioterapia este o terapie practică, bazată pe mișcare, care evaluează și tratează cauza profundă a durerii și a mobilității reduse — nu doar simptomele.",
-        "body2": "La Palazzo, fiecare ședință începe cu o evaluare amănunțită. De acolo, fizioterapeutul tău creează un program personalizat de terapie manuală, exerciții țintite și tehnici moderne pentru a reconstrui forța, flexibilitatea și încrederea."
+        "heading": "Ce este fitoestetica?",
+        "body1": "Fitoestetica valorifică proprietățile benefice ale plantelor medicinale în programe și produse estetice personalizate, dezvoltate în peste 65 de ani de experiență și cercetare.",
+        "body2": "La Palazzo, personalul nostru specializat îți stă la dispoziție pentru a-ți crea programul personalizat — doar excelența naturii și a științei, ca să te simți mai bine în interior și să te apreciezi mai mult în exterior."
       },
       "helps": {
-        "heading": "Cum te ajută fizioterapia",
-        "body": "Fie că te recuperezi după o accidentare, gestionezi o afecțiune cronică sau pur și simplu te miști mai greu decât ai vrea, fizioterapia te întâlnește acolo unde ești și te ghidează mai departe.",
-        "point1": "Calmează durerea acută și cronică fără a depinde de medicamente.",
-        "point2": "Reda mobilitatea articulară, forța musculară și echilibrul.",
-        "point3": "Accelerează recuperarea după accidentări, intervenții sau sport.",
-        "point4": "Previne reaccidentarea prin obiceiuri de mișcare durabile."
+        "heading": "Cum te ajută fitoestetica",
+        "body": "Timpul dedicat răsfățului nu este niciodată pierdut: fiecare tratament îmbină relaxarea profundă cu rezultate vizibile, lucrând blând cu pielea și corpul tău.",
+        "point1": "Redă pielii aspectul radiant, întinerit și tonifiat.",
+        "point2": "Reduce vizibil semnele celulitei.",
+        "point3": "Fermifică și remodelează silueta cu îngrijire pe bază de plante.",
+        "point4": "Te lasă să te relaxezi complet în timp ce tratamentul lucrează."
       },
-      "benefits": {
-        "heading": "Beneficiile pe care le vei simți",
-        "subtitle": "Ce îți oferă fizioterapia la Palazzo, ședință după ședință.",
-        "item1Title": "Mai puțină durere",
-        "item1Desc": "Tratament țintit care calmează durerea la sursă.",
-        "item2Title": "Mobilitate mai bună",
-        "item2Desc": "Mișcă-te mai liber, cu mai multă amplitudine și ușurință.",
-        "item3Title": "Recuperare mai rapidă",
-        "item3Desc": "Revino la muncă, sport și viață mai devreme.",
-        "item4Title": "Mai multă forță",
-        "item4Desc": "Reconstruiește mușchii și stabilitatea pierdute.",
-        "item5Title": "Rezultate durabile",
-        "item5Desc": "Obiceiuri și exerciții care te mențin bine pe termen lung.",
-        "item6Title": "Îndrumare personală",
-        "item6Desc": "Un terapeut dedicat alături de tine la fiecare pas."
+      "treatments": {
+        "heading": "PhytoTreatments",
+        "subtitle": "Un parcurs complet către frumusețea naturală — de la consultație la tratament, nutriție și echilibru mental.",
+        "tabs": {
+          "consultation": {
+            "label": "Consultație",
+            "title": "Consultația inițială fizio-estetică",
+            "p1": "Fizio-estetica ia naștere din îmbinarea fizioterapiei cu medicina estetică, pentru a identifica și trata afecțiunile care provoacă imperfecțiunile pielii. Spre deosebire de estetica clasică, ce acționează asupra pielii doar din exterior, ea intervine asupra funcțiilor fiziologice ale corpului, pentru a-i reda o frumusețe naturală.",
+            "p2": "Starea de bine este restabilită prin tratamente avansate neinvazive și produse fitoterapeutice exclusive, cu efect de slăbire, anticelulitic, tonifiant, anti-îmbătrânire și drenant."
+          },
+          "cellularReactivation": {
+            "label": "Reactivare celulară",
+            "h1": "Reactivare celulară fitoterapeutică pentru față",
+            "p1": "În decembrie 2022 am lansat noua mască facială Re-GEN.",
+            "p2": "Cataplasma noastră Galenică, adaptată pentru pielea feței și îmbogățită cu principii active anti-îmbătrânire, stă la baza produsului. Ea este aplicată pe o mască elegantă din silicon auriu, care se adaptează oricărei forme a feței.",
+            "p3": "Testele științifice i-au demonstrat capacitatea de a stimula reînnoirea celulară, de a elimina celulele moarte, de a încetini îmbătrânirea, de a tonifia țesuturile și de a netezi ridurile, de a drena și dezumfla pungile de sub ochi și de a capta radicalii liberi care sting tenul și provoacă impurități. Principiile active pătrund adânc în straturile pielii datorită ozonizării, o tehnică specială de procesare dezvoltată în laboratoarele noastre.",
+            "p4": "Pielea ta va fi regenerată într-o singură oră!",
+            "h2": "Reactivare celulară fitoterapeutică pentru corp",
+            "p5": "Compresa noastră exclusivă cu Cataplasmă Galenică a fost creată în 1956 și îmbunătățită constant de atunci. Este tratamentul nostru emblematic, care îmbină efectul terapeutic cu îmbunătățirea estetică.",
+            "p6": "Compresa are o puternică acțiune antiinflamatoare, favorizând reactivarea celulară, absorbția lichidelor care provoacă retenția de apă și reducerea grăsimii localizate în zonele critice.",
+            "p7": "Rezultatul? Țesuturi detoxifiate, piele tonifiată și imperfecțiuni vizibil reduse."
+          },
+          "lymphaticDrainage": {
+            "label": "Drenaj limfatic",
+            "title": "Drenaj limfatic manual avansat",
+            "p1": "Un tip special de masaj fizioterapeutic, ale cărui manevre stimulează sau reactivează circulația limfatică corectă și elimină excesul de lichid interstițial.",
+            "p2": "Datorită unui curs de specializare în drenaj limfatic manual avansat, fizioterapeuții noștri pot folosi eficient trei tehnici diferite, în funcție de nevoile pacientului: tehnicile Leduc, Vodder și Belgrad.",
+            "p3": "Scopul final este restabilirea stării de bine psihofizice a persoanei, acționând la rădăcina problemelor medicale cu implicații estetice, precum: celulita, retenția de apă, umflăturile, limfedemul, lipedemul și insuficiența circulatorie. Te va ajuta, de asemenea, să elimini reziduurile de medicamente și toxinele alimentare și să îți întărești sistemul imunitar."
+          },
+          "posturalReeducation": {
+            "label": "Reeducare posturală",
+            "p1": "O greșeală frecventă este subestimarea influenței posturii asupra bunei funcționări a corpului și asupra imperfecțiunilor sale, precum celulita și balonarea abdominală.",
+            "p2": "Prin reeducare posturală țintită, scopul este readucerea corpului la o stare de bine generală."
+          },
+          "nutrition": {
+            "label": "Nutriție",
+            "p1": "Te vom conduce către dieta și planul de suplimente ideale pentru tine, printr-un parcurs inovator — fără posturi impuse, fără numărat calorii și fără rețete complicate.",
+            "p2": "Abordarea noastră modernă este potrivită celor care au puțin timp, dar nu vor să renunțe la o alimentație sănătoasă."
+          },
+          "personalTraining": {
+            "label": "Antrenament personal",
+            "p1": "Cu experiență în sportul de performanță și calificări atât de instructor, cât și de fizioterapeut specializat, antrenorul nostru personal îți va crea un plan de antrenament eficient, personalizat nevoilor tale.",
+            "p2": "Împreună veți găsi activitatea fizică potrivită stilului tău de viață, ținând cont de programul și preferințele tale personale."
+          },
+          "mentalCoaching": {
+            "label": "Coaching mental",
+            "p1": "Un factor-cheie în orice parcurs de wellness este menținerea unei atitudini pozitive față de obiceiurile alimentare și imaginea corporală. De aceea, parcursul tău este ghidat de un facilitator certificat de mindfulness.",
+            "p2": "Pe tot parcursul programului vei primi sprijin și motivație ori de câte ori întâmpini provocări sau nesiguranțe. Prin aceste ședințe îți vei dezvolta o relație sănătoasă și conștientă atât cu mâncarea, cât și cu propriul corp."
+          }
+        }
       },
       "cta": {
-        "heading": "Programează-ți ședința de fizioterapie",
-        "body": "Fă primul pas spre a te mișca și a te simți mai bine. Echipa noastră este gata să te ajute.",
+        "heading": "Programează-ți experiența de fitoestetică",
+        "body": "Programează-ți acum consilierea personalizată și prima experiență — rezultate garantate, în mod natural.",
         "button": "Programează acum"
       }
     },
@@ -273,24 +308,94 @@
         "body": "Terapia pe bază de plante lucrează cu corpul tău, nu împotriva lui, oferind sprijin blând și eficient pentru o gamă largă de probleme cotidiene.",
         "point1": "Calmează inflamația cu compuși naturali puternici.",
         "point2": "Susține sistemul imunitar și vitalitatea generală.",
-        "point3": "Completează fizioterapia și accelerează recuperarea.",
+        "point3": "Susține recuperarea și regenerarea naturală a corpului.",
         "point4": "Promovează relaxarea, un somn mai bun și echilibrul."
       },
       "benefits": {
         "heading": "Beneficiile pe care le vei simți",
         "subtitle": "Ce îți oferă fitoterapia la Palazzo, în mod natural.",
-        "item1Title": "Alinare naturală",
-        "item1Desc": "Remedii blânde care lucrează cu corpul tău.",
-        "item2Title": "Mai puțină inflamație",
-        "item2Desc": "Compuși vegetali care calmează și liniștesc.",
-        "item3Title": "Imunitate mai puternică",
-        "item3Desc": "Sprijină apărarea naturală a corpului tău.",
-        "item4Title": "Mai multă energie",
-        "item4Desc": "Reda vitalitatea și echilibrul de zi cu zi.",
-        "item5Title": "Odihnă mai bună",
-        "item5Desc": "Liniștește mintea și dormi mai profund.",
-        "item6Title": "Îngrijire completă",
-        "item6Desc": "Tratăm omul, nu doar simptomul."
+        "tabs": {
+          "muscleJoint": {
+            "label": "Musculo-articular",
+            "p1": "Articulațiile sunt frecvent afectate de reumatism; se estimează că peste 5 milioane de oameni din întreaga lume suferă de această afecțiune. Reumatismul desemnează, în general, o stare inflamatorie a articulațiilor și a structurilor acestora, care, în stadiul cel mai avansat, afectează și țesuturile și organele interne.",
+            "p2": "Artrita și artroza sunt două tipuri diferite de reumatism. Artroza este forma cea mai frecventă: este cauzată de degenerarea progresivă a cartilajului care protejează oasele articulațiilor și provoacă o durere tot mai invalidantă odată cu trecerea timpului. Există cu siguranță o predispoziție genetică, însă aceasta se manifestă sub influența unor factori externi, precum virusuri, bacterii, solicitări mecanice și factori hormonali. Artrita constă, în schimb, în inflamarea articulației și poate apărea la orice vârstă.",
+            "p3": "Acțiunea antiinflamatoare, miorelaxantă și vasodilatatoare a Cataplasmei noastre Galenice oferă o ameliorare rapidă în cazurile menționate.",
+            "p4": "Compresa cu cataplasmă ajută la reducerea treptată a inflamației articulare, favorizează autorepararea țesutului afectat prin reînnoire celulară și lubrifiază cartilajul uzat datorită vascularizării. În plus, principiile active foarte pure, extrase din plante medicinale, reduc edemul provocat de reumatism, care altfel ar duce la rigiditate și durere în timpul mișcărilor."
+          },
+          "neurological": {
+            "label": "Neurologic",
+            "p1": "În cadrul problemelor legate de coloana vertebrală, tratăm cu succes diferite tipuri de nevralgii cauzate de nevrite și radiculite.",
+            "p2": "Nevrita este inflamația tecii de mielină care protejează nervul. Ea poate fi declanșată de afecțiuni discale, precum herniile și protruziile, care, în anumite condiții, comprimă rădăcina nervoasă și generează durere. Acțiunea antiinflamatoare a compresei readuce țesutul discal la o stare normală, crescând hidratarea și reducând inflamația terminațiilor nervoase afectate. Aceasta acționează și asupra tecii de mielină, hrănind-o și readucând-o la normal.",
+            "p3": "Ca întotdeauna, este bine să intervii imediat ce apare unul dintre simptome, pentru a calma rapid durerea acută și a preveni eventualele leziuni cauzate de aceste probleme. Tratamentul nostru îți va permite să îți îmbunătățești calitatea vieții, fără să fii nevoit să atenuezi disconfortul cu antiinflamatoare (AINS) și fără repaus complet al zonei afectate."
+          },
+          "respiratory": {
+            "label": "Respirator",
+            "p1": "Principiile active din Cataplasma noastră Galenică acționează asupra mucoaselor inflamate sau hipertrofiate, îmbunătățind oxigenarea țesuturilor și funcția respiratorie. În același timp, efectul antiseptic și mucolitic al compresei combate acțiunea virusurilor și a bacteriilor și fluidizează rapid mucusul și secrețiile căilor respiratorii.",
+            "p2": "Acest tratament natural poate fi aplicat și copiilor."
+          },
+          "circulatory": {
+            "label": "Circulator",
+            "p1": "Compresa noastră acționează prin creșterea aportului de sânge la nivelul membrelor inferioare; această vascularizare activează eficient atât sistemul limfatic, cât și microcirculația sanguină, drenând excesul de lichide și eliminând toxinele. Efectele inestetice ale retenției de apă se reduc vizibil, iar picioarele devin imediat mai dezumflate și mai ușoare.",
+            "p2": "Proprietatea sa antiinflamatoare acționează asupra venelor inflamate, tratând cu succes varicele și flebita.",
+            "p3": "În final, acțiunea antibacteriană a cataplasmei previne formarea leziunilor în cazurile cele mai severe sau, dacă acestea sunt deja prezente, împiedică infecțiile și le stimulează vindecarea."
+          },
+          "visceral": {
+            "label": "Visceral",
+            "p1": "Anii de utilizare a compresei noastre brevetate ne-au permis să îi confirmăm eficiența și la nivel visceral. Organele interne beneficiază de principiile fitoterapeutice ale cataplasmei, absorbite prin piele prin aplicarea acesteia pe abdomen.",
+            "p2": "Acest efect benefic este dat de oxigenarea sângelui, care generează o acțiune detoxifiantă asupra organelor interne, dar și de proprietățile antiinflamatoare și miorelaxante, utile în caz de inflamații, infecții, crampe și dureri abdominale (de exemplu, colită și gastrită)."
+          },
+          "cutaneous": {
+            "label": "Cutanat",
+            "p1": "Problemele pielii aduc adesea disconfort și jenă celor care suferă de ele, la orice vârstă. Datorită Compresei noastre cu Cataplasmă Galenică, am ajutat sute de adolescenți — și nu numai — să depășească aceste dificultăți, intervenind la rădăcina problemei, nu doar la suprafață.",
+            "p2": "Acțiunea sa reduce în profunzime inflamația zonei afectate și previne apariția unor noi erupții, datorită proprietăților antibacteriene, calmând totodată cicatricile pe care aceste afecțiuni le lasă uneori pe piele. Hrănirea, combinată cu acțiunea antiinflamatoare, curăță foliculii, iar întărirea microcirculației oxigenează dermul, făcând pielea luminoasă. Rezultatul general este o îmbunătățire clară, vizibilă și de durată."
+          }
+        }
+      },
+      "issues": {
+        "heading": "Afecțiuni tratate cu succes",
+        "subtitle": "O selecție a afecțiunilor asupra cărora Compresa noastră cu Cataplasmă Galenică și-a dovedit eficiența.",
+        "items": {
+          "shoulder": {
+            "title": "Probleme ale umărului",
+            "desc": "Umărul, la fel ca celelalte articulații ale corpului, poate fi expus reumatismului, artrozei și artritei, care provoacă dureri supărătoare și rigiditate în mișcările de zi cu zi."
+          },
+          "knee": {
+            "title": "Probleme ale genunchiului",
+            "desc": "Aplicarea compresei noastre este utilă în cazul problemelor genunchiului, în special la nivelul meniscului sau al rotulei, precum și după implantarea chirurgicală a unei proteze — atât pentru a calma durerea, cât și pentru a favoriza o recuperare postoperatorie eficientă."
+          },
+          "handElbow": {
+            "title": "Probleme ale mâinii și cotului",
+            "desc": "Sindromul de tunel carpian este o problemă răspândită pe care o tratăm frecvent. Este cauzat de inflamația cronică a tecii tendoanelor flexorilor, care comprimă nervul median."
+          },
+          "foot": {
+            "title": "Probleme ale piciorului",
+            "desc": "Printre problemele piciorului pe care le tratăm eficient de mulți ani se numără: traumatismele sportive (de exemplu, întinderile), hallux valgus, inflamația metatarsului, fasciita plantară și pintenul calcanean."
+          },
+          "neuralgia": {
+            "title": "Nevralgii și radiculite",
+            "desc": "Radiculita este stadiul inițial al nevritei. Ea apare în urma unui proces inflamator la rădăcina unui nerv."
+          },
+          "spine": {
+            "title": "Probleme ale coloanei vertebrale",
+            "desc": "Problemele pe care pacienții ni le-au semnalat cel mai frecvent în aproape 70 de ani de activitate sunt: durerile de spate cauzate de lumbago acut, protruzii și hernii."
+          },
+          "respiratory": {
+            "title": "Afecțiuni ale aparatului respirator",
+            "desc": "De la cele mai comune răceli și tuse, până la rinite, sinuzite și bronșite, compresa este un aliat de nădejde pentru a le preveni sau a le trata rapid."
+          },
+          "circulatory": {
+            "title": "Insuficiență circulatorie",
+            "desc": "Modificările sistemului sanguin și limfatic duc la stagnarea lichidelor, având ca rezultat umflarea picioarelor și a gleznelor și o senzație de greutate."
+          },
+          "skin": {
+            "title": "Probleme ale pielii",
+            "desc": "Fața este cartea noastră de vizită, de aceea afecțiuni precum dermatita, psoriazisul, acneea și rozaceea provoacă adesea disconfort și jenă la orice vârstă."
+          },
+          "abdominal": {
+            "title": "Dureri abdominale",
+            "desc": "Datorită compresei abdominale, ficatul este detoxifiat, intestinele funcționează mai eficient, iar durerile invalidante cauzate de afecțiuni precum endometrioza se reduc semnificativ; disconfortul provocat de colită, gastrită sau durerile menstruale este, de asemenea, atenuat de efectul miorelaxant."
+          }
+        }
       },
       "cta": {
         "heading": "Programează-ți ședința de fitoterapie",

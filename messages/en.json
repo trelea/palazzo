@@ -33,23 +33,23 @@
     "hero": {
       "headline": "Nature and science,",
       "headlineAccent": "in balance",
-      "subtitle": "Proven physiotherapy and the gentle power of medicinal herbs — care for body and mind.",
+      "subtitle": "Plant-based aesthetic care and the gentle power of medicinal herbs — beauty and wellbeing for body and mind.",
       "ctaBook": "Book a free trial",
       "ctaLearn": "Our story"
     },
     "intro": {
       "heading": "Palazzo Aesthetics",
-      "body": "We combine hands-on physiotherapy with the time-honoured tradition of phytotherapy. Our historical roots, paired with continuous medical training, let us offer a natural and effective solution for every need — for your health and your beauty alike.",
-      "physioLine": "Hands-on rehabilitation that restores movement and eases pain.",
+      "body": "We combine modern phyto-aesthetic care with the time-honoured tradition of phytotherapy. Our historical roots, paired with continuous medical training, let us offer a natural and effective solution for every need — for your health and your beauty alike.",
+      "aestheticsLine": "Plant-powered aesthetic treatments that tone, sculpt and let your skin glow.",
       "phytoLine": "Plant-based remedies drawn from a long phytotherapy tradition."
     },
     "services": {
       "title": "Our services",
-      "physiotherapyDesc": "Personalised manual therapy and rehabilitation to relieve pain, restore mobility and rebuild strength. Every programme is tailored to your body — combining hands-on techniques, targeted exercise and recovery guidance to get you moving freely and confidently again.",
+      "phytoaesteticaDesc": "Customised phyto-aesthetic programmes and products developed through over 65 years of experience and research into the beneficial properties of medicinal plants. Treatments that leave your skin radiant, rejuvenated and toned and visibly reduce the signs of cellulite — all while you relax.",
       "phytotherapyDesc": "The healing properties of officinal herbs, harnessed in treatments and care rituals for body and mind. Our signature herbal compress and natural extracts work gently with your body to soothe inflammation, restore balance and support lasting, everyday wellbeing.",
       "serviceLabel": "Service",
       "focusLabel": "Focus",
-      "physiotherapyFocus": "Pain relief & mobility",
+      "phytoaesteticaFocus": "Skin toning & contouring",
       "phytotherapyFocus": "Natural herbal care",
       "discover": "Discover",
       "trialTitle": "New here?",
@@ -58,11 +58,11 @@
     },
     "stats": {
       "title": "Tradition and research for the care of your body",
-      "subtitle": "Through research and innovation we maximise the efficacy of herbal extracts and proven physiotherapy.",
+      "subtitle": "Through research and innovation we maximise the efficacy of herbal extracts and our phyto-aesthetic treatments.",
       "yearsLabel": "Years of experience",
       "yearsDesc": "Decades of hands-on practice refining every treatment we offer.",
       "treatmentsLabel": "Treatments offered",
-      "treatmentsDesc": "A broad range of physiotherapy and phytotherapy programmes.",
+      "treatmentsDesc": "A broad range of phyto-aesthetic and phytotherapy programmes.",
       "clientsLabel": "Happy clients",
       "clientsDesc": "People who trusted us with their recovery and wellbeing.",
       "satisfactionLabel": "Would recommend us",
@@ -71,14 +71,14 @@
     "featured": {
       "eyebrow": "Uniqueness & certified quality",
       "title": "The heart of our care: the Officinal Herbal Pack",
-      "body": "Our signature herbal compress, with its powerful natural anti-inflammatory action, is the versatile base across all our specializations — from physiotherapy to phytotherapy. Crafted with respect for nature, it is the essence of everything we do.",
+      "body": "Our signature herbal compress, with its powerful natural anti-inflammatory action, is the versatile base across all our specializations — from phyto-esthetics to phytotherapy. Crafted with respect for nature, it is the essence of everything we do.",
       "cta": "Explore phytotherapy"
     },
     "story": {
       "heading": "Our story",
       "lead": "Palazzo started with a simple belief — that real care comes from people, not just protocols.",
-      "body1": "What began as a small clinic is today a close-knit team of physiotherapists and wellbeing specialists who share one goal: helping you move, feel and live better.",
-      "body2": "Everyone brings their own expertise, but we work as one — pairing hands-on physiotherapy with the natural power of phytotherapy to treat the whole person, not just the symptom.",
+      "body1": "What began as a small clinic is today a close-knit team of aesthetic and wellbeing specialists who share one goal: helping you feel, look and live better.",
+      "body2": "Everyone brings their own expertise, but we work as one — pairing phyto-aesthetic care with the natural power of phytotherapy to treat the whole person, not just the symptom.",
       "body3": "We learn together, grow together and stay close to the people we care for. That's the Palazzo difference: modern methods with genuine, human attention.",
       "motto": "In natura, vita."
     },
@@ -102,11 +102,11 @@
     }
   },
   "Meta": {
-    "tagline": "Physiotherapy & Phytotherapy",
-    "description": "Palazzo Aesthetics — physiotherapy and phytotherapy clinic in Chișinău. Evidence-led care for body and mind: pain relief, mobility and natural plant-based therapies. Book your appointment online.",
+    "tagline": "Phyto-Esthetics & Phytotherapy",
+    "description": "Palazzo Aesthetics — phyto-esthetics and phytotherapy clinic in Chișinău. Natural care for body and mind: skin toning, body contouring and plant-based therapies. Book your appointment online.",
     "about": {
       "title": "About us",
-      "description": "Discover the story of Palazzo Aesthetics — a family tradition of care since 1956, uniting evidence-led physiotherapy and natural phytotherapy in Chișinău."
+      "description": "Discover the story of Palazzo Aesthetics — a family tradition of care since 1956, uniting plant-based aesthetics and natural phytotherapy in Chișinău."
     },
     "contacts": {
       "title": "Contact",
@@ -116,9 +116,9 @@
       "title": "News",
       "description": "Updates, events and health tips from the Palazzo Aesthetics team in Chișinău."
     },
-    "physiotherapy": {
-      "title": "Physiotherapy",
-      "description": "Evidence-led physiotherapy in Chișinău: pain relief, mobility and recovery with personalised treatment plans. Book your session at Palazzo Aesthetics."
+    "phytoaestetica": {
+      "title": "Phyto-Esthetics",
+      "description": "Phyto-aesthetic treatments in Chișinău: body contouring, skin toning and cellulite reduction with personalised plant-based programmes. Book at Palazzo Aesthetics."
     },
     "phytotherapy": {
       "title": "Phytotherapy",
@@ -129,7 +129,7 @@
     "home": "Home",
     "about": "About",
     "services": "Services",
-    "physiotherapy": "Physiotherapy",
+    "phytoaestetica": "Phyto-Esthetics",
     "phytotherapy": "Phytotherapy",
     "news": "News",
     "contact": "Contact",
@@ -165,16 +165,16 @@
   },
   "AboutPage": {
     "title": "About us",
-    "lead": "We're a team of physiotherapists and wellbeing specialists who believe care should be personal, natural and grounded in evidence.",
+    "lead": "We're a team of aesthetic and wellbeing specialists who believe care should be personal, natural and grounded in evidence.",
     "story": {
       "heading": "Our story",
       "body1": "Palazzo began with a small clinic and a big conviction — that real recovery comes from treating the whole person, not just the symptom.",
-      "body2": "Over the years we've grown into a multidisciplinary practice, pairing hands-on physiotherapy with the natural power of phytotherapy under one roof.",
+      "body2": "Over the years we've grown into a multidisciplinary practice, pairing phyto-aesthetic care with the natural power of phytotherapy under one roof.",
       "body3": "Today that same conviction guides everything we do: modern methods, natural remedies and the patience to see each person through to lasting results."
     },
     "who": {
       "heading": "Who we are",
-      "body1": "Behind Palazzo is a close-knit team of physiotherapists, movement specialists and phytotherapy experts who genuinely love what they do.",
+      "body1": "Behind Palazzo is a close-knit team of aesthetic specialists and phytotherapy experts who genuinely love what they do.",
       "body2": "We learn together, share what works, and stay close to the people we care for — so every plan is built around you, not a template."
     },
     "why": {
@@ -183,7 +183,7 @@
       "evidenceTitle": "Evidence-led care",
       "evidenceDesc": "Every treatment is grounded in current research and proven clinical practice.",
       "naturalTitle": "Natural therapies",
-      "naturalDesc": "We combine physiotherapy with phytotherapy to support your body the gentle way.",
+      "naturalDesc": "We combine phyto-esthetics with phytotherapy to support your body the gentle way.",
       "personalTitle": "Personalised plans",
       "personalDesc": "No two bodies are the same — your programme is built around your goals and history.",
       "teamTitle": "Specialist team",
@@ -201,58 +201,93 @@
       "satisfactionLabel": "Satisfaction",
       "satisfactionDesc": "Clients who'd recommend Palazzo to friends and family.",
       "teamLabel": "Specialists",
-      "teamDesc": "Therapists and experts across physiotherapy and phytotherapy.",
+      "teamDesc": "Therapists and experts across phyto-esthetics and phytotherapy.",
       "experienceLabel": "Years of care",
       "experienceDesc": "Refining our approach and growing alongside our community."
     },
     "services": {
       "heading": "Our services",
       "subtitle": "Two disciplines, one integrated approach to your health.",
-      "physiotherapyDesc": "Hands-on assessment, rehabilitation and movement therapy to restore strength and mobility.",
+      "phytoaesteticaDesc": "Plant-based aesthetic programmes that tone the skin, reduce cellulite and restore natural radiance.",
       "phytotherapyDesc": "Natural, plant-based remedies that complement your treatment and support recovery.",
       "cta": "Learn more"
     }
   },
   "ServicePages": {
-    "physiotherapy": {
+    "phytoaestetica": {
       "hero": {
-        "title": "Move better with",
-        "titleAccent": "Physiotherapy",
-        "subtitle": "Hands-on, evidence-based treatment to relieve pain, restore movement and get you back to doing what you love.",
+        "title": "Feel beautiful with",
+        "titleAccent": "Phyto-Esthetics",
+        "subtitle": "Customised phyto-aesthetic programmes born from over 65 years of research into medicinal plants — radiant, toned skin through the excellence of nature and science.",
         "cta": "Book an appointment"
       },
       "description": {
-        "heading": "What is physiotherapy?",
-        "body1": "Physiotherapy is a hands-on, movement-based therapy that assesses and treats the root cause of pain and restricted mobility — not just the symptoms.",
-        "body2": "At Palazzo, every session begins with a thorough assessment. From there your physiotherapist designs a tailored programme of manual therapy, targeted exercise and modern techniques to rebuild strength, flexibility and confidence."
+        "heading": "What is phyto-esthetics?",
+        "body1": "Phyto-esthetics harnesses the beneficial properties of medicinal plants in customised aesthetic programmes and products, developed through more than 65 years of experience and research.",
+        "body2": "At Palazzo, our specialised staff is at your disposal to design your personalised programme — only the excellence of nature and science, to make you feel better inside and appreciate yourself more outside."
       },
       "helps": {
-        "heading": "How physiotherapy helps",
-        "body": "Whether you're recovering from an injury, managing a chronic condition or simply moving less freely than you'd like, physiotherapy meets you where you are and guides you forward.",
-        "point1": "Relieves acute and chronic pain without relying on medication.",
-        "point2": "Restores joint mobility, muscle strength and balance.",
-        "point3": "Speeds recovery after injury, surgery or sport.",
-        "point4": "Prevents re-injury with lasting movement habits."
+        "heading": "How phyto-esthetics helps",
+        "body": "The time spent pampering yourself is never wasted: every treatment combines deep relaxation with visible results, working gently with your skin and body.",
+        "point1": "Restores radiant, rejuvenated and toned skin.",
+        "point2": "Visibly reduces the signs of cellulite.",
+        "point3": "Firms and sculpts the silhouette with plant-based care.",
+        "point4": "Lets you unwind completely while the treatment works."
       },
-      "benefits": {
-        "heading": "The benefits you'll feel",
-        "subtitle": "What physiotherapy at Palazzo gives you, session after session.",
-        "item1Title": "Less pain",
-        "item1Desc": "Targeted treatment that calms pain at its source.",
-        "item2Title": "Better mobility",
-        "item2Desc": "Move more freely, with greater range and ease.",
-        "item3Title": "Faster recovery",
-        "item3Desc": "Get back to work, sport and life sooner.",
-        "item4Title": "More strength",
-        "item4Desc": "Rebuild the muscle and stability you've lost.",
-        "item5Title": "Lasting results",
-        "item5Desc": "Habits and exercises that keep you well long-term.",
-        "item6Title": "Personal guidance",
-        "item6Desc": "A dedicated therapist with you at every step."
+      "treatments": {
+        "heading": "PhytoTreatments",
+        "subtitle": "A complete path to natural beauty — from consultation to treatment, nutrition and mindset.",
+        "tabs": {
+          "consultation": {
+            "label": "Consultation",
+            "title": "Initial Physio-Aesthetic Consultation",
+            "p1": "Physio-aesthetics arises from the union of physiotherapy and aesthetic medicine, in order to identify and treat the conditions that cause skin imperfections. Unlike aesthetics, which acts on the skin only from the outside, it intervenes in the physiological functions of the body to give it a natural beauty.",
+            "p2": "Wellness is restored through advanced non-invasive treatments and exclusive phytotherapeutic products with slimming, anti-cellulite, toning, anti-aging and draining effects."
+          },
+          "cellularReactivation": {
+            "label": "Cellular reactivation",
+            "h1": "Phytotherapy cellular reactivation for the Face",
+            "p1": "In December 2022 we launched the new Re-GEN Face Mask.",
+            "p2": "Our Galenic Cataplasm, adapted for facial skin and enriched with anti-aging active ingredients, is the basis of the product. It is spread on an elegant golden silicone mask that adapts to every face shape.",
+            "p3": "Scientific tests have shown its ability to stimulate cell turnover, eliminate dead cells, slow aging, tone tissues and smooth wrinkles, drain and deflate the bags under the eyes, and capture the free radicals that dull the complexion and cause impurities. The active ingredients penetrate deep into the layers of the skin thanks to ozonisation, a special processing technique developed in our laboratories.",
+            "p4": "Your skin will be regenerated in just one hour!",
+            "h2": "Phytotherapy cellular reactivation for the Body",
+            "p5": "Our exclusive Galenic Cataplasm Compress was created in 1956 and has been constantly improved ever since. It is our flagship treatment, combining a healing effect with aesthetic improvement.",
+            "p6": "The Compress has a powerful anti-inflammatory action, promoting cellular reactivation, the absorption of the body fluids that cause water retention, and the reduction of localised fat in critical areas.",
+            "p7": "The result? Detoxified tissues, toned skin and visibly reduced blemishes."
+          },
+          "lymphaticDrainage": {
+            "label": "Lymphatic Drainage",
+            "title": "Advanced Manual Lymphatic Drainage",
+            "p1": "A special type of physiotherapy massage whose manoeuvres boost or reactivate proper lymphatic circulation and eliminate excess interstitial fluid.",
+            "p2": "Thanks to a specialisation course in Advanced Manual Lymphatic Drainage, our physiotherapists can effectively use three different techniques according to the patient's needs: the Leduc, Vodder and Belgrade techniques.",
+            "p3": "The ultimate goal is to restore the person's psychophysical well-being, acting at the root of medical issues with aesthetic implications such as cellulite, water retention, swelling, lymphoedema, lipoedema and circulatory failure. It also helps you eliminate drug residues and food toxins and strengthens your immune system."
+          },
+          "posturalReeducation": {
+            "label": "Postural re-education",
+            "p1": "A frequent mistake is to underestimate the influence of posture on the proper functioning of the body and on its imperfections, such as cellulite and abdominal bloating.",
+            "p2": "Through targeted postural re-education, the goal is to bring the body back to a state of overall well-being."
+          },
+          "nutrition": {
+            "label": "Nutrition",
+            "p1": "We will lead you to your ideal diet and supplementation plan through an innovative path — without imposed fasting, calorie counting or complicated recipes.",
+            "p2": "Our modern approach is suitable for those who have little time but do not want to give up a healthy diet."
+          },
+          "personalTraining": {
+            "label": "Personal Training",
+            "p1": "With a background in competitive sports and qualifications as both an instructor and a specialised physiotherapist, our personal trainer will create an effective, personalised training plan tailored to your needs.",
+            "p2": "Working together, you'll find the physical activity that best suits your lifestyle, taking into account your schedule and personal preferences."
+          },
+          "mentalCoaching": {
+            "label": "Mental Coaching",
+            "p1": "A key factor in any wellness journey is maintaining a positive mindset towards eating habits and body image. That's why your journey is guided by a certified Mindfulness Facilitator.",
+            "p2": "Throughout your journey, you'll receive support and motivation whenever you face challenges or uncertainties. Through these sessions, you'll develop a healthy and mindful relationship with both food and your body."
+          }
+        }
       },
       "cta": {
-        "heading": "Book your physiotherapy session",
-        "body": "Take the first step towards moving and feeling better. Our team is ready to help.",
+        "heading": "Book your phyto-esthetics experience",
+        "body": "Book your tailored advice and first experience now — guaranteed results, naturally.",
         "button": "Book now"
       }
     },
@@ -273,24 +308,94 @@
         "body": "Plant-based therapy works with your body rather than against it, offering gentle, effective support for a wide range of everyday concerns.",
         "point1": "Calms inflammation with potent natural compounds.",
         "point2": "Supports the immune system and overall vitality.",
-        "point3": "Complements physiotherapy and speeds recovery.",
+        "point3": "Supports the body's natural recovery and regeneration.",
         "point4": "Promotes relaxation, better sleep and balance."
       },
       "benefits": {
         "heading": "The benefits you'll feel",
         "subtitle": "What phytotherapy at Palazzo gives you, naturally.",
-        "item1Title": "Natural relief",
-        "item1Desc": "Gentle remedies that work with your body.",
-        "item2Title": "Less inflammation",
-        "item2Desc": "Plant compounds that soothe and calm.",
-        "item3Title": "Stronger immunity",
-        "item3Desc": "Support your body's natural defences.",
-        "item4Title": "More energy",
-        "item4Desc": "Restore vitality and everyday balance.",
-        "item5Title": "Better rest",
-        "item5Desc": "Calm the mind and sleep more deeply.",
-        "item6Title": "Whole-body care",
-        "item6Desc": "Treating the person, not just the symptom."
+        "tabs": {
+          "muscleJoint": {
+            "label": "Muscle-joint",
+            "p1": "Joints are frequently affected by rheumatism; it is estimated that over 5 million people worldwide suffer from it. Rheumatism generally refers to an inflammatory state of the joints and their structures which, in its most advanced stage, also affects tissues and internal organs.",
+            "p2": "Arthritis and arthrosis are two different types of rheumatism. Arthrosis is the most common form: it is caused by the progressive degeneration of the cartilage that protects the bones of the joints and causes pain that becomes increasingly disabling over time. There is a clear genetic predisposition, but it manifests itself under external influences such as viruses, bacteria, mechanical stress and hormonal factors. Arthritis, on the other hand, is the inflammation of the joint itself, which can occur at any age.",
+            "p3": "The anti-inflammatory, muscle-relaxant and vasodilatory action of our Galenic Cataplasm brings rapid relief in these cases.",
+            "p4": "The Cataplasm Compress helps gradually reduce joint inflammation, promotes self-repair of damaged tissue through cellular renewal, and lubricates worn cartilage thanks to improved vascularisation. Moreover, the highly pure active ingredients extracted from medicinal plants reduce the oedema caused by rheumatism, which would otherwise lead to stiffness and pain during movement."
+          },
+          "neurological": {
+            "label": "Neurological",
+            "p1": "Among the problems related to the spine, we successfully treat various types of neuralgia caused by neuritis and radiculitis.",
+            "p2": "Neuritis is the inflammation of the myelin sheath that protects the nerve. It can be triggered by disc problems, such as hernias and protrusions, which under certain conditions compress the nerve root and generate pain. The anti-inflammatory action of the Compress brings the disc tissue back to a healthy state, increasing hydration and reducing the inflammation of the affected nerve endings. It also acts on the myelin sheath, nourishing it and restoring it to normal.",
+            "p3": "As always, it is best to intervene as soon as one of the symptoms appears, to quickly relieve the acute pain and prevent the possible damage caused by these problems. Our treatment will improve your quality of life, without having to ease the discomfort with NSAIDs or being forced into complete rest of the affected area."
+          },
+          "respiratory": {
+            "label": "Respiratory",
+            "p1": "The active ingredients contained in our Galenic Cataplasm act on inflamed or hypertrophic mucous membranes, improving tissue oxygenation and respiratory function. At the same time, the antiseptic and mucolytic effect of the Compress counteracts the action of viruses and bacteria and quickly thins the mucus and phlegm of the respiratory system.",
+            "p2": "This natural treatment can also be applied to children."
+          },
+          "circulatory": {
+            "label": "Circulatory",
+            "p1": "Our Compress works by increasing the blood supply to the lower limbs; this vascularisation effectively activates both the lymphatic system and blood microcirculation, draining excess fluid and eliminating toxins. The unaesthetic effects of water retention are visibly reduced, and the legs immediately feel less swollen and lighter.",
+            "p2": "Its anti-inflammatory property acts on inflamed veins, successfully treating varicose veins and phlebitis.",
+            "p3": "Finally, the antibacterial action of the Cataplasm prevents the formation of lesions in the most severe cases or, if they are already present, fights infections and encourages their healing."
+          },
+          "visceral": {
+            "label": "Visceral",
+            "p1": "Years of use of our patented Compress have allowed us to confirm its effectiveness at the visceral level as well. The internal organs benefit from the phytotherapeutic principles of the Cataplasm, absorbed through the skin when applied to the abdomen.",
+            "p2": "This beneficial effect comes from the oxygenation of the blood, which produces a detoxifying action on the internal organs, but also from the anti-inflammatory and muscle-relaxing properties — useful in cases of inflammation, infections, cramps and abdominal pain (e.g. colitis and gastritis)."
+          },
+          "cutaneous": {
+            "label": "Cutaneous",
+            "p1": "Skin problems often bring discomfort and embarrassment to those who suffer from them, at any age. Thanks to our Galenic Cataplasm Compress, we have helped hundreds of teenagers — and not only them — overcome these difficulties, by addressing the root of the problem rather than just its surface.",
+            "p2": "Its action deeply reduces inflammation of the affected area and prevents new outbreaks thanks to its antibacterial properties, while also soothing the scars these conditions sometimes leave on the skin. The nourishment combined with the anti-inflammatory action cleanses the follicles, and the strengthened microcirculation oxygenates the dermis, leaving the skin glowing. The overall result is a clear, visible and lasting improvement."
+          }
+        }
+      },
+      "issues": {
+        "heading": "Issues treated successfully",
+        "subtitle": "A selection of the conditions our Galenic Cataplasm Compress has proven effective on.",
+        "items": {
+          "shoulder": {
+            "title": "Shoulder problems",
+            "desc": "The shoulder, like the other joints of the body, can be affected by rheumatism, arthrosis and arthritis, which cause annoying pain and stiffness in daily movements."
+          },
+          "knee": {
+            "title": "Knee problems",
+            "desc": "The application of our Compress is helpful in case of knee problems, particularly of the meniscus or patella, and after the surgical implantation of a prosthesis — both to ease the pain and to promote an effective post-surgical recovery."
+          },
+          "handElbow": {
+            "title": "Hand and elbow problems",
+            "desc": "Carpal tunnel syndrome is a widespread issue that we often treat. It is caused by chronic inflammation of the tendon lining of the flexors, which compresses the median nerve."
+          },
+          "foot": {
+            "title": "Foot problems",
+            "desc": "Among the foot problems we have been treating effectively for many years are: sports traumas (e.g. strains), hallux valgus, inflammation of the metatarsus, plantar fasciitis and heel spur."
+          },
+          "neuralgia": {
+            "title": "Neuralgia and radiculitis",
+            "desc": "Radiculitis is the initial stage of neuritis. It arises from an inflammatory process at the root of a nerve."
+          },
+          "spine": {
+            "title": "Spine problems",
+            "desc": "The problems patients have most frequently reported to us in almost 70 years of activity are: back pain caused by acute lumbago, protrusions and hernias."
+          },
+          "respiratory": {
+            "title": "Diseases of the respiratory system",
+            "desc": "From the most common cold and cough to rhinitis, sinusitis and bronchitis, the Compress is a great ally to prevent them or treat them quickly."
+          },
+          "circulatory": {
+            "title": "Circulatory failure",
+            "desc": "Changes in the blood and lymphatic systems lead to fluid stagnation, resulting in swollen legs and ankles and a feeling of heaviness."
+          },
+          "skin": {
+            "title": "Skin problems",
+            "desc": "Our face is our calling card, which is why issues such as dermatitis, psoriasis, acne and rosacea often cause discomfort and embarrassment at any age."
+          },
+          "abdominal": {
+            "title": "Abdominal pain",
+            "desc": "Thanks to the abdominal Compress, the liver is detoxified, the intestines work more effectively, and the disabling pain caused by conditions such as endometriosis is significantly reduced; the discomfort of colitis, gastritis or menstrual pain is equally relieved by the muscle-relaxant effect."
+          }
+        }
       },
       "cta": {
         "heading": "Book your phytotherapy session",

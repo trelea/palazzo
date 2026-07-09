@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { useTranslations } from 'next-intl'
-import { ArrowRight, ChevronDown, HeartPulse, Leaf, Menu } from 'lucide-react'
+import { ArrowRight, ChevronDown, Leaf, Menu, Sparkles } from 'lucide-react'
 
 import { Link, usePathname } from '@/i18n/navigation'
 import { NAV_ITEMS, LOGO_SRC, type ServiceKey } from '@/lib/site'
@@ -25,7 +25,7 @@ import {
 
 /** Icon per discipline — mirrors the desktop services menu. */
 const SERVICE_ICON: Record<ServiceKey, typeof Leaf> = {
-  physiotherapy: HeartPulse,
+  phytoaestetica: Sparkles,
   phytotherapy: Leaf,
 }
 

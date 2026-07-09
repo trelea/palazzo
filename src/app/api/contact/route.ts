@@ -16,7 +16,7 @@ import { ContactEmail } from '@/components/emails/contact-email'
  */
 
 const FROM_EMAIL = process.env.CONTACT_FROM_EMAIL ?? 'Palazzo Aesthetics <onboarding@resend.dev>'
-const TO_EMAIL = process.env.CONTACT_TO_EMAIL ?? 'rcv.hw.oficial@gmail.com'
+const TO_EMAIL = process.env.CONTACT_TO_EMAIL ?? 'palazzo.aesthetics@gmail.com'
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 

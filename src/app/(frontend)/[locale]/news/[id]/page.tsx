@@ -22,6 +22,8 @@ import {
 import { cn } from '@/lib/utils'
 import { lexicalExcerpt } from '@/lib/lexical'
 import { newsDesc, newsTitle, type AppLocale } from '@/lib/news'
+import { newsArticleJsonLd } from '@/lib/schema'
+import { JsonLd } from '@/components/json-ld'
 import { pageMetadata } from '@/lib/seo'
 import type { Media, News } from '@/payload-types'
 
@@ -97,6 +99,7 @@ export default async function NewsDetail({ params }: Props) {
 
   return (
     <div className="relative isolate">
+      <JsonLd data={newsArticleJsonLd(doc, locale, hero?.url ?? undefined)} />
       {/* Subtle left-to-right brand fade across the full page height. */}
       <div
         aria-hidden="true"

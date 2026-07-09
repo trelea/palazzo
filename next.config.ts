@@ -16,6 +16,20 @@ const nextConfig = {
   },
   serverExternalPackages: ['jose'],
 
+  // Physiotherapy was replaced by phyto-esthetics; keep old indexed URLs alive.
+  redirects: async () => [
+    {
+      source: '/physiotherapy',
+      destination: '/phytoaestetica',
+      permanent: true,
+    },
+    {
+      source: '/:locale(ro|en|ru)/physiotherapy',
+      destination: '/:locale/phytoaestetica',
+      permanent: true,
+    },
+  ],
+
   // Your Next.js config here
   webpack: (webpackConfig: any, { isServer, webpack }: any) => {
     webpackConfig.resolve.extensionAlias = {

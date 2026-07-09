@@ -3,16 +3,14 @@ import configPromise from '@payload-config'
 import { getPayload } from 'payload'
 
 import { routing } from '@/i18n/routing'
-import { SITE_URL, localePath } from '@/lib/seo'
+import { SITE_URL, hreflangLanguages, localePath } from '@/lib/seo'
 
 /** Locale-agnostic static frontend routes. */
-const STATIC_PATHS = ['/', '/about-us', '/physiotherapy', '/phytotherapy', '/news', '/contacts']
+const STATIC_PATHS = ['/', '/about-us', '/phytoaestetica', '/phytotherapy', '/news', '/contacts']
 
 /** One sitemap entry per locale URL, each carrying the full hreflang set. */
 function entriesFor(path: string, lastModified?: Date): MetadataRoute.Sitemap {
-  const languages = Object.fromEntries(
-    routing.locales.map((l) => [l, `${SITE_URL}${localePath(l, path)}`]),
-  )
+  const languages = hreflangLanguages(path, SITE_URL)
   return routing.locales.map((locale) => ({
     url: `${SITE_URL}${localePath(locale, path)}`,
     lastModified,

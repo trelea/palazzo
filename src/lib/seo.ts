@@ -17,16 +17,25 @@ export function localePath(locale: string, path: string): string {
 }
 
 /**
+ * hreflang map (ro/en/ru + x-default → default locale) for one locale-agnostic
+ * path. Shared by the head metadata (relative URLs, resolved against
+ * `metadataBase`) and the sitemap (`base = SITE_URL` for absolute URLs).
+ */
+export function hreflangLanguages(path: string, base = ''): Record<string, string> {
+  return {
+    ...Object.fromEntries(routing.locales.map((l) => [l, `${base}${localePath(l, path)}`])),
+    'x-default': `${base}${localePath(routing.defaultLocale, path)}`,
+  }
+}
+
+/**
  * Canonical + hreflang alternates for one locale-agnostic path. Relative URLs
  * — resolved against `metadataBase` (set in the locale layout).
  */
 export function languageAlternates(locale: string, path: string): Metadata['alternates'] {
   return {
     canonical: localePath(locale, path),
-    languages: {
-      ...Object.fromEntries(routing.locales.map((l) => [l, localePath(l, path)])),
-      'x-default': localePath(routing.defaultLocale, path),
-    },
+    languages: hreflangLanguages(path),
   }
 }
 

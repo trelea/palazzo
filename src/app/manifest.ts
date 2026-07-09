@@ -8,10 +8,11 @@ import type { MetadataRoute } from 'next'
  */
 export default function manifest(): MetadataRoute.Manifest {
   return {
+    lang: 'ro',
     name: 'Palazzo Aesthetics',
     short_name: 'Palazzo',
     description:
-      'Clinică de fizioterapie și fitoterapie în Chișinău — îngrijire pentru corp și minte.',
+      'Clinică de fitoestetică și fitoterapie în Chișinău — îngrijire pentru corp și minte.',
     start_url: '/',
     display: 'standalone',
     background_color: '#F2F1EE',

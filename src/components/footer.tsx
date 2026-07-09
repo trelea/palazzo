@@ -2,7 +2,7 @@ import { useTranslations } from 'next-intl'
 import { Clock, Mail, MapPin, Phone } from 'lucide-react'
 
 import { Link } from '@/i18n/navigation'
-import { NAV_LINKS, SERVICE_LINKS, CONTACT, LOGO_SRC } from '@/lib/site'
+import { NAV_LINKS, SERVICE_LINKS, CONTACT, LOGO_SRC, OPENING_HOURS_LABEL } from '@/lib/site'
 
 function InstagramIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
@@ -148,10 +148,10 @@ export default function Footer() {
                 <Clock className="mt-0.5 size-4 shrink-0 text-brand" />
                 <span className="space-y-0.5">
                   <span className="block">
-                    {t('weekdays')}: <span className="text-foreground/80">09:00 – 20:00</span>
+                    {t('weekdays')}: <span className="text-foreground/80">{OPENING_HOURS_LABEL}</span>
                   </span>
                   <span className="block">
-                    {t('saturday')}: <span className="text-foreground/80">10:00 – 16:00</span>
+                    {t('saturday')}: <span className="text-foreground/80">{t('closed')}</span>
                   </span>
                   <span className="block">
                     {t('sunday')}: <span className="text-foreground/80">{t('closed')}</span>

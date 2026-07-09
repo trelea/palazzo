@@ -10,15 +10,15 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>
 }): Promise<Metadata> {
   const { locale } = await params
-  const t = await getTranslations({ locale, namespace: 'Meta.physiotherapy' })
+  const t = await getTranslations({ locale, namespace: 'Meta.phytoaestetica' })
   return pageMetadata({
     locale,
-    path: '/physiotherapy',
+    path: '/phytoaestetica',
     title: t('title'),
     description: t('description'),
   })
 }
 
-export default function Physiotherapy() {
-  return <ServicePage service="physiotherapy" />
+export default function Phytoaestetica() {
+  return <ServicePage service="phytoaestetica" />
 }

@@ -3,7 +3,7 @@
 import { useState, type ReactNode } from 'react'
 import { useLocale, useTranslations } from 'next-intl'
 import { getCalApi } from '@calcom/embed-react'
-import { ArrowRight, HeartPulse, Leaf } from 'lucide-react'
+import { ArrowRight, Leaf, Sparkles } from 'lucide-react'
 import { Slot } from 'radix-ui'
 
 import { SERVICE_LINKS, calBookingLink, type ServiceKey } from '@/lib/site'
@@ -20,7 +20,7 @@ import {
 
 /** Icon per discipline — mirrors the desktop/mobile services menus. */
 const SERVICE_ICON: Record<ServiceKey, typeof Leaf> = {
-  physiotherapy: HeartPulse,
+  phytoaestetica: Sparkles,
   phytotherapy: Leaf,
 }
 

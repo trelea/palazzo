@@ -3,10 +3,10 @@ import { useTranslations } from 'next-intl'
 import {
   ArrowRight,
   Award,
-  FlaskConical,
   HeartPulse,
   Leaf,
   ShieldCheck,
+  Sparkles,
   Star,
   Users,
 } from 'lucide-react'
@@ -52,11 +52,11 @@ const SERVICE_META: Record<
   ServiceKey,
   { Icon: typeof Leaf; descKey: string; img: string; focusKey: string }
 > = {
-  physiotherapy: {
-    Icon: HeartPulse,
-    descKey: 'services.physiotherapyDesc',
-    img: '/physiotherapy-service.jpg',
-    focusKey: 'services.physiotherapyFocus',
+  phytoaestetica: {
+    Icon: Sparkles,
+    descKey: 'services.phytoaesteticaDesc',
+    img: '/phytoaestetica-vibes.jpg',
+    focusKey: 'services.phytoaesteticaFocus',
   },
   phytotherapy: {
     Icon: Leaf,
@@ -215,7 +215,7 @@ function Hero() {
 
 /** The two disciplines Palazzo is built on — paired with a one-line descriptor. */
 const INTRO_PILLARS = [
-  { key: 'physiotherapy', Icon: HeartPulse, lineKey: 'physioLine' },
+  { key: 'phytoaestetica', Icon: Sparkles, lineKey: 'aestheticsLine' },
   { key: 'phytotherapy', Icon: Leaf, lineKey: 'phytoLine' },
 ] as const
 
@@ -251,7 +251,7 @@ function Intro() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/intro1.jpeg"
-                alt="Framed physiotherapy illustrations on the clinic wall"
+                alt="Framed botanical illustrations on the clinic wall"
                 className="aspect-4/3 w-full rounded-xl object-cover"
               />
             </figure>
@@ -305,7 +305,7 @@ function Services() {
   return (
     <section className="relative isolate overflow-hidden bg-brand-subtle/30 py-20 lg:py-28">
       <DotTexture />
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <Reveal inView>
           <div className="max-w-2xl">
             <SectionTitle>{t('services.title')}</SectionTitle>
@@ -322,7 +322,7 @@ function Services() {
               <Reveal key={service.href} delay={0.1 * i} inView>
                 <Card
                   className={cn(
-                    'group relative isolate flex flex-col overflow-hidden rounded-none border-brand/20 p-0 text-brand-foreground shadow-sm lg:flex-row',
+                    'group relative isolate flex flex-col overflow-hidden rounded-none border-brand/20 p-0 text-brand-foreground shadow-sm lg:h-120 lg:flex-row',
                     reversed
                       ? 'bg-gradient-to-bl from-brand via-brand to-[#7a8c54]'
                       : 'bg-gradient-to-br from-brand via-brand to-[#7a8c54]',
@@ -528,15 +528,14 @@ function Featured() {
           </div>
         </Reveal>
 
-        {/* Decorative panel — swap for a real product/treatment photo later */}
         <Reveal direction="left" inView>
-          <div className="relative aspect-4/3 overflow-hidden rounded-3xl border border-brand/15 bg-gradient-to-br from-brand/15 via-brand-subtle to-background">
-            {/* TODO: replace with generated hero photo, e.g. /featured.jpg */}
-            <div className="absolute inset-0 flex items-center justify-center">
-              <FlaskConical className="size-24 text-brand/35" strokeWidth={1} />
-            </div>
-            <Award className="absolute top-6 left-6 size-9 text-brand/40" strokeWidth={1.25} />
-            <Leaf className="absolute right-8 bottom-8 size-12 text-brand/30" strokeWidth={1} />
+          <div className="relative aspect-4/3 overflow-hidden rounded-3xl border border-brand/15 shadow-xl">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/herbal-pack.jpg"
+              alt="Officinal herbs, flowers and natural ingredients of the herbal pack"
+              className="size-full object-cover object-center"
+            />
             <BorderBeam size={120} duration={10} colorFrom="#51623D" colorTo="#9bb06f" />
           </div>
         </Reveal>
@@ -558,7 +557,7 @@ function Story() {
           <div className="relative aspect-square overflow-hidden rounded-3xl border border-brand/15 shadow-xl lg:aspect-4/3">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/our-story-img.jpg"
+              src="/our-team.jpg"
               alt="The Palazzo Aesthetics team"
               className="size-full object-cover object-center"
             />
@@ -633,7 +632,7 @@ function SocialCta() {
             {/* Tilted brand photo — sits left on desktop, on top when stacked. */}
             <Polaroid
               src="/eba1.jpg"
-              alt="Physiotherapist treating a client at Palazzo Aesthetics"
+              alt="Therapist treating a client at Palazzo Aesthetics"
               beam
               className="w-64 shrink-0 -rotate-6 sm:w-72 lg:w-[20rem] xl:w-[24rem]"
             />

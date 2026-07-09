@@ -1,25 +1,18 @@
 import { useLocale, useTranslations } from 'next-intl'
-import {
-  Activity,
-  ArrowRight,
-  CheckCircle2,
-  Clock,
-  HeartPulse,
-  ShieldCheck,
-  Sparkles,
-  TrendingUp,
-} from 'lucide-react'
+import { ArrowRight, CheckCircle2 } from 'lucide-react'
 
 import type { ServiceKey } from '@/lib/site'
 import { calBookingLink } from '@/lib/site'
 import { CAL_EMBED_CONFIG_ATTR } from '@/lib/cal'
 import { AppointmentCta } from '@/components/appointment-cta'
+import { BenefitsTabs } from '@/components/benefits-tabs'
+import { IssuesTreated } from '@/components/issues-treated'
+import { PhytoTreatmentsTabs } from '@/components/phyto-treatments-tabs'
 import { CalEmbedInit } from '@/components/cal-embed-init'
 import { SectionTitle } from '@/components/section-title'
 import { Reveal } from '@/components/reveal'
 import { GridBackdrop } from '@/components/grid-backdrop'
 import { BlurFade } from '@/components/ui/blur-fade'
-import { MagicCard } from '@/components/ui/magic-card'
 import { AuroraText } from '@/components/ui/aurora-text'
 import { ShimmerButton } from '@/components/ui/shimmer-button'
 import { Particles } from '@/components/ui/particles'
@@ -30,9 +23,9 @@ const AURORA = ['#51623D', '#7a8c54', '#9bb06f', '#51623D']
 
 /** Per-service presentation metadata. Copy lives under `ServicePages.<service>`. */
 const SERVICE_CONFIG: Record<ServiceKey, { heroImg: string; helpsImg: string }> = {
-  physiotherapy: {
-    heroImg: '/physiotherapy-vibes.jpg',
-    helpsImg: '/physiotherapy-service.jpg',
+  phytoaestetica: {
+    heroImg: '/phytoaestetica-vibes.jpg',
+    helpsImg: '/phytoaestetica-helps.jpg',
   },
   phytotherapy: {
     heroImg: '/phytotherapy-vibes.jpg',
@@ -42,16 +35,6 @@ const SERVICE_CONFIG: Record<ServiceKey, { heroImg: string; helpsImg: string }> 
 
 /** "How it helps" bullet keys — shared shape across both services. */
 const HELP_POINTS = ['helps.point1', 'helps.point2', 'helps.point3', 'helps.point4'] as const
-
-/** Benefit cards — generic icons reused across services; copy is per-service. */
-const BENEFIT_ITEMS = [
-  { Icon: Activity, titleKey: 'benefits.item1Title', descKey: 'benefits.item1Desc' },
-  { Icon: ShieldCheck, titleKey: 'benefits.item2Title', descKey: 'benefits.item2Desc' },
-  { Icon: TrendingUp, titleKey: 'benefits.item3Title', descKey: 'benefits.item3Desc' },
-  { Icon: HeartPulse, titleKey: 'benefits.item4Title', descKey: 'benefits.item4Desc' },
-  { Icon: Sparkles, titleKey: 'benefits.item5Title', descKey: 'benefits.item5Desc' },
-  { Icon: Clock, titleKey: 'benefits.item6Title', descKey: 'benefits.item6Desc' },
-] as const
 
 export function ServicePage({ service }: { service: ServiceKey }) {
   const t = useTranslations(`ServicePages.${service}`)
@@ -174,39 +157,16 @@ export function ServicePage({ service }: { service: ServiceKey }) {
         </div>
       </section>
 
-      {/* ── Benefits ── */}
-      <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
-        <Reveal inView>
-          <div className="max-w-2xl">
-            <SectionTitle>{t('benefits.heading')}</SectionTitle>
-            <p className="mt-4 text-muted-foreground">{t('benefits.subtitle')}</p>
-          </div>
-        </Reveal>
-
-        <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {BENEFIT_ITEMS.map(({ Icon: ItemIcon, titleKey, descKey }, i) => (
-            <Reveal key={titleKey} delay={0.05 * i} inView>
-              <MagicCard
-                className="h-full rounded-2xl"
-                gradientFrom="#51623D"
-                gradientTo="#9bb06f"
-                gradientColor="#51623D"
-                gradientOpacity={0.12}
-              >
-                <div className="p-7">
-                  <span className="inline-flex size-11 items-center justify-center rounded-xl bg-brand/10 text-brand">
-                    <ItemIcon className="size-5" strokeWidth={1.5} />
-                  </span>
-                  <h3 className="mt-5 font-heading text-xl font-medium text-foreground">
-                    {t(titleKey)}
-                  </h3>
-                  <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{t(descKey)}</p>
-                </div>
-              </MagicCard>
-            </Reveal>
-          ))}
-        </div>
-      </section>
+      {/* ── Tabbed content — benefits + treated issues for phytotherapy,
+          PhytoTreatments for phytoaestetica ── */}
+      {service === 'phytotherapy' ? (
+        <>
+          <BenefitsTabs />
+          <IssuesTreated />
+        </>
+      ) : (
+        <PhytoTreatmentsTabs />
+      )}
 
       {/* ── Service-specific appointment band ── */}
       <section className="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8">

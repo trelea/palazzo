@@ -8,6 +8,8 @@ import { getTranslations } from 'next-intl/server'
 import { routing } from '@/i18n/routing'
 import { OG_IMAGE, OG_LOCALE, SITE_NAME, SITE_URL } from '@/lib/seo'
 import { notFound } from 'next/navigation'
+import { localBusinessJsonLd } from '@/lib/schema'
+import { JsonLd } from '@/components/json-ld'
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
 
@@ -79,9 +81,13 @@ export default async function RootLayout({ children, params }: Props) {
     notFound()
   }
 
+  const t = await getTranslations({ locale, namespace: 'Meta' })
+
   return (
     <html lang={locale} className={`${display.variable} ${body.variable}`}>
       <body className="flex min-h-dvh flex-col">
+        {/* Site-wide LocalBusiness structured data — one block on every page. */}
+        <JsonLd data={localBusinessJsonLd(locale, t('description'))} />
         <NextIntlClientProvider>
           <Navbar />
           <main className="flex-1">{children}</main>
