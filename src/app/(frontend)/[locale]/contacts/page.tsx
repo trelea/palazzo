@@ -1,13 +1,20 @@
 import type { Metadata } from 'next'
 import { useTranslations } from 'next-intl'
 import { getTranslations } from 'next-intl/server'
-import { ArrowUpRight, Clock, Mail, MapPin } from 'lucide-react'
+import { ArrowUpRight, Clock, Mail, MapPin, Share2 } from 'lucide-react'
 
 import { CONTACT, OPENING_HOURS_LABEL } from '@/lib/site'
 import { pageMetadata } from '@/lib/seo'
 import { Card } from '@/components/ui/card'
 import { AppointmentCta } from '@/components/appointment-cta'
 import { GridBackdrop } from '@/components/grid-backdrop'
+import { FacebookIcon, InstagramIcon } from '@/components/social-icons'
+
+/** Social profiles listed in the info card, mirroring the footer set. */
+const SOCIALS = [
+  { href: CONTACT.social.instagram, label: 'Instagram', Icon: InstagramIcon },
+  { href: CONTACT.social.facebook, label: 'Facebook', Icon: FacebookIcon },
+]
 
 /** Google Maps embed for the studio address — no API key required.
     `t=k` selects the satellite (aerial) map type by default. */
@@ -99,7 +106,7 @@ export default function Contacts() {
               </li>
 
               {/* Opening hours */}
-              <li className="flex items-start gap-4 py-5 last:pb-0">
+              <li className="flex items-start gap-4 py-5">
                 <Clock className="size-5 shrink-0 text-brand" strokeWidth={1.5} />
                 <div className="min-w-0 flex-1">
                   <p className="text-xs tracking-wide text-muted-foreground">{t('hoursLabel')}</p>
@@ -117,6 +124,28 @@ export default function Contacts() {
                       <dd className="text-foreground">{tf('closed')}</dd>
                     </div>
                   </dl>
+                </div>
+              </li>
+
+              {/* Social profiles */}
+              <li className="flex items-center gap-4 py-5 last:pb-0">
+                <Share2 className="size-5 shrink-0 text-brand" strokeWidth={1.5} />
+                <div className="min-w-0 flex-1">
+                  <p className="text-xs tracking-wide text-muted-foreground">{t('socialLabel')}</p>
+                  <div className="mt-0.5 flex items-center gap-6">
+                    {SOCIALS.map(({ href, label, Icon }) => (
+                      <a
+                        key={label}
+                        href={href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 text-base text-foreground transition-colors hover:text-brand"
+                      >
+                        <Icon className="size-4" />
+                        {label}
+                      </a>
+                    ))}
+                  </div>
                 </div>
               </li>
             </ul>

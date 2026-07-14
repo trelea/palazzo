@@ -4,7 +4,7 @@
  * `href` values are locale-agnostic internal paths — the next-intl `Link`
  * prefixes the active locale automatically (e.g. `/about-us` -> `/ro/about-us`).
  *
- * NOTE: contact details below are placeholders — replace with the real ones.
+ * NOTE: the phone number is still pending — see the note on `CONTACT.phone`.
  */
 
 export type ServiceKey = 'phytoaestetica' | 'phytotherapy'
@@ -61,8 +61,8 @@ export const CONTACT = {
     'https://www.google.com/maps/search/?api=1&query=' +
     encodeURIComponent('Str. Igor Vieru 16/1, Chișinău'),
   social: {
-    instagram: 'https://instagram.com/',
-    facebook: 'https://facebook.com/',
+    instagram: 'https://www.instagram.com/palazzo.aesthetics/',
+    facebook: 'https://www.facebook.com/profile.php?id=61591751587063',
   },
 } as const
 

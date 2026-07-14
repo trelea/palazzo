@@ -20,9 +20,9 @@ function isRealSocialUrl(url: string): boolean {
 /**
  * LocalBusiness block for the clinic. `HealthAndBeautyBusiness` (not
  * `MedicalBusiness`) — phyto-aesthetics is wellness/beauty care, and the
- * medical types carry YMYL expectations the site shouldn't claim. Phone and
- * social profiles are still placeholders in `CONTACT` and are omitted until
- * the real values land there.
+ * medical types carry YMYL expectations the site shouldn't claim. The phone
+ * number is still pending in `CONTACT` and is omitted until the real value
+ * lands there.
  */
 export function localBusinessJsonLd(locale: string, description: string) {
   const sameAs = Object.values(CONTACT.social).filter(isRealSocialUrl)

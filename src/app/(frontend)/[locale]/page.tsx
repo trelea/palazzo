@@ -25,6 +25,7 @@ import {
   BookServiceTrigger,
 } from '@/components/book-appointment-dialog'
 import { SectionTitle } from '@/components/section-title'
+import { FacebookIcon, InstagramIcon } from '@/components/social-icons'
 import { Reveal } from '@/components/reveal'
 import { DotTexture } from '@/components/dot-texture'
 import { GridBackdrop } from '@/components/grid-backdrop'
@@ -64,35 +65,6 @@ const SERVICE_META: Record<
     img: '/phytotherapy-service.jpg',
     focusKey: 'services.phytotherapyFocus',
   },
-}
-
-/** lucide v1 dropped the brand glyph, so we inline Instagram's mark (matches footer). */
-function InstagramIcon(props: React.SVGProps<SVGSVGElement>) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth={1.6}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-      {...props}
-    >
-      <rect x="2" y="2" width="20" height="20" rx="5" />
-      <circle cx="12" cy="12" r="4" />
-      <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
-    </svg>
-  )
-}
-
-/** Facebook brand mark, inlined for the same reason as Instagram's (matches footer). */
-function FacebookIcon(props: React.SVGProps<SVGSVGElement>) {
-  return (
-    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>
-      <path d="M14 9h2.5l.5-3H14V4.5c0-.86.28-1.5 1.6-1.5H17V.3A22 22 0 0 0 14.9 0C12.6 0 11 1.34 11 4.05V6H8.5v3H11v9h3V9Z" />
-    </svg>
-  )
 }
 
 /** Social profiles surfaced in the homepage CTA — copy is platform-neutral. */
