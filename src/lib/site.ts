@@ -50,6 +50,7 @@ export const NAV_LINKS: NavLink[] = NAV_ITEMS.filter(
   (item): item is Extract<NavItem, { type: 'link' }> => item.type === 'link',
 ).map(({ href, key }) => ({ href, key }))
 
+// contacts
 export const CONTACT = {
   // No phone number yet — set both once available and it shows up automatically.
   phone: null as string | null,
