@@ -1,14 +1,12 @@
-import { useLocale, useTranslations } from 'next-intl'
+import { useTranslations } from 'next-intl'
 import { ArrowRight, CheckCircle2 } from 'lucide-react'
 
-import type { ServiceKey } from '@/lib/site'
-import { calBookingLink } from '@/lib/site'
-import { CAL_EMBED_CONFIG_ATTR } from '@/lib/cal'
+import type { ServicePageKey } from '@/lib/site'
+import { BOOKING_LINK } from '@/lib/site'
 import { AppointmentCta } from '@/components/appointment-cta'
 import { BenefitsTabs } from '@/components/benefits-tabs'
 import { IssuesTreated } from '@/components/issues-treated'
 import { PhytoTreatmentsTabs } from '@/components/phyto-treatments-tabs'
-import { CalEmbedInit } from '@/components/cal-embed-init'
 import { SectionTitle } from '@/components/section-title'
 import { Reveal } from '@/components/reveal'
 import { GridBackdrop } from '@/components/grid-backdrop'
@@ -22,12 +20,12 @@ import { BorderBeam } from '@/components/ui/border-beam'
 const AURORA = ['#51623D', '#7a8c54', '#9bb06f', '#51623D']
 
 /** Per-service presentation metadata. Copy lives under `ServicePages.<service>`. */
-const SERVICE_CONFIG: Record<ServiceKey, { heroImg: string; helpsImg: string }> = {
+const SERVICE_CONFIG: Record<ServicePageKey, { heroImg: string; helpsImg: string }> = {
   phytoaestetica: {
     heroImg: '/phytoaestetica-vibes.jpg',
     helpsImg: '/phytoaestetica-helps.jpg',
   },
-  phytotherapy: {
+  impacco: {
     heroImg: '/phytotherapy-vibes.jpg',
     helpsImg: '/phytotherapy-service.jpg',
   },
@@ -36,16 +34,13 @@ const SERVICE_CONFIG: Record<ServiceKey, { heroImg: string; helpsImg: string }> 
 /** "How it helps" bullet keys — shared shape across both services. */
 const HELP_POINTS = ['helps.point1', 'helps.point2', 'helps.point3', 'helps.point4'] as const
 
-export function ServicePage({ service }: { service: ServiceKey }) {
+export function ServicePage({ service }: { service: ServicePageKey }) {
   const t = useTranslations(`ServicePages.${service}`)
   const tn = useTranslations('Nav')
-  const locale = useLocale()
   const { heroImg, helpsImg } = SERVICE_CONFIG[service]
 
   return (
     <>
-      <CalEmbedInit namespace={service} />
-
       {/* ── Hero — split text + image with an animated brand-grid backdrop ── */}
       <section className="relative isolate flex min-h-[80vh] items-center overflow-hidden bg-background py-16 lg:py-0">
         {/* Subtle animated grid, brand-tinted and faded toward the edges. */}
@@ -73,17 +68,17 @@ export function ServicePage({ service }: { service: ServiceKey }) {
 
             <BlurFade delay={0.5}>
               <ShimmerButton
+                asChild
                 type="button"
                 background="var(--brand)"
                 shimmerColor="#ffffff"
                 borderRadius="0px"
                 shimmerDuration="3s"
                 className="mt-9 px-7 py-3 text-sm font-medium"
-                data-cal-namespace={service}
-                data-cal-link={calBookingLink(service, locale)}
-                data-cal-config={CAL_EMBED_CONFIG_ATTR}
               >
-                {t('hero.cta')}
+                <a href={BOOKING_LINK} target="_blank" rel="noopener noreferrer">
+                  {t('hero.cta')}
+                </a>
               </ShimmerButton>
             </BlurFade>
           </div>
@@ -157,9 +152,9 @@ export function ServicePage({ service }: { service: ServiceKey }) {
         </div>
       </section>
 
-      {/* ── Tabbed content — benefits + treated issues for phytotherapy,
+      {/* ── Tabbed content — benefits + treated issues for impacco,
           PhytoTreatments for phytoaestetica ── */}
-      {service === 'phytotherapy' ? (
+      {service === 'impacco' ? (
         <>
           <BenefitsTabs />
           <IssuesTreated />
@@ -187,18 +182,18 @@ export function ServicePage({ service }: { service: ServiceKey }) {
                 </p>
               </div>
               <ShimmerButton
+                asChild
                 type="button"
                 background="#ffffff"
                 shimmerColor="#51623D"
                 borderRadius="0px"
                 shimmerDuration="3s"
                 className="shrink-0 px-8 py-4 text-sm font-medium !text-brand"
-                data-cal-namespace={service}
-                data-cal-link={calBookingLink(service, locale)}
-                data-cal-config={CAL_EMBED_CONFIG_ATTR}
               >
-                {t('cta.button')}
-                <ArrowRight className="size-4" />
+                <a href={BOOKING_LINK} target="_blank" rel="noopener noreferrer">
+                  {t('cta.button')}
+                  <ArrowRight className="size-4" />
+                </a>
               </ShimmerButton>
             </div>
             <BorderBeam size={180} duration={14} colorFrom="#ffffff" colorTo="#9bb06f" />
@@ -207,7 +202,7 @@ export function ServicePage({ service }: { service: ServiceKey }) {
       </section>
 
       {/* ── Standard booking + contact form ── */}
-      <AppointmentCta service={service} />
+      <AppointmentCta />
     </>
   )
 }

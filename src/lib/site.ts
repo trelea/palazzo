@@ -7,7 +7,19 @@
  * NOTE: the phone number is still pending — see the note on `CONTACT.phone`.
  */
 
-export type ServiceKey = 'phytoaestetica' | 'phytotherapy'
+/**
+ * Every key the menus can render — includes the nested Face/Body anchors, which
+ * point at sections of the phyto-esthetics page rather than pages of their own.
+ */
+export type ServiceKey = 'phytoaestetica' | 'face' | 'body' | 'impacco'
+
+/**
+ * The services that have a route of their own. Narrower than `ServiceKey`,
+ * because Face/Body are `#anchor` deep links, not pages — so anything keyed by
+ * service *page* (the `ServicePage` renderer, per-page metadata) uses this.
+ */
+export type ServicePageKey = 'phytoaestetica' | 'impacco'
+
 export type LinkKey = 'home' | 'about' | 'news' | 'contact'
 
 export type ServiceLink = {
@@ -17,16 +29,45 @@ export type ServiceLink = {
   key: ServiceKey
 }
 
+/**
+ * A top-level service in the "Services" menu.
+ *
+ * `children` is required rather than optional so every entry has the same shape:
+ * with an optional prop on a literal tuple, TypeScript models the array as a
+ * union of "has children" / "has none" and then refuses `service.children`
+ * outright. An empty array is the honest value for a service with no submenu —
+ * consumers branch on `children.length`, not truthiness.
+ */
+export type ServiceEntry = ServiceLink & {
+  /** Nested links, rendered as a submenu. Empty when the service has none. */
+  children: readonly ServiceLink[]
+}
+
 export type NavLink = {
   href: string
   key: LinkKey
 }
 
-/** Service offerings, grouped under the "Services" menu. */
-export const SERVICE_LINKS: ServiceLink[] = [
-  { href: '/phytoaestetica', key: 'phytoaestetica' },
-  { href: '/phytotherapy', key: 'phytotherapy' },
-]
+/**
+ * Service offerings, grouped under the "Services" menu.
+ *
+ * `as const satisfies readonly ServiceEntry[]` rather than a plain
+ * `ServiceEntry[]` annotation: the annotation would widen every top-level `key`
+ * to `ServiceKey`, so `SERVICE_META[service.key]` on the About page could no
+ * longer prove the entry is one of the two routable services. Keeping the
+ * literal types lets consumers narrow without a cast.
+ */
+export const SERVICE_LINKS = [
+  {
+    href: '/phytoaestetica',
+    key: 'phytoaestetica',
+    children: [
+      { href: '/phytoaestetica#face', key: 'face' },
+      { href: '/phytoaestetica#body', key: 'body' },
+    ],
+  },
+  { href: '/phytotherapy', key: 'impacco', children: [] },
+] as const satisfies readonly ServiceEntry[]
 
 /**
  * Top navigation, in display order. A `link` is a single destination; a
@@ -35,7 +76,7 @@ export const SERVICE_LINKS: ServiceLink[] = [
  */
 export type NavItem =
   | { type: 'link'; href: string; key: LinkKey }
-  | { type: 'group'; key: 'services'; children: ServiceLink[] }
+  | { type: 'group'; key: 'services'; children: readonly ServiceEntry[] }
 
 export const NAV_ITEMS: NavItem[] = [
   { type: 'link', href: '/', key: 'home' },
@@ -83,22 +124,5 @@ export const OPENING_HOURS_LABEL = OPENING_HOURS.map((w) => `${w.opens} – ${w.
 
 export const LOGO_SRC = '/palazzo-logo.svg'
 
-/**
- * Cal.com scheduling username. Each service has one event type per site
- * locale, each with a forced "Interface language" in Cal.com (the embed
- * otherwise follows the visitor's browser language, not the site language).
- * Slugs are set per event type in Cal.com and don't follow a single pattern,
- * so they are mapped explicitly here.
- */
-export const CAL_COM_USERNAME = 'palazzo-aesthetics-ygvhv1'
-
-const CAL_EVENT_SLUGS: Record<ServiceKey, Record<string, string>> = {
-  phytoaestetica: { en: 'phyto-esthetics', ro: 'fitoestetica', ru: 'фито-эстетика' },
-  phytotherapy: { en: 'phytotherapy', ro: 'phytotherapy-ro', ru: 'phytotherapy-ru' },
-}
-
-/** Cal.com `username/event-type-slug` booking link for a service in the given locale. */
-export function calBookingLink(service: ServiceKey, locale: string): string {
-  const slug = CAL_EVENT_SLUGS[service][locale] ?? CAL_EVENT_SLUGS[service].en
-  return `${CAL_COM_USERNAME}/${slug}`
-}
+/** External booking link — all booking buttons across the site navigate here. */
+export const BOOKING_LINK = 'https://main.d32keiqm81x88z.amplifyapp.com/programare.html'

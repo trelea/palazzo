@@ -20,5 +20,5 @@ export async function generateMetadata({
 }
 
 export default function Phytotherapy() {
-  return <ServicePage service="phytotherapy" />
+  return <ServicePage service="impacco" />
 }

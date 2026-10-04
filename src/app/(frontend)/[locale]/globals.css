@@ -94,6 +94,18 @@
     transform: translateY(calc(-100% - var(--gap)));
         }
     }
+  --animate-shine: shine var(--duration, 14s) infinite linear;
+  @keyframes shine {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    to {
+      background-position: 0% 0%;
+    }
+  }
 }
 
 :root {
@@ -198,15 +210,19 @@
 }
 
 @utility hero-fade-x {
+  /* Stops are percentages of the PHOTO box (it's `right-0` at half the
+     viewport on large screens), so they were retuned when it narrowed from
+     58% to 50% — holding the solid background a little longer keeps the
+     transition as soft across the copy column's edge. */
   --fade-1: color-mix(in oklab, var(--background) 55%, transparent);
   --fade-2: color-mix(in oklab, var(--background) 18%, transparent);
   background-image: linear-gradient(
     to right,
     var(--background) 0%,
-    var(--background) 4%,
-    var(--fade-1) 24%,
-    var(--fade-2) 44%,
-    transparent 62%
+    var(--background) 3%,
+    var(--fade-1) 20%,
+    var(--fade-2) 42%,
+    transparent 64%
   );
 }
 

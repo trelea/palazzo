@@ -4,8 +4,7 @@ import { useState, type FormEvent, type ReactNode } from 'react'
 import { useLocale, useTranslations } from 'next-intl'
 import { ArrowRight, CalendarCheck, CheckCircle2, Loader2, Mail, Phone } from 'lucide-react'
 
-import { CONTACT, calBookingLink, type ServiceKey } from '@/lib/site'
-import { CAL_EMBED_CONFIG_ATTR } from '@/lib/cal'
+import { CONTACT, BOOKING_LINK } from '@/lib/site'
 import { cn } from '@/lib/utils'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
@@ -19,7 +18,6 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog'
 import { SectionTitle } from '@/components/section-title'
-import { BookAppointmentDialog } from '@/components/book-appointment-dialog'
 
 /** Minimalist underline input — a thin bottom rule in brand green that darkens on focus. */
 const FIELD_INPUT =
@@ -52,19 +50,7 @@ function Field({ id, label, children }: { id: string; label: string; children: R
  */
 type SubmitStatus = 'idle' | 'sending' | 'success' | 'error'
 
-export function AppointmentCta({
-  className,
-  service,
-}: {
-  className?: string
-  /**
-   * When set (only from `ServicePage`), the book button opens the Cal.com
-   * modal for this service instead of linking to `/contacts`. Requires a
-   * `<CalEmbedInit namespace={service} />` mounted on the page (ServicePage
-   * does this) so the click listener is already registered.
-   */
-  service?: ServiceKey
-}) {
+export function AppointmentCta({ className }: { className?: string }) {
   const t = useTranslations('Cta')
   const locale = useLocale()
 
@@ -114,31 +100,15 @@ export function AppointmentCta({
             {t('appointmentBody')}
           </p>
 
-          {/* Booking button lives in this panel. On service pages this opens
-              the Cal.com modal for that service; elsewhere it opens the
-              service-picker dialog first. */}
-          {service ? (
-            <Button
-              type="button"
-              data-cal-namespace={service}
-              data-cal-link={calBookingLink(service, locale)}
-              data-cal-config={CAL_EMBED_CONFIG_ATTR}
-              className="mt-8 h-auto w-fit rounded-lg bg-white px-6 py-3 text-sm font-medium text-brand hover:bg-white/90"
-            >
-              {t('appointmentButton')}
-              <ArrowRight className="size-4" />
-            </Button>
-          ) : (
-            <BookAppointmentDialog>
-              <Button
-                type="button"
-                className="mt-8 h-auto w-fit rounded-lg bg-white px-6 py-3 text-sm font-medium text-brand hover:bg-white/90"
-              >
-                {t('appointmentButton')}
-                <ArrowRight className="size-4" />
-              </Button>
-            </BookAppointmentDialog>
-          )}
+          <a
+            href={BOOKING_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-8 inline-flex h-auto w-fit items-center gap-2 rounded-lg bg-white px-6 py-3 text-sm font-medium text-brand transition-colors hover:bg-white/90"
+          >
+            {t('appointmentButton')}
+            <ArrowRight className="size-4" />
+          </a>
 
           <div className="mt-8 space-y-3 border-t border-white/15 pt-8">
             {CONTACT.phone && (

@@ -13,7 +13,7 @@ import {
 } from 'lucide-react'
 
 import { Link } from '@/i18n/navigation'
-import { SERVICE_LINKS } from '@/lib/site'
+import { SERVICE_LINKS, type ServicePageKey } from '@/lib/site'
 import { pageMetadata } from '@/lib/seo'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
@@ -58,11 +58,17 @@ const RESULT_STATS = [
   { value: 15, suffix: '+', Icon: Clock, labelKey: 'results.experienceLabel', descKey: 'results.experienceDesc' },
 ] as const
 
-/** Per-service presentation metadata — descriptions live in `AboutPage.services`. */
-const SERVICE_META = {
+/**
+ * Per-service presentation metadata — descriptions live in `AboutPage.services`.
+ * Keyed by `ServicePageKey` (not `ServiceKey`) because this grid renders one card
+ * per service *page*; Face/Body are anchors inside the phyto-esthetics page, not
+ * cards of their own. `SERVICE_LINKS` is a literal tuple, so `service.key` at the
+ * top level narrows to exactly these two keys.
+ */
+const SERVICE_META: Record<ServicePageKey, { img: string; descKey: string }> = {
   phytoaestetica: { img: '/phytoaestetica-vibes.jpg', descKey: 'services.phytoaesteticaDesc' },
-  phytotherapy: { img: '/phytotherapy-service.jpg', descKey: 'services.phytotherapyDesc' },
-} as const
+  impacco: { img: '/phytotherapy-service.jpg', descKey: 'services.impaccoDesc' },
+}
 
 export default function AboutUs() {
   const t = useTranslations('AboutPage')

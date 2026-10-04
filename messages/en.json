@@ -32,20 +32,39 @@
   },
   "HomePage": {
     "hero": {
-      "headline": "Nature and science,",
-      "headlineAccent": "in balance",
-      "subtitle": "Plant-based aesthetic care and the gentle power of medicinal herbs — beauty and wellbeing for body and mind.",
-      "ctaBook": "Book a free trial",
-      "ctaLearn": "Our story"
+      "headline": "The art of",
+      "headlineAccent": "phytoaesthetics.",
+      "subtitleLead": "A new perspective on face and body care.",
+      "subtitleBody1": "At Palazzo, we have built a world dedicated to phyto-aesthetics — where formulas inspired by the potential of plants, the tradition of the Galenic Cataplasm and specialised care rituals come together in a personalised experience.",
+      "subtitleBody2": "From facial experiences created for your skin's needs, to body rituals dedicated to care, toning and wellbeing, through to treatments applied to carefully selected areas, focused on relaxation, easing discomfort and releasing tension.",
+      "linkFace": "Face",
+      "linkBody": "Body",
+      "linkImpacco": "Impacco"
     },
     "intro": {
-      "heading": "Palazzo Aesthetics",
-      "body": "We combine modern phyto-aesthetic care with the time-honoured tradition of phytotherapy. Our historical roots, paired with continuous medical training, let us offer a natural and effective solution for every need — for your health and your beauty alike.",
-      "aestheticsLine": "Plant-powered aesthetic treatments that tone, sculpt and let your skin glow.",
-      "phytoLine": "Plant-based remedies drawn from a long phytotherapy tradition."
+      "lead": "Care doesn't begin with a procedure. It begins with you.",
+      "belief": "At Palazzo, we don't believe in identical experiences for every person.",
+      "change": "Skin changes. The body changes. Needs change. That is why every experience begins with understanding what you need in that moment.",
+      "heading": "PHYTOAESTHETICS, THE PALAZZO WAY",
+      "definition": "Phyto-aesthetics is how we see care — through an approach where the potential of plant-based ingredients, specialised formulations and application techniques come together in rituals created for face and body.",
+      "closing": "We don't set out to turn beauty into a standard formula.",
+      "values": {
+        "individual": "We look at it individually",
+        "attention": "We care for it with attention",
+        "value": "We bring out its best"
+      }
     },
     "services": {
-      "title": "Our services",
+      "titleLine1": "One philosophy.",
+      "titleLine2": "Three ways to experience it.",
+      "descLead": "Discover the Palazzo universe.",
+      "descBody": "Every Palazzo experience begins with the same philosophy: a careful, personalised approach, where plant-based ingredients, specialised formulations and the way they are applied are chosen according to each person's needs. This philosophy takes different forms.",
+      "faceDesc": "Every skin is different. That is why our facial phyto-aesthetic experiences do not start from a standard approach, but from the needs, appearance and particularities of your skin.\nAt the heart of the FACE universe lies Re-GEN — a facial care concept that brings together specialized formulas, carefully selected ingredients and integrated techniques in an experience designed to support hydration, revitalization and the balanced appearance of the skin.",
+      "faceFocus": "Face & skin",
+      "bodyDesc": "At Palazzo, body experiences start from a simple perspective: the appearance of the skin is influenced by more than what is visible on the surface.\nThat is why our rituals combine carefully integrated manual techniques with specialized phyto-aesthetic formulas and ingredients selected for their ability to support the care of skin tone, compactness and appearance.\nFrom rituals dedicated to areas that need more attention, to experiences that focus on activation, drainage and relaxation, each procedure is built as a moment in which the body receives the time and care it needs.",
+      "bodyFocus": "Body & contour",
+      "impaccoDesc": "Tension accumulates. The body contracts. Certain areas remain overworked more than we realize.\nInspired by the tradition of Galenical Cataplasm, Impacco is a localized experience created for carefully selected areas, where heat, plants and action time meet in a ritual with its own identity.\nThrough its traditional counter-irritant action, the Cataplasm creates intense local activation accompanied by a progressive sensation of heat and the stimulation of microcirculation. The occlusive application contributes to maintaining the necessary conditions for the ingredients in the formula to act over time, transforming each Impacco into a profound and personal experience.",
+      "impaccoFocus": "The herbal compress",
       "phytoaesteticaDesc": "Customised phyto-aesthetic programmes and products developed through over 65 years of experience and research into the beneficial properties of medicinal plants. Treatments that leave your skin radiant, rejuvenated and toned and visibly reduce the signs of cellulite — all while you relax.",
       "phytotherapyDesc": "The healing properties of officinal herbs, harnessed in treatments and care rituals for body and mind. Our signature herbal compress and natural extracts work gently with your body to soothe inflammation, restore balance and support lasting, everyday wellbeing.",
       "serviceLabel": "Service",
@@ -54,7 +73,7 @@
       "phytotherapyFocus": "Natural herbal care",
       "discover": "Discover",
       "trialTitle": "New here?",
-      "trialDesc": "Book a free trial and experience one of our treatments first-hand.",
+      "trialDesc": "Book an appointment and experience one of our treatments first-hand.",
       "trialCta": "Book now"
     },
     "stats": {
@@ -131,7 +150,9 @@
     "about": "About",
     "services": "Services",
     "phytoaestetica": "Phyto-Esthetics",
-    "phytotherapy": "Phytotherapy",
+    "face": "Face",
+    "body": "Body",
+    "impacco": "Impacco",
     "news": "News",
     "contact": "Contact",
     "book": "Book appointment",
@@ -210,7 +231,7 @@
       "heading": "Our services",
       "subtitle": "Two disciplines, one integrated approach to your health.",
       "phytoaesteticaDesc": "Plant-based aesthetic programmes that tone the skin, reduce cellulite and restore natural radiance.",
-      "phytotherapyDesc": "Natural, plant-based remedies that complement your treatment and support recovery.",
+      "impaccoDesc": "Natural, plant-based remedies that complement your treatment and support recovery.",
       "cta": "Learn more"
     }
   },
@@ -292,20 +313,20 @@
         "button": "Book now"
       }
     },
-    "phytotherapy": {
+    "impacco": {
       "hero": {
         "title": "Heal naturally with",
-        "titleAccent": "Phytotherapy",
+        "titleAccent": "Impacco",
         "subtitle": "The healing power of plants — natural, science-backed remedies that support your body gently and effectively.",
         "cta": "Book an appointment"
       },
       "description": {
-        "heading": "What is phytotherapy?",
-        "body1": "Phytotherapy is the therapeutic use of plants and their active compounds to prevent and treat illness — one of the oldest forms of medicine, refined by modern science.",
+        "heading": "What is Impacco?",
+        "body1": "Impacco is the therapeutic use of plants and their active compounds to prevent and treat illness — one of the oldest forms of medicine, refined by modern science.",
         "body2": "At Palazzo, we pair traditional botanical knowledge with current research to create natural remedies that complement your care, support recovery and strengthen your body's own balance."
       },
       "helps": {
-        "heading": "How phytotherapy helps",
+        "heading": "How Impacco helps",
         "body": "Plant-based therapy works with your body rather than against it, offering gentle, effective support for a wide range of everyday concerns.",
         "point1": "Calms inflammation with potent natural compounds.",
         "point2": "Supports the immune system and overall vitality.",
@@ -314,7 +335,7 @@
       },
       "benefits": {
         "heading": "The benefits you'll feel",
-        "subtitle": "What phytotherapy at Palazzo gives you, naturally.",
+        "subtitle": "What Impacco at Palazzo gives you, naturally.",
         "tabs": {
           "muscleJoint": {
             "label": "Muscle-joint",
@@ -399,7 +420,7 @@
         }
       },
       "cta": {
-        "heading": "Book your phytotherapy session",
+        "heading": "Book your Impacco session",
         "body": "Discover what natural, plant-based care can do for you. We're here to help.",
         "button": "Book now"
       }

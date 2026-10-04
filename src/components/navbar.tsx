@@ -1,9 +1,8 @@
 import { useTranslations } from 'next-intl'
 
 import { Link } from '@/i18n/navigation'
-import { NAV_ITEMS, LOGO_SRC } from '@/lib/site'
+import { NAV_ITEMS, LOGO_SRC, BOOKING_LINK } from '@/lib/site'
 import { ShimmerButton } from '@/components/ui/shimmer-button'
-import { BookAppointmentDialog } from '@/components/book-appointment-dialog'
 import { StickyHeader } from '@/components/sticky-header'
 import { NavLink } from '@/components/nav-link'
 import { ServicesMenu } from '@/components/services-menu'
@@ -65,17 +64,18 @@ export default function Navbar() {
         {/* Desktop actions */}
         <div className="hidden items-center gap-2 lg:flex">
           <LanguageSwitcher />
-          <BookAppointmentDialog>
-            <ShimmerButton
-              background="var(--brand)"
-              shimmerColor="#ffffff"
-              borderRadius="10px"
-              shimmerDuration="3s"
-              className="px-5 py-2.5 text-sm font-medium"
-            >
+          <ShimmerButton
+            asChild
+            background="var(--brand)"
+            shimmerColor="#ffffff"
+            borderRadius="10px"
+            shimmerDuration="3s"
+            className="px-5 py-2.5 text-sm font-medium"
+          >
+            <a href={BOOKING_LINK} target="_blank" rel="noopener noreferrer">
               {t('book')}
-            </ShimmerButton>
-          </BookAppointmentDialog>
+            </a>
+          </ShimmerButton>
         </div>
 
         {/* Mobile actions */}

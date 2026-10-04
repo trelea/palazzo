@@ -2,13 +2,12 @@
 
 import { useState } from 'react'
 import { useTranslations } from 'next-intl'
-import { ArrowRight, ChevronDown, Leaf, Menu, Sparkles } from 'lucide-react'
+import { ArrowRight, ChevronDown, Leaf, Menu, PersonStanding, ScanFace, Sparkles } from 'lucide-react'
 
 import { Link, usePathname } from '@/i18n/navigation'
-import { NAV_ITEMS, LOGO_SRC, type ServiceKey } from '@/lib/site'
+import { NAV_ITEMS, LOGO_SRC, BOOKING_LINK, type ServiceKey } from '@/lib/site'
 import { cn } from '@/lib/utils'
 import { ShimmerButton } from '@/components/ui/shimmer-button'
-import { BookAppointmentDialog } from '@/components/book-appointment-dialog'
 import { NavLink } from '@/components/nav-link'
 import {
   Collapsible,
@@ -26,7 +25,9 @@ import {
 /** Icon per discipline — mirrors the desktop services menu. */
 const SERVICE_ICON: Record<ServiceKey, typeof Leaf> = {
   phytoaestetica: Sparkles,
-  phytotherapy: Leaf,
+  face: ScanFace,
+  body: PersonStanding,
+  impacco: Leaf,
 }
 
 const matches = (pathname: string, href: string) =>
@@ -79,42 +80,93 @@ export function MobileMenu() {
                     {item.children.map((service) => {
                       const Icon = SERVICE_ICON[service.key]
                       const isActive = matches(pathname, service.href)
+
+                      // Every top-level service renders the identical row. A
+                      // service with children additionally lists them below,
+                      // always expanded — no nested toggle.
                       return (
-                        <Link
-                          key={service.href}
-                          href={service.href}
-                          onClick={close}
-                          aria-current={isActive ? 'page' : undefined}
-                          className={cn(
-                            'group/item flex items-center gap-3 rounded-lg p-3 transition-colors',
-                            isActive ? 'bg-brand-subtle/50' : 'hover:bg-muted',
-                          )}
-                        >
-                          <span
+                        <div key={service.href}>
+                          <Link
+                            href={service.href}
+                            onClick={close}
+                            aria-current={isActive ? 'page' : undefined}
                             className={cn(
-                              'inline-flex size-10 shrink-0 items-center justify-center rounded-lg transition-colors',
-                              isActive
-                                ? 'bg-brand text-brand-foreground'
-                                : 'bg-brand/10 text-brand',
+                              'group/item flex items-center gap-3 rounded-lg p-3 transition-colors',
+                              isActive ? 'bg-brand-subtle/50' : 'hover:bg-muted',
                             )}
                           >
-                            <Icon className="size-5" strokeWidth={1.6} />
-                          </span>
-                          <div className="min-w-0 flex-1">
-                            <p
+                            <span
                               className={cn(
-                                'text-base font-medium',
-                                isActive ? 'text-brand' : 'text-foreground',
+                                'inline-flex size-10 shrink-0 items-center justify-center rounded-lg transition-colors',
+                                isActive
+                                  ? 'bg-brand text-brand-foreground'
+                                  : 'bg-brand/10 text-brand',
                               )}
                             >
-                              {t(service.key)}
-                            </p>
-                            <p className="truncate text-xs text-muted-foreground">
-                              {ts(`${service.key}Focus`)}
-                            </p>
-                          </div>
-                          <ArrowRight className="size-4 shrink-0 text-brand opacity-0 transition-opacity group-hover/item:opacity-100" />
-                        </Link>
+                              <Icon className="size-5" strokeWidth={1.6} />
+                            </span>
+                            <div className="min-w-0 flex-1">
+                              <p
+                                className={cn(
+                                  'text-base font-medium',
+                                  isActive ? 'text-brand' : 'text-foreground',
+                                )}
+                              >
+                                {t(service.key)}
+                              </p>
+                              <p className="truncate text-xs text-muted-foreground">
+                                {ts(`${service.key}Focus`)}
+                              </p>
+                            </div>
+                            <ArrowRight className="size-4 shrink-0 text-brand opacity-0 transition-opacity group-hover/item:opacity-100" />
+                          </Link>
+
+                          {service.children.length > 0 && (
+                            <div className="mt-1 ml-4 flex flex-col gap-1 border-l border-border pl-3">
+                              {service.children.map((child) => {
+                                const ChildIcon = SERVICE_ICON[child.key]
+                                const isChildActive = matches(pathname, child.href)
+                                return (
+                                  <Link
+                                    key={child.href}
+                                    href={child.href}
+                                    onClick={close}
+                                    aria-current={isChildActive ? 'page' : undefined}
+                                    className={cn(
+                                      'group/child flex items-center gap-3 rounded-lg p-3 transition-colors',
+                                      isChildActive ? 'bg-brand-subtle/50' : 'hover:bg-muted',
+                                    )}
+                                  >
+                                    <span
+                                      className={cn(
+                                        'inline-flex size-9 shrink-0 items-center justify-center rounded-lg transition-colors',
+                                        isChildActive
+                                          ? 'bg-brand text-brand-foreground'
+                                          : 'bg-brand/10 text-brand',
+                                      )}
+                                    >
+                                      <ChildIcon className="size-4" strokeWidth={1.6} />
+                                    </span>
+                                    <div className="min-w-0 flex-1">
+                                      <p
+                                        className={cn(
+                                          'text-sm font-medium',
+                                          isChildActive ? 'text-brand' : 'text-foreground',
+                                        )}
+                                      >
+                                        {t(child.key)}
+                                      </p>
+                                      <p className="truncate text-xs text-muted-foreground">
+                                        {ts(`${child.key}Focus`)}
+                                      </p>
+                                    </div>
+                                    <ArrowRight className="size-3.5 shrink-0 text-brand opacity-0 transition-opacity group-hover/child:opacity-100" />
+                                  </Link>
+                                )
+                              })}
+                            </div>
+                          )}
+                        </div>
                       )
                     })}
                   </div>
@@ -129,19 +181,17 @@ export function MobileMenu() {
         </div>
 
         <div className="mt-auto border-t px-6 py-5">
-          {/* Not wrapped in SheetClose — the sheet must stay mounted while the
-              nested service-picker dialog is open; picking a service closes
-              both via `onServiceSelected`. */}
-          <BookAppointmentDialog onServiceSelected={close}>
-            <ShimmerButton
-              background="var(--brand)"
-              shimmerColor="#ffffff"
-              borderRadius="10px"
-              className="w-full px-5 py-3 text-base font-medium"
-            >
+          <ShimmerButton
+            asChild
+            background="var(--brand)"
+            shimmerColor="#ffffff"
+            borderRadius="10px"
+            className="w-full px-5 py-3 text-base font-medium"
+          >
+            <a href={BOOKING_LINK} target="_blank" rel="noopener noreferrer">
               {t('book')}
-            </ShimmerButton>
-          </BookAppointmentDialog>
+            </a>
+          </ShimmerButton>
         </div>
       </SheetContent>
     </Sheet>

@@ -31,7 +31,7 @@ const EFFECTS = {
 } as const
 
 /** Conditions the Galenic Cataplasm treats; copy lives under
- * `ServicePages.phytotherapy.issues.items.<key>` (`title` + `desc`).
+ * `ServicePages.impacco.issues.items.<key>` (`title` + `desc`).
  * Bento layout on a 6-col grid: spans of 2 (1/3), 3 (1/2), 4 (2/3), 6 (full). */
 const ISSUES = [
   { key: 'shoulder', img: '/issues/shoulder.jpg', span: 'lg:col-span-3', effect: 'slideRight' },
@@ -52,7 +52,7 @@ const ISSUES = [
 ] as const
 
 export function IssuesTreated() {
-  const t = useTranslations('ServicePages.phytotherapy.issues')
+  const t = useTranslations('ServicePages.impacco.issues')
   // Touch screens have no hover — tapping a card toggles its overlay instead.
   const [activeKey, setActiveKey] = useState<string | null>(null)
 

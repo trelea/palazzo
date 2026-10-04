@@ -3,6 +3,9 @@ import { useTranslations } from 'next-intl'
 import {
   ArrowRight,
   Award,
+  Dumbbell,
+  Eye,
+  Heart,
   HeartPulse,
   Leaf,
   ShieldCheck,
@@ -15,25 +18,21 @@ import { languageAlternates } from '@/lib/seo'
 
 import { Link } from '@/i18n/navigation'
 import { cn } from '@/lib/utils'
-import { SERVICE_LINKS, CONTACT, type ServiceKey } from '@/lib/site'
+import { BOOKING_LINK, CONTACT } from '@/lib/site'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Card } from '@/components/ui/card'
 import { AppointmentCta } from '@/components/appointment-cta'
-import {
-  BookAppointmentDialog,
-  BookServiceTrigger,
-} from '@/components/book-appointment-dialog'
 import { SectionTitle } from '@/components/section-title'
 import { FacebookIcon, InstagramIcon } from '@/components/social-icons'
 import { Reveal } from '@/components/reveal'
 import { DotTexture } from '@/components/dot-texture'
 import { GridBackdrop } from '@/components/grid-backdrop'
 import { ShimmerButton } from '@/components/ui/shimmer-button'
-import { NumberTicker } from '@/components/ui/number-ticker'
-import { Marquee } from '@/components/ui/marquee'
+
 import { BorderBeam } from '@/components/ui/border-beam'
 import { Particles } from '@/components/ui/particles'
+import { ShineBorder } from '@/components/ui/shine-border'
 
 /** Title/description/OG come from the locale layout; only canonical + hreflang here. */
 export async function generateMetadata({
@@ -48,30 +47,92 @@ export async function generateMetadata({
 /** Olive/sage palette derived from the brand colour (#51623D) for the aurora accent. */
 const AURORA_COLORS = ['#51623D', '#7a8c54', '#9bb06f', '#51623D']
 
-/** Per-service presentation metadata. Copy lives in the `HomePage` i18n namespace. */
-const SERVICE_META: Record<
-  ServiceKey,
-  { Icon: typeof Leaf; descKey: string; img: string; focusKey: string }
-> = {
-  phytoaestetica: {
-    Icon: Sparkles,
-    descKey: 'services.phytoaesteticaDesc',
-    img: '/phytoaestetica-vibes.jpg',
-    focusKey: 'services.phytoaesteticaFocus',
-  },
-  phytotherapy: {
-    Icon: Leaf,
-    descKey: 'services.phytotherapyDesc',
-    img: '/phytotherapy-service.jpg',
-    focusKey: 'services.phytotherapyFocus',
-  },
+/** Maximum character length for service card descriptions before truncation. */
+const MAX_DESC_LENGTH = 384
+
+/** Truncate a string to MAX_DESC_LENGTH characters, appending "..." if it exceeds the limit. */
+function truncateDesc(text: string): string {
+  return text.length > MAX_DESC_LENGTH ? text.slice(0, MAX_DESC_LENGTH).trimEnd() + '...' : text
 }
+
+/**
+ * The three service cards in the Services section — Face, Body, Impacco.
+ *
+ * Deliberately NOT `SERVICE_LINKS` (from `@/lib/site`): that list is shared
+ * with the nav, footer, the services menus and the Cal.com booking dialog, and
+ * it models *disciplines*. Face and Body are body areas within Phyto-Esthetics,
+ * not separate disciplines, and they have no Cal.com event type of their own —
+ * so folding them into `ServiceKey` would have broken the picker and forced me
+ * to invent event slugs. `bookKey` is therefore the discipline a card's button
+ * actually books: Face and Body both open Phyto-Esthetics, Impacco opens
+ * Phytotherapy.
+ *
+ * `labelKey` points into the `hero` namespace, where `linkFace` / `linkBody` /
+ * `linkImpacco` already exist in all three locales — the hero buttons and these
+ * cards are meant to name the same three things. `href` powers each card's
+ * "Discover" button; Face and Body deep-link to `#face` / `#body`, matching the
+ * hero buttons.
+ *
+ * KNOWN GAP: those two anchors have no matching `id` anywhere on the
+ * phytoaestetica page yet, so those buttons navigate correctly but currently
+ * land at the top of the page instead of jumping to a section. The hero's two
+ * buttons have the same dead anchors — adding the `id`s fixes all four at once.
+ */
+const HOME_SERVICE_CARDS = [
+  {
+    labelKey: 'linkFace',
+    descKey: 'services.faceDesc',
+    focusKey: 'services.faceFocus',
+    img: '/face.jpg',
+    href: '/phytoaestetica#face',
+    bookKey: 'phytoaestetica',
+  },
+  {
+    labelKey: 'linkBody',
+    descKey: 'services.bodyDesc',
+    focusKey: 'services.bodyFocus',
+    img: '/body.jpg',
+    href: '/phytoaestetica#body',
+    bookKey: 'phytoaestetica',
+  },
+  {
+    labelKey: 'linkImpacco',
+    descKey: 'services.impaccoDesc',
+    focusKey: 'services.impaccoFocus',
+    img: '/herbal-pack.jpg',
+    href: '/phytotherapy',
+    bookKey: 'impacco',
+  },
+] as const
 
 /** Social profiles surfaced in the homepage CTA — copy is platform-neutral. */
 const SOCIAL_LINKS = [
   { key: 'instagram', label: 'Instagram', href: CONTACT.social.instagram, Icon: InstagramIcon },
   { key: 'facebook', label: 'Facebook', href: CONTACT.social.facebook, Icon: FacebookIcon },
 ] as const
+
+/** The hero's three category entry points, in a single row — the same trio the
+    Services section presents as cards. Labels resolve via the `hero` namespace
+    (they are localized, unlike the Italian brand terms); only the destinations
+    are locale-agnostic paths for the next-intl `Link`. */
+const HERO_CATEGORY_LINKS = [
+  { labelKey: 'linkFace', href: '/phytoaestetica#face', Icon: Sparkles },
+  { labelKey: 'linkBody', href: '/phytoaestetica#body', Icon: Dumbbell },
+  // "Impacco" is the herbal blend's own name (see `HomePage.featured.title`),
+  // not a descriptor — so it stays untranslated in every locale, alongside the
+  // Italian motto. Only the `href` is locale-agnostic; `labelKey` resolves here.
+  // `span: 2` puts it alone on the second row, `tone` sets it apart from the
+  // two phytoaesthetics routes above it.
+  { labelKey: 'linkImpacco', href: '/phytotherapy', Icon: Leaf, span: 2, tone: 'ghost' },
+] satisfies readonly {
+  labelKey: 'linkFace' | 'linkBody' | 'linkImpacco'
+  href: string
+  Icon: typeof Sparkles
+  /** Grid columns to span — `2` puts the button alone on its own row. */
+  span?: number
+  /** `ghost` renders an outlined button that fills with the brand on hover. */
+  tone?: 'ghost'
+}[]
 
 /**
  * Server-rendered gradient text — inlines Magic UI's `AuroraText` markup so it
@@ -112,15 +173,20 @@ function Hero() {
   const t = useTranslations('HomePage.hero')
 
   return (
-    <section className="relative isolate flex min-h-[90vh] items-start overflow-hidden bg-background lg:items-center">
+    // Phones get the full smallest viewport (`svh` excludes mobile browser
+    // chrome, so nothing hides behind the address bar); desktop keeps 90vh since
+    // the taller copy column benefits from the shorter target.
+    <section className="relative isolate flex min-h-[100svh] items-start overflow-hidden bg-background lg:min-h-[90vh] lg:items-center">
       {/* Ambient animated grid behind the copy. On phones it floats just above the
           full-bleed photo (-z-10) so it stays visible; on desktop it drops behind
           the photo (lg:-z-20, earlier in the DOM) so the photo paints over it on
           the right while the grid shows behind the copy on the left. */}
       <GridBackdrop className="-z-10 lg:-z-20" />
 
-      {/* Photo — full-bleed on mobile, confined to the right ~58% on large screens */}
-      <div className="absolute inset-y-0 right-0 -z-20 w-full lg:w-[58%]">
+      {/* Photo — full-bleed on mobile, the right half on large screens. The
+          centred max-w-7xl wrapper below puts its own midpoint at 50vw, so the
+          split lands exactly on the copy column's edge at every wide viewport. */}
+      <div className="absolute inset-y-0 right-0 -z-20 w-full lg:w-1/2">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/hero.jpg"
@@ -137,44 +203,87 @@ function Hero() {
         <div aria-hidden="true" className="absolute inset-0 hero-fade-y lg:hero-fade-x" />
       </div>
 
-      <div className="mx-auto w-full max-w-7xl px-4 pt-28 sm:px-6 lg:px-8 lg:pt-0">
-        <div className="max-w-xl">
+      {/* pt-20 clears the 64px mobile navbar with 16px to spare — the old pt-28
+          ate a third of a short phone's viewport. */}
+      <div className="mx-auto w-full max-w-7xl px-4 pt-16 sm:px-6 lg:px-8 lg:pt-0">
+        <div className="max-w-xl lg:max-w-[42rem]">
           <Reveal delay={0.1}>
-            <h1 className="font-heading text-5xl leading-[1.05] font-medium tracking-tight text-balance text-foreground sm:text-6xl lg:text-7xl">
-              {t('headline')}{' '}
-              <AccentText className="font-medium">{t('headlineAccent')}</AccentText>
+            <h1 className="font-heading text-4xl leading-[1.05] font-medium tracking-tight text-balance text-foreground sm:text-6xl lg:text-7xl">
+              {t('headline')} <AccentText className="font-medium">{t('headlineAccent')}</AccentText>
             </h1>
           </Reveal>
 
           <Reveal delay={0.25}>
-            <p className="mt-6 max-w-md text-base leading-relaxed text-pretty text-muted-foreground sm:text-lg">
-              {t('subtitle')}
+            {/* Lead line states the new perspective; the two paragraphs that follow
+                expand it, so they sit a step down in size and contrast. Type is a
+                step smaller on phones (`text-base`) — three paragraphs plus three
+                stacked buttons otherwise overflow a 667px viewport by ~200px. */}
+            <p className="mt-5 text-lg leading-snug text-pretty font-medium text-foreground sm:mt-6 sm:text-xl">
+              {t('subtitleLead')}
+            </p>
+            <p className="mt-4 text-base leading-relaxed text-pretty text-muted-foreground sm:mt-5 sm:text-lg">
+              {t('subtitleBody1')}
+            </p>
+            <p className="mt-3 text-base leading-relaxed text-pretty text-muted-foreground sm:mt-4 sm:text-lg">
+              {t('subtitleBody2')}
             </p>
           </Reveal>
 
           <Reveal delay={0.4}>
-            <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
-              <BookAppointmentDialog>
-                <ShimmerButton
-                  background="var(--brand)"
-                  shimmerColor="#ffffff"
-                  borderRadius="0px"
-                  shimmerDuration="3s"
-                  className="w-full px-7 py-3 text-sm font-medium sm:w-auto"
-                >
-                  {t('ctaBook')}
-                </ShimmerButton>
-              </BookAppointmentDialog>
-              <Button
-                asChild
-                variant="ghost"
-                className="h-auto w-full justify-center rounded-none px-7 py-3 text-sm text-foreground hover:bg-muted sm:w-auto"
-              >
-                <Link href="/about-us">
-                  {t('ctaLearn')}
-                  <ArrowRight className="size-4" />
-                </Link>
-              </Button>
+            {/* Three category entry points — parallel routes, not a
+                primary/secondary pair, but Impacco points at the phytotherapy
+                page rather than phytoaesthetics, so it sits alone on row 2 as an
+                outlined ghost that fills with the brand on hover. Two columns at
+                every size: `col-span-2` puts Impacco on its own row, and grid
+                (not flex) is what keeps the widths equal — flex would size each
+                to its own label. */}
+            <div className="mt-7 grid grid-cols-2 gap-2.5 sm:mt-9 sm:gap-3">
+              {HERO_CATEGORY_LINKS.map(({ labelKey, href, Icon, span, tone }) => {
+                const inner = (
+                  <Link href={href} className="flex items-center justify-center gap-2">
+                    <Icon className="size-3.5 shrink-0 sm:size-4" strokeWidth={1.75} />
+                    {t(labelKey)}
+                  </Link>
+                )
+
+                // Shared sizing so the shimmer and ghost variants stay aligned.
+                const sizing = cn(
+                  'px-5 py-2.5 text-sm font-medium tracking-[0.12em] uppercase sm:px-6 sm:py-3',
+                  span === 2 && 'col-span-2',
+                )
+
+                // Only Impacco is a ghost; Face and Body keep the brand-filled
+                // ShimmerButton they had before.
+                if (tone === 'ghost') {
+                  return (
+                    <Button
+                      key={href}
+                      asChild
+                      variant="outline"
+                      className={cn(
+                        sizing,
+                        'h-auto rounded-none border-brand/30 text-foreground hover:bg-brand hover:text-brand-foreground',
+                      )}
+                    >
+                      {inner}
+                    </Button>
+                  )
+                }
+
+                return (
+                  <ShimmerButton
+                    key={href}
+                    asChild
+                    background="var(--brand)"
+                    shimmerColor="#ffffff"
+                    borderRadius="0px"
+                    shimmerDuration="3s"
+                    className={sizing}
+                  >
+                    {inner}
+                  </ShimmerButton>
+                )
+              })}
             </div>
           </Reveal>
         </div>
@@ -185,15 +294,15 @@ function Hero() {
 
 /* ───────────────────────── Brand intro ───────────────────────── */
 
-/** The two disciplines Palazzo is built on — paired with a one-line descriptor. */
-const INTRO_PILLARS = [
-  { key: 'phytoaestetica', Icon: Sparkles, lineKey: 'aestheticsLine' },
-  { key: 'phytotherapy', Icon: Leaf, lineKey: 'phytoLine' },
+/** The three closing promises, rendered as shine pills under the intro copy. */
+const INTRO_VALUES = [
+  { key: 'individual', Icon: Eye },
+  { key: 'attention', Icon: Heart },
+  { key: 'value', Icon: Sparkles },
 ] as const
 
 function Intro() {
   const t = useTranslations('HomePage.intro')
-  const tn = useTranslations('Nav')
 
   return (
     <section className="relative isolate overflow-hidden py-24 lg:py-32">
@@ -218,8 +327,13 @@ function Intro() {
               <BorderBeam size={120} duration={11} colorFrom="#51623D" colorTo="#9bb06f" />
             </div>
 
-            {/* Secondary — the framed "fisioterapia" gallery wall, tilted, overlapping. */}
-            <figure className="absolute -bottom-10 -right-4 w-52 -rotate-3 overflow-hidden rounded-2xl border border-white/70 bg-white p-1.5 shadow-2xl ring-1 ring-black/5 transition-transform duration-500 ease-out hover:rotate-0 sm:-right-10 sm:w-72">
+            {/* Secondary — the framed "fisioterapia" gallery wall, tilted, overlapping.
+                Hangs off the LEFT edge, mirroring the tilt. Unlike the old right-hand
+                lean there is no grid gutter to borrow — the collage sits against the
+                container's horizontal padding (px-4 / sm:px-6 / lg:px-8) and the
+                section is overflow-hidden, so the offsets stay small enough that the
+                frame is never clipped at the viewport edge. */}
+            <figure className="absolute -bottom-8 -left-2 w-44 rotate-3 overflow-hidden rounded-2xl border border-white/70 bg-white p-1.5 shadow-2xl ring-1 ring-black/5 transition-transform duration-500 ease-out hover:rotate-0 sm:-left-4 sm:w-56 lg:-left-6 lg:w-60">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/intro1.jpeg"
@@ -230,37 +344,54 @@ function Intro() {
           </div>
         </Reveal>
 
-        {/* ── Editorial copy + discipline pillars ── */}
+        {/* ── Statement copy + closing promises ── */}
         <div className="lg:pl-4">
           <Reveal inView>
-            <SectionTitle>{t('heading')}</SectionTitle>
+            <SectionTitle className="text-balance">{t('heading')}</SectionTitle>
           </Reveal>
 
           <Reveal delay={0.2} inView>
-            <p className="mt-6 max-w-xl text-base leading-relaxed text-pretty text-muted-foreground sm:text-lg">
-              {t('body')}
+            <p className="mt-6 font-heading text-xl font-semibold tracking-tight text-balance text-foreground sm:text-2xl">
+              {t('lead')}
             </p>
           </Reveal>
 
           <Reveal delay={0.3} inView>
-            <div className="mt-10 space-y-px overflow-hidden rounded-2xl border border-brand/10 bg-card/40 backdrop-blur-sm">
-              {INTRO_PILLARS.map(({ key, Icon, lineKey }) => (
-                <div
-                  key={key}
-                  className="flex items-start gap-4 border-b border-brand/10 px-6 py-5 last:border-b-0"
-                >
-                  <span className="inline-flex size-10 shrink-0 items-center justify-center rounded-xl bg-brand/10 text-brand">
-                    <Icon className="size-5" />
-                  </span>
-                  <div>
-                    <p className="font-heading text-base font-medium text-foreground">{tn(key)}</p>
-                    <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
-                      {t(lineKey)}
-                    </p>
-                  </div>
-                </div>
-              ))}
+            <div className="mt-6 max-w-xl space-y-4 text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
+              <p>{t('belief')}</p>
+              <p>{t('change')}</p>
+              <p>{t('definition')}</p>
+              <p>{t('closing')}</p>
             </div>
+          </Reveal>
+
+          <Reveal delay={0.4} inView>
+            {/* Grid, not flex-wrap: the labels differ in length ("We look at it
+                individually" vs "We bring out its best"), so content-sized pills
+                came out visibly uneven. Equal columns lock all three to the same
+                width, and grid rows stretch so the heights match too.
+                Two columns from sm up, so the three pills break across two rows
+                (2 + 1) instead of squeezing into one — three across left each
+                column ~189px, which wrapped the longest label onto two lines.
+                The lone pill in row 2 keeps the same half-width as the pair
+                above rather than spanning, so all three stay identical.
+                One column on phones, where even half the screen is too narrow.
+                ShineBorder is absolute, so it stays out of the flow when the
+                <li> becomes a flex container. */}
+            <ul className="mt-10 grid gap-3 border-t border-brand/10 pt-8 sm:grid-cols-2">
+              {INTRO_VALUES.map(({ key, Icon }) => (
+                <li
+                  key={key}
+                  className="group relative flex items-center justify-center overflow-hidden rounded-none border border-brand/15 bg-background px-4 py-2.5 text-center transition-colors hover:bg-brand"
+                >
+                  <ShineBorder shineColor={['#51623D', '#9bb06f']} duration={14} />
+                  <span className="relative flex items-center gap-2 text-sm font-medium tracking-wide text-brand transition-colors group-hover:text-brand-foreground">
+                    <Icon className="size-4 shrink-0" strokeWidth={1.75} />
+                    {t(`values.${key}`)}
+                  </span>
+                </li>
+              ))}
+            </ul>
           </Reveal>
         </div>
       </div>
@@ -278,20 +409,42 @@ function Services() {
     <section className="relative isolate overflow-hidden bg-brand-subtle/30 py-20 lg:py-28">
       <DotTexture />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        {/* Centred intro block: the all-caps title states the single philosophy,
+            the two blocks below explain it and lead into the cards. The body is
+            ONE paragraph — the closing line about the philosophy taking different
+            forms used to be its own <p> and read as a stray orphan, so it is
+            folded into descBody. `text-pretty` overrides the inherited
+            `text-center` locally so the centred text doesn't develop ragged
+            edges, while `descLead` is promoted to the display face so the two
+            blocks don't read as one flat slab. */}
         <Reveal inView>
-          <div className="max-w-2xl">
-            <SectionTitle>{t('services.title')}</SectionTitle>
+          <div className="mx-auto max-w-3xl text-center">
+            {/* Two block-level spans, NOT two headings: the section still has exactly one
+                <h2> for SEO and screen readers, but the sentence is forced onto
+                two rows. Translated text can't be wrapped at a fixed word, so the
+                break has to live in the message files — the split is per-locale
+                (en "Three ways…", ro "Trei moduri…", ru "Три способа…") rather
+                than assuming English word order. */}
+            <SectionTitle className="uppercase">
+              <span className="block">{t('services.titleLine1')}</span>
+              <span className="block">{t('services.titleLine2')}</span>
+            </SectionTitle>
+            <p className="mt-6 font-heading text-lg font-semibold text-foreground sm:text-xl">
+              {t('services.descLead')}
+            </p>
+            <p className="mt-4 text-base leading-relaxed text-pretty text-muted-foreground sm:text-lg">
+              {t('services.descBody')}
+            </p>
           </div>
         </Reveal>
 
         <div className="mt-14 space-y-6">
-          {/* Two service containers — one continuous flow from photo (0%) into a
+          {/* Three service containers — one continuous flow from photo (0%) into a
               solid brand panel (100%) where the top-aligned copy sits. */}
-          {SERVICE_LINKS.map((service, i) => {
-            const { descKey, img, focusKey } = SERVICE_META[service.key]
+          {HOME_SERVICE_CARDS.map((card, i) => {
             const reversed = i % 2 === 1
             return (
-              <Reveal key={service.href} delay={0.1 * i} inView>
+              <Reveal key={card.labelKey} delay={0.1 * i} inView>
                 <Card
                   className={cn(
                     'group relative isolate flex flex-col overflow-hidden rounded-none border-brand/20 p-0 text-brand-foreground shadow-sm lg:h-120 lg:flex-row',
@@ -303,14 +456,14 @@ function Services() {
                   {/* Photo (0%) — masked so it dissolves into the card's own gradient. */}
                   <div
                     className={cn(
-                      'relative h-36 w-full shrink-0 overflow-hidden sm:h-44 lg:h-auto lg:w-1/2',
+                      'relative aspect-4/3 w-full shrink-0 overflow-hidden sm:aspect-16/9 lg:aspect-auto lg:h-auto lg:w-1/2',
                       reversed && 'lg:order-2',
                     )}
                   >
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src={img}
-                      alt={tn(service.key)}
+                      src={card.img}
+                      alt={t(`hero.${card.labelKey}`)}
                       className={cn(
                         'size-full object-cover transition-transform duration-700 ease-out group-hover:scale-105',
                         '[mask-image:linear-gradient(to_bottom,#000_45%,transparent)] [-webkit-mask-image:linear-gradient(to_bottom,#000_45%,transparent)]',
@@ -329,10 +482,10 @@ function Services() {
                     )}
                   >
                     <h3 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl lg:text-5xl">
-                      {tn(service.key)}
+                      {t(`hero.${card.labelKey}`)}
                     </h3>
                     <p className="mt-3 max-w-md text-base leading-relaxed text-brand-foreground/80">
-                      {t(descKey)}
+                      {truncateDesc(t(card.descKey))}
                     </p>
 
                     <dl className="mt-5 flex flex-wrap gap-x-8 gap-y-4">
@@ -341,7 +494,7 @@ function Services() {
                           {t('services.serviceLabel')}
                         </dt>
                         <dd className="mt-2 inline-flex bg-white/10 px-3 py-1.5 text-sm font-medium text-brand-foreground">
-                          {tn(service.key)}
+                          {tn(card.bookKey)}
                         </dd>
                       </div>
                       <div>
@@ -349,19 +502,50 @@ function Services() {
                           {t('services.focusLabel')}
                         </dt>
                         <dd className="mt-2 inline-flex bg-white/10 px-3 py-1.5 text-sm font-medium text-brand-foreground">
-                          {t(focusKey)}
+                          {t(card.focusKey)}
                         </dd>
                       </div>
                     </dl>
 
-                    <BookServiceTrigger service={service.key}>
+                    {/* Book (primary, navigates to external booking page) beside
+                        Discover (navigates). `mt-5` lives on the wrapper so both
+                        buttons share one top margin. `flex-wrap` keeps them from
+                        overflowing the card's single-column mobile layout. */}
+                    <div className="mt-5 flex flex-wrap items-center gap-3">
                       <Button
+                        asChild
                         variant="secondary"
-                        className="mt-5 h-auto rounded-none px-6 py-2.5 text-sm font-medium"
+                        className="h-auto rounded-none px-6 py-2.5 text-sm font-medium"
                       >
-                        {tn('book')}
+                        <a href={BOOKING_LINK} target="_blank" rel="noopener noreferrer">
+                          {tn('book')}
+                        </a>
                       </Button>
-                    </BookServiceTrigger>
+                      {/* `asChild` so the next-intl Link supplies the href and
+                          Button only supplies styling.
+                          Was `ghost`, which left it invisible at rest — a real
+                          clickable target you can't see until hover. `outline`
+                          gives it a permanent border so it reads as a button,
+                          but recoloured for the brand panel: stock outline uses
+                          `border-border`/`bg-background`/`hover:bg-muted`, which
+                          on this dark gradient would be a dark border, a bright
+                          fill and dark text. The border is `brand-foreground/45`
+                          so it sits clearly on the green, and hover deepens to
+                          the `bg-white/10` used by the pills above — still clearly
+                          subordinate to the filled booking button next to it.
+                          `group-hover/button:` nudges the arrow on hover, using
+                          the Button's own `group/button` scope. */}
+                      <Button
+                        asChild
+                        variant="outline"
+                        className="h-auto gap-2 rounded-none border-brand-foreground/45 bg-transparent px-5 py-2.5 text-sm font-medium text-brand-foreground hover:border-brand-foreground hover:bg-white/10 hover:text-brand-foreground"
+                      >
+                        <Link href={card.href}>
+                          {t('services.discover')}
+                          <ArrowRight className="size-4 transition-transform group-hover/button:translate-x-0.5" />
+                        </Link>
+                      </Button>
+                    </div>
                   </div>
 
                   <BorderBeam size={150} duration={12} colorFrom="#ffffff" colorTo="#9bb06f" />
@@ -374,7 +558,13 @@ function Services() {
           <Reveal delay={0.2} inView>
             <Card className="relative isolate overflow-hidden rounded-none border-brand/20 bg-gradient-to-br from-brand via-brand-muted to-[#9bb06f] text-brand-foreground shadow-sm">
               {/* Ambient field — white particles drift over the brand gradient. */}
-              <Particles className="absolute inset-0" quantity={70} ease={80} size={0.6} color="#ffffff" />
+              <Particles
+                className="absolute inset-0"
+                quantity={70}
+                ease={80}
+                size={0.6}
+                color="#ffffff"
+              />
               <div
                 aria-hidden="true"
                 className="pointer-events-none absolute -right-20 -bottom-24 size-80 rounded-full bg-white/5 blur-3xl"
@@ -388,21 +578,25 @@ function Services() {
                   <h3 className="mt-4 font-heading text-3xl font-semibold tracking-tight text-balance sm:text-4xl lg:text-5xl">
                     {t('services.trialTitle')}
                   </h3>
-                  <p className="mt-4 text-sm leading-relaxed text-brand-foreground/80">
+                  {/* Body size (text-base / sm:text-lg) rather than the text-sm it
+                      used to be — the sentence is the card's actual pitch, and at
+                      14px it read as a footnote under the heading. */}
+                  <p className="mt-4 text-base leading-relaxed text-brand-foreground/80 sm:text-lg">
                     {t('services.trialDesc')}
                   </p>
                 </div>
-                <BookAppointmentDialog>
-                  <ShimmerButton
-                    background="#ffffff"
-                    shimmerColor="#51623D"
-                    borderRadius="0px"
-                    shimmerDuration="3s"
-                    className="shrink-0 px-8 py-4 text-sm font-medium !text-brand"
-                  >
+                <ShimmerButton
+                  asChild
+                  background="#ffffff"
+                  shimmerColor="#51623D"
+                  borderRadius="0px"
+                  shimmerDuration="3s"
+                  className="shrink-0 px-8 py-4 text-sm font-medium !text-brand"
+                >
+                  <a href={BOOKING_LINK} target="_blank" rel="noopener noreferrer">
                     {t('services.trialCta')}
-                  </ShimmerButton>
-                </BookAppointmentDialog>
+                  </a>
+                </ShimmerButton>
               </div>
 
               <BorderBeam size={180} duration={14} colorFrom="#ffffff" colorTo="#9bb06f" />
@@ -416,11 +610,15 @@ function Services() {
 
 /* ─────────────────────────── Stats ─────────────────────────── */
 
+/** The four proof points. The headline figures were removed from these cards —
+    the icon carries the visual weight now — so only `Icon`, `labelKey` and
+    `descKey` are left. `value`/`suffix` used to live here for `NumberTicker`,
+    which this file no longer uses. */
 const STATS = [
-  { value: 25, suffix: '+', Icon: Award, labelKey: 'stats.yearsLabel', descKey: 'stats.yearsDesc' },
-  { value: 30, suffix: '+', Icon: HeartPulse, labelKey: 'stats.treatmentsLabel', descKey: 'stats.treatmentsDesc' },
-  { value: 5000, suffix: '+', Icon: Users, labelKey: 'stats.clientsLabel', descKey: 'stats.clientsDesc' },
-  { value: 98, suffix: '%', Icon: Star, labelKey: 'stats.satisfactionLabel', descKey: 'stats.satisfactionDesc' },
+  { Icon: Award, labelKey: 'stats.yearsLabel', descKey: 'stats.yearsDesc' },
+  { Icon: HeartPulse, labelKey: 'stats.treatmentsLabel', descKey: 'stats.treatmentsDesc' },
+  { Icon: Users, labelKey: 'stats.clientsLabel', descKey: 'stats.clientsDesc' },
+  { Icon: Star, labelKey: 'stats.satisfactionLabel', descKey: 'stats.satisfactionDesc' },
 ] as const
 
 function Stats() {
@@ -438,26 +636,34 @@ function Stats() {
       <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {STATS.map((stat, i) => (
           <Reveal key={stat.labelKey} delay={0.1 + i * 0.1} inView>
-            <Card className="flex h-full min-h-64 flex-col overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-brand-muted to-[#7a8c54] p-0 text-center text-brand-foreground shadow-sm">
-              {/* UP — icon + the headline figure */}
-              <div className="flex flex-1 flex-col items-center justify-center gap-3 p-8 sm:p-9">
-                <span className="inline-flex size-11 items-center justify-center rounded-full bg-white/10 text-brand-foreground">
-                  <stat.Icon className="size-5" strokeWidth={1.5} />
-                </span>
-                <div className="font-heading text-4xl font-light tracking-tight sm:text-5xl">
-                  <NumberTicker value={stat.value} className="text-brand-foreground" />
-                  {stat.suffix}
-                </div>
-              </div>
-              {/* BOTTOM — title + paragraph */}
-              <div className="border-t border-white/10 bg-white/5 p-7">
-                <p className="font-heading text-xl font-normal text-brand-foreground sm:text-2xl">
-                  {t(stat.labelKey as 'stats.yearsLabel')}
-                </p>
-                <p className="mt-3 text-base leading-relaxed font-light text-brand-foreground/70">
-                  {t(stat.descKey as 'stats.yearsDesc')}
-                </p>
-              </div>
+            {/* One block, top-aligned. The former icon-over-figure / label-over-description
+                split is gone: with the headline figure removed the top half was
+                dead space, and the `border-t` divider only made that emptiness
+                more obvious. Content stays top-aligned rather than
+                `justify-between` so icon → label → description reads as a single
+                unit — the grid's default `stretch` still equalises card heights.
+                `text-balance`/`text-pretty` earn their keep on narrow, centred
+                cards. */}
+            <Card className="flex h-full flex-col overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-brand-muted to-[#7a8c54] p-8 text-center text-brand-foreground shadow-sm sm:p-9">
+              {/* `self-center` is what actually centres the chip. The Card is
+                  `flex flex-col`, so the span is a flex item and the inherited
+                  `text-center` never reaches it — `text-align` only aligns inline
+                  content inside a block. Its explicit `size-*` also stops flexbox
+                  stretching it, leaving it pinned to flex-start (hard left) under
+                  centred text. Deliberately NOT `items-center` on the Card: that
+                  would shrink-wrap the two <p> elements too and change how they
+                  wrap. Scoped to the one element that needs it. */}
+              <span className="inline-flex size-24 items-center justify-center self-center rounded-full bg-white/10 text-brand-foreground">
+                {/* strokeWidth drops to 1.25 as the glyph doubles: at size-12 a
+                    1.5 stroke reads noticeably heavier than it did at size-8. */}
+                <stat.Icon className="size-12" strokeWidth={1.25} />
+              </span>
+              <p className="mt-6 font-heading text-xl font-normal text-balance text-brand-foreground sm:text-2xl">
+                {t(stat.labelKey as 'stats.yearsLabel')}
+              </p>
+              <p className="mt-3 text-base leading-relaxed font-light text-pretty text-brand-foreground/70">
+                {t(stat.descKey as 'stats.yearsDesc')}
+              </p>
             </Card>
           </Reveal>
         ))}
@@ -524,13 +730,12 @@ function Story() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
       <div className="grid items-center gap-12 lg:grid-cols-2">
-        {/* The Palazzo team — photographed in the clinic. */}
         <Reveal direction="right" inView>
           <div className="relative aspect-square overflow-hidden rounded-3xl border border-brand/15 shadow-xl lg:aspect-4/3">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/our-team.jpg"
-              alt="The Palazzo Aesthetics team"
+              src="/our-story.jpg"
+              alt="Palazzo Aesthetics brochures and business cards"
               className="size-full object-cover object-center"
             />
             <BorderBeam size={120} duration={11} colorFrom="#51623D" colorTo="#9bb06f" />
@@ -678,38 +883,6 @@ function SocialCta() {
   )
 }
 
-/* ─────────────────────────── Partners ─────────────────────────── */
-
-const PARTNERS = ['North East 34079', 'Padel Academy', 'CrossFit Verona', 'Natura Vita', 'Officinalis']
-
-function Partners() {
-  const t = useTranslations('HomePage.partners')
-
-  return (
-    <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-      <Reveal inView>
-        <SectionTitle>{t('heading')}</SectionTitle>
-      </Reveal>
-      <div className="relative mt-10">
-        <Marquee pauseOnHover className="[--duration:30s]">
-          {PARTNERS.map((name) => (
-            <div
-              key={name}
-              className="mx-2 flex h-16 min-w-44 items-center justify-center rounded-xl border border-border/60 bg-card px-8 font-heading text-sm font-medium tracking-wide text-muted-foreground"
-            >
-              {/* TODO: replace text chips with real partner logos */}
-              {name}
-            </div>
-          ))}
-        </Marquee>
-        {/* Edge fades */}
-        <div className="pointer-events-none absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-background to-transparent" />
-        <div className="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-background to-transparent" />
-      </div>
-    </section>
-  )
-}
-
 /* ─────────────────────────── Page ─────────────────────────── */
 
 export default function Home() {
@@ -722,7 +895,6 @@ export default function Home() {
       <Featured />
       <Story />
       <SocialCta />
-      <Partners />
       <AppointmentCta />
     </>
   )

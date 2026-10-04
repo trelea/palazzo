@@ -32,20 +32,39 @@
   },
   "HomePage": {
     "hero": {
-      "headline": "Natură și știință,",
-      "headlineAccent": "în echilibru",
-      "subtitle": "Îngrijire estetică pe bază de plante și puterea blândă a plantelor medicinale — frumusețe și stare de bine pentru corp și minte.",
-      "ctaBook": "Programează o probă gratuită",
-      "ctaLearn": "Povestea noastră"
+      "headline": "Arta",
+      "headlineAccent": "fitoesteticii.",
+      "subtitleLead": "O nouă perspectivă asupra îngrijirii feței și corpului.",
+      "subtitleBody1": "La Palazzo, am construit un univers dedicat fitoesteticii — unde formulele inspirate de potențialul plantelor, tradiția Cataplasmei Galenice și ritualurile specializate de îngrijire se întâlnesc într-o experiență personalizată.",
+      "subtitleBody2": "De la experiențe faciale create pentru nevoile pielii, la ritualuri corporale dedicate îngrijirii, tonifierii și stării de bine, până la proceduri aplicate în zone atent selectate, dedicate relaxării, eliminării senzației de discomfort și detensionării.",
+      "linkFace": "Față",
+      "linkBody": "Corp",
+      "linkImpacco": "Impacco"
     },
     "intro": {
-      "heading": "Palazzo Aesthetics",
-      "body": "Îmbinăm îngrijirea fitoestetică modernă cu tradiția consacrată a fitoterapiei. Rădăcinile noastre istorice, alături de o formare medicală continuă, ne permit să oferim o soluție naturală și eficientă pentru fiecare nevoie — atât pentru sănătatea, cât și pentru frumusețea ta.",
-      "aestheticsLine": "Tratamente estetice pe bază de plante care tonifică, remodelează și redau strălucirea pielii.",
-      "phytoLine": "Remedii din plante, dintr-o tradiție îndelungată a fitoterapiei."
+      "lead": "Îngrijirea nu începe cu o procedură. Începe cu tine.",
+      "belief": "La Palazzo, nu credem în experiențe identice pentru fiecare persoană.",
+      "change": "Pielea se schimbă. Corpul se schimbă. Nevoile se schimbă. De aceea, fiecare experiență începe prin înțelegerea a ceea ce ai nevoie în acel moment.",
+      "heading": "FITOESTETICA, ÎN FELUL PALAZZO",
+      "definition": "Fitoestetica este modul nostru de a privi îngrijirea — printr-o abordare în care potențialul ingredientelor de origine vegetală, formulele specializate și tehnicile de aplicare se întâlnesc în ritualuri create pentru față și corp.",
+      "closing": "Nu urmărim să transformăm frumusețea într-o formulă standard.",
+      "values": {
+        "individual": "O privim individual",
+        "attention": "O îngrijim cu atenție",
+        "value": "O punem în valoare"
+      }
     },
     "services": {
-      "title": "Serviciile noastre",
+      "titleLine1": "O filozofie.",
+      "titleLine2": "Trei moduri de a o trăi.",
+      "descLead": "Descoperă universul Palazzo.",
+      "descBody": "Fiecare experiență Palazzo pornește de la aceeași filozofie: o abordare atentă, personalizată, în care ingredientele de origine vegetală, formulele specializate și modul de aplicare sunt alese în funcție de nevoile fiecărei persoane. Această filozofie prinde forme diferite.",
+      "faceDesc": "Fiecare piele este diferită. De aceea, experiențele noastre de fitoestetică facială nu pornesc de la o abordare standard, ci de la nevoile, aspectul și particularitățile pielii tale.\nÎn centrul universului FACE se află Re-GEN — un concept de îngrijire facială care reunește formule specializate, ingrediente atent selectate și tehnici integrate într-o experiență creată pentru a susține hidratarea, revitalizarea și aspectul echilibrat al pielii.",
+      "faceFocus": "Față și piele",
+      "bodyDesc": "La Palazzo, experiențele dedicate corpului pornesc de la o perspectivă simplă: aspectul pielii este influențat de mai mult decât ceea ce se vede la suprafață.\nDe aceea, ritualurile noastre combină tehnici manuale atent integrate cu formule fitoestetice specializate și ingrediente selectate pentru capacitatea lor de a susține îngrijirea tonusului, compactității și aspectului pielii.\nDe la ritualuri dedicate zonelor care necesită mai multă atenție, până la experiențe care pun accent pe activare, drenaj și relaxare, fiecare procedură este construită ca un moment în care corpul primește timpul și îngrijirea de care are nevoie.",
+      "bodyFocus": "Corp și siluetă",
+      "impaccoDesc": "Tensiunea se acumulează. Corpul se contractă. Anumite zone rămân suprasolicitate mai mult decât ne dăm seama.\nInspirat de tradiția Cataplasmei Galenice, Impacco este o experiență localizată creată pentru zone atent selectate, în care căldura, plantele și timpul de acțiune se întâlnesc într-un ritual cu o identitate aparte.\nPrin acțiunea sa tradițională de contra-iritație, Cataplasma creează o activare intensă la nivel local, însoțită de o senzație progresivă de căldură și de stimularea microcirculației. Aplicarea ocluzivă contribuie la menținerea condițiilor necesare pentru ca ingredientele formulei să acționeze în timp, transformând fiecare Impacco într-o experiență profundă și personală.",
+      "impaccoFocus": "Compresa de plante",
       "phytoaesteticaDesc": "Programe și produse fitoestetice personalizate, dezvoltate în peste 65 de ani de experiență și cercetare asupra proprietăților benefice ale plantelor medicinale. Tratamente care îți lasă pielea radiantă, întinerită și tonifiată și reduc vizibil semnele celulitei — totul în timp ce te relaxezi.",
       "phytotherapyDesc": "Proprietățile curative ale plantelor officinale, valorificate în tratamente și ritualuri de îngrijire pentru corp și minte. Compresa noastră emblematică din plante și extractele naturale lucrează blând cu corpul tău pentru a calma inflamația, a reda echilibrul și a susține starea de bine zi de zi.",
       "serviceLabel": "Serviciu",
@@ -54,7 +73,7 @@
       "phytotherapyFocus": "Îngrijire naturală din plante",
       "discover": "Descoperă",
       "trialTitle": "Ești la prima vizită?",
-      "trialDesc": "Programează o probă gratuită și încearcă pe propria piele unul dintre tratamentele noastre.",
+      "trialDesc": "Programează o vizită și încearcă pe propria piele unul dintre tratamentele noastre.",
       "trialCta": "Programează-te"
     },
     "stats": {
@@ -131,7 +150,9 @@
     "about": "Despre noi",
     "services": "Servicii",
     "phytoaestetica": "Fitoestetică",
-    "phytotherapy": "Fitoterapie",
+    "face": "Față",
+    "body": "Corp",
+    "impacco": "Impacco",
     "news": "Noutăți",
     "contact": "Contacte",
     "book": "Programează-te",
@@ -210,7 +231,7 @@
       "heading": "Serviciile noastre",
       "subtitle": "Două discipline, o singură abordare integrată pentru sănătatea ta.",
       "phytoaesteticaDesc": "Programe estetice pe bază de plante care tonifică pielea, reduc celulita și redau strălucirea naturală.",
-      "phytotherapyDesc": "Remedii naturale, pe bază de plante, care îți completează tratamentul și sprijină recuperarea.",
+      "impaccoDesc": "Remedii naturale, pe bază de plante, care îți completează tratamentul și sprijină recuperarea.",
       "cta": "Află mai mult"
     }
   },
@@ -292,20 +313,20 @@
         "button": "Programează acum"
       }
     },
-    "phytotherapy": {
+    "impacco": {
       "hero": {
         "title": "Vindecă-te natural cu",
-        "titleAccent": "Fitoterapie",
+        "titleAccent": "Impacco",
         "subtitle": "Puterea vindecătoare a plantelor — remedii naturale, susținute științific, care îți sprijină corpul blând și eficient.",
         "cta": "Programează-te"
       },
       "description": {
-        "heading": "Ce este fitoterapia?",
-        "body1": "Fitoterapia este utilizarea terapeutică a plantelor și a compușilor lor activi pentru a preveni și trata bolile — una dintre cele mai vechi forme de medicină, rafinată de știința modernă.",
+        "heading": "Ce este Impacco?",
+        "body1": "Impacco este utilizarea terapeutică a plantelor și a compușilor lor activi pentru a preveni și trata bolile — una dintre cele mai vechi forme de medicină, rafinată de știința modernă.",
         "body2": "La Palazzo, îmbinăm cunoștințele botanice tradiționale cu cercetările actuale pentru a crea remedii naturale care îți completează îngrijirea, sprijină recuperarea și întăresc echilibrul natural al corpului."
       },
       "helps": {
-        "heading": "Cum te ajută fitoterapia",
+        "heading": "Cum te ajută Impacco",
         "body": "Terapia pe bază de plante lucrează cu corpul tău, nu împotriva lui, oferind sprijin blând și eficient pentru o gamă largă de probleme cotidiene.",
         "point1": "Calmează inflamația cu compuși naturali puternici.",
         "point2": "Susține sistemul imunitar și vitalitatea generală.",
@@ -314,7 +335,7 @@
       },
       "benefits": {
         "heading": "Beneficiile pe care le vei simți",
-        "subtitle": "Ce îți oferă fitoterapia la Palazzo, în mod natural.",
+        "subtitle": "Ce îți oferă Impacco la Palazzo, în mod natural.",
         "tabs": {
           "muscleJoint": {
             "label": "Musculo-articular",
@@ -399,7 +420,7 @@
         }
       },
       "cta": {
-        "heading": "Programează-ți ședința de fitoterapie",
+        "heading": "Programează-ți ședința de Impacco",
         "body": "Descoperă ce poate face pentru tine îngrijirea naturală, pe bază de plante. Suntem aici să te ajutăm.",
         "button": "Programează acum"
       }

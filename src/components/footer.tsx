@@ -82,14 +82,20 @@ export default function Footer() {
             <h2 className="text-xs font-semibold tracking-[0.18em] text-foreground uppercase">
               {t('services')}
             </h2>
+            {/* Flat four-item list — Phyto-Esthetics, Face, Body, Impacco.
+                The footer's Services column deliberately drops the navbar's
+                nesting: there are no hover/focus affordances here to reveal a
+                submenu, so the sub-items are simply listed inline, in source
+                order. `flatMap` splices each service's children in directly
+                after it. */}
             <ul className="mt-4 space-y-3">
-              {SERVICE_LINKS.map((service) => (
-                <li key={service.href}>
+              {SERVICE_LINKS.flatMap((service) => [service, ...service.children]).map((link) => (
+                <li key={link.href}>
                   <Link
-                    href={service.href}
+                    href={link.href}
                     className="text-sm text-muted-foreground transition-colors hover:text-brand"
                   >
-                    {tn(service.key)}
+                    {tn(link.key)}
                   </Link>
                 </li>
               ))}
