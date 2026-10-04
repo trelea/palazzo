@@ -108,7 +108,15 @@
       "cta": "Discover"
     },
     "partners": {
-      "heading": "Our partners"
+      "heading": "Our partners",
+      "eyebrow": "Since 1956 · Italy",
+      "body": "We partner with Laboratori Zanellato, home of the Galenic Cataplasm created in 1956 by Dr. Leone Zanellato — the tradition and research behind the Palazzo concept.",
+      "partnerName": "Laboratori Zanellato",
+      "partnerDesc": "Creators of the Galenic Cataplasm. Our partner for formulas, research and continuous development since 1956.",
+      "point1": "Tradition since 1956",
+      "point2": "Galenic Cataplasm",
+      "point3": "Continuous research",
+      "visitCta": "Visit the laboratory"
     },
     "cta": {
       "newClientHeading": "Are you a new client?",
@@ -187,17 +195,19 @@
   },
   "AboutPage": {
     "title": "About us",
-    "lead": "We're a team of aesthetic and wellbeing specialists who believe care should be personal, natural and grounded in evidence.",
+    "lead": "Everything begins with the Cataplasma Galenica. Palazzo brings to Chișinău a tradition born in Italy in 1956 — a philosophy of care built around the potential of plants, research and care for each person.",
     "story": {
       "heading": "Our story",
-      "body1": "Palazzo began with a small clinic and a big conviction — that real recovery comes from treating the whole person, not just the symptom.",
-      "body2": "Over the years we've grown into a multidisciplinary practice, pairing phyto-aesthetic care with the natural power of phytotherapy under one roof.",
-      "body3": "Today that same conviction guides everything we do: modern methods, natural remedies and the patience to see each person through to lasting results."
+      "body1": "At the heart of the Palazzo philosophy lies a concept rooted in a tradition developed in Italy almost seven decades ago.",
+      "body2": "The Galenic Cataplasm was created in 1956 by Dr. Leone Zanellato and has become, over the years, the starting point of an approach built around the potential of plants, research and experience gained through continuous application and development.",
+      "body3": "The formula brings together plant-based ingredients in a composition designed for local application. Ozonized oils are an important element of the concept, helping to create a favourable environment for the absorption of active ingredients into the skin and supporting the natural processes of microcirculation and oxygenation.",
+      "body4": "More than a simple application on the skin, the Galenic Cataplasm turns formula, time and method of application into a single experience. A concept where tradition meets a new perspective on care.",
+      "body5": "Today that same conviction guides everything we do: modern methods, natural remedies and the dedication with which we accompany each person towards lasting results."
     },
     "who": {
       "heading": "Who we are",
-      "body1": "Behind Palazzo is a close-knit team of aesthetic specialists and phytotherapy experts who genuinely love what they do.",
-      "body2": "We learn together, share what works, and stay close to the people we care for — so every plan is built around you, not a template."
+      "body1": "We are the team carrying this concept forward in Chișinău — aesthetic and phytotherapy specialists united by the same discipline of care: time, attention and consistency for each person.",
+      "body2": "At Palazzo, every plan starts from the person, not from a template. We listen, observe and build a personal journey together — with modern methods, natural remedies and real presence, step by step."
     },
     "why": {
       "heading": "Why choose us",

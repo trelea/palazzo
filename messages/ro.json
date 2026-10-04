@@ -108,7 +108,15 @@
       "cta": "Descoperă"
     },
     "partners": {
-      "heading": "Partenerii noștri"
+      "heading": "Partenerii noștri",
+      "eyebrow": "Din 1956 · Italia",
+      "body": "Colaborăm cu Laboratori Zanellato, casa Cataplasmei Galenice create în 1956 de Dr. Leone Zanellato — tradiția și cercetarea din spatele conceptului Palazzo.",
+      "partnerName": "Laboratori Zanellato",
+      "partnerDesc": "Creatorii Cataplasmei Galenice. Partenerul nostru pentru formule, cercetare și dezvoltare continuă din 1956.",
+      "point1": "Tradiție din 1956",
+      "point2": "Cataplasma Galenică",
+      "point3": "Cercetare continuă",
+      "visitCta": "Vizitează laboratorul"
     },
     "cta": {
       "newClientHeading": "Ești un client nou?",
@@ -187,17 +195,19 @@
   },
   "AboutPage": {
     "title": "Despre noi",
-    "lead": "Suntem o echipă de specialiști în estetică și stare de bine, care cred că îngrijirea trebuie să fie personală, naturală și bazată pe dovezi.",
+    "lead": "Everything begins with the Cataplasma Galenica. Palazzo aduce la Chișinău o tradiție născută în Italia, în 1956 — o filozofie a îngrijirii construită în jurul potențialului plantelor, al cercetării și al grijii pentru fiecare persoană.",
     "story": {
       "heading": "Povestea noastră",
-      "body1": "Palazzo a început cu o clinică mică și o convingere mare — că vindecarea adevărată vine din tratarea omului în întregime, nu doar a simptomului.",
-      "body2": "De-a lungul anilor ne-am dezvoltat într-o practică multidisciplinară, îmbinând îngrijirea fitoestetică cu puterea naturală a fitoterapiei sub același acoperiș.",
-      "body3": "Astăzi, aceeași convingere ne ghidează în tot ceea ce facem: metode moderne, remedii naturale și răbdarea de a însoți fiecare persoană până la rezultate durabile."
+      "body1": "În centrul filozofiei Palazzo se află un concept cu rădăcini într-o tradiție dezvoltată în Italia în urmă cu aproape șapte decenii.",
+      "body2": "Cataplasma Galenică a fost creată în 1956 de Dr. Leone Zanellato și a devenit, de-a lungul anilor, punctul de plecare al unei abordări construite în jurul potențialului plantelor, al cercetării și al experienței acumulate prin aplicare și dezvoltare continuă.",
+      "body3": "Formula reunește ingrediente de origine vegetală într-o compoziție concepută pentru aplicare locală. Uleiurile ozonizate reprezintă un element important al conceptului, contribuind la crearea unui mediu favorabil absorbției ingredientelor active în piele și susținând procesele naturale de microcirculație și oxigenare.",
+      "body4": "Mai mult decât o simplă aplicare pe piele, Cataplasma Galenică transformă formula, timpul și modul de aplicare într-o singură experiență. Un concept în care tradiția întâlnește o nouă perspectivă asupra îngrijirii.",
+      "body5": "Astăzi, aceeași convingere ne ghidează în tot ceea ce facem: metode moderne, remedii naturale și devotamentul cu care însoțim fiecare persoană până la rezultate durabile."
     },
     "who": {
       "heading": "Cine suntem",
-      "body1": "În spatele Palazzo se află o echipă unită de specialiști în estetică și experți în fitoterapie care iubesc cu adevărat ceea ce fac.",
-      "body2": "Învățăm împreună, împărtășim ce funcționează și rămânem aproape de oamenii de care avem grijă — astfel încât fiecare plan este construit în jurul tău, nu după un șablon."
+      "body1": "Suntem echipa care duce mai departe acest concept la Chișinău — specialiști în estetică și fitoterapie uniți de aceeași disciplină a grijii: timp, atenție și consecvență pentru fiecare persoană.",
+      "body2": "La Palazzo, fiecare plan pornește de la om, nu de la un șablon. Ascultăm, observăm și construim împreună un parcurs personal — cu metode moderne, remedii naturale și prezență reală, pas cu pas."
     },
     "why": {
       "heading": "De ce să ne alegi",

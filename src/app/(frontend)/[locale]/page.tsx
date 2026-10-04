@@ -23,6 +23,7 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Card } from '@/components/ui/card'
 import { AppointmentCta } from '@/components/appointment-cta'
+import { PartnersSection } from '@/components/partners-section'
 import { SectionTitle } from '@/components/section-title'
 import { FacebookIcon, InstagramIcon } from '@/components/social-icons'
 import { Reveal } from '@/components/reveal'
@@ -895,7 +896,8 @@ export default function Home() {
       <Featured />
       <Story />
       <SocialCta />
-      <AppointmentCta />
+      <PartnersSection />
+      <AppointmentCta className="pt-16 lg:pt-24" />
     </>
   )
 }
