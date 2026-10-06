@@ -56,8 +56,8 @@ const WHY_ITEMS = [
  * spans 2 cols and switches to image-left / text-right at `lg`.
  */
 const ABOUT_SERVICE_CARDS = [
-  { key: 'face', descKey: 'services.faceDesc', img: '/face.jpg', href: '/phytoaestetica#face' },
-  { key: 'body', descKey: 'services.bodyDesc', img: '/body.jpg', href: '/phytoaestetica#body' },
+  { key: 'face', descKey: 'services.faceDesc', img: '/face.jpg', href: '/phytoaestetica?service=face' },
+  { key: 'body', descKey: 'services.bodyDesc', img: '/body.jpg', href: '/phytoaestetica?service=body' },
   {
     key: 'impacco',
     descKey: 'services.impaccoDesc',
@@ -232,7 +232,10 @@ export default function AboutUs() {
                           : 'mt-6 h-auto rounded-none bg-brand px-6 py-3 text-sm text-brand-foreground hover:bg-brand-muted'
                       }
                     >
-                      <Link href={service.href}>
+                      <Link
+                        href={service.href}
+                        scroll={service.href.includes('service=') ? false : undefined}
+                      >
                         {t('services.cta')}
                         <ArrowRight className="size-4" />
                       </Link>

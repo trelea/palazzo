@@ -1,12 +1,14 @@
+import { Suspense } from 'react'
 import { useTranslations } from 'next-intl'
-import { ArrowRight, CheckCircle2 } from 'lucide-react'
+import { ArrowDown, ArrowRight, CheckCircle2, PersonStanding, ScanFace } from 'lucide-react'
 
 import type { ServicePageKey } from '@/lib/site'
 import { BOOKING_LINK } from '@/lib/site'
+import { Link } from '@/i18n/navigation'
 import { AppointmentCta } from '@/components/appointment-cta'
 import { BenefitsTabs } from '@/components/benefits-tabs'
 import { IssuesTreated } from '@/components/issues-treated'
-import { PhytoTreatmentsTabs } from '@/components/phyto-treatments-tabs'
+import { PhytoFaceBody } from '@/components/phyto-face-body'
 import { SectionTitle } from '@/components/section-title'
 import { Reveal } from '@/components/reveal'
 import { GridBackdrop } from '@/components/grid-backdrop'
@@ -31,18 +33,34 @@ const SERVICE_CONFIG: Record<ServicePageKey, { heroImg: string; helpsImg: string
   },
 }
 
-/** "How it helps" bullet keys — shared shape across both services. */
-const HELP_POINTS = ['helps.point1', 'helps.point2', 'helps.point3', 'helps.point4'] as const
+/** "How it helps" bullet keys per service — impacco skips point1
+ * ("Calms inflammation…") and shows the remaining three. */
+const HELP_POINTS: Record<ServicePageKey, readonly string[]> = {
+  phytoaestetica: ['helps.point1', 'helps.point2', 'helps.point3', 'helps.point4'],
+  impacco: ['helps.point2', 'helps.point3', 'helps.point4'],
+}
 
-export function ServicePage({ service }: { service: ServicePageKey }) {
+/** Description badges for impacco — copy lives under
+ * `ServicePages.impacco.description.badges.<key>`. */
+const DESCRIPTION_BADGE_KEYS = ['relax', 'release', 'comfort'] as const
+
+export function ServicePage({
+  service,
+  initialService = null,
+}: {
+  service: ServicePageKey
+  /** Explicit `?service=` universe resolved on the server — phytoaestetica only. */
+  initialService?: 'face' | 'body' | null
+}) {
   const t = useTranslations(`ServicePages.${service}`)
   const tn = useTranslations('Nav')
   const { heroImg, helpsImg } = SERVICE_CONFIG[service]
+  const isPhyto = service === 'phytoaestetica'
 
   return (
     <>
       {/* ── Hero — split text + image with an animated brand-grid backdrop ── */}
-      <section className="relative isolate flex min-h-[80vh] items-center overflow-hidden bg-background py-16 lg:py-0">
+      <section className="relative isolate flex min-h-[80vh] items-center overflow-hidden bg-background py-16 lg:py-16">
         {/* Subtle animated grid, brand-tinted and faded toward the edges. */}
         <GridBackdrop />
         {/* Soft brand glow anchored to the text side. */}
@@ -67,19 +85,47 @@ export function ServicePage({ service }: { service: ServicePageKey }) {
             </BlurFade>
 
             <BlurFade delay={0.5}>
-              <ShimmerButton
-                asChild
-                type="button"
-                background="var(--brand)"
-                shimmerColor="#ffffff"
-                borderRadius="0px"
-                shimmerDuration="3s"
-                className="mt-9 px-7 py-3 text-sm font-medium"
-              >
-                <a href={BOOKING_LINK} target="_blank" rel="noopener noreferrer">
-                  {t('hero.cta')}
-                </a>
-              </ShimmerButton>
+              {isPhyto ? (
+                <div className="mt-9 flex items-center gap-3 sm:gap-4">
+                  <ShimmerButton
+                    asChild
+                    type="button"
+                    background="var(--brand)"
+                    shimmerColor="#ffffff"
+                    borderRadius="0px"
+                    shimmerDuration="3s"
+                    className="min-w-0 flex-1 gap-2 px-4 py-3 text-sm font-medium sm:min-w-[210px] sm:flex-none sm:gap-3 sm:px-10 sm:text-base"
+                  >
+                    <Link href="/phytoaestetica?service=face" scroll={false}>
+                      <ScanFace className="size-4 sm:size-5" />
+                      {tn('face')}
+                    </Link>
+                  </ShimmerButton>
+                  <Link
+                    href="/phytoaestetica?service=body"
+                    scroll={false}
+                    className="inline-flex min-w-0 flex-1 items-center justify-center gap-2 border border-brand/30 bg-transparent px-4 py-3 text-sm font-medium whitespace-nowrap text-brand transition-colors hover:border-brand hover:bg-brand/5 sm:min-w-[210px] sm:flex-none sm:gap-3 sm:px-10 sm:text-base"
+                  >
+                    <PersonStanding className="size-4 sm:size-5" />
+                    {tn('body')}
+                  </Link>
+                </div>
+              ) : (
+                <ShimmerButton
+                  asChild
+                  type="button"
+                  background="var(--brand)"
+                  shimmerColor="#ffffff"
+                  borderRadius="0px"
+                  shimmerDuration="3s"
+                  className="mt-7 gap-2 px-7 py-3 text-sm font-medium"
+                >
+                  <a href="#impacco-description">
+                    {t('hero.cta')}
+                    <ArrowDown className="size-4" />
+                  </a>
+                </ShimmerButton>
+              )}
             </BlurFade>
           </div>
 
@@ -106,12 +152,15 @@ export function ServicePage({ service }: { service: ServicePageKey }) {
       </section>
 
       {/* ── Service description ── */}
-      <section className="mx-auto max-w-3xl px-4 py-20 text-center sm:px-6 lg:px-8 lg:py-28">
+      <section
+        id={isPhyto ? undefined : 'impacco-description'}
+        className="mx-auto max-w-3xl scroll-mt-24 px-4 py-20 text-center sm:px-6 lg:px-8 lg:py-28"
+      >
         <Reveal inView>
           <SectionTitle className="mx-auto">{t('description.heading')}</SectionTitle>
         </Reveal>
         <Reveal delay={0.15} inView>
-          <p className="mt-6 text-lg leading-relaxed text-pretty text-foreground/90">
+          <p className="mt-6 text-base leading-relaxed text-pretty text-muted-foreground">
             {t('description.body1')}
           </p>
         </Reveal>
@@ -120,10 +169,27 @@ export function ServicePage({ service }: { service: ServicePageKey }) {
             {t('description.body2')}
           </p>
         </Reveal>
+        {!isPhyto && (
+          <Reveal delay={0.35} inView>
+            <ul className="mt-8 flex flex-wrap justify-center gap-2">
+              {DESCRIPTION_BADGE_KEYS.map((key) => (
+                <li
+                  key={key}
+                  className="rounded-full border border-brand/20 bg-brand/5 px-3 py-1.5 text-xs font-medium text-brand sm:text-sm"
+                >
+                  {t(`description.badges.${key}`)}
+                </li>
+              ))}
+            </ul>
+          </Reveal>
+        )}
       </section>
 
       {/* ── How it helps ── */}
-      <section className="relative isolate overflow-hidden bg-brand-subtle/30 py-20 lg:py-28">
+      <section
+        id="phyto-helps"
+        className="relative isolate overflow-hidden bg-brand-subtle/30 py-20 lg:py-28"
+      >
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:px-8">
           <Reveal direction="right" inView>
             <div className="relative aspect-4/3 overflow-hidden rounded-3xl border border-brand/15 shadow-xl">
@@ -140,7 +206,7 @@ export function ServicePage({ service }: { service: ServicePageKey }) {
                 {t('helps.body')}
               </p>
               <ul className="mt-7 space-y-4">
-                {HELP_POINTS.map((key) => (
+                {HELP_POINTS[service].map((key) => (
                   <li key={key} className="flex items-start gap-3">
                     <CheckCircle2 className="mt-0.5 size-5 shrink-0 text-brand" strokeWidth={1.75} />
                     <span className="text-base leading-relaxed text-foreground/90">{t(key)}</span>
@@ -152,15 +218,17 @@ export function ServicePage({ service }: { service: ServicePageKey }) {
         </div>
       </section>
 
-      {/* ── Tabbed content — benefits + treated issues for impacco,
-          PhytoTreatments for phytoaestetica ── */}
+      {/* ── Face + Body universes for phytoaestetica,
+          benefits + treated issues for impacco ── */}
       {service === 'impacco' ? (
         <>
           <BenefitsTabs />
           <IssuesTreated />
         </>
       ) : (
-        <PhytoTreatmentsTabs />
+        <Suspense>
+          <PhytoFaceBody initialService={initialService} />
+        </Suspense>
       )}
 
       {/* ── Service-specific appointment band ── */}
@@ -181,20 +249,47 @@ export function ServicePage({ service }: { service: ServicePageKey }) {
                   {t('cta.body')}
                 </p>
               </div>
-              <ShimmerButton
-                asChild
-                type="button"
-                background="#ffffff"
-                shimmerColor="#51623D"
-                borderRadius="0px"
-                shimmerDuration="3s"
-                className="shrink-0 px-8 py-4 text-sm font-medium !text-brand"
-              >
-                <a href={BOOKING_LINK} target="_blank" rel="noopener noreferrer">
-                  {t('cta.button')}
-                  <ArrowRight className="size-4" />
-                </a>
-              </ShimmerButton>
+              {isPhyto ? (
+                <div className="flex w-full items-center gap-3 sm:w-auto sm:shrink-0 sm:gap-4 lg:w-auto">
+                  <ShimmerButton
+                    asChild
+                    type="button"
+                    background="#ffffff"
+                    shimmerColor="#51623D"
+                    borderRadius="0px"
+                    shimmerDuration="3s"
+                    className="min-w-0 flex-1 gap-2 px-4 py-3 text-sm font-medium !text-brand sm:min-w-[210px] sm:flex-none sm:gap-3 sm:px-10 sm:text-base"
+                  >
+                    <Link href="/phytoaestetica?service=face" scroll={false}>
+                      <ScanFace className="size-4 sm:size-5" />
+                      {tn('face')}
+                    </Link>
+                  </ShimmerButton>
+                  <Link
+                    href="/phytoaestetica?service=body"
+                    scroll={false}
+                    className="inline-flex min-w-0 flex-1 items-center justify-center gap-2 border border-white/60 px-4 py-3 text-sm font-medium whitespace-nowrap text-white transition-colors hover:border-white hover:bg-white/10 sm:min-w-[210px] sm:flex-none sm:gap-3 sm:px-10 sm:text-base"
+                  >
+                    <PersonStanding className="size-4 sm:size-5" />
+                    {tn('body')}
+                  </Link>
+                </div>
+              ) : (
+                <ShimmerButton
+                  asChild
+                  type="button"
+                  background="#ffffff"
+                  shimmerColor="#51623D"
+                  borderRadius="0px"
+                  shimmerDuration="3s"
+                  className="shrink-0 px-8 py-4 text-sm font-medium !text-brand"
+                >
+                  <a href={BOOKING_LINK} target="_blank" rel="noopener noreferrer">
+                    {t('cta.button')}
+                    <ArrowRight className="size-4" />
+                  </a>
+                </ShimmerButton>
+              )}
             </div>
             <BorderBeam size={180} duration={14} colorFrom="#ffffff" colorTo="#9bb06f" />
           </div>

@@ -93,6 +93,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
+                    scroll={link.href.includes('service=') ? false : undefined}
                     className="text-sm text-muted-foreground transition-colors hover:text-brand"
                   >
                     {tn(link.key)}

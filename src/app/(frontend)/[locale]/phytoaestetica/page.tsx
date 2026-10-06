@@ -19,6 +19,14 @@ export async function generateMetadata({
   })
 }
 
-export default function Phytoaestetica() {
-  return <ServicePage service="phytoaestetica" />
+export default async function Phytoaestetica({
+  searchParams,
+}: {
+  searchParams: Promise<{ service?: string }>
+}) {
+  const { service } = await searchParams
+  // Server-owned initial tab: only an explicit, valid param selects a
+  // universe — missing or garbage means plain default Face, no scrolling.
+  const initialService = service === 'face' || service === 'body' ? service : null
+  return <ServicePage service="phytoaestetica" initialService={initialService} />
 }

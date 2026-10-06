@@ -14,6 +14,7 @@ import {
 import { DropdownMenu as DropdownMenuPrimitive } from 'radix-ui'
 
 import { Link, usePathname } from '@/i18n/navigation'
+import { useSearchParams } from 'next/navigation'
 import { SERVICE_LINKS, type ServiceKey } from '@/lib/site'
 import { cn } from '@/lib/utils'
 import {
@@ -79,8 +80,19 @@ export function ServicesMenu() {
   const t = useTranslations('Nav')
   const ts = useTranslations('HomePage.services')
   const pathname = usePathname()
+  const serviceParam = useSearchParams().get('service')
+
+  /** `href` may carry `?service=face|body` — the row is active when both the
+   * path and the requested universe match. */
+  const isActiveHref = (href: string) => {
+    const [path, query] = href.split('?')
+    if (!matches(pathname, path)) return false
+    if (!query) return true
+    const want = new URLSearchParams(query).get('service')
+    return want ? serviceParam === want : true
+  }
   const active = SERVICE_LINKS.some(
-    (s) => matches(pathname, s.href) || s.children.some((c) => matches(pathname, c.href)),
+    (s) => isActiveHref(s.href) || s.children.some((c) => isActiveHref(c.href)),
   )
 
   // Controlled so hover can drive `open` alongside Radix's own click/keyboard
@@ -182,8 +194,8 @@ export function ServicesMenu() {
           {SERVICE_LINKS.map((service) => {
             const Icon = SERVICE_ICON[service.key]
             const isActive =
-              matches(pathname, service.href) ||
-              service.children.some((c) => matches(pathname, c.href))
+              isActiveHref(service.href) ||
+              service.children.some((c) => isActiveHref(c.href))
 
             // A service with children owns a hover flyout. `SubTrigger asChild`
             // keeps the row a real link: hovering opens Face/Body, clicking
@@ -238,7 +250,7 @@ export function ServicesMenu() {
                     <div className="grid gap-1">
                       {service.children.map((child) => {
                         const ChildIcon = SERVICE_ICON[child.key]
-                        const isChildActive = matches(pathname, child.href)
+                        const isChildActive = isActiveHref(child.href)
                         return (
                           <DropdownMenuItem
                             key={child.href}
@@ -250,6 +262,7 @@ export function ServicesMenu() {
                           >
                             <Link
                               href={child.href}
+                              scroll={false}
                               aria-current={isChildActive ? 'page' : undefined}
                             >
                               <span

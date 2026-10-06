@@ -250,12 +250,12 @@
       "hero": {
         "title": "Feel beautiful with",
         "titleAccent": "Phyto-Esthetics",
-        "subtitle": "Customised phyto-aesthetic programmes born from over 65 years of research into medicinal plants — radiant, toned skin through the excellence of nature and science.",
+        "subtitle": "Customised phyto-aesthetic programmes born from 70+ years of research into medicinal plants — radiant, toned skin through the excellence of nature and science.",
         "cta": "Book an appointment"
       },
       "description": {
         "heading": "What is phyto-esthetics?",
-        "body1": "Phyto-esthetics harnesses the beneficial properties of medicinal plants in customised aesthetic programmes and products, developed through more than 65 years of experience and research.",
+        "body1": "Phyto-esthetics harnesses the beneficial properties of medicinal plants in customised aesthetic programmes and products, developed through more than 70 years of experience and research.",
         "body2": "At Palazzo, our specialised staff is at your disposal to design your personalised programme — only the excellence of nature and science, to make you feel better inside and appreciate yourself more outside."
       },
       "helps": {
@@ -266,56 +266,126 @@
         "point3": "Firms and sculpts the silhouette with plant-based care.",
         "point4": "Lets you unwind completely while the treatment works."
       },
-      "treatments": {
-        "heading": "PhytoTreatments",
-        "subtitle": "A complete path to natural beauty — from consultation to treatment, nutrition and mindset.",
-        "tabs": {
-          "consultation": {
-            "label": "Consultation",
-            "title": "Initial Physio-Aesthetic Consultation",
-            "p1": "Physio-aesthetics arises from the union of physiotherapy and aesthetic medicine, in order to identify and treat the conditions that cause skin imperfections. Unlike aesthetics, which acts on the skin only from the outside, it intervenes in the physiological functions of the body to give it a natural beauty.",
-            "p2": "Wellness is restored through advanced non-invasive treatments and exclusive phytotherapeutic products with slimming, anti-cellulite, toning, anti-aging and draining effects."
+      "face": {
+        "title": "For skin with its own needs.",
+        "intro1": "Every skin is different. That's why our facial phyto-aesthetic experiences don't start from a standard approach, but from the needs, appearance and particularities of your skin.",
+        "intro2": "At the heart of the FACE universe lies Re-GEN — a facial care concept that brings together specialised formulas, carefully selected ingredients and techniques woven into an experience designed to support hydration, revitalisation and a balanced-looking skin.",
+        "conceptTitle": "The RE-GEN® Pro-Age range",
+        "conceptBody": "The RE-GEN® Pro-Age range, developed by Laboratori Zanellato, starts from a simple idea: mature skin doesn't need to be “fought”, but supported with exactly what it has lost over time. Hence the name — Pro-Age, not Anti-Age. It is the meeting of biomimicry — ingredients structurally identical to those in human skin — and an innovative formulation technology developed in the Verona laboratories.",
+        "science": {
+          "ceramide": {
+            "title": "Ceramides — the skin barrier, rebuilt",
+            "body": "RE-GEN formulas deliver ceramides structurally identical to those in human skin, integrating naturally into the cellular “cement” and helping restore the protective barrier. The result: visibly more hydrated skin, firmer to the touch."
           },
-          "cellularReactivation": {
-            "label": "Cellular reactivation",
-            "h1": "Phytotherapy cellular reactivation for the Face",
-            "p1": "In December 2022 we launched the new Re-GEN Face Mask.",
-            "p2": "Our Galenic Cataplasm, adapted for facial skin and enriched with anti-aging active ingredients, is the basis of the product. It is spread on an elegant golden silicone mask that adapts to every face shape.",
-            "p3": "Scientific tests have shown its ability to stimulate cell turnover, eliminate dead cells, slow aging, tone tissues and smooth wrinkles, drain and deflate the bags under the eyes, and capture the free radicals that dull the complexion and cause impurities. The active ingredients penetrate deep into the layers of the skin thanks to ozonisation, a special processing technique developed in our laboratories.",
-            "p4": "Your skin will be regenerated in just one hour!",
-            "h2": "Phytotherapy cellular reactivation for the Body",
-            "p5": "Our exclusive Galenic Cataplasm Compress was created in 1956 and has been constantly improved ever since. It is our flagship treatment, combining a healing effect with aesthetic improvement.",
-            "p6": "The Compress has a powerful anti-inflammatory action, promoting cellular reactivation, the absorption of the body fluids that cause water retention, and the reduction of localised fat in critical areas.",
-            "p7": "The result? Detoxified tissues, toned skin and visibly reduced blemishes."
+          "peptide": {
+            "title": "Biomimetic peptide complex",
+            "body": "The biomimetic multi-peptide complex acts as a cellular messenger, supporting the skin's natural synthesis of collagen and elastin. The skin receives the “signals” it needs to support its own structure and firmness."
           },
-          "lymphaticDrainage": {
-            "label": "Lymphatic Drainage",
-            "title": "Advanced Manual Lymphatic Drainage",
-            "p1": "A special type of physiotherapy massage whose manoeuvres boost or reactivate proper lymphatic circulation and eliminate excess interstitial fluid.",
-            "p2": "Thanks to a specialisation course in Advanced Manual Lymphatic Drainage, our physiotherapists can effectively use three different techniques according to the patient's needs: the Leduc, Vodder and Belgrade techniques.",
-            "p3": "The ultimate goal is to restore the person's psychophysical well-being, acting at the root of medical issues with aesthetic implications such as cellulite, water retention, swelling, lymphoedema, lipoedema and circulatory failure. It also helps you eliminate drug residues and food toxins and strengthens your immune system."
+          "ozone": {
+            "title": "Ozonisation technology — the Verona innovation",
+            "body": "A distinctive element, exclusive to Zanellato: the ozonisation technology for plant oils (perilla, flax, oat) — a patented process applied to the RE-GEN range, which intensifies the sensation of active warmth and visibly stimulates local microcirculation from the moment of application. It is the technological signature that sets us apart from any other cosmetic range on the market."
           },
-          "posturalReeducation": {
-            "label": "Postural re-education",
-            "p1": "A frequent mistake is to underestimate the influence of posture on the proper functioning of the body and on its imperfections, such as cellulite and abdominal bloating.",
-            "p2": "Through targeted postural re-education, the goal is to bring the body back to a state of overall well-being."
+          "hydro": {
+            "title": "Multi-Hydrosol phytocomplex — layered hydration",
+            "body": "Combined with hyaluronic acid of different molecular weights, it offers multi-layer hydration: large molecules act at the surface with an immediate visible smoothing effect, while micro-molecules penetrate in depth."
           },
-          "nutrition": {
-            "label": "Nutrition",
-            "p1": "We will lead you to your ideal diet and supplementation plan through an innovative path — without imposed fasting, calorie counting or complicated recipes.",
-            "p2": "Our modern approach is suitable for those who have little time but do not want to give up a healthy diet."
-          },
-          "personalTraining": {
-            "label": "Personal Training",
-            "p1": "With a background in competitive sports and qualifications as both an instructor and a specialised physiotherapist, our personal trainer will create an effective, personalised training plan tailored to your needs.",
-            "p2": "Working together, you'll find the physical activity that best suits your lifestyle, taking into account your schedule and personal preferences."
-          },
-          "mentalCoaching": {
-            "label": "Mental Coaching",
-            "p1": "A key factor in any wellness journey is maintaining a positive mindset towards eating habits and body image. That's why your journey is guided by a certified Mindfulness Facilitator.",
-            "p2": "Throughout your journey, you'll receive support and motivation whenever you face challenges or uncertainties. Through these sessions, you'll develop a healthy and mindful relationship with both food and your body."
+          "bromelain": {
+            "title": "Bromelain — gentle exfoliation",
+            "body": "The natural enzyme bromelain offers a gentle enzymatic exfoliation of dead cells from the skin surface, reducing the “tired face” look and giving an immediate glow."
           }
-        }
+        },
+        "discover": "Discover Face",
+        "proceduresHeading": "FACE procedures",
+        "procedures": {
+          "regen": {
+            "name": "Re-GEN Pro-Age",
+            "duration": "60 min",
+            "body": "A complete firmness-recovery ritual, designed for mature skin that needs structural support. Purification, active mask, lymphatic drainage and long minutes of myofascial manual lifting, for firmer, luminous, visibly rested skin."
+          },
+          "antiage": {
+            "name": "Anti-Age Premium",
+            "duration": "75 min",
+            "body": "The same Re-GEN philosophy, generously extended to the neck and décolletage. Lifting manoeuvres are prolonged, and lymphatic drainage also covers the cervical area, for a deeper toning effect."
+          },
+          "glow": {
+            "name": "Luxury Glow Verona",
+            "duration": "90 min",
+            "body": "The Palazzo signature. The most generous facial experience on our menu, with an extended window of myofascial sculpting and a dedicated moment of toning cervical massage, for a glow others notice."
+          },
+          "lymphatic": {
+            "name": "Facial Lymphatic Massage",
+            "duration": "45 min",
+            "body": "For days when your face needs, above all, lightness — uninterrupted minutes of manual lymphatic drainage. Ideal after short nights or periods of visible fatigue."
+          },
+          "express": {
+            "name": "Palazzo Express",
+            "duration": "30 min",
+            "body": "Quick freshness between two meetings. Cleansing, active serum and a toning facial massage, condensed into half an hour."
+          }
+        },
+        "productsHeading": "RE-GEN products, step by step",
+        "products": {
+          "mask": {
+            "name": "Facial Mask",
+            "body": "An intensive experience of deep cleansing and oxygenation. The formula, enriched with ozonised oils and soothing extracts, stimulates local microcirculation and delivers that characteristic sensation of intense warmth."
+          },
+          "milk": {
+            "name": "Cleansing Milk",
+            "body": "A biomimetic cleanse, gentle on the skin — dissolves impurities through a delicate lipid phase that respects the skin's natural balance."
+          },
+          "tonic": {
+            "name": "Tonic Lotion (Multi-Hydrosol)",
+            "body": "A phyto-botanical distillate that instantly rebalances and hydrates, preparing the skin for the next steps of the ritual."
+          },
+          "serum": {
+            "name": "Facial Serum (Multi-Peptide & Ceramides)",
+            "body": "The most concentrated product in the range — supports the skin's natural activity of restoring firmness and density, with a visible smoothing effect."
+          },
+          "cream": {
+            "name": "Restructuring Facial Cream",
+            "body": "Rich in precious oils and biomimetic ceramides, it seals in hydration and helps restore the protective barrier. Vitamins C and E complete the formula with antioxidant protection."
+          }
+        },
+        "discoverProcedures": "Procedures",
+        "getInTouch": "Contact us"
+      },
+      "body": {
+        "title": "The body has its own rhythm. Its care should respect it.",
+        "intro1": "At Palazzo, body experiences start from a simple perspective: the appearance of the skin is influenced by more than what is visible on the surface.",
+        "intro2": "That's why our rituals combine carefully integrated manual techniques with specialised phyto-aesthetic formulas and ingredients selected for their ability to support the care of tone, compactness and skin appearance.",
+        "intro3": "From rituals dedicated to areas that need more attention, to experiences focused on activation, drainage and relaxation, each procedure is built as a moment in which the body receives the time and care it needs.",
+        "intro4": "Because a cared-for body isn't just about how it looks. It's also about how it feels.",
+        "explore": "Explore the Body universe",
+        "proceduresHeading": "BODY procedures",
+        "procedures": {
+          "silhouette": {
+            "name": "Silhouette Ritual",
+            "duration": "75 min",
+            "body": "A complete silhouette reconstruction: exfoliation, deep anti-cellulite massage and a final stage personalised to your needs. Skin stays velvety, the silhouette — visibly more defined."
+          },
+          "detox": {
+            "name": "Detox & Relax with Leggings",
+            "duration": "90 min",
+            "body": "The most complete ritual for the legs: exfoliation, relaxing massage, then long minutes with our active Zanellato leggings, in a moment of complete relaxation with a herbal infusion."
+          },
+          "braccia": {
+            "name": "Armonia Braccia",
+            "duration": "45 min",
+            "body": "A toning and drainage ritual for the arms, finished with active compression, for a firmer, more contoured look. Also available as an add-on to any other body procedure."
+          },
+          "back": {
+            "name": "Back Purify",
+            "duration": "45 min",
+            "body": "The back deserves the same attention as the face. Exfoliation, full relaxing massage and a targeted stage for accumulated tension."
+          },
+          "total": {
+            "name": "Total Body Boost",
+            "duration": "120 min",
+            "body": "The ultimate Palazzo experience: face, arms and legs in a single two-hour ritual combining Luxury Glow Verona, Armonia Braccia and Detox & Relax with Leggings."
+          }
+        },
+        "discoverProcedures": "Procedures",
+        "getInTouch": "Contact us"
       },
       "cta": {
         "heading": "Book your phyto-esthetics experience",
@@ -328,12 +398,17 @@
         "title": "Heal naturally with",
         "titleAccent": "Impacco",
         "subtitle": "The healing power of plants — natural, science-backed remedies that support your body gently and effectively.",
-        "cta": "Book an appointment"
+        "cta": "Discover Impacco"
       },
       "description": {
         "heading": "What is Impacco?",
-        "body1": "Impacco is the therapeutic use of plants and their active compounds to prevent and treat illness — one of the oldest forms of medicine, refined by modern science.",
-        "body2": "At Palazzo, we pair traditional botanical knowledge with current research to create natural remedies that complement your care, support recovery and strengthen your body's own balance."
+        "body1": "Sometimes your body tells you exactly where it needs attention. Tension accumulates. The body contracts. Certain areas remain overworked more than we realize. Inspired by the tradition of Galenical Cataplasm, Impacco is a localized experience created for carefully selected areas, where heat, plants and action time meet in a ritual with its own identity.",
+        "body2": "Through its traditional counter-irritant action, the Cataplasm creates intense local activation accompanied by a progressive sensation of heat and the stimulation of microcirculation. The occlusive application contributes to maintaining the necessary conditions for the ingredients in the formula to act over time, transforming each Impacco into a profound and personal experience. It's the moment you choose to pause and give attention to exactly the area that needs you.",
+        "badges": {
+          "relax": "For relaxation",
+          "release": "For release",
+          "comfort": "For easing discomfort"
+        }
       },
       "helps": {
         "heading": "How Impacco helps",

@@ -71,8 +71,8 @@ function truncateDesc(text: string): string {
  * `labelKey` points into the `hero` namespace, where `linkFace` / `linkBody` /
  * `linkImpacco` already exist in all three locales — the hero buttons and these
  * cards are meant to name the same three things. `href` powers each card's
- * "Discover" button; Face and Body deep-link to `#face` / `#body`, matching the
- * hero buttons.
+ * "Discover" button; Face and Body deep-link via `?service=face|body`, matching
+ * the hero buttons.
  *
  * KNOWN GAP: those two anchors have no matching `id` anywhere on the
  * phytoaestetica page yet, so those buttons navigate correctly but currently
@@ -85,7 +85,7 @@ const HOME_SERVICE_CARDS = [
     descKey: 'services.faceDesc',
     focusKey: 'services.faceFocus',
     img: '/face.jpg',
-    href: '/phytoaestetica#face',
+    href: '/phytoaestetica?service=face',
     bookKey: 'phytoaestetica',
   },
   {
@@ -93,7 +93,7 @@ const HOME_SERVICE_CARDS = [
     descKey: 'services.bodyDesc',
     focusKey: 'services.bodyFocus',
     img: '/body.jpg',
-    href: '/phytoaestetica#body',
+    href: '/phytoaestetica?service=body',
     bookKey: 'phytoaestetica',
   },
   {
@@ -117,8 +117,8 @@ const SOCIAL_LINKS = [
     (they are localized, unlike the Italian brand terms); only the destinations
     are locale-agnostic paths for the next-intl `Link`. */
 const HERO_CATEGORY_LINKS = [
-  { labelKey: 'linkFace', href: '/phytoaestetica#face', Icon: Sparkles },
-  { labelKey: 'linkBody', href: '/phytoaestetica#body', Icon: Dumbbell },
+  { labelKey: 'linkFace', href: '/phytoaestetica?service=face', Icon: Sparkles },
+  { labelKey: 'linkBody', href: '/phytoaestetica?service=body', Icon: Dumbbell },
   // "Impacco" is the herbal blend's own name (see `HomePage.featured.title`),
   // not a descriptor — so it stays untranslated in every locale, alongside the
   // Italian motto. Only the `href` is locale-agnostic; `labelKey` resolves here.
@@ -241,7 +241,11 @@ function Hero() {
             <div className="mt-7 grid grid-cols-2 gap-2.5 sm:mt-9 sm:gap-3">
               {HERO_CATEGORY_LINKS.map(({ labelKey, href, Icon, span, tone }) => {
                 const inner = (
-                  <Link href={href} className="flex items-center justify-center gap-2">
+                  <Link
+                    href={href}
+                    scroll={href.includes('service=') ? false : undefined}
+                    className="flex items-center justify-center gap-2"
+                  >
                     <Icon className="size-3.5 shrink-0 sm:size-4" strokeWidth={1.75} />
                     {t(labelKey)}
                   </Link>
@@ -541,7 +545,10 @@ function Services() {
                         variant="outline"
                         className="h-auto gap-2 rounded-none border-brand-foreground/45 bg-transparent px-5 py-2.5 text-sm font-medium text-brand-foreground hover:border-brand-foreground hover:bg-white/10 hover:text-brand-foreground"
                       >
-                        <Link href={card.href}>
+                        <Link
+                          href={card.href}
+                          scroll={card.href.includes('service=') ? false : undefined}
+                        >
                           {t('services.discover')}
                           <ArrowRight className="size-4 transition-transform group-hover/button:translate-x-0.5" />
                         </Link>

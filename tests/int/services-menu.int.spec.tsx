@@ -84,15 +84,15 @@ describe('ServicesMenu', () => {
     }
   })
 
-  it('points Face/Body at the phyto page anchors', async () => {
+  it('points Face/Body at the phyto page service params', async () => {
     renderMenu()
     openMenu()
     await openPhytoSubmenu()
 
     const face = await screen.findByRole('menuitem', { name: /^face/i })
     const body = screen.getByRole('menuitem', { name: /^body/i })
-    expect(face.getAttribute('href')).toContain('/phytoaestetica#face')
-    expect(body.getAttribute('href')).toContain('/phytoaestetica#body')
+    expect(face.getAttribute('href')).toContain('/phytoaestetica?service=face')
+    expect(body.getAttribute('href')).toContain('/phytoaestetica?service=body')
   })
 
   it('renders the submenu in a nested menu container (flyout, not inline rows)', async () => {

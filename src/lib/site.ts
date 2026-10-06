@@ -62,8 +62,8 @@ export const SERVICE_LINKS = [
     href: '/phytoaestetica',
     key: 'phytoaestetica',
     children: [
-      { href: '/phytoaestetica#face', key: 'face' },
-      { href: '/phytoaestetica#body', key: 'body' },
+      { href: '/phytoaestetica?service=face', key: 'face' },
+      { href: '/phytoaestetica?service=body', key: 'body' },
     ],
   },
   { href: '/phytotherapy', key: 'impacco', children: [] },

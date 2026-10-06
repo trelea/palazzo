@@ -250,12 +250,12 @@
       "hero": {
         "title": "Simte-te frumoasă cu",
         "titleAccent": "Fitoestetică",
-        "subtitle": "Programe fitoestetice personalizate, născute din peste 65 de ani de cercetare asupra plantelor medicinale — piele radiantă și tonifiată, prin excelența naturii și a științei.",
+        "subtitle": "Programe fitoestetice personalizate, născute din peste 70 de ani de cercetare asupra plantelor medicinale — piele radiantă și tonifiată, prin excelența naturii și a științei.",
         "cta": "Programează-te"
       },
       "description": {
         "heading": "Ce este fitoestetica?",
-        "body1": "Fitoestetica valorifică proprietățile benefice ale plantelor medicinale în programe și produse estetice personalizate, dezvoltate în peste 65 de ani de experiență și cercetare.",
+        "body1": "Fitoestetica valorifică proprietățile benefice ale plantelor medicinale în programe și produse estetice personalizate, dezvoltate în peste 70 de ani de experiență și cercetare.",
         "body2": "La Palazzo, personalul nostru specializat îți stă la dispoziție pentru a-ți crea programul personalizat — doar excelența naturii și a științei, ca să te simți mai bine în interior și să te apreciezi mai mult în exterior."
       },
       "helps": {
@@ -266,56 +266,126 @@
         "point3": "Fermifică și remodelează silueta cu îngrijire pe bază de plante.",
         "point4": "Te lasă să te relaxezi complet în timp ce tratamentul lucrează."
       },
-      "treatments": {
-        "heading": "PhytoTreatments",
-        "subtitle": "Un parcurs complet către frumusețea naturală — de la consultație la tratament, nutriție și echilibru mental.",
-        "tabs": {
-          "consultation": {
-            "label": "Consultație",
-            "title": "Consultația inițială fizio-estetică",
-            "p1": "Fizio-estetica ia naștere din îmbinarea fizioterapiei cu medicina estetică, pentru a identifica și trata afecțiunile care provoacă imperfecțiunile pielii. Spre deosebire de estetica clasică, ce acționează asupra pielii doar din exterior, ea intervine asupra funcțiilor fiziologice ale corpului, pentru a-i reda o frumusețe naturală.",
-            "p2": "Starea de bine este restabilită prin tratamente avansate neinvazive și produse fitoterapeutice exclusive, cu efect de slăbire, anticelulitic, tonifiant, anti-îmbătrânire și drenant."
+      "face": {
+        "title": "Pentru o piele care are propriile nevoi.",
+        "intro1": "Fiecare piele este diferită. De aceea, experiențele noastre de fitoestetică facială nu pornesc de la o abordare standard, ci de la nevoile, aspectul și particularitățile pielii tale.",
+        "intro2": "În centrul universului FACE se află Re-GEN — un concept de îngrijire facială care reunește formule specializate, ingrediente atent selectate și tehnici integrate într-o experiență creată pentru a susține hidratarea, revitalizarea și aspectul echilibrat al pielii.",
+        "conceptTitle": "Gama RE-GEN® Pro-Age",
+        "conceptBody": "Gama RE-GEN® Pro-Age, dezvoltată de Laboratori Zanellato, pornește de la o idee simplă: pielea matură nu are nevoie să fie \"combătută\", ci sprijinită cu exact ce a pierdut în timp. De aici și numele — Pro-Age, nu Anti-Age. Este întâlnirea dintre biomimetism — ingrediente identice structural cu cele din pielea umană — și o tehnologie de formulare inovatoare, dezvoltată în laboratoarele din Verona.",
+        "science": {
+          "ceramide": {
+            "title": "Ceramide — bariera pielii, reconstruită",
+            "body": "Formulele RE-GEN livrează ceramide identice structural cu cele din pielea umană, care se integrează natural în \"cimentul\" celular și ajută la refacerea barierei de protecție. Rezultatul: piele vizibil mai hidratată, mai fermă la atingere."
           },
-          "cellularReactivation": {
-            "label": "Reactivare celulară",
-            "h1": "Reactivare celulară fitoterapeutică pentru față",
-            "p1": "În decembrie 2022 am lansat noua mască facială Re-GEN.",
-            "p2": "Cataplasma noastră Galenică, adaptată pentru pielea feței și îmbogățită cu principii active anti-îmbătrânire, stă la baza produsului. Ea este aplicată pe o mască elegantă din silicon auriu, care se adaptează oricărei forme a feței.",
-            "p3": "Testele științifice i-au demonstrat capacitatea de a stimula reînnoirea celulară, de a elimina celulele moarte, de a încetini îmbătrânirea, de a tonifia țesuturile și de a netezi ridurile, de a drena și dezumfla pungile de sub ochi și de a capta radicalii liberi care sting tenul și provoacă impurități. Principiile active pătrund adânc în straturile pielii datorită ozonizării, o tehnică specială de procesare dezvoltată în laboratoarele noastre.",
-            "p4": "Pielea ta va fi regenerată într-o singură oră!",
-            "h2": "Reactivare celulară fitoterapeutică pentru corp",
-            "p5": "Compresa noastră exclusivă cu Cataplasmă Galenică a fost creată în 1956 și îmbunătățită constant de atunci. Este tratamentul nostru emblematic, care îmbină efectul terapeutic cu îmbunătățirea estetică.",
-            "p6": "Compresa are o puternică acțiune antiinflamatoare, favorizând reactivarea celulară, absorbția lichidelor care provoacă retenția de apă și reducerea grăsimii localizate în zonele critice.",
-            "p7": "Rezultatul? Țesuturi detoxifiate, piele tonifiată și imperfecțiuni vizibil reduse."
+          "peptide": {
+            "title": "Complexul de peptide biomimetice",
+            "body": "Complexul de multi-peptide biomimetice acționează ca un mesager celular, susținând activitatea naturală de sinteză a colagenului și elastinei. Pielea primește \"semnalele\" de care are nevoie pentru a-și susține singură structura și fermitatea."
           },
-          "lymphaticDrainage": {
-            "label": "Drenaj limfatic",
-            "title": "Drenaj limfatic manual avansat",
-            "p1": "Un tip special de masaj fizioterapeutic, ale cărui manevre stimulează sau reactivează circulația limfatică corectă și elimină excesul de lichid interstițial.",
-            "p2": "Datorită unui curs de specializare în drenaj limfatic manual avansat, fizioterapeuții noștri pot folosi eficient trei tehnici diferite, în funcție de nevoile pacientului: tehnicile Leduc, Vodder și Belgrad.",
-            "p3": "Scopul final este restabilirea stării de bine psihofizice a persoanei, acționând la rădăcina problemelor medicale cu implicații estetice, precum: celulita, retenția de apă, umflăturile, limfedemul, lipedemul și insuficiența circulatorie. Te va ajuta, de asemenea, să elimini reziduurile de medicamente și toxinele alimentare și să îți întărești sistemul imunitar."
+          "ozone": {
+            "title": "Tehnologia de ozonizare — inovația de la Verona",
+            "body": "Un element distinctiv, exclusiv Zanellato: tehnologia de ozonizare a uleiurilor vegetale (Perilla, in, ovăz) — un procedeu brevetat, aplicat gamei RE-GEN, care intensifică senzația de căldură activă și stimulează vizibil microcirculația locală încă din timpul aplicării. Este semnătura tehnologică ce ne diferențiază de orice altă gamă cosmetică de pe piață."
           },
-          "posturalReeducation": {
-            "label": "Reeducare posturală",
-            "p1": "O greșeală frecventă este subestimarea influenței posturii asupra bunei funcționări a corpului și asupra imperfecțiunilor sale, precum celulita și balonarea abdominală.",
-            "p2": "Prin reeducare posturală țintită, scopul este readucerea corpului la o stare de bine generală."
+          "hydro": {
+            "title": "Fitocomplex Multi-Hydrosol — hidratare stratificată",
+            "body": "Combinat cu acid hialuronic de diferite greutăți moleculare, oferă o hidratare în mai multe straturi: moleculele mari acționează la suprafață, cu efect optic imediat de netezire, în timp ce micro-moleculele pătrund în profunzime."
           },
-          "nutrition": {
-            "label": "Nutriție",
-            "p1": "Te vom conduce către dieta și planul de suplimente ideale pentru tine, printr-un parcurs inovator — fără posturi impuse, fără numărat calorii și fără rețete complicate.",
-            "p2": "Abordarea noastră modernă este potrivită celor care au puțin timp, dar nu vor să renunțe la o alimentație sănătoasă."
-          },
-          "personalTraining": {
-            "label": "Antrenament personal",
-            "p1": "Cu experiență în sportul de performanță și calificări atât de instructor, cât și de fizioterapeut specializat, antrenorul nostru personal îți va crea un plan de antrenament eficient, personalizat nevoilor tale.",
-            "p2": "Împreună veți găsi activitatea fizică potrivită stilului tău de viață, ținând cont de programul și preferințele tale personale."
-          },
-          "mentalCoaching": {
-            "label": "Coaching mental",
-            "p1": "Un factor-cheie în orice parcurs de wellness este menținerea unei atitudini pozitive față de obiceiurile alimentare și imaginea corporală. De aceea, parcursul tău este ghidat de un facilitator certificat de mindfulness.",
-            "p2": "Pe tot parcursul programului vei primi sprijin și motivație ori de câte ori întâmpini provocări sau nesiguranțe. Prin aceste ședințe îți vei dezvolta o relație sănătoasă și conștientă atât cu mâncarea, cât și cu propriul corp."
+          "bromelain": {
+            "title": "Bromelina — exfoliere blândă",
+            "body": "Enzima naturală bromelina oferă o exfoliere enzimatică blândă a celulelor moarte de la suprafața pielii, pentru reducerea aspectului de \"față obosită\" și o strălucire imediată a tenului."
           }
-        }
+        },
+        "discover": "Descoperă Face",
+        "proceduresHeading": "Procedurile FACE",
+        "procedures": {
+          "regen": {
+            "name": "Re-GEN Pro-Age",
+            "duration": "60 min",
+            "body": "Un ritual complet de recâștigare a fermității, conceput pentru pielea matură care are nevoie de sprijin structural. Purificare, mască activă, drenaj limfatic și minute îndelungate de lifting manual miofascial, pentru o piele mai fermă, luminoasă, vizibil odihnită."
+          },
+          "antiage": {
+            "name": "Anti-Age Premium",
+            "duration": "75 min",
+            "body": "Aceeași filozofie Re-GEN, extinsă generos spre gât și decolteu. Manevrele de lifting se prelungesc, iar drenajul limfatic acoperă și zona cervicală, pentru un efect de tonifiere mai profund."
+          },
+          "glow": {
+            "name": "Luxury Glow Verona",
+            "duration": "90 min",
+            "body": "Semnătura Palazzo. Cea mai amplă experiență facială din meniul nostru, cu o fereastră extinsă de sculptare miofascială și un moment dedicat de masaj cervical tonifiant, pentru o strălucire pe care ceilalți o observă."
+          },
+          "lymphatic": {
+            "name": "Masaj Limfatic Facial",
+            "duration": "45 min",
+            "body": "Pentru zilele în care fața ta are nevoie, mai presus de orice, de ușurință — minute neîntrerupte de drenaj limfatic manual. Ideal după nopți scurte sau perioade de oboseală vizibilă."
+          },
+          "express": {
+            "name": "Palazzo Express",
+            "duration": "30 min",
+            "body": "Prospețime rapidă între două întâlniri. Curățare, ser activ și un masaj facial tonifiant, condensate într-o jumătate de oră."
+          }
+        },
+        "productsHeading": "Produsele RE-GEN, pas cu pas",
+        "products": {
+          "mask": {
+            "name": "Masca Facială",
+            "body": "O experiență intensivă de curățare profundă și oxigenare. Formula, îmbogățită cu uleiuri ozonizate și extracte calmante, stimulează microcirculația locală și oferă acea senzație caracteristică de căldură intensă."
+          },
+          "milk": {
+            "name": "Laptele Demachiant",
+            "body": "O curățare biomimetică, blândă cu pielea — dizolvă impuritățile printr-o fază lipidică delicată, care respectă echilibrul natural al pielii."
+          },
+          "tonic": {
+            "name": "Loțiunea Tonică (Multi-Hydrosol)",
+            "body": "Un distilat fito-botanic care reechilibrează și hidratează instantaneu, pregătind pielea pentru pașii următori ai ritualului."
+          },
+          "serum": {
+            "name": "Serul Facial (Multi-Peptide și Ceramide)",
+            "body": "Cel mai concentrat produs din gamă — susține activitatea naturală a pielii de a-și reface fermitatea și densitatea, cu efect vizibil de netezire."
+          },
+          "cream": {
+            "name": "Crema Facială Restructuring",
+            "body": "Bogată în uleiuri prețioase și ceramide biomimetice, sigilează hidratarea și ajută la refacerea barierei de protecție. Vitaminele C și E completează formula cu protecție antioxidantă."
+          }
+        },
+        "discoverProcedures": "Proceduri",
+        "getInTouch": "Contact"
+      },
+      "body": {
+        "title": "Corpul are propriul ritm. Îngrijirea lui ar trebui să îl respecte.",
+        "intro1": "La Palazzo, experiențele dedicate corpului pornesc de la o perspectivă simplă: aspectul pielii este influențat de mai mult decât ceea ce se vede la suprafață.",
+        "intro2": "De aceea, ritualurile noastre combină tehnici manuale atent integrate cu formule fitoestetice specializate și ingrediente selectate pentru capacitatea lor de a susține îngrijirea tonusului, compactității și aspectului pielii.",
+        "intro3": "De la ritualuri dedicate zonelor care necesită mai multă atenție, până la experiențe care pun accent pe activare, drenaj și relaxare, fiecare procedură este construită ca un moment în care corpul primește timpul și îngrijirea de care are nevoie.",
+        "intro4": "Pentru că un corp îngrijit nu înseamnă doar cum arată. Înseamnă și cum se simte.",
+        "explore": "Explorează universul Body",
+        "proceduresHeading": "Procedurile BODY",
+        "procedures": {
+          "silhouette": {
+            "name": "Ritual Silhouette",
+            "duration": "75 min",
+            "body": "O reconstrucție completă a siluetei: exfoliere, masaj anticelulitic profund și o etapă finală personalizată în funcție de nevoile tale. Pielea rămâne catifelată, silueta — vizibil mai definită."
+          },
+          "detox": {
+            "name": "Detox & Relax cu Leggins",
+            "duration": "90 min",
+            "body": "Cel mai complet ritual pentru picioare: exfoliere, masaj relaxant, apoi minute îndelungate cu legginsii noștri activi Zanellato, într-un moment de relaxare completă cu o infuzie de plante."
+          },
+          "braccia": {
+            "name": "Armonia Braccia",
+            "duration": "45 min",
+            "body": "Un ritual de tonifiere și drenaj pentru brațe, încheiat cu compresie activă, pentru un aspect mai ferm și conturat. Disponibil și ca adăugare la orice altă procedură corporală."
+          },
+          "back": {
+            "name": "Back Purify",
+            "duration": "45 min",
+            "body": "Spatele merită aceeași atenție ca fața. Exfoliere, masaj complet de relaxare și o etapă zonală pentru tensiunile acumulate."
+          },
+          "total": {
+            "name": "Total Body Boost",
+            "duration": "120 min",
+            "body": "Experiența supremă Palazzo: chip, brațe și picioare, într-un singur ritual de două ore care combină Luxury Glow Verona, Armonia Braccia și Detox & Relax cu Leggins."
+          }
+        },
+        "discoverProcedures": "Proceduri",
+        "getInTouch": "Contact"
       },
       "cta": {
         "heading": "Programează-ți experiența de fitoestetică",
@@ -328,12 +398,17 @@
         "title": "Vindecă-te natural cu",
         "titleAccent": "Impacco",
         "subtitle": "Puterea vindecătoare a plantelor — remedii naturale, susținute științific, care îți sprijină corpul blând și eficient.",
-        "cta": "Programează-te"
+        "cta": "Descoperă Impacco"
       },
       "description": {
         "heading": "Ce este Impacco?",
-        "body1": "Impacco este utilizarea terapeutică a plantelor și a compușilor lor activi pentru a preveni și trata bolile — una dintre cele mai vechi forme de medicină, rafinată de știința modernă.",
-        "body2": "La Palazzo, îmbinăm cunoștințele botanice tradiționale cu cercetările actuale pentru a crea remedii naturale care îți completează îngrijirea, sprijină recuperarea și întăresc echilibrul natural al corpului."
+        "body1": "Uneori, corpul îți spune exact unde are nevoie de atenție. Tensiunea se acumulează. Corpul se contractă. Anumite zone rămân suprasolicitate mai mult decât ne dăm seama. Inspirat de tradiția Cataplasmei Galenice, Impacco este o experiență localizată creată pentru zone atent selectate, în care căldura, plantele și timpul de acțiune se întâlnesc într-un ritual cu o identitate aparte.",
+        "body2": "Prin acțiunea sa tradițională de contra-iritație, Cataplasma creează o activare intensă la nivel local, însoțită de o senzație progresivă de căldură și de stimularea microcirculației. Aplicarea ocluzivă contribuie la menținerea condițiilor necesare pentru ca ingredientele formulei să acționeze în timp, transformând fiecare Impacco într-o experiență profundă și personală. Este momentul în care alegi să te oprești și să acorzi atenție exact zonei care are nevoie de tine.",
+        "badges": {
+          "relax": "Pentru relaxare",
+          "release": "Pentru detensionare",
+          "comfort": "Pentru diminuarea senzației de disconfort"
+        }
       },
       "helps": {
         "heading": "Cum te ajută Impacco",

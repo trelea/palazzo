@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl'
 import { ArrowRight, ChevronDown, Leaf, Menu, PersonStanding, ScanFace, Sparkles } from 'lucide-react'
 
 import { Link, usePathname } from '@/i18n/navigation'
+import { useSearchParams } from 'next/navigation'
 import { NAV_ITEMS, LOGO_SRC, BOOKING_LINK, type ServiceKey } from '@/lib/site'
 import { cn } from '@/lib/utils'
 import { ShimmerButton } from '@/components/ui/shimmer-button'
@@ -37,8 +38,18 @@ export function MobileMenu() {
   const t = useTranslations('Nav')
   const ts = useTranslations('HomePage.services')
   const pathname = usePathname()
+  const serviceParam = useSearchParams().get('service')
   const [open, setOpen] = useState(false)
   const close = () => setOpen(false)
+
+  /** `href` may carry `?service=face|body` — active only when param matches. */
+  const isActiveHref = (href: string) => {
+    const [path, query] = href.split('?')
+    if (!matches(pathname, path)) return false
+    if (!query) return true
+    const want = new URLSearchParams(query).get('service')
+    return want ? serviceParam === want : true
+  }
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
@@ -125,11 +136,12 @@ export function MobileMenu() {
                             <div className="mt-1 ml-4 flex flex-col gap-1 border-l border-border pl-3">
                               {service.children.map((child) => {
                                 const ChildIcon = SERVICE_ICON[child.key]
-                                const isChildActive = matches(pathname, child.href)
+                                const isChildActive = isActiveHref(child.href)
                                 return (
                                   <Link
                                     key={child.href}
                                     href={child.href}
+                                    scroll={false}
                                     onClick={close}
                                     aria-current={isChildActive ? 'page' : undefined}
                                     className={cn(
