@@ -297,30 +297,25 @@
         "discover": "Descoperă Face",
         "proceduresHeading": "Procedurile FACE",
         "procedures": {
-          "regen": {
-            "name": "Re-GEN Pro-Age",
-            "duration": "60 min",
-            "body": "Un ritual complet de recâștigare a fermității, conceput pentru pielea matură care are nevoie de sprijin structural. Purificare, mască activă, drenaj limfatic și minute îndelungate de lifting manual miofascial, pentru o piele mai fermă, luminoasă, vizibil odihnită."
+          "grazia": {
+            "name": "GRAZIA — Ritual Re-GEN Totale — Chip & Brațe",
+            "body": "Eleganța completă, de la chip până la brațe. Ritualul facial Re-GEN regenerează pielea din interior — ceramide, peptide biomimetice care repornesc producerea de colagen și elastină, datorită prezenței acidului gamma-aminobutiric (GABA) obținem relaxarea ridurilor de expresie și acel efect botox-like. De asemenea uleiurile ozonizate brevetate Zanellato, printr-un proces de hormeză produce o „gimnastică vasculară” ce trezește celulele pielii — în timp ce ritualul pentru brațe combină cataplasma activă, cu efect vascular validat prin studii clinice, și gelul KURA TONIC, pentru ardere localizată și o siluetă mai fermă. Un singur ritual, două povești de frumusețe."
           },
-          "antiage": {
-            "name": "Anti-Age Premium",
-            "duration": "75 min",
-            "body": "Aceeași filozofie Re-GEN, extinsă generos spre gât și decolteu. Manevrele de lifting se prelungesc, iar drenajul limfatic acoperă și zona cervicală, pentru un efect de tonifiere mai profund."
+          "armonia": {
+            "name": "ARMONIA — Ritual Re-GEN Totale — Chip & Silhouette",
+            "body": "Echilibrul perfect între chip și siluetă. Ritualul facial Re-GEN regenerează pielea din interior prin ceramide, peptide biomimetice, oferă efectul botox-like și uleiurile ozonizate brevetate Zanellato ce îmbunătățesc microcirculația locală, în timp ce ritualul pentru picioare și abdomen combină cataplasma activă — cu efect vascular validat prin studii clinice — și gelul KURA TONIC, pentru drenaj și o siluetă mai fermă. Armonia dintre față și corp, într-o singură ședință Palazzo."
           },
-          "glow": {
-            "name": "Luxury Glow Verona",
-            "duration": "90 min",
-            "body": "Semnătura Palazzo. Cea mai amplă experiență facială din meniul nostru, cu o fereastră extinsă de sculptare miofascială și un moment dedicat de masaj cervical tonifiant, pentru o strălucire pe care ceilalți o observă."
+          "rinascita": {
+            "name": "RINASCITA — Ritual Re-GEN Viso",
+            "body": "Este ritualul pe care ți-l dedici ție. Îți lăsăm chipul în mâinile noastre pentru un masaj sculptural și limfodrenant care relaxează fiecare mușchi, apoi îl învelim în masca activă Re-GEN, unde bromelina exfoliază blând și trezește microcirculația. Ceramidele, fitosfingozina și colesterolul refac imediat bariera pielii, iar peptidele biomimetice se cuplează cu receptorii celulari și dau nucleului celulei comanda să producă colagen nou, tip I și III: nu acoperim ridurile pe deasupra, ci repornim în celulă mecanismul care le reface din interior. Serul conține și acidul gamma-aminobutiric (GABA), care acționează asupra micro-contracturilor musculare de sub piele și relaxează vizibil ridurile de expresie — un efect natural, comparat adesea cu botoxul, dar fără ac și fără toxină. Uleiurile ozonizate — brevet exclusiv Zanellato — declanșează un stres oxidativ controlat, numit hormeză, care îți trezește propriile enzime antioxidante, îți îmbunătățește microcirculația locală și îi oferă un ten curat, luminos, tânăr, dar cel mai important — sănătos. Fitoestrogenii din ovăz completează tabloul, compensând declinul hormonal al pielii mature și stimulând producția de acid hialuronic propriu. Filozofia Re-GEN e Pro-Age, nu Anti-Age: nu luptăm cu pielea matură, îi dăm exact ce-i lipsește ca să strălucească din nou, cu ajutorul naturii."
           },
-          "lymphatic": {
-            "name": "Masaj Limfatic Facial",
-            "duration": "45 min",
-            "body": "Pentru zilele în care fața ta are nevoie, mai presus de orice, de ușurință — minute neîntrerupte de drenaj limfatic manual. Ideal după nopți scurte sau perioade de oboseală vizibilă."
+          "splendore": {
+            "name": "SPLENDORE — Ritual Palazzo Signature — Corp Integral",
+            "body": "Ritualul nostru de suflet, pentru zilele în care vrei să te ocupi de tine, din cap până-n picioare. Ritualul facial Re-GEN complet — ceramide, peptide biomimetice care repornesc colagenul și elastina din interior, GABA cu efect natural de relaxare a ridurilor de expresie (tip botox), uleiurile ozonizate brevetate Zanellato și procesul de hormeză care trezește energia proprie a pielii — se combină cu ritualurile pentru brațe și picioare, unde cataplasma activă și gelul KURA TONIC lucrează împreună: ardere localizată, drenaj limfatic și o siluetă vizibil mai fermă. Cea mai completă experiență din meniul Palazzo."
           },
-          "express": {
-            "name": "Palazzo Express",
-            "duration": "30 min",
-            "body": "Prospețime rapidă între două întâlniri. Curățare, ser activ și un masaj facial tonifiant, condensate într-o jumătate de oră."
+          "respiro": {
+            "name": "RESPIRO — Ritual Viso Express",
+            "body": "Un moment de respiro pentru chipul tău, chiar și atunci când timpul e scurt. Masajul de drenaj limfatic sculptează și relaxează, în timp ce serul și crema Re-GEN — cu ceramide, peptide biomimetice (inclusiv SYN®-COLL, pentru colagen nou) și GABA, cu efect natural de relaxare a ridurilor de expresie, tip botox — refac bariera pielii și dau celulei energia de regenerare prin hormeză, printr-un mix de uleiuri ozonizate brevetate Zanellato. Fără mască, dar cu același efect de luminozitate și liniște imediată."
           }
         },
         "productsHeading": "Produsele RE-GEN, pas cu pas",
@@ -358,30 +353,29 @@
         "explore": "Explorează universul Body",
         "proceduresHeading": "Procedurile BODY",
         "procedures": {
-          "silhouette": {
-            "name": "Ritual Silhouette",
-            "duration": "75 min",
-            "body": "O reconstrucție completă a siluetei: exfoliere, masaj anticelulitic profund și o etapă finală personalizată în funcție de nevoile tale. Pielea rămâne catifelată, silueta — vizibil mai definită."
+          "grazia": {
+            "name": "GRAZIA — Ritual Re-GEN Totale — Chip & Brațe",
+            "body": "Eleganța completă, de la chip până la brațe. Ritualul facial Re-GEN regenerează pielea din interior — ceramide, peptide biomimetice care repornesc producerea de colagen și elastină, datorită prezenței acidului gamma-aminobutiric (GABA) obținem relaxarea ridurilor de expresie și acel efect botox-like. De asemenea uleiurile ozonizate brevetate Zanellato, printr-un proces de hormeză produce o „gimnastică vasculară” ce trezește celulele pielii — în timp ce ritualul pentru brațe combină cataplasma activă, cu efect vascular validat prin studii clinice, și gelul KURA TONIC, pentru ardere localizată și o siluetă mai fermă. Un singur ritual, două povești de frumusețe."
           },
-          "detox": {
-            "name": "Detox & Relax cu Leggins",
-            "duration": "90 min",
-            "body": "Cel mai complet ritual pentru picioare: exfoliere, masaj relaxant, apoi minute îndelungate cu legginsii noștri activi Zanellato, într-un moment de relaxare completă cu o infuzie de plante."
+          "armonia": {
+            "name": "ARMONIA — Ritual Re-GEN Totale — Chip & Silhouette",
+            "body": "Echilibrul perfect între chip și siluetă. Ritualul facial Re-GEN regenerează pielea din interior prin ceramide, peptide biomimetice, oferă efectul botox-like și uleiurile ozonizate brevetate Zanellato ce îmbunătățesc microcirculația locală, în timp ce ritualul pentru picioare și abdomen combină cataplasma activă — cu efect vascular validat prin studii clinice — și gelul KURA TONIC, pentru drenaj și o siluetă mai fermă. Armonia dintre față și corp, într-o singură ședință Palazzo."
           },
-          "braccia": {
-            "name": "Armonia Braccia",
-            "duration": "45 min",
-            "body": "Un ritual de tonifiere și drenaj pentru brațe, încheiat cu compresie activă, pentru un aspect mai ferm și conturat. Disponibil și ca adăugare la orice altă procedură corporală."
+          "vitalita": {
+            "name": "VITALITÀ — Ritual KURA Corp Integral",
+            "body": "Un ritual pentru tot corpul, gândit pentru cine vrea rezultate vizibile, de la brațe până la picioare. Exfoliere, masaj anticelulitic și de drenaj limfatic pe ambele zone, urmate de învelirea activă în cataplasmă Zanellato — un șoc vascular controlat, validat prin studii clinice, care relaxează capilarele limfatice și reduce edemul în profunzime, contribuind la tonifierea și micșorarea vizibilă a circumferinței zonelor acționate. Ritualul se încheie cu gelul KURA TONIC pe brațe și picioare deopotrivă, unde cofeina arde depozitele de grăsime localizată, extractele vegetale grăbesc drenajul, iar colagenul și acidul hialuronic lasă pielea vizibil mai fermă."
           },
-          "back": {
-            "name": "Back Purify",
-            "duration": "45 min",
-            "body": "Spatele merită aceeași atenție ca fața. Exfoliere, masaj complet de relaxare și o etapă zonală pentru tensiunile acumulate."
+          "slancio": {
+            "name": "SLANCIO — Ritual KURA Brațe",
+            "body": "Brațele tale merită propriul ritual de răsfăț. Începem cu o exfoliere fină, apoi un masaj anticelulitic și de drenaj limfatic, urmat de învelirea în manșoanele Zanellato cu cataplasmă activă — acolo unde camforul și muștarul negru declanșează un adevărat șoc vascular controlat, validat de către personalități notorii în domeniul limfologiei mondiale: capilarele limfatice se relaxează, absorbind excesul de lichid din interstițiu, edemul scade, pielea se hidratează în profunzime. Încheiem cu gelul KURA TONIC: cofeina pură arde depozitele de grăsime localizată, extractele de iederă, Centella Asiatica și castan sălbatic accelerează drenajul vascular, iar colagenul în 3 greutăți moleculare diferite și acidul hialuronic contribuie la fermitate, micșorare în dimensiuni și în final la brațe suple și tonifiate."
           },
-          "total": {
-            "name": "Total Body Boost",
-            "duration": "120 min",
-            "body": "Experiența supremă Palazzo: chip, brațe și picioare, într-un singur ritual de două ore care combină Luxury Glow Verona, Armonia Braccia și Detox & Relax cu Leggins."
+          "leggerezza": {
+            "name": "LEGGEREZZA — Ritual KURA Picioare & Abdomen",
+            "body": "Ritualul perfect pentru senzația de picioare ușoare. Exfoliere fină, masaj anticelulitic și de drenaj limfatic, apoi învelirea în jambierele Zanellato cu cataplasmă — același șoc vascular controlat, ce contribuie substanțial la eliminarea lichidului din interstițiu și activarea arderii grăsimii local. La final, gelul KURA TONIC își face treaba: cofeină pentru ardere localizată de grăsimi, extracte vegetale pentru potențarea drenajului limfatic, colagen în 3 greutăți moleculare diferite și acid hialuronic ce ajută la mascarea și acoperirea vergeturilor, un ritual întreg pentru a scăpa de celulită, vergeturi și pentru a avea o siluetă de invidiat."
+          },
+          "splendore": {
+            "name": "SPLENDORE — Ritual Palazzo Signature — Corp Integral",
+            "body": "Ritualul nostru de suflet, pentru zilele în care vrei să te ocupi de tine, din cap până-n picioare. Ritualul facial Re-GEN complet — ceramide, peptide biomimetice care repornesc colagenul și elastina din interior, GABA cu efect natural de relaxare a ridurilor de expresie (tip botox), uleiurile ozonizate brevetate Zanellato și procesul de hormeză care trezește energia proprie a pielii — se combină cu ritualurile pentru brațe și picioare, unde cataplasma activă și gelul KURA TONIC lucrează împreună: ardere localizată, drenaj limfatic și o siluetă vizibil mai fermă. Cea mai completă experiență din meniul Palazzo."
           }
         },
         "discoverProcedures": "Proceduri",

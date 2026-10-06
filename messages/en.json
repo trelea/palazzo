@@ -297,30 +297,25 @@
         "discover": "Discover Face",
         "proceduresHeading": "FACE procedures",
         "procedures": {
-          "regen": {
-            "name": "Re-GEN Pro-Age",
-            "duration": "60 min",
-            "body": "A complete firmness-recovery ritual, designed for mature skin that needs structural support. Purification, active mask, lymphatic drainage and long minutes of myofascial manual lifting, for firmer, luminous, visibly rested skin."
+          "grazia": {
+            "name": "GRAZIA — Re-GEN Totale Ritual — Face & Arms",
+            "body": "Complete elegance, from face to arms. The Re-GEN facial ritual regenerates the skin from within — ceramides and biomimetic peptides that restart collagen and elastin production, while gamma-aminobutyric acid (GABA) relaxes expression lines with a botox-like effect. The patented Zanellato ozonised oils trigger, through hormesis, a “vascular gymnastics” that wakes up skin cells — while the arm ritual combines the active cataplasm, with a clinically validated vascular effect, and KURA TONIC gel for targeted fat burning and a firmer silhouette. One ritual, two beauty stories."
           },
-          "antiage": {
-            "name": "Anti-Age Premium",
-            "duration": "75 min",
-            "body": "The same Re-GEN philosophy, generously extended to the neck and décolletage. Lifting manoeuvres are prolonged, and lymphatic drainage also covers the cervical area, for a deeper toning effect."
+          "armonia": {
+            "name": "ARMONIA — Re-GEN Totale Ritual — Face & Silhouette",
+            "body": "The perfect balance between face and silhouette. The Re-GEN facial ritual regenerates the skin from within with ceramides, biomimetic peptides, a botox-like effect and patented Zanellato ozonised oils that improve local microcirculation, while the legs and abdomen ritual combines the active cataplasm — with a clinically validated vascular effect — and KURA TONIC gel, for drainage and a firmer silhouette. Harmony between face and body in a single Palazzo session."
           },
-          "glow": {
-            "name": "Luxury Glow Verona",
-            "duration": "90 min",
-            "body": "The Palazzo signature. The most generous facial experience on our menu, with an extended window of myofascial sculpting and a dedicated moment of toning cervical massage, for a glow others notice."
+          "rinascita": {
+            "name": "RINASCITA — Re-GEN Viso Ritual",
+            "body": "The ritual you dedicate to yourself. We take your face into our hands for a sculptural, lymph-draining massage that relaxes every muscle, then wrap it in the Re-GEN active mask, where bromelain gently exfoliates and wakes up microcirculation. Ceramides, phytosphingosine and cholesterol immediately restore the skin barrier, while biomimetic peptides bind to cell receptors and command the cell nucleus to produce new collagen, type I and III: we do not cover wrinkles on the surface, we restart the mechanism that rebuilds them from within. The serum also contains gamma-aminobutyric acid (GABA), which acts on micro-contractions beneath the skin and visibly relaxes expression lines — a natural effect, often compared to botox, but with no needle and no toxin. The ozonised oils — an exclusive Zanellato patent — trigger a controlled oxidative stress, called hormesis, which wakes up your own antioxidant enzymes, improves local microcirculation and leaves a clean, luminous, young and, most importantly, healthy complexion. Oat phytoestrogens complete the picture, compensating the hormonal decline of mature skin and stimulating your own hyaluronic acid production. The Re-GEN philosophy is Pro-Age, not Anti-Age: we do not fight mature skin, we give it exactly what it misses so it can glow again, with nature’s help."
           },
-          "lymphatic": {
-            "name": "Facial Lymphatic Massage",
-            "duration": "45 min",
-            "body": "For days when your face needs, above all, lightness — uninterrupted minutes of manual lymphatic drainage. Ideal after short nights or periods of visible fatigue."
+          "splendore": {
+            "name": "SPLENDORE — Palazzo Signature Ritual — Full Body",
+            "body": "Our signature ritual, for days when you want to care for yourself from head to toe. The complete Re-GEN facial ritual — ceramides, biomimetic peptides that restart collagen and elastin from within, GABA with a natural botox-like relaxation of expression lines, patented Zanellato ozonised oils and the hormesis process that wakes up the skin’s own energy — combines with the arm and leg rituals, where the active cataplasm and KURA TONIC gel work together: targeted fat burning, lymphatic drainage and a visibly firmer silhouette. The most complete experience on the Palazzo menu."
           },
-          "express": {
-            "name": "Palazzo Express",
-            "duration": "30 min",
-            "body": "Quick freshness between two meetings. Cleansing, active serum and a toning facial massage, condensed into half an hour."
+          "respiro": {
+            "name": "RESPIRO — Viso Express Ritual",
+            "body": "A moment to breathe for your face, even when time is short. Lymphatic drainage massage sculpts and relaxes, while the Re-GEN serum and cream — with ceramides, biomimetic peptides (including SYN®-COLL for new collagen) and GABA, with a natural botox-like relaxation of expression lines — restore the skin barrier and give the cell regeneration energy through hormesis, via a blend of patented Zanellato ozonised oils. No mask, but the same immediate glow and calm."
           }
         },
         "productsHeading": "RE-GEN products, step by step",
@@ -358,30 +353,29 @@
         "explore": "Explore the Body universe",
         "proceduresHeading": "BODY procedures",
         "procedures": {
-          "silhouette": {
-            "name": "Silhouette Ritual",
-            "duration": "75 min",
-            "body": "A complete silhouette reconstruction: exfoliation, deep anti-cellulite massage and a final stage personalised to your needs. Skin stays velvety, the silhouette — visibly more defined."
+          "grazia": {
+            "name": "GRAZIA — Re-GEN Totale Ritual — Face & Arms",
+            "body": "Complete elegance, from face to arms. The Re-GEN facial ritual regenerates the skin from within — ceramides and biomimetic peptides that restart collagen and elastin production, while gamma-aminobutyric acid (GABA) relaxes expression lines with a botox-like effect. The patented Zanellato ozonised oils trigger, through hormesis, a “vascular gymnastics” that wakes up skin cells — while the arm ritual combines the active cataplasm, with a clinically validated vascular effect, and KURA TONIC gel for targeted fat burning and a firmer silhouette. One ritual, two beauty stories."
           },
-          "detox": {
-            "name": "Detox & Relax with Leggings",
-            "duration": "90 min",
-            "body": "The most complete ritual for the legs: exfoliation, relaxing massage, then long minutes with our active Zanellato leggings, in a moment of complete relaxation with a herbal infusion."
+          "armonia": {
+            "name": "ARMONIA — Re-GEN Totale Ritual — Face & Silhouette",
+            "body": "The perfect balance between face and silhouette. The Re-GEN facial ritual regenerates the skin from within with ceramides, biomimetic peptides, a botox-like effect and patented Zanellato ozonised oils that improve local microcirculation, while the legs and abdomen ritual combines the active cataplasm — with a clinically validated vascular effect — and KURA TONIC gel, for drainage and a firmer silhouette. Harmony between face and body in a single Palazzo session."
           },
-          "braccia": {
-            "name": "Armonia Braccia",
-            "duration": "45 min",
-            "body": "A toning and drainage ritual for the arms, finished with active compression, for a firmer, more contoured look. Also available as an add-on to any other body procedure."
+          "vitalita": {
+            "name": "VITALITÀ — KURA Full-Body Ritual",
+            "body": "A whole-body ritual for those who want visible results, from arms to legs. Exfoliation, anti-cellulite and lymphatic drainage massage on both areas, followed by the active Zanellato cataplasm wrap — a controlled vascular shock, clinically validated, that relaxes lymphatic capillaries and deeply reduces edema, helping tone and visibly reduce the circumference of the treated areas. The ritual ends with KURA TONIC gel on arms and legs alike, where caffeine burns localised fat deposits, plant extracts speed up drainage, and collagen and hyaluronic acid leave the skin visibly firmer."
           },
-          "back": {
-            "name": "Back Purify",
-            "duration": "45 min",
-            "body": "The back deserves the same attention as the face. Exfoliation, full relaxing massage and a targeted stage for accumulated tension."
+          "slancio": {
+            "name": "SLANCIO — KURA Arms Ritual",
+            "body": "Your arms deserve their own pampering ritual. We start with a fine exfoliation, then an anti-cellulite and lymphatic drainage massage, followed by wrapping in Zanellato sleeves with active cataplasm — where camphor and black mustard trigger a true controlled vascular shock, validated by world-renowned figures in lymphology: lymphatic capillaries relax, absorbing excess interstitial fluid, edema decreases, skin is deeply hydrated. We finish with KURA TONIC gel: pure caffeine burns localised fat deposits, ivy, Centella Asiatica and horse chestnut extracts accelerate vascular drainage, while collagen in 3 different molecular weights and hyaluronic acid contribute to firmness, size reduction and finally slim, toned arms."
           },
-          "total": {
-            "name": "Total Body Boost",
-            "duration": "120 min",
-            "body": "The ultimate Palazzo experience: face, arms and legs in a single two-hour ritual combining Luxury Glow Verona, Armonia Braccia and Detox & Relax with Leggings."
+          "leggerezza": {
+            "name": "LEGGEREZZA — KURA Legs & Abdomen Ritual",
+            "body": "The perfect ritual for light legs. Fine exfoliation, anti-cellulite and lymphatic drainage massage, then wrapping in Zanellato leggings with cataplasm — the same controlled vascular shock, which substantially helps eliminate interstitial fluid and activate local fat burning. Finally, KURA TONIC gel does its job: caffeine for targeted fat burning, plant extracts to boost lymphatic drainage, collagen in 3 different molecular weights and hyaluronic acid that helps mask and cover stretch marks — a whole ritual to get rid of cellulite and stretch marks and to gain an enviable silhouette."
+          },
+          "splendore": {
+            "name": "SPLENDORE — Palazzo Signature Ritual — Full Body",
+            "body": "Our signature ritual, for days when you want to care for yourself from head to toe. The complete Re-GEN facial ritual — ceramides, biomimetic peptides that restart collagen and elastin from within, GABA with a natural botox-like relaxation of expression lines, patented Zanellato ozonised oils and the hormesis process that wakes up the skin’s own energy — combines with the arm and leg rituals, where the active cataplasm and KURA TONIC gel work together: targeted fat burning, lymphatic drainage and a visibly firmer silhouette. The most complete experience on the Palazzo menu."
           }
         },
         "discoverProcedures": "Procedures",

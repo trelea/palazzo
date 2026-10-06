@@ -3,7 +3,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import {
   ArrowDown,
-  Clock,
   Crown,
   Droplets,
   Dumbbell,
@@ -59,25 +58,33 @@ const SCIENCE: readonly { key: string; Icon: LucideIcon; className?: string }[] 
   { key: 'bromelain', Icon: Leaf },
 ]
 
-const FACE_PROCEDURES = ['regen', 'antiage', 'glow', 'lymphatic', 'express'] as const
+const FACE_PROCEDURES = ['grazia', 'armonia', 'rinascita', 'splendore', 'respiro'] as const
 
 /** One icon per Face procedure — shown as a chip in the FAQ trigger. */
 const FACE_ICONS: Partial<Record<string, LucideIcon>> = {
-  regen: Sparkles,
-  antiage: Crown,
-  glow: Sun,
-  lymphatic: Waves,
-  express: Zap,
+  grazia: Sparkles,
+  armonia: Shapes,
+  rinascita: Sun,
+  splendore: Crown,
+  respiro: Zap,
 }
-const BODY_PROCEDURES = ['silhouette', 'detox', 'braccia', 'back', 'total'] as const
+const BODY_PROCEDURES = [
+  'grazia',
+  'armonia',
+  'vitalita',
+  'slancio',
+  'leggerezza',
+  'splendore',
+] as const
 
 /** One icon per Body procedure — shown as a chip in the FAQ trigger. */
 const BODY_ICONS: Partial<Record<string, LucideIcon>> = {
-  silhouette: Shapes,
-  detox: Leaf,
-  braccia: Dumbbell,
-  back: Waves,
-  total: Crown,
+  grazia: Sparkles,
+  armonia: Shapes,
+  vitalita: Zap,
+  slancio: Dumbbell,
+  leggerezza: Waves,
+  splendore: Crown,
 }
 const BODY_INTROS = ['intro1', 'intro2', 'intro3', 'intro4'] as const
 
@@ -122,10 +129,6 @@ function ProcedureAccordion({
                 </span>
               )}
               <span>{t(`procedures.${key}.name`)}</span>
-              <span className="inline-flex shrink-0 items-center gap-2 rounded-full bg-brand/10 px-4 py-1.5 text-sm font-semibold whitespace-nowrap text-brand sm:text-base">
-                <Clock className="size-4" strokeWidth={2} />
-                {t(`procedures.${key}.duration`)}
-              </span>
             </AccordionTrigger>
             <AccordionContent>
               <p className="text-base leading-relaxed text-pretty text-muted-foreground sm:text-lg">
