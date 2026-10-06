@@ -15,11 +15,13 @@ const TABS: readonly TabConfig[] = [
 
 export function BenefitsTabs() {
   return (
-    <AnimatedTabsSection
-      namespace="ServicePages.impacco.benefits"
-      layoutId="benefits-active-pill"
-      tabs={TABS}
-      gridClass="grid-cols-2 lg:grid-cols-4"
-    />
+    <div id="impacco-benefits" className="scroll-mt-24">
+      <AnimatedTabsSection
+        namespace="ServicePages.impacco.benefits"
+        layoutId="benefits-active-pill"
+        tabs={TABS}
+        gridClass="grid-cols-2 lg:grid-cols-4"
+      />
+    </div>
   )
 }

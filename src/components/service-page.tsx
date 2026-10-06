@@ -120,7 +120,7 @@ export function ServicePage({
                   shimmerDuration="3s"
                   className="mt-7 gap-2 px-7 py-3 text-sm font-medium"
                 >
-                  <a href="#impacco-description">
+                  <a href="#impacco-benefits">
                     {t('hero.cta')}
                     <ArrowDown className="size-4" />
                   </a>
