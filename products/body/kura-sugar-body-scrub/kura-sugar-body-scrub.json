@@ -1,0 +1,1729 @@
+{
+  "product_type": "body",
+  "product_name_en": "KURA® SUGAR BODY SCRUB",
+  "product_name_ro": "KURA® SUGAR BODY SCRUB",
+  "product_name_ru": "KURA® SUGAR BODY SCRUB",
+  "product_short_desc_en": "Body scrub with a mechanical exfoliating action, formulated with sugar and nourishing plant butters.\n\nIt helps gently remove dead skin cells and impurities, leaving the skin soft, smooth, and nourished. The rich, melting texture promotes a sensory treatment ideal for your body care routine.",
+  "product_short_desc_ro": "Scrub corporal cu acțiune exfoliantă mecanică, formulat cu zahăr și unturi vegetale hrănitoare.\n\nAjută la îndepărtarea delicată a celulelor moarte și a impurităților, lăsând pielea moale, netedă și hrănită. Textura bogată, care se topește pe piele, favorizează un tratament senzorial ideal pentru rutina de îngrijire corporală.",
+  "product_short_desc_ru": "Скраб для тела с механическим отшелушивающим действием на основе сахара и питательных растительных масел.\n\nБережно удаляет отмершие клетки и загрязнения, оставляя кожу мягкой, гладкой и напитанной. Насыщенная тающая текстура дарит чувственный уход — идеальна для вашего ритуала ухода за телом.",
+  "product_long_desc_en": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "A natural scrub that renews, nourishes, and restores softness to the skin.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "This exfoliating treatment combines carefully selected ingredients of natural origin to gently eliminate dead cells, promote skin renewal, and leave the skin incredibly smooth, radiant, and velvety.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Sucrose crystals perform an effective mechanical exfoliating action, helping to free the skin surface from impurities and inactive surface cells without being aggressive. During the massage, the texture progressively melts, providing a pleasant sensory experience. ",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Sweet Almond Oil, Shea Butter, and Illipe Butter intensely nourish the skin, helping to improve its elasticity, softness, and comfort. Honey completes the formula with its moisturizing and softening properties, helping to keep the skin soft and protected even after exfoliation. ",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Thanks to its combined exfoliating and nourishing action, this scrub perfectly prepares the skin to receive subsequent treatments, promoting their absorption and efficacy.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "The result is immediately smoother, more radiant, soft, and even skin, with a pleasant sensation of nourishment and well-being that lasts over time.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Storage",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Store in a cool, dry place, away from heat sources. Avoid water contamination inside the container. ",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Warnings",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "External use only. Do not apply to irritated or damaged skin. Avoid contact with the eyes. ",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Skin Type",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• All skin types / Normal skin",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Dry skin",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Dull and dehydrated skin",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Cosmetic Benefits",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Removes dead skin cells and impurities",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Promotes skin surface renewal",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Improves skin softness and radiance",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Helps prepare the skin for subsequent treatments",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "How to Use",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Apply to damp skin with circular motions, focusing on the roughest areas. Rinse thoroughly with lukewarm water. Use 1–2 times a week ",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Cosmetic Function",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Body exfoliant",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Smoothing",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Nourishing and emollient",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Skin softening",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Gently exfoliates the skin",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Formula rich in plant oils and butters",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Leaves the skin soft and velvety",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Rich and sensory texture",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Ideal for weekly body treatments",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "product_long_desc_ro": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Un scrub natural care reînnoiește, hrănește și redă catifelarea pielii.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Acest tratament exfoliant combină ingrediente de origine naturală atent selecționate, pentru eliminarea delicată a celulelor moarte, favorizarea reînnoirii pielii și o piele incredibil de netedă, radiantă și catifelată.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Cristalele de zaharoză au o eficientă acțiune exfoliantă mecanică, ajutând la eliberarea suprafeței pielii de impurități și celule inactive de suprafață, fără a fi agresive. În timpul masajului, textura se topește progresiv, oferind o experiență senzorială plăcută.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Uleiul de migdale dulci, untul de shea și untul de Illipe hrănesc intens pielea, ajutând la îmbunătățirea elasticității, catifelării și confortului acesteia. Mierea completează formula cu proprietățile sale hidratante și emoliente, ajutând la menținerea pielii moi și protejate chiar și după exfoliere.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Datorită acțiunii combinate exfoliante și hrănitoare, acest scrub pregătește perfect pielea pentru tratamentele ulterioare, favorizând absorbția și eficacitatea acestora.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Rezultatul este o piele imediat mai netedă, mai radiantă, moale și uniformă, cu o plăcută senzație de hrănire și stare de bine care durează în timp.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Păstrare",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "A se păstra într-un loc răcoros și uscat, departe de surse de căldură. Evitați contaminarea cu apă a interiorului recipientului.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Avertismente",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Doar pentru uz extern. Nu aplicați pe pielea iritată sau deteriorată. Evitați contactul cu ochii.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Tip de piele",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Toate tipurile de piele / Piele normală",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Piele uscată",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Piele ternă și deshidratată",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Beneficii cosmetice",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Îndepărtează celulele moarte și impuritățile pielii",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Favorizează reînnoirea suprafeței pielii",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Îmbunătățește catifelarea și strălucirea pielii",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Ajută la pregătirea pielii pentru tratamentele ulterioare",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Mod de utilizare",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Aplicați pe pielea umedă prin mișcări circulare, insistând pe zonele cele mai aspre. Clătiți abundent cu apă călduță. Utilizați de 1–2 ori pe săptămână",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Funcție cosmetică",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Exfoliant corporal",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Netezire",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Hrănire și emoliere",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Catifelarea pielii",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Exfoliază delicat pielea",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Formulă bogată în uleiuri și unturi vegetale",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Lasă pielea moale și catifelată",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Textură bogată și senzorială",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Ideal pentru tratamente corporale săptămânale",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "product_long_desc_ru": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Натуральный скраб, обновляющий, питающий и возвращающий коже мягкость.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Этот отшелушивающий уход сочетает тщательно отобранные ингредиенты натурального происхождения: бережно удаляет отмершие клетки, способствует обновлению кожи, оставляя её невероятно гладкой, сияющей и бархатистой.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Кристаллы сахарозы оказывают эффективное механическое отшелушивающее действие, помогая очистить поверхность кожи от загрязнений и неактивных поверхностных клеток, не будучи агрессивными. Во время массажа текстура постепенно тает, даря приятные чувственные ощущения.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Масло сладкого миндаля, масло ши и масло иллипе интенсивно питают кожу, улучшая её эластичность, мягкость и комфорт. Мёд дополняет формулу увлажняющими и смягчающими свойствами, помогая сохранить кожу мягкой и защищённой даже после эксфолиации.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Благодаря совместному отшелушивающему и питательному действию скраб идеально готовит кожу к последующим процедурам, усиливая их впитывание и эффективность.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Результат — сразу более гладкая, сияющая, мягкая и ровная кожа с приятным ощущением питания и благополучия, которое длится долго.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Хранение",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Хранить в прохладном сухом месте, вдали от источников тепла. Не допускайте попадания воды внутрь ёмкости.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Предупреждения",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Только для наружного применения. Не наносить на раздражённую или повреждённую кожу. Избегать контакта с глазами.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Тип кожи",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Все типы кожи / Нормальная кожа",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Сухая кожа",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Тусклая и обезвоженная кожа",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Косметические преимущества",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Удаляет отмершие клетки и загрязнения кожи",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Способствует обновлению поверхности кожи",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Улучшает мягкость и сияние кожи",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Помогает подготовить кожу к последующим процедурам",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Способ применения",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Наносите на влажную кожу круговыми движениями, уделяя внимание самым грубым участкам. Тщательно смойте тёплой водой. Используйте 1–2 раза в неделю",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Косметическое действие",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Эксфолиант для тела",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Разглаживание",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Питание и смягчение",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Мягкость кожи",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Бережно отшелушивает кожу",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Формула, богатая растительными маслами",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Оставляет кожу мягкой и бархатистой",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Насыщенная чувственная текстура",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Идеален для еженедельных процедур для тела",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "source_url": "https://laboratorizanellato.it/en/prodotto/kura-sugar-body-scrub/"
+}

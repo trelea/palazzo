@@ -1,0 +1,1177 @@
+{
+  "product_type": "body",
+  "product_name_en": "Booster Recovery SLEEVE. Arms Treatment",
+  "product_name_ro": "Booster Recovery MANȘON. Tratament pentru brațe",
+  "product_name_ru": "Booster Recovery РУКАВ. Процедура для рук",
+  "product_short_desc_en": "Intensive draining and activating treatment for arms.\n\nThe formula with functional plant extracts (Boswellia, Turmeric, Devil’s Claw, Helichrysum) and highly bioavailable ozonated oils stimulates tissue and vascular reactivation, providing relief to heavy and aching arms.\n\nDeveloped from our historic patented formulation, it keeps the functional properties of our original phytotherapeutic wrap intact.\n\nSize: One size\nContents: 1 reusable sleeve soaked in 30ml of Zanellato ozonated fluid.",
+  "product_short_desc_ro": "Tratament intensiv drenant și activator pentru brațe.\n\nFormula cu extracte funcționale din plante (Boswellia, turmeric, gheara diavolului, siminoc) și uleiuri ozonizate cu biodisponibilitate ridicată stimulează reactivarea tisulară și vasculară, ameliorând brațele grele și dureroase.\n\nDezvoltată din formula noastră istorică brevetată, păstrează intacte proprietățile funcționale ale împachetării noastre fitoterapeutice originale.\n\nMărime: unică\nConținut: 1 manșon reutilizabil îmbibat cu 30 ml de fluid ozonizat Zanellato.",
+  "product_short_desc_ru": "Интенсивная дренажная и активирующая процедура для рук.\n\nФормула с функциональными растительными экстрактами (босвеллия, куркума, коготь дьявола, бессмертник) и высокобиодоступными озонированными маслами стимулирует тканевую и сосудистую реактивацию, облегчая тяжёлые болезненные руки.\n\nСоздана на основе нашей исторической запатентованной формулы, сохраняет в неприкосновенности функциональные свойства нашего оригинального фитотерапевтического обёртывания.\n\nРазмер: единый\nСостав: 1 многоразовый рукав, пропитанный 30 мл озонированной жидкости Zanellato.",
+  "product_long_desc_en": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Indicated as a natural adjuvant for ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "lipedema, lymphedema, water retention, cellulite, and hypotonic skin with a “sagging” effect",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ", it promotes microcirculation and the drainage of stagnant fluids.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "The formula with functional plant extracts (Boswellia, Turmeric, Devil’s Claw, Helichrysum) and highly bioavailable ozonated oils stimulates tissue reactivation and provides relief to heavy and aching arms. It improves skin tone, reducing the “sagging” effect. ",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Ideal during courses of:",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• body remodeling",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• cellulite and localized adiposity treatment",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• lipedema protocols",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• inflammatory phase lipedema",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• post-lymphatic drainage support",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• upper limb lymphedema",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• vascular insufficiency with edema",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• fibrotic cellulite",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• arm pain",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Action: ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "draining – anti-inflammatory – toning for skin and microcirculation.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "It promotes tissue decongestion and improves the feeling of lightness.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "The sleeve is designed to ensure",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": " uniform adherence and maximum active delivery on the arms",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ", even in the presence of severe edema.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "How to use",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Wear the sleeve and cover it with kitchen plastic wrap. Leave on for 2 hours. Cover yourself with comfortable clothing. We recommend doing this while resting to best enjoy the benefits. not rinse the skin once removed. Reusable sleeve: wash with lukewarm water and mild soap. Store in the resealable pouch, which will be used for future fabric refills. ",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "INCI: ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Aqua, Propylene Glycol, Hydrogenated Castor Oil, Glycerin, Alcohol, Bromeline, Lavandula Angustifolia Herb Oil, Menthyl Lactate, Curcuma Longa Root Extract, Harpagophytum Procumbens Root Extract, Helichrysum Italicum Extract, Boswellia Serrata Gum Extract, Linum Usitatissimum Seed Oil Ozonized, Turpentine, Avena Sativa Kernel Oil Ozonized, Perilla Ocymoides Seed Oil Ozonized, Cynnamomum Camphora Leaf Oil, Menthol, Salix Alba Bark Extract, Ficus carica Fruit/Leaf Extract, Phenoxyethanol, Peg-40-Hydrogenated Castor Oil, PPG-26-Buteth-26, Ethylehxylglicerin, Linalyl Acetate, Linalool, Pinene, Limonene, Trideceth-9, Beta-Caryophyllene, Terpineol, Ethoxydiglycol, Camphor, Terpinolene, L-Beta-Pinene, Geraniol, Geranyl Acetate, Alpha-Terpineol, Gamma-Terpinene, Coumarin.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "product_long_desc_ro": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Indicat ca adjuvant natural pentru ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "lipedem, limfedem, retenție de apă, celulită și piele hipotonică cu efect de „lăsare”",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ", favorizează microcirculația și drenarea lichidelor stagnante.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Formula cu extracte funcționale din plante (Boswellia, turmeric, gheara diavolului, siminoc) și uleiuri ozonizate cu biodisponibilitate ridicată stimulează reactivarea tisulară și ameliorează brațele grele și dureroase. Îmbunătățește tonusul pielii, reducând efectul de „lăsare”.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Ideal în timpul curelor de:",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• remodelare corporală",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• tratament pentru celulită și adipozitate localizată",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• protocoale pentru lipedem",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• lipedem în fază inflamatorie",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• suport post-drenaj limfatic",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• limfedem al membrelor superioare",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• insuficiență vasculară cu edem",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• celulită fibroasă",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• dureri de brațe",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Acțiune: ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "drenantă – antiinflamatoare – tonifiantă pentru piele și microcirculație.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Favorizează decongestionarea țesuturilor și îmbunătățește senzația de ușurință.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Manșonul este conceput pentru a asigura",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": " aderență uniformă și cedare maximă de principii active pe brațe",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ", chiar și în prezența unui edem sever.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Mod de utilizare",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Îmbrăcați manșonul și acoperiți-l cu folie alimentară. Lăsați 2 ore. Acoperiți-vă cu haine comode. Recomandăm să faceți acest lucru în repaus pentru a vă bucura la maximum de beneficii. Nu clătiți pielea după îndepărtare. Manșon reutilizabil: spălați cu apă călduță și săpun delicat. Păstrați în punga resigilabilă, care va fi folosită pentru viitoarele rezerve de material.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "INCI: ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Aqua, Propylene Glycol, Hydrogenated Castor Oil, Glycerin, Alcohol, Bromeline, Lavandula Angustifolia Herb Oil, Menthyl Lactate, Curcuma Longa Root Extract, Harpagophytum Procumbens Root Extract, Helichrysum Italicum Extract, Boswellia Serrata Gum Extract, Linum Usitatissimum Seed Oil Ozonized, Turpentine, Avena Sativa Kernel Oil Ozonized, Perilla Ocymoides Seed Oil Ozonized, Cynnamomum Camphora Leaf Oil, Menthol, Salix Alba Bark Extract, Ficus carica Fruit/Leaf Extract, Phenoxyethanol, Peg-40-Hydrogenated Castor Oil, PPG-26-Buteth-26, Ethylehxylglicerin, Linalyl Acetate, Linalool, Pinene, Limonene, Trideceth-9, Beta-Caryophyllene, Terpineol, Ethoxydiglycol, Camphor, Terpinolene, L-Beta-Pinene, Geraniol, Geranyl Acetate, Alpha-Terpineol, Gamma-Terpinene, Coumarin.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "product_long_desc_ru": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Показан как натуральный адъювант при ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "липедеме, лимфедеме, задержке жидкости, целлюлите и гипотоничной коже с эффектом «обвисания»",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ", стимулирует микроциркуляцию и дренаж застойной жидкости.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Формула с функциональными растительными экстрактами (босвеллия, куркума, коготь дьявола, бессмертник) и высокобиодоступными озонированными маслами стимулирует тканевую реактивацию и облегчает тяжёлые болезненные руки. Улучшает тонус кожи, уменьшая эффект «обвисания».",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Идеально во время курсов:",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• моделирование тела",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• лечение целлюлита и локальных жировых отложений",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• протоколы при липедеме",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• липедема в воспалительной фазе",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• поддержка после лимфодренажа",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• лимфедема верхних конечностей",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• сосудистая недостаточность с отёком",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• фиброзный целлюлит",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• боли в руках",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Действие: ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "дренажное – противовоспалительное – тонизирующее для кожи и микроциркуляции.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Способствует снятию заложенности тканей и улучшает ощущение лёгкости.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Рукав разработан для обеспечения",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": " равномерного прилегания и максимальной отдачи активов на руках",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ", даже при сильном отёке.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Способ применения",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Наденьте рукав и оберните пищевой плёнкой. Оставьте на 2 часа. Укройтесь удобной одеждой. Рекомендуем делать это в покое, чтобы получить максимум пользы. Не смывайте кожу после снятия. Рукав многоразовый: стирайте тёплой водой с мягким мылом. Храните в закрывающемся пакете для будущих пополнений ткани.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "INCI: ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Aqua, Propylene Glycol, Hydrogenated Castor Oil, Glycerin, Alcohol, Bromeline, Lavandula Angustifolia Herb Oil, Menthyl Lactate, Curcuma Longa Root Extract, Harpagophytum Procumbens Root Extract, Helichrysum Italicum Extract, Boswellia Serrata Gum Extract, Linum Usitatissimum Seed Oil Ozonized, Turpentine, Avena Sativa Kernel Oil Ozonized, Perilla Ocymoides Seed Oil Ozonized, Cynnamomum Camphora Leaf Oil, Menthol, Salix Alba Bark Extract, Ficus carica Fruit/Leaf Extract, Phenoxyethanol, Peg-40-Hydrogenated Castor Oil, PPG-26-Buteth-26, Ethylehxylglicerin, Linalyl Acetate, Linalool, Pinene, Limonene, Trideceth-9, Beta-Caryophyllene, Terpineol, Ethoxydiglycol, Camphor, Terpinolene, L-Beta-Pinene, Geraniol, Geranyl Acetate, Alpha-Terpineol, Gamma-Terpinene, Coumarin.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "source_url": "https://laboratorizanellato.it/en/prodotto/booster-recovery-manicotto-arm-treatment/"
+}

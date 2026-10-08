@@ -1,0 +1,1243 @@
+{
+  "product_type": "face",
+  "product_name_en": "FACE TONER, soothing and plumping multi-hydrosol, Re-GEN® pro-age",
+  "product_name_ro": "TONIC FACIAL, calmant și cu efect de umplere multi-hidrolat, Re-GEN® pro-age",
+  "product_name_ru": "ТОНИК ДЛЯ ЛИЦА, успокаивающий, с эффектом наполнения, мультигидролат, Re-GEN® pro-age",
+  "product_short_desc_en": "Facial toner based on selected botanical hydrosols, enriched with anti-aging, moisturizing, and soothing active ingredients.\n\nFormula designed to rebalance the skin after cleansing, provide immediate freshness, and contribute to improving skin elasticity.\nAlcohol-free.",
+  "product_short_desc_ro": "Loțiune tonică facială pe bază de hidrolate botanice selecționate, îmbogățită cu principii active anti-îmbătrânire, hidratante și calmante.\n\nFormulă concepută pentru reechilibrarea pielii după curățare, pentru prospețime imediată și pentru îmbunătățirea elasticității pielii.\nFără alcool.",
+  "product_short_desc_ru": "Тоник для лица на основе отобранных растительных гидролатов, обогащённый антивозрастными, увлажняющими и успокаивающими активными компонентами.\n\nФормула восстанавливает баланс кожи после очищения, дарит мгновенную свежесть и способствует повышению эластичности кожи.\nБез спирта.",
+  "product_long_desc_en": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Functional Ingredients and Properties",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "A concentrate of natural active ingredients and cosmetic innovation for visibly firmer, more hydrated, and radiant skin. ",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "The formula combines precious floral hydrosols and next-generation cosmetic active ingredients to offer a complete treatment with moisturizing, soothing, rebalancing, and pro-aging actions.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Witch Hazel, Rose, Mallow, Linden, Lavender, and Cornflower hydrosols help purify, soothe, and rebalance the skin, providing comfort, freshness, and radiance even to the most sensitive skin types. Acmella, known for its immediate natural lifting effect, helps smooth facial features, while the biomimetical peptide SYN®-COLL promotes collagen synthesis, improving skin elasticity and firmness. ",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Hyaluronic Acid ensures deep hydration and a plumping effect, while Panthenol and Aloe perform an important soothing, repairing, and protective action, helping to keep the skin soft, fresh, and perfectly balanced.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "The result is more hydrated, toned, radiant, and visibly younger-looking skin, day after day.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Skin Type",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• All skin types",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Ideal for sensitive skin",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Suitable for mature skin",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Recommended for dehydrated skin",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "How to Use",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Apply to cleansed face using a cotton pad or spray directly onto the skin. Gently pat until fully absorbed. Follow with your usual serum and cream.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Use morning and evening. ",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Use morning and evening.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Cosmetic Function",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Rebalancing",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Soothing",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Moisturizing",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Elasticizing",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Anti-aging",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Refreshing",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "product_long_desc_ro": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Ingrediente funcționale și proprietăți",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Un concentrat de principii active naturale și inovație cosmetică, pentru o piele vizibil mai fermă, mai hidratată și mai radiantă.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Formula combină prețioși hidrolate florale și principii active cosmetice de nouă generație, oferind un tratament complet cu acțiuni hidratante, calmante, reechilibrante și pro-age.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Hidrolatele de hamamelis, trandafir, nalbă, tei, lavandă și albăstrea ajută la purificarea, calmarea și reechilibrarea pielii, oferind confort, prospețime și strălucire chiar și celor mai sensibile tipuri de ten. Acmella, cunoscută pentru efectul său imediat natural de lifting, ajută la netezirea trăsăturilor feței, în timp ce peptida biomimetică SYN®-COLL stimulează sinteza colagenului, îmbunătățind elasticitatea și fermitatea pielii.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Acidul hialuronic asigură hidratarea profundă și efectul de umplere, în timp ce pantenolul și aloe vera au o importantă acțiune calmantă, reparatoare și protectoare, ajutând la menținerea pielii moi, proaspete și perfect echilibrate.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Rezultatul este o piele mai hidratată, mai tonifiată, mai radiantă și vizibil mai tânără, zi după zi.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Tip de ten",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Toate tipurile de ten",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Ideal pentru tenul sensibil",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Potrivit pentru tenul matur",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Recomandat pentru tenul deshidratat",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Mod de utilizare",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Aplicați pe fața curată cu o dischetă demachiantă sau pulverizați direct pe piele. Tapotați ușor până la absorbția completă. Continuați cu serul și crema obișnuite.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Utilizați dimineața și seara.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Utilizați dimineața și seara.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Funcție cosmetică",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Reechilibrare",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Calmare",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Hidratare",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Elasticitate",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Anti-îmbătrânire",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Prospețime",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "product_long_desc_ru": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Функциональные ингредиенты и свойства",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Концентрат натуральных активных компонентов и косметических инноваций для заметно более упругой, увлажнённой и сияющей кожи.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Формула сочетает ценные цветочные гидролаты и косметические активные компоненты нового поколения, обеспечивая комплексный уход с увлажняющим, успокаивающим, балансирующим и pro-age действием.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Гидролаты гамамелиса, розы, мальвы, липы, лаванды и василька помогают очистить, успокоить и восстановить баланс кожи, даря комфорт, свежесть и сияние даже самым чувствительным типам кожи. Акмелла, известная мгновенным натуральным лифтинг-эффектом, помогает разгладить черты лица, а биомиметический пептид SYN®-COLL стимулирует синтез коллагена, повышая эластичность и упругость кожи.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Гиалуроновая кислота обеспечивает глубокое увлажнение и эффект наполнения, а пантенол и алоэ оказывают важное успокаивающее, восстанавливающее и защитное действие, помогая сохранить кожу мягкой, свежей и идеально сбалансированной.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Результат — более увлажнённая, подтянутая, сияющая и заметно более молодая кожа, день за днём.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Тип кожи",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Все типы кожи",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Идеально для чувствительной кожи",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Подходит для зрелой кожи",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Рекомендуется для обезвоженной кожи",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Способ применения",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Нанесите на очищенное лицо ватным диском или распылите прямо на кожу. Аккуратно вбейте до полного впитывания. Затем нанесите привычные сыворотку и крем.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Используйте утром и вечером.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Используйте утром и вечером.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Косметическое действие",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Восстановление баланса",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Успокаивающее действие",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Увлажнение",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Эластичность",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Антивозрастное действие",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Освежающее действие",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "source_url": "https://laboratorizanellato.it/en/prodotto/tonico-viso-re-gen-pro-age-lenitivo-e-rimpolpante-multiidrolato/"
+}

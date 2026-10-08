@@ -4,7 +4,6 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import { useTranslations } from 'next-intl'
 import {
   ArrowRight,
-  ChevronDown,
   ChevronRight,
   Leaf,
   PersonStanding,
@@ -160,7 +159,7 @@ export function ServicesMenu() {
         onPointerEnter={handleTriggerEnter}
         onPointerLeave={handleTriggerLeave}
         className={cn(
-          'group/svc relative flex items-center gap-1 px-3 py-2 text-sm font-medium transition-colors outline-none',
+          'group/svc relative flex items-center gap-1 px-3 py-2 text-base font-medium transition-colors outline-none',
           // Invisible hover bridge covering the `sideOffset` gap below the
           // trigger: without it the cursor briefly hovers neither trigger
           // nor panel while crossing, and a slow crossing (> close delay)
@@ -174,7 +173,6 @@ export function ServicesMenu() {
         )}
       >
         {t('services')}
-        <ChevronDown className="size-3.5 opacity-60 transition-transform duration-300 group-data-[state=open]/svc:rotate-180" />
       </DropdownMenuTrigger>
 
       {/* `relative` is safe here: this is the root content, positioned by Radix

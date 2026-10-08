@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { useTranslations } from 'next-intl'
+import { getTranslations } from 'next-intl/server'
 import {
   ArrowRight,
   Award,
@@ -14,7 +15,7 @@ import {
   Users,
 } from 'lucide-react'
 
-import { languageAlternates } from '@/lib/seo'
+import { pageMetadata } from '@/lib/seo'
 
 import { Link } from '@/i18n/navigation'
 import { cn } from '@/lib/utils'
@@ -35,14 +36,21 @@ import { BorderBeam } from '@/components/ui/border-beam'
 import { Particles } from '@/components/ui/particles'
 import { ShineBorder } from '@/components/ui/shine-border'
 
-/** Title/description/OG come from the locale layout; only canonical + hreflang here. */
+/** Homepage has its own purpose-written snippet; copy lives under `Meta.home`. */
 export async function generateMetadata({
   params,
 }: {
   params: Promise<{ locale: string }>
 }): Promise<Metadata> {
   const { locale } = await params
-  return { alternates: languageAlternates(locale, '/') }
+  const t = await getTranslations({ locale, namespace: 'Meta.home' })
+  return pageMetadata({
+    locale,
+    path: '/',
+    title: t('title'),
+    description: t('description'),
+    fullTitle: true,
+  })
 }
 
 /** Olive/sage palette derived from the brand colour (#51623D) for the aurora accent. */
@@ -308,6 +316,7 @@ const INTRO_VALUES = [
 
 function Intro() {
   const t = useTranslations('HomePage.intro')
+  const ta = useTranslations('HomeImgAlt')
 
   return (
     <section className="relative isolate overflow-hidden py-24 lg:py-32">
@@ -326,7 +335,7 @@ function Intro() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/intro2.jpeg"
-                alt="A modern Palazzo Aesthetics treatment room"
+                alt={ta('room')}
                 className="size-full object-cover"
               />
               <BorderBeam size={120} duration={11} colorFrom="#51623D" colorTo="#9bb06f" />
@@ -342,7 +351,7 @@ function Intro() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/intro1.jpeg"
-                alt="Framed botanical illustrations on the clinic wall"
+                alt={ta('gallery')}
                 className="aspect-4/3 w-full rounded-xl object-cover"
               />
             </figure>
@@ -684,6 +693,7 @@ function Stats() {
 
 function Featured() {
   const t = useTranslations('HomePage.featured')
+  const ta = useTranslations('HomeImgAlt')
 
   return (
     <section className="relative isolate overflow-hidden bg-brand-subtle/30 py-20 lg:py-28">
@@ -719,7 +729,7 @@ function Featured() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/herbal-pack.jpg"
-              alt="Officinal herbs, flowers and natural ingredients of the herbal pack"
+              alt={ta('herbalPack')}
               className="size-full object-cover object-center"
             />
             <BorderBeam size={120} duration={10} colorFrom="#51623D" colorTo="#9bb06f" />
@@ -734,6 +744,7 @@ function Featured() {
 
 function Story() {
   const t = useTranslations('HomePage.story')
+  const ta = useTranslations('HomeImgAlt')
 
   return (
     <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
@@ -743,7 +754,7 @@ function Story() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/our-story.jpg"
-              alt="Palazzo Aesthetics brochures and business cards"
+              alt={ta('brochures')}
               className="size-full object-cover object-center"
             />
             <BorderBeam size={120} duration={11} colorFrom="#51623D" colorTo="#9bb06f" />
@@ -807,6 +818,7 @@ function Polaroid({
 
 function SocialCta() {
   const t = useTranslations('HomePage.instagram')
+  const ta = useTranslations('HomeImgAlt')
 
   return (
     <section className="relative isolate overflow-hidden bg-brand-subtle/30 py-20 lg:py-32">
@@ -817,7 +829,7 @@ function SocialCta() {
             {/* Tilted brand photo — sits left on desktop, on top when stacked. */}
             <Polaroid
               src="/eba1.jpg"
-              alt="Therapist treating a client at Palazzo Aesthetics"
+              alt={ta('therapist')}
               beam
               className="w-64 shrink-0 -rotate-6 sm:w-72 lg:w-[20rem] xl:w-[24rem]"
             />
@@ -881,7 +893,7 @@ function SocialCta() {
             {/* Tilted brand photo — sits right on desktop, at the bottom when stacked. */}
             <Polaroid
               src="/eba2.jpg"
-              alt="Natural phytotherapy remedies arranged in a heart"
+              alt={ta('remedies')}
               className="w-64 shrink-0 rotate-6 sm:w-72 lg:w-[20rem] xl:w-[24rem]"
             />
           </div>

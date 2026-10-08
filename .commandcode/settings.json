@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(npx tsc --noEmit)",
+      "Shell(node -e \"['en','ro','ru'].forEach(l=>{const j=require('./messages/'+l+'.json');const p=j.ServicePages.phytoaestetica;console.log(l, JSON.stringify(p.face.productsCta), JSON.stringify(p.body.productsCta))})\")",
+      "Shell(npx eslint src/components/phyto-face-body.tsx)",
+      "Shell(pnpm:*)",
+      "Shell(node_modules/.bin/next:*)",
+      "Shell(curl -s -o /tmp/phyto.html -w HTTP %{http_code}\\n http://localhost:3011/en/phytoaestetica)",
+      "Shell(curl -s -o /tmp/phyto-body.html http://localhost:3011/en/phytoaestetica?service=body)",
+      "Shell(curl -s -o /tmp/phyto-ro.html http://localhost:3011/ro/phytoaestetica?service=body)",
+      "Shell(ls:*)",
+      "Shell(curl -s -o /dev/null -w server %{http_code}\\n http://localhost:3011/en/phytoaestetica)",
+      "Shell(which google-chrome chromium chromium-browser google-chrome-stable 2>/dev/null; ls /opt/google/chrome/chrome 2>/dev/null; echo done)",
+      "Shell(node /tmp/commandcode/1000/-home-treleadev-side-projects-palazzo/4b56418c-346f-4e84-98ab-fa1edd327a88/scratchpad/measure.mjs \"http://localhost:3011/en/phytoaestetica?service=face\" /tmp/phyto-face.png)",
+      "Shell(node .tmp-measure.mjs \"http://localhost:3011/en/phytoaestetica?service=face\" /tmp/phyto-face.png)",
+      "Shell(node .tmp-bar.mjs)",
+      "Shell(rm:*)",
+      "Shell(grep:*)",
+      "Shell(node_modules/.bin/payload:*)",
+      "Shell(sed:*)",
+      "Shell(npx eslint src/lib/seo.ts src/lib/schema.ts src/app/sitemap.ts src/collections/Media.ts src/app/(frontend)/[locale]/page.tsx src/app/(frontend)/[locale]/shop/page.tsx src/app/(frontend)/[locale]/shop/[slug]/page.tsx src/app/(frontend)/[locale]/news/page.tsx src/app/(frontend)/[locale]/news/[id]/page.tsx src/app/(frontend)/[locale]/phytoaestetica/page.tsx src/components/ui/focus-cards.tsx 2 >& 1)",
+      "Shell(for u in \"en\" \"en/shop\" \"en/shop?filter=face\" \"en/phytoaestetica?service=face\"; do f=\"/tmp/seo-$(echo \"$u\" | tr '/?=&' '____').html\" code=$(curl -s -o \"$f\" -w \"%{http_code}\" \"http://localhost:3011/$u\") echo \"=== /$u -> $code ===\" grep -o '<title>[^<]*</title>' \"$f\" | head -1 grep -o '<link rel=\"canonical\" href=\"[^\"]*\"' \"$f\" | head -1 grep -o '<meta name=\"robots\" content=\"[^\"]*\"' \"$f\" | head -1 grep -o 'hreflang=\"[^\"]*\" href=\"[^\"]*\"' \"$f\" | head -4 grep -o '<meta property=\"og:locale:alternate\" content=\"[^\"]*\"' \"$f\" | head -3 grep -o '\"@type\":\"[A-Za-z]*\"' \"$f\" | sort -u | tr '\\n' ' '; echo done)",
+      "Shell(set -e curl -s -o /tmp/seo-shop.html -w \"shop:%{http_code}\\n\" \"http://localhost:3011/en/shop\" echo '--- shop robots/itemlist ---' grep -o '<meta name=\"robots\" content=\"[^\"]*\"' /tmp/seo-shop.html | head -1 grep -o '\"@type\":\"ItemList\"' /tmp/seo-shop.html | head -1 slug=$(grep -o '/en/shop/[a-z0-9-]*' /tmp/seo-shop.html | grep -v '/en/shop?\\|/en/shop\"' | head -1 | sed 's#/en/shop/##') echo \"slug=$slug\" curl -s -o /tmp/seo-prod.html -w \"product:%{http_code}\\n\" \"http://localhost:3011/en/shop/$slug\" echo '--- product jsonld ---' grep -o '\"@type\":\"[A-Za-z]*\"' /tmp/seo-prod.html | sort -u | tr '\\n' ' '; echo grep -o '\"sku\":\"[^\"]*\"' /tmp/seo-prod.html | head -1 grep -o '\"category\":\"[^\"]*\"' /tmp/seo-prod.html | head -1 grep -o '<meta property=\"og:image\" content=\"[^\"]*\"' /tmp/seo-prod.html | head -1 grep -o 'og:image:alt\" content=\"[^\"]*\"' /tmp/seo-prod.html | head -1 echo '--- filtered shop robots ---' curl -s -o /tmp/seo-shopf.html \"http://localhost:3011/en/shop?filter=face\" grep -o '<meta name=\"robots\" content=\"[^\"]*\"' /tmp/seo-shopf.html | head -1 echo '--- sitemap ---' curl -s \"http://localhost:3011/sitemap.xml\" | tr '>' '>\\n' | grep -E 'priority|changefreq' | head -6)",
+      "Shell(curl -s -o /tmp/hp.html http://localhost:3011/en echo --- titles ---)",
+      "Shell(node -e ['en','ro','ru'].forEach(l=>{const j=require('./messages/'+l+'.json');console.log(l, '| home:', j.Meta.home.title, '| altroom:', j.HomeImgAlt.room)}) echo --- homepage title/og --- curl -s -o /tmp/hp2.html http://localhost:3011/en grep -o <title>[^<]*</title> /tmp/hp2.html grep -o <meta property=\"og:title\" content=\"[^\"]*\" /tmp/hp2.html)",
+      "Shell(head:*)",
+      "Shell(npx tsc --noEmit 2 >& 1)",
+      "Shell(npx eslint src/lib/seo.ts src/lib/schema.ts src/app/(frontend)/[locale]/page.tsx 2 >& 1)",
+      "Shell(curl -s \"http://localhost:3011/ro\" -o /tmp/ro.html; grep -o 'alt=\"O cameră de tratament modernă Palazzo Aesthetics\"' /tmp/ro.html | head -1 echo '--- news ---' curl -s \"http://localhost:3011/en/news\" -o /tmp/news.html nid=$(grep -o '/en/news/[0-9]*' /tmp/news.html | head -1) echo \"nid=$nid\" if [ -n \"$nid\" ]; then curl -s -o /tmp/newsdetail.html -w \"news:%{http_code}\\n\" \"http://localhost:3011$nid\" grep -o '<meta property=\"og:type\" content=\"[^\"]*\"' /tmp/newsdetail.html | head -1 grep -o '\"@type\":\"BreadcrumbList\"' /tmp/newsdetail.html | head -1 grep -o 'article:published_time\" content=\"[^\"]*\"' /tmp/newsdetail.html | head -1 fi)",
+      "Shell(node -e ['en','ro','ru'].forEach(l=>{const j=require('./messages/'+l+'.json');console.log(l, j.Footer.builtBy)}) npx tsc --noEmit 2 >& 1)",
+      "Shell(echo:*)",
+      "Shell(curl -s -o /tmp/agency.html -w http %{http_code}\\n http://localhost:3011/en echo --- meta tags --- grep -o <meta name=\"author\"[^>]*> /tmp/agency.html)",
+      "Shell(do:*)",
+      "Shell(node -e ['en','ro','ru'].forEach(l=>{const j=require('./messages/'+l+'.json');console.log(l, 'hasBuiltBy:', 'builtBy' in j.Footer)}) npx tsc --noEmit 2 >& 1)"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}

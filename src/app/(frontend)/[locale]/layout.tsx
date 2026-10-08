@@ -7,8 +7,9 @@ import { hasLocale } from 'next-intl'
 import { getTranslations } from 'next-intl/server'
 import { routing } from '@/i18n/routing'
 import { OG_IMAGE, OG_LOCALE, SITE_NAME, SITE_URL } from '@/lib/seo'
+import { AGENCY } from '@/lib/site'
 import { notFound } from 'next/navigation'
-import { localBusinessJsonLd } from '@/lib/schema'
+import { localBusinessJsonLd, agencyJsonLd } from '@/lib/schema'
 import { JsonLd } from '@/components/json-ld'
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
@@ -51,6 +52,16 @@ export async function generateMetadata({ params }: Omit<Props, 'children'>): Pro
     title: { default: title, template: `%s — ${SITE_NAME}` },
     description,
     applicationName: SITE_NAME,
+    authors: [{ name: AGENCY.person.name, url: AGENCY.person.linkedin }],
+    creator: `${AGENCY.person.name} · ${AGENCY.name}`,
+    publisher: SITE_NAME,
+    other: {
+      developer: `${AGENCY.name} — ${AGENCY.person.name}`,
+      'developer-website': AGENCY.url,
+      'developer-linkedin': AGENCY.person.linkedin,
+      agency: AGENCY.name,
+      'agency-contact': AGENCY.email,
+    },
     openGraph: {
       type: 'website',
       siteName: SITE_NAME,
@@ -88,6 +99,8 @@ export default async function RootLayout({ children, params }: Props) {
       <body className="flex min-h-dvh flex-col">
         {/* Site-wide LocalBusiness structured data — one block on every page. */}
         <JsonLd data={localBusinessJsonLd(locale, t('description'))} />
+        {/* Creator/developer attribution (Devalon + founder) on every page. */}
+        <JsonLd data={agencyJsonLd(locale)} />
         <NextIntlClientProvider>
           <Navbar />
           <main className="flex-1">{children}</main>

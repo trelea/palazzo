@@ -1,0 +1,1393 @@
+{
+  "product_type": "body",
+  "product_name_en": "Booster Recovery LEGGINGS. Legs, buttocks, and abdomen treatment",
+  "product_name_ro": "Booster Recovery COLANȚI. Tratament pentru picioare, fese și abdomen",
+  "product_name_ru": "Booster Recovery ЛЕГГИНСЫ. Процедура для ног, ягодиц и живота",
+  "product_short_desc_en": "Intensive draining and activating treatment for legs, buttocks, and abdomen.\nA natural aid for rapid recovery and total well-being\n\nThe formula features functional plant extracts (Boswellia, Turmeric, Devil’s Claw, Helichrysum) and highly bioavailable ozonated oils. It stimulates tissue and vascular reactivation, providing relief to heavy and aching legs.\n\nDeveloped from our historic patented formulation, it keeps the functional properties of our original phytotherapeutic wrap intact.\n\nSize: M/L and XL\nContent: 1 reusable legging soaked in 120ml of Zanellato ozonated fluid.",
+  "product_short_desc_ro": "Tratament intensiv drenant și activator pentru picioare, fese și abdomen.\nUn ajutor natural pentru recuperare rapidă și stare de bine totală.\n\nFormula conține extracte funcționale din plante (Boswellia, turmeric, gheara diavolului, siminoc) și uleiuri ozonizate cu biodisponibilitate ridicată. Stimulează reactivarea tisulară și vasculară, ameliorând picioarele grele și dureroase.\n\nDezvoltată din formula noastră istorică brevetată, păstrează intacte proprietățile funcționale ale împachetării noastre fitoterapeutice originale.\n\nMărimi: M/L și XL\nConținut: 1 colant reutilizabil îmbibat cu 120 ml de fluid ozonizat Zanellato.",
+  "product_short_desc_ru": "Интенсивная дренажная и активирующая процедура для ног, ягодиц и живота.\nНатуральная помощь для быстрого восстановления и полного благополучия.\n\nФормула с функциональными растительными экстрактами (босвеллия, куркума, коготь дьявола, бессмертник) и высокобиодоступными озонированными маслами. Стимулирует тканевую и сосудистую реактивацию, облегчая тяжёлые и болезненные ноги.\n\nСоздана на основе нашей исторической запатентованной формулы, сохраняет в неприкосновенности функциональные свойства нашего оригинального фитотерапевтического обёртывания.\n\nРазмеры: M/L и XL\nСостав: 1 многоразовые леггинсы, пропитанные 120 мл озонированной жидкости Zanellato.",
+  "product_long_desc_en": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Indicated as a natural aid for lipedema,",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": " lymphedema, chronic venous insufficiency, water retention, and cellulite",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ". It promotes microcirculation and the drainage of stagnant fluids.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "The formula with functional plant extracts (Boswellia, Turmeric, Devil’s Claw, Helichrysum) and highly bioavailable ozonated oils stimulates tissue reactivation and provides relief to heavy and aching legs.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Ideal during courses of:",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Body remodeling journeys",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Cellulite and localized adiposity treatments",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Lipedema protocols",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Lipedema in the inflammatory phase",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Post-lymphatic drainage support",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Lower limb lymphedema",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Vascular insufficiency with edema",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Fibrotic cellulite",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Heavy legs",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Leg pain",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Action: ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "draining – anti-inflammatory – toning for skin and microcirculation.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "It promotes tissue decongestion and improves the sensation of lightness.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Leggings designed to ensure ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "uniform adherence and maximum active delivery",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " to legs, buttocks, and abdomen, even in the presence of significant edema.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "How to use",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Pour the contents of the refill into the pouch containing the leggings.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Seal the pouch using the press-lock closure.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Let the fabric soak for 10-15 minutes.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Use as directed on the leggings packaging. ",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "INCI: ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Aqua, Propylene Glycol, Hydrogenated Castor Oil, Glycerin, Alcohol, Bromeline, Lavandula Angustifolia Herb Oil, Menthyl Lactate, Curcuma Longa Root Extract, Harpagophytum Procumbens Root Extract, Helichrysum Italicum Extract, Boswellia Serrata Gum Extract, Linum Usitatissimum Seed Oil Ozonized, Turpentine, Avena Sativa Kernel Oil Ozonized, Perilla Ocymoides Seed Oil Ozonized, Cynnamomum Camphora Leaf Oil, Menthol, Salix Alba Bark Extract, Ficus carica Fruit/Leaf Extract, Phenoxyethanol, Peg-40-Hydrogenated Castor Oil, PPG-26-Buteth-26, Ethylehxylglicerin, Linalyl Acetate, Linalool, Pinene, Limonene, Trideceth-9, Beta-Caryophyllene, Terpineol, Ethoxydiglycol, Camphor, Terpinolene, L-Beta-Pinene, Geraniol, Geranyl Acetate, Alpha-Terpineol, Gamma-Terpinene, Coumarin..",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "product_long_desc_ro": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Indicat ca ajutor natural pentru lipedem,",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": " limfedem, insuficiență venoasă cronică, retenție de apă și celulită",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ". Favorizează microcirculația și drenarea lichidelor stagnante.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Formula cu extracte funcționale din plante (Boswellia, turmeric, gheara diavolului, siminoc) și uleiuri ozonizate cu biodisponibilitate ridicată stimulează reactivarea tisulară și ameliorează picioarele grele și dureroase.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Ideal în timpul curelor de:",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Parcursuri de remodelare corporală",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Tratamente pentru celulită și adipozitate localizată",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Protocoale pentru lipedem",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Lipedem în fază inflamatorie",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Suport post-drenaj limfatic",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Limfedem al membrelor inferioare",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Insuficiență vasculară cu edem",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Celulită fibroasă",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Picioare grele",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Dureri de picioare",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Acțiune: ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "drenantă – antiinflamatoare – tonifiantă pentru piele și microcirculație.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Favorizează decongestionarea țesuturilor și îmbunătățește senzația de ușurință.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Colanți concepuți pentru a asigura ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "aderență uniformă și cedare maximă de principii active",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " către picioare, fese și abdomen, chiar și în prezența unui edem semnificativ.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Mod de utilizare",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Turnați conținutul rezervei în punga care conține colanții.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Sigilați punga folosind închiderea press-lock.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Lăsați materialul la înmuiat 10-15 minute.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Utilizați conform indicațiilor de pe ambalajul colanților. ",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "INCI: ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Aqua, Propylene Glycol, Hydrogenated Castor Oil, Glycerin, Alcohol, Bromeline, Lavandula Angustifolia Herb Oil, Menthyl Lactate, Curcuma Longa Root Extract, Harpagophytum Procumbens Root Extract, Helichrysum Italicum Extract, Boswellia Serrata Gum Extract, Linum Usitatissimum Seed Oil Ozonized, Turpentine, Avena Sativa Kernel Oil Ozonized, Perilla Ocymoides Seed Oil Ozonized, Cynnamomum Camphora Leaf Oil, Menthol, Salix Alba Bark Extract, Ficus carica Fruit/Leaf Extract, Phenoxyethanol, Peg-40-Hydrogenated Castor Oil, PPG-26-Buteth-26, Ethylehxylglicerin, Linalyl Acetate, Linalool, Pinene, Limonene, Trideceth-9, Beta-Caryophyllene, Terpineol, Ethoxydiglycol, Camphor, Terpinolene, L-Beta-Pinene, Geraniol, Geranyl Acetate, Alpha-Terpineol, Gamma-Terpinene, Coumarin..",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "product_long_desc_ru": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Показан как натуральная помощь при липедеме,",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": " лимфедеме, хронической венозной недостаточности, задержке жидкости и целлюлите",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ". Стимулирует микроциркуляцию и дренаж застойной жидкости.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Формула с функциональными растительными экстрактами (босвеллия, куркума, коготь дьявола, бессмертник) и высокобиодоступными озонированными маслами стимулирует тканевую реактивацию и облегчает тяжёлые болезненные ноги.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Идеально во время курсов:",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Курсы моделирования тела",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Процедуры от целлюлита и локальных жировых отложений",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Протоколы при липедеме",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Липедема в воспалительной фазе",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Поддержка после лимфодренажа",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Лимфедема нижних конечностей",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Сосудистая недостаточность с отёком",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Фиброзный целлюлит",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Тяжёлые ноги",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Боли в ногах",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Действие: ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "дренажное – противовоспалительное – тонизирующее для кожи и микроциркуляции.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Способствует снятию заложенности тканей и улучшает ощущение лёгкости.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Леггинсы разработаны для обеспечения ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "равномерного прилегания и максимальной отдачи активов",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " ногам, ягодицам и животу даже при значительном отёке.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Способ применения",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Вылейте содержимое сменного комплекта в пакет с леггинсами.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Герметично закройте пакет press-lock застёжкой.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Дайте ткани пропитаться 10–15 минут.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Используйте согласно указаниям на упаковке леггинсов. ",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "INCI: ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Aqua, Propylene Glycol, Hydrogenated Castor Oil, Glycerin, Alcohol, Bromeline, Lavandula Angustifolia Herb Oil, Menthyl Lactate, Curcuma Longa Root Extract, Harpagophytum Procumbens Root Extract, Helichrysum Italicum Extract, Boswellia Serrata Gum Extract, Linum Usitatissimum Seed Oil Ozonized, Turpentine, Avena Sativa Kernel Oil Ozonized, Perilla Ocymoides Seed Oil Ozonized, Cynnamomum Camphora Leaf Oil, Menthol, Salix Alba Bark Extract, Ficus carica Fruit/Leaf Extract, Phenoxyethanol, Peg-40-Hydrogenated Castor Oil, PPG-26-Buteth-26, Ethylehxylglicerin, Linalyl Acetate, Linalool, Pinene, Limonene, Trideceth-9, Beta-Caryophyllene, Terpineol, Ethoxydiglycol, Camphor, Terpinolene, L-Beta-Pinene, Geraniol, Geranyl Acetate, Alpha-Terpineol, Gamma-Terpinene, Coumarin..",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "source_url": "https://laboratorizanellato.it/en/prodotto/booster-recovery-leggings-treat-legs-buttocks-and-abdomen/"
+}

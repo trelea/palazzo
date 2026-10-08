@@ -1,0 +1,1891 @@
+{
+  "product_type": "face",
+  "product_name_en": "FACE CREAM, Re-GEN® pro-age, Restructuring, Multi-peptide and Ceramide",
+  "product_name_ro": "CREMĂ DE FAȚĂ, Re-GEN® pro-age, Restructurantă, Multi-peptide și Ceramide",
+  "product_name_ru": "КРЕМ ДЛЯ ЛИЦА, Re-GEN® pro-age, Реструктурирующий, Мультипептиды и Керамиды",
+  "product_short_desc_en": "Rich yet fast-absorbing O/W facial emulsion, formulated with a complex of next-generation anti-aging active ingredients, nourishing plant oils, and a ceramide-based barrier system.\nThe formula contributes to improving skin firmness, elasticity, and hydration, helping to counter the signs of aging and oxidative stress.",
+  "product_short_desc_ro": "Emulsie facială O/W bogată, dar cu absorbție rapidă, formulată cu un complex de principii active anti-îmbătrânire de nouă generație, uleiuri vegetale hrănitoare și un sistem de barieră pe bază de ceramide.\nFormula contribuie la îmbunătățirea fermității, elasticității și hidratării pielii, ajutând la combaterea semnelor îmbătrânirii și a stresului oxidativ.",
+  "product_short_desc_ru": "Насыщенная, но быстро впитывающаяся эмульсия O/W для лица с комплексом антивозрастных активных компонентов нового поколения, питательными растительными маслами и церамидной барьерной системой.\nФормула способствует повышению упругости, эластичности и увлажнённости кожи, помогая бороться с признаками старения и окислительным стрессом.",
+  "product_long_desc_en": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Functional Composition and Properties",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "A pro-age facial cream that nourishes, firms, and protects the skin every day.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "This facial cream combines precious natural active ingredients and advanced cosmetic technologies to offer a complete treatment with nourishing, firming, moisturizing, and protective actions, ideal for countering the signs of aging and preserving the skin’s beauty.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "The rich lipid phase, composed of Rice Oil, Illipe Butter, Jojoba Oil, and biomimetic Squalane, deeply nourishes, improves skin elasticity, and contributes to strengthening the skin’s natural protective barrier, leaving it soft, silky, and comfortable.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "The heart of the formula features an exclusive pro-age complex that pairs SYN®-COLL—a collagen-stimulating biomimetic peptide—with Acmella Extract for an immediate lifting effect, GABA, and L-Carnosine.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "This synergy helps improve tone and firmness, smooth facial features, and counter the main mechanisms of skin aging, including the glycation of supporting fibers.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Biomimetic Ceramides contribute to restoring the skin barrier and maintaining an optimal hydration level over time, while Yarrow (Achillea), Allantoin, and Acnibio ADBB help soothe, rebalance, and purify the skin, promoting an even and healthy-looking complexion.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "The presence of stabilized Vitamin C (VC-IP) and Vitamin E offers valuable antioxidant protection against oxidative stress, helping to preserve the skin’s radiance, vitality, and youthfulness.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Day after day, the skin appears more nourished, firm, elastic, and radiant, with a smoothing effect and a visibly younger, more relaxed appearance.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Skin Type",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Normal skin",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Dry skin",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Mature skin",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Stressed skin",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Skin with loss of tone",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Also suitable for combination skin thanks to its well-balanced lipid profile.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Cosmetic Benefits",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "✔ Improves firmness and tone",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "✔ Visibly reduces expression lines",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "✔ Strengthens the skin barrier",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "✔ Nourishes without feeling heavy",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "✔ Protects against oxidative stress",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "✔ Improves elasticity and radiance",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "How to Use",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Apply morning and/or evening to cleansed face. ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Massage until fully absorbed. ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Ideal after a specific anti-aging serum.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Cosmetic Function",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Global anti-aging",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Skin barrier restructuring",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Nourishing and elasticizing",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Antioxidant",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Lifting effect",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Deeply moisturizing",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "product_long_desc_ro": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Compoziție funcțională și proprietăți",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "O cremă de față pro-age care hrănește, tonifică și protejează pielea în fiecare zi.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Această cremă de față combină prețioase principii active naturale și tehnologii cosmetice avansate, oferind un tratament complet cu acțiuni hrănitoare, tonifiante, hidratante și protectoare, ideal pentru combaterea semnelor îmbătrânirii și păstrarea frumuseții pielii.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Faza lipidică bogată, compusă din ulei de orez, unt de Illipe, ulei de jojoba și squalan biomimetic, hrănește în profunzime, îmbunătățește elasticitatea pielii și contribuie la întărirea barierei naturale de protecție a pielii, lăsând-o moale, catifelată și confortabilă.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Inima formulei este un complex pro-age exclusiv, care combină SYN®-COLL — o peptidă biomimetică ce stimulează colagenul — cu extract de Acmella pentru un efect imediat de lifting, GABA și L-carnozină.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Această sinergie ajută la îmbunătățirea tonusului și fermității, la netezirea trăsăturilor feței și la combaterea principalelor mecanisme ale îmbătrânirii pielii, inclusiv glicarea fibrelor de susținere.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Ceramidele biomimetice contribuie la refacerea barierei pielii și la menținerea unui nivel optim de hidratare în timp, în timp ce coada-șoricelului (Achillea), alantoina și Acnibio ADBB ajută la calmarea, reechilibrarea și purificarea pielii, favorizând un ten uniform și cu aspect sănătos.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Prezența vitaminei C stabilizate (VC-IP) și a vitaminei E oferă o protecție antioxidantă valoroasă împotriva stresului oxidativ, ajutând la păstrarea strălucirii, vitalității și tinereții pielii.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Zi după zi, pielea arată mai hrănită, mai fermă, mai elastică și mai radiantă, cu efect de netezire și un aspect vizibil mai tânăr și mai odihnit.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Tip de ten",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Ten normal",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Ten uscat",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Ten matur",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Ten stresat",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Ten cu pierderea tonusului",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Potrivită și pentru tenul mixt, datorită profilului lipidic bine echilibrat.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Beneficii cosmetice",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "✔ Îmbunătățește fermitatea și tonusul",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "✔ Reduce vizibil ridurile de expresie",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "✔ Întărește bariera pielii",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "✔ Hrănește fără senzație de încărcare",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "✔ Protejează împotriva stresului oxidativ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "✔ Îmbunătățește elasticitatea și strălucirea",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Mod de utilizare",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Aplicați dimineața și/sau seara pe fața curată.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Masați până la absorbția completă.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Ideal după un ser anti-îmbătrânire specific.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Funcție cosmetică",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Anti-îmbătrânire globală",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Restructurarea barierei pielii",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Hrănire și elasticitate",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Antioxidant",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Efect de lifting",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Hidratare profundă",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "product_long_desc_ru": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Функциональный состав и свойства",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Антивозрастной крем для лица, который ежедневно питает, укрепляет и защищает кожу.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Этот крем сочетает ценные натуральные активные компоненты и передовые косметические технологии, обеспечивая комплексный уход с питательным, укрепляющим, увлажняющим и защитным действием — идеально для борьбы с признаками старения и сохранения красоты кожи.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Насыщенная липидная фаза из рисового масла, масла иллипе, масла жожоба и биомиметического сквалана глубоко питает, повышает эластичность кожи и способствует укреплению её естественного защитного барьера, оставляя кожу мягкой, шелковистой и комфортной.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Сердце формулы — эксклюзивный pro-age комплекс, сочетающий SYN®-COLL — биомиметический пептид, стимулирующий коллаген, — с экстрактом акмеллы для мгновенного лифтинг-эффекта, ГАМК и L-карнозином.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Эта синергия помогает улучшить тонус и упругость, разгладить черты лица и противостоять основным механизмам старения кожи, включая гликацию опорных волокон.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Биомиметические керамиды способствуют восстановлению кожного барьера и поддержанию оптимального уровня увлажнения надолго, а тысячелистник (Achillea), аллантоин и Acnibio ADBB помогают успокоить, восстановить баланс и очистить кожу, способствуя ровному и здоровому цвету лица.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Стабилизированный витамин C (VC-IP) и витамин E обеспечивают ценную антиоксидантную защиту от окислительного стресса, помогая сохранить сияние, жизненную энергию и молодость кожи.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "День за днём кожа выглядит более напитанной, упругой, эластичной и сияющей, с разглаживающим эффектом и заметно более молодым, отдохнувшим видом.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Тип кожи",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Нормальная кожа",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Сухая кожа",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Зрелая кожа",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Стрессовая кожа",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Кожа с потерей тонуса",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Также подходит для комбинированной кожи благодаря хорошо сбалансированному липидному профилю.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Косметические преимущества",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "✔ Повышает упругость и тонус",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "✔ Заметно уменьшает мимические морщины",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "✔ Укрепляет кожный барьер",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "✔ Питает без ощущения тяжести",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "✔ Защищает от окислительного стресса",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "✔ Улучшает эластичность и сияние",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Способ применения",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Наносите утром и/или вечером на очищенное лицо.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Массируйте до полного впитывания.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Идеально после специального антивозрастного серума.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Косметическое действие",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Общее антивозрастное действие",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Реструктуризация кожного барьера",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Питание и эластичность",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Антиоксидантное действие",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Лифтинг-эффект",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "• Глубокое увлажнение",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "source_url": "https://laboratorizanellato.it/en/prodotto/crema-viso-re-gen-pro-age-ristrutturante-multipeptide-e-ceramide/"
+}

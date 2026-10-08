@@ -1,0 +1,643 @@
+{
+  "product_type": "body",
+  "product_name_en": "KURA® RELEASE bio",
+  "product_name_ro": "KURA® RELEASE bio",
+  "product_name_ru": "KURA® RELEASE bio",
+  "product_short_desc_en": "With essential oils of camphor, mint, and capsicum. 97.2% certified natural raw materials.\nNatural ingredients and organic components.\n\nMade from our historic formula, this pain relief cream gel contains all the quality and effectiveness of the medicinal herbs we’ve been using for over 60 years. Now you have a completely natural product for minor daily aches and pains you can take with you wherever you go. Joint pain, contractures, sprains, bruises, and heaviness of the legs that will receive an immediate relief.",
+  "product_short_desc_ro": "Cu uleiuri esențiale de camfor, mentă și capsicum. 97,2% materii prime naturale certificate.\nIngrediente naturale și componente organice.\n\nCreată după formula noastră istorică, această cremă-gel calmantă conține toată calitatea și eficacitatea plantelor medicinale pe care le folosim de peste 60 de ani. Acum ai un produs complet natural pentru micile dureri zilnice, pe care îl poți lua cu tine oriunde. Dureri articulare, contracturi, entorse, vânătăi și greutate în picioare care vor primi o ameliorare imediată.",
+  "product_short_desc_ru": "С эфирными маслами камфоры, мяты и капсикума. 97,2% сертифицированного натурального сырья.\nНатуральные ингредиенты и органические компоненты.\n\nСозданный по нашей исторической формуле, этот обезболивающий крем-гель содержит всё качество и эффективность лекарственных трав, которые мы используем более 60 лет. Теперь у вас полностью натуральное средство от повседневных лёгких болей, которое можно взять с собой куда угодно. Боли в суставах, контрактуры, растяжения, ушибы и тяжесть в ногах получат немедленное облегчение.",
+  "product_long_desc_en": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Lotion indicated to relieve pain, it contains counterirritants, salicylates, and capsicin, whose combined action ensures greater results thanks to the ability to penetrate deep into the inflamed body area. The counterirritants are substances that create a burning and cooling sensation to distract the mind from pain and stimulate the heat receptors of skin cells; they are menthol, camphor, essential oil of eucalyptus, and cloves. The oil resin of capsicum creates a marked perception of heat, favouring blood flow to the sore area. Methyl salicylate is used as a skin vasodilator in the treatment of muscle and joint pain. Ideal for sportsmen and for all those who perform intense physical activity. Given the high content of essential oils, the use on children and pregnant women is not recommended. ",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "How to Use",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Apply the lotion on the affected area and exercise a gentle massage to promote its absorption. Apply several times, if necessary. Always wash your hands after the application, absolutely avoid touching your eyes or mucous membranes. Never apply to eczema and open wounds. ",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "0% PEG silicone parabens.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "PAO:",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " 6 months",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Composition",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Ingredienti:",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " Aqua, Caprylic/Capric Triglyceride, Glyceryl Stearate Se, Menthol, Cinnamomum camphora leaf oil, Methyl Salycilate, Prunus amygdalus dulcis oil, Cocos nucifera oil, Glycerin, Cetearyl alcohol, Stearic Acid, Persea gratissima oil, ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "Butyrospermum parkii butter",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ", Tocopheryl Acetate, hydrogenated olive oil, Phenoxyethanol, ethylehxylglicerin, Xantan gum, ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "*Simmondsia chinensis seed oil",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ", Rosa canina fruit extract, Allantoin, Mentha piperita oil, Eugenia carophyllus bud oil, Eucalyptus globulus leaf oil, Citric acid, Alcohol, Capsicum annum oil, D-limonene, Linalool, Benzyl benzoate, Isoeugenol.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "*ORGANIC INGREDIENTS CERTIFIED BY COSMOS",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "product_long_desc_ro": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Loțiune indicată pentru ameliorarea durerii, conține contrairitanți, salicilați și capsicină, a căror acțiune combinată asigură rezultate mai bune datorită capacității de a penetra profund zona inflamată a corpului. Contrairitanții sunt substanțe care creează o senzație de arsură și răcoare pentru a distrage mintea de la durere și a stimula receptorii de căldură ai celulelor pielii; aceștia sunt mentolul, camforul, uleiul esențial de eucalipt și cuișoarele. Oleorășina de capsicum creează o percepție marcată de căldură, favorizând fluxul sanguin către zona dureroasă. Salicilatul de metil este utilizat ca vasodilatator cutanat în tratamentul durerilor musculare și articulare. Ideal pentru sportivi și pentru toți cei care practică activitate fizică intensă. Având în vedere conținutul ridicat de uleiuri esențiale, nu se recomandă utilizarea la copii și femei însărcinate.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Mod de utilizare",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Aplicați loțiunea pe zona afectată și masați ușor pentru a favoriza absorbția. Aplicați de mai multe ori, dacă este necesar. Spălați-vă întotdeauna mâinile după aplicare, evitați absolut atingerea ochilor sau a mucoaselor. Nu aplicați niciodată pe eczeme și răni deschise.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "0% PEG siliconi parabeni.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "PAO:",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " 6 luni",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Compoziție",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Ingrediente:",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " Aqua, Caprylic/Capric Triglyceride, Glyceryl Stearate Se, Menthol, Cinnamomum camphora leaf oil, Methyl Salycilate, Prunus amygdalus dulcis oil, Cocos nucifera oil, Glycerin, Cetearyl alcohol, Stearic Acid, Persea gratissima oil, ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "Butyrospermum parkii butter",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ", Tocopheryl Acetate, hydrogenated olive oil, Phenoxyethanol, ethylehxylglicerin, Xantan gum, ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "*Simmondsia chinensis seed oil",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ", Rosa canina fruit extract, Allantoin, Mentha piperita oil, Eugenia carophyllus bud oil, Eucalyptus globulus leaf oil, Citric acid, Alcohol, Capsicum annum oil, D-limonene, Linalool, Benzyl benzoate, Isoeugenol.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "*INGREDIENTE ORGANICE CERTIFICATE DE COSMOS",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "product_long_desc_ru": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Лосьон для облегчения боли с контрирритантами, салицилатами и капсицином, чьё совместное действие даёт больший результат благодаря способности глубоко проникать в воспалённую область тела. Контрирританты — вещества, создающие ощущение жжения и охлаждения, чтобы отвлечь сознание от боли и стимулировать тепловые рецепторы клеток кожи; это ментол, камфора, эфирное масло эвкалипта и гвоздика. Маслосмола капсикума создаёт выраженное ощущение тепла, усиливая приток крови к болезненному участку. Метилсалицилат применяется как кожный вазодилататор при лечении мышечных и суставных болей. Идеален для спортсменов и всех, кто занимается интенсивной физической активностью. Учитывая высокое содержание эфирных масел, не рекомендуется детям и беременным.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Способ применения",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Нанесите лосьон на поражённый участок и мягко массируйте для впитывания. При необходимости наносите несколько раз. Всегда мойте руки после нанесения, категорически избегайте касания глаз и слизистых. Не наносить на экзему и открытые раны.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "0% PEG, силиконов, парабенов.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "PAO:",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " 6 месяцев",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Состав",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Ингредиенты:",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " Aqua, Caprylic/Capric Triglyceride, Glyceryl Stearate Se, Menthol, Cinnamomum camphora leaf oil, Methyl Salycilate, Prunus amygdalus dulcis oil, Cocos nucifera oil, Glycerin, Cetearyl alcohol, Stearic Acid, Persea gratissima oil, ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "Butyrospermum parkii butter",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ", Tocopheryl Acetate, hydrogenated olive oil, Phenoxyethanol, ethylehxylglicerin, Xantan gum, ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "*Simmondsia chinensis seed oil",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ", Rosa canina fruit extract, Allantoin, Mentha piperita oil, Eugenia carophyllus bud oil, Eucalyptus globulus leaf oil, Citric acid, Alcohol, Capsicum annum oil, D-limonene, Linalool, Benzyl benzoate, Isoeugenol.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "*ОРГАНИЧЕСКИЕ ИНГРЕДИЕНТЫ, СЕРТИФИЦИРОВАННЫЕ COSMOS",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "source_url": "https://laboratorizanellato.it/en/prodotto/kura-release-bio-phytocream/"
+}

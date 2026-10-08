@@ -9,6 +9,9 @@ import sharp from 'sharp'
 import { Users } from './collections/Users'
 import { Media } from './collections/Media'
 import { News } from './collections/News'
+import { ProductTypes } from './collections/ProductTypes'
+import { ProductTags } from './collections/ProductTags'
+import { Products } from './collections/Products'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
@@ -31,7 +34,7 @@ export default buildConfig({
       baseDir: path.resolve(dirname),
     },
   },
-  collections: [Users, Media, News],
+  collections: [Users, Media, News, ProductTypes, ProductTags, Products],
   editor: lexicalEditor(),
   // Required for upload formatOptions/resizeOptions — without this they are
   // silently ignored.

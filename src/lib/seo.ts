@@ -17,6 +17,18 @@ export function localePath(locale: string, path: string): string {
 }
 
 /**
+ * Word-boundary excerpt of at most `max` characters, with an ellipsis when it
+ * has to cut — safe for meta descriptions (never splits a word mid-way).
+ */
+export function truncate(text: string, max = 160): string {
+  const clean = text.replace(/\s+/g, ' ').trim()
+  if (clean.length <= max) return clean
+  const cut = clean.slice(0, max - 1)
+  const at = cut.lastIndexOf(' ')
+  return `${(at > 0 ? cut.slice(0, at) : cut).trimEnd()}…`
+}
+
+/**
  * hreflang map (ro/en/ru + x-default → default locale) for one locale-agnostic
  * path. Shared by the head metadata (relative URLs, resolved against
  * `metadataBase`) and the sitemap (`base = SITE_URL` for absolute URLs).
@@ -51,6 +63,8 @@ export function pageMetadata({
   title,
   description,
   ogImage,
+  article,
+  fullTitle,
 }: {
   locale: string
   /** Locale-agnostic path, e.g. `/contacts`. */
@@ -59,21 +73,35 @@ export function pageMetadata({
   description: string
   /** Override the default brand OG image (e.g. a news cover). */
   ogImage?: string
+  /** Set for article-style pages so OG reports `article` + publish/modified times. */
+  article?: { publishedTime: string; modifiedTime?: string }
+  /** `title` already includes the brand (the homepage has no title template). */
+  fullTitle?: boolean
 }): Metadata {
-  const ogTitle = `${title} — ${SITE_NAME}`
-  const images = ogImage ? [ogImage] : [OG_IMAGE]
+  const ogTitle = fullTitle ? title : `${title} — ${SITE_NAME}`
+  const images = ogImage ? [{ url: ogImage, alt: title }] : [OG_IMAGE]
+  const alternateLocale = routing.locales
+    .filter((l) => l !== locale)
+    .map((l) => OG_LOCALE[l])
   return {
     title,
     description,
     alternates: languageAlternates(locale, path),
     openGraph: {
-      type: 'website',
+      type: article ? 'article' : 'website',
       siteName: SITE_NAME,
       title: ogTitle,
       description,
       url: localePath(locale, path),
       locale: OG_LOCALE[locale],
+      alternateLocale,
       images,
+      ...(article
+        ? {
+            publishedTime: article.publishedTime,
+            modifiedTime: article.modifiedTime ?? article.publishedTime,
+          }
+        : {}),
     },
     twitter: {
       card: 'summary_large_image',

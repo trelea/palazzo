@@ -129,9 +129,21 @@
       "newsletterConsent": "By subscribing you accept the terms of our privacy policy and consent to receive information emails from Palazzo Aesthetics."
     }
   },
+  "HomeImgAlt": {
+    "room": "A modern Palazzo Aesthetics treatment room",
+    "gallery": "Framed botanical illustrations on the clinic wall",
+    "herbalPack": "Officinal herbs, flowers and natural ingredients of the herbal pack",
+    "brochures": "Palazzo Aesthetics brochures and business cards",
+    "therapist": "Therapist treating a client at Palazzo Aesthetics",
+    "remedies": "Natural phytotherapy remedies arranged in a heart"
+  },
   "Meta": {
     "tagline": "Phyto-Esthetics & Phytotherapy",
     "description": "Palazzo Aesthetics — phyto-esthetics and phytotherapy clinic in Chișinău. Natural care for body and mind: skin toning, body contouring and plant-based therapies. Book your appointment online.",
+    "home": {
+      "title": "Palazzo Aesthetics — Phyto-Esthetics & Phytotherapy in Chișinău",
+      "description": "Palazzo Aesthetics — phyto-esthetics and phytotherapy clinic in Chișinău. Natural face and body care, toning, contouring and herbal therapies. Book online."
+    },
     "about": {
       "title": "About us",
       "description": "Discover the story of Palazzo Aesthetics — a family tradition of care since 1956, uniting plant-based aesthetics and natural phytotherapy in Chișinău."
@@ -143,6 +155,10 @@
     "news": {
       "title": "News",
       "description": "Updates, events and health tips from the Palazzo Aesthetics team in Chișinău."
+    },
+    "shop": {
+      "title": "Our Products",
+      "description": "Palazzo Aesthetics phyto-aesthetic products: face and body care. Discover our range."
     },
     "phytoaestetica": {
       "title": "Phyto-Esthetics",
@@ -162,6 +178,7 @@
     "body": "Body",
     "impacco": "Impacco",
     "news": "News",
+    "shop": "Products",
     "contact": "Contact",
     "book": "Book appointment",
     "openMenu": "Open menu",
@@ -179,6 +196,16 @@
     "empty": "No news yet — check back soon.",
     "readMore": "Read more",
     "back": "Back to news"
+  },
+  "ShopPage": {
+    "title": "Our Products",
+    "lead": "Phyto-aesthetic face and body products from the Palazzo universe.",
+    "empty": "No products yet — check back soon.",
+    "viewProduct": "View product",
+    "filterAll": "All",
+    "filterFace": "Face",
+    "filterBody": "Body",
+    "back": "Back to products"
   },
   "Footer": {
     "tagline": "Where beauty meets timeless elegance.",
@@ -342,7 +369,13 @@
           }
         },
         "discoverProcedures": "Procedures",
-        "getInTouch": "Contact us"
+        "getInTouch": "Contact us",
+        "productsCta": {
+          "heading": "Discover our products",
+          "body": "The RE-GEN® Pro-Age range we use in every facial ritual is available for your home care too — the same biomimetic formulas, now in your daily routine.",
+          "button": "Explore Face products",
+          "all": "View all products"
+        }
       },
       "body": {
         "title": "The body has its own rhythm. Its care should respect it.",
@@ -379,7 +412,13 @@
           }
         },
         "discoverProcedures": "Procedures",
-        "getInTouch": "Contact us"
+        "getInTouch": "Contact us",
+        "productsCta": {
+          "heading": "Discover our products",
+          "body": "The phyto-aesthetic formulas behind every body ritual — the KURA TONIC gel and the active cataplasm range — are available for your daily care at home.",
+          "button": "Explore Body products",
+          "all": "View all products"
+        }
       },
       "cta": {
         "heading": "Book your phyto-esthetics experience",

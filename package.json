@@ -14,6 +14,8 @@
     "ii": "pnpm install --ignore-workspace",
     "lint": "cross-env NODE_OPTIONS=--no-deprecation next lint",
     "payload": "cross-env NODE_OPTIONS=--no-deprecation payload",
+    "build:scraper": "tsc src/scripts/scrape-product.ts --outDir dist --module esnext --target es2022 --moduleResolution bundler --skipLibCheck && node -e \"const fs=require('fs');const f='dist/scripts/scrape-product.js';fs.writeFileSync(f,fs.readFileSync(f,'utf8').replaceAll('../lib/slug\\'','../lib/slug.js\\''))\"",
+    "scrape": "node dist/scripts/scrape-product.js",
     "start": "cross-env NODE_OPTIONS=--no-deprecation next start",
     "test": "pnpm run test:int && pnpm run test:e2e",
     "test:e2e": "cross-env NODE_OPTIONS=\"--no-deprecation --import=tsx/esm\" playwright test --config=playwright.config.ts",

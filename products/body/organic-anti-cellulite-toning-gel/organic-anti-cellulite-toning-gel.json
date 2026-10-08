@@ -1,0 +1,670 @@
+{
+  "product_type": "body",
+  "product_name_en": "Organic anti-cellulite toning gel",
+  "product_name_ro": "Gel organic anticelulitic tonifiant",
+  "product_name_ru": "Органический антицеллюлитный тонизирующий гель",
+  "product_short_desc_en": "Organic anti-cellulite toning gel with hyaluronic acid 3x (3 molecular weights), collagen and medicinal plants.\n99.2% natural ingredients and organic components.\n\nOur fast absorption gel promotes the drainage of excess fluids by hindering the skin imperfections of cellulite and orange peel. The lipolytic action of the natural ingredients helps to reduce localized fat deposits by stimulating the micro blood circulation.\nIt also enhances the elasticity of the skin by toning the tissues.\nVisible improvement of the broken capillaries too.\n\nSize: 150 ml",
+  "product_short_desc_ro": "Gel organic anticelulitic tonifiant cu acid hialuronic 3x (3 greutăți moleculare), colagen și plante medicinale.\n99,2% ingrediente naturale și componente organice.\n\nGelul nostru cu absorbție rapidă favorizează drenarea lichidelor în exces, combatând imperfecțiunile pielii cauzate de celulită și aspectul de coajă de portocală. Acțiunea lipolitică a ingredientelor naturale ajută la reducerea depozitelor localizate de grăsime prin stimularea microcirculației sanguine.\nDe asemenea, îmbunătățește elasticitatea pielii prin tonifierea țesuturilor.\nÎmbunătățire vizibilă și a capilarelor sparte.\n\nCantitate: 150 ml",
+  "product_short_desc_ru": "Органический антицеллюлитный тонизирующий гель с гиалуроновой кислотой 3x (3 молекулярных веса), коллагеном и лекарственными растениями.\n99,2% натуральных ингредиентов и органических компонентов.\n\nНаш быстро впитывающийся гель способствует дренажу лишней жидкости, борясь с несовершенствами кожи при целлюлите и эффектом апельсиновой корки. Липолитическое действие натуральных ингредиентов помогает уменьшить локальные жировые отложения, стимулируя микроциркуляцию крови.\nТакже повышает эластичность кожи, тонизируя ткани.\nЗаметное улучшение и ломких капилляров.\n\nОбъём: 150 мл",
+  "product_long_desc_en": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Anti-Cellulite Toning Gel with a creamy texture, rich in active ingredients that regenerate, tone up, and help to improve cellulite imperfections. It contains biotechnological hyaluronic acid at different molecular weights, therefore it hydrates and restores the tissue barrier, giving a soft and pleasant skin-feel. The molecular weight of hyaluronic acid is indeed fundamental, as it determines its properties and functions: high molecular weight acid has a strong moisturizing power and a film-like effect, as it is not able to penetrate the skin barrier with ease; the low molecular weight is instead used for its anti-aging, toning, and smoothing properties on stretch marks. The association of liporeducing, draining, and protective qualities are guaranteed by the medicinal plants contained in the gel. Caffeine, activating fat metabolism, eases the dissolution of fat deposits by reducing the orange peel effect. Ivy extract, thanks to its saponins, drains and tone up, while Asian Centella, Horse chestnut, and Gingko biloba stimulate the circulation and reduce the stagnation of liquids. To complete the formulation, the essential oils of orange, lemon, and grapefruit that, operating synergistically, promote lymphatic functioning and drainage of excess fluids.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "How to Use",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Apply to affected areas and massage gently until completely absorbed. Apply twice per day.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "It does not contain endocrine disruptors.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " Also suitable for those suffering from thyroid malfunction.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "0% PEG silicone parabens.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "PAO:",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " 6 months",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Composition",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Ingredients:",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " Aqua, Alcohol, Polyglyceryl-10 stearate, Polyglyceryl-6 tristearate, Vitis vinifera seed oil, Caffeine, Sodium Hyaluronate, Collagen, ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "* Simmondsia chinensis seed oil",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ", Hedera helix leaf extract, Arnica montana flower extract, Ginkgo biloba leaf extract, Aesculus hippocastanum leaf extract, Centella asiatica extract, Glycerin, hydroxypropylguar, phenoxyethanol, ethylehxylglicerin, Citrus limon peel oil, Citrus aurantium dulcis peel oil, Citrus paradisi peel oil, Tocopheryl acetate, d-limonene, Citral, Linalool, Geraniol.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "*ORGANIC INGREDIENTS CERTIFIED BY COSMOS",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "product_long_desc_ro": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Gel tonifiant anticelulitic cu textură cremoasă, bogat în principii active care regenerează, tonifică și ajută la îmbunătățirea imperfecțiunilor celulitei. Conține acid hialuronic biotehnologic cu diferite greutăți moleculare, prin urmare hidratează și reface bariera tisulară, oferind o senzație moale și plăcută la atingere. Greutatea moleculară a acidului hialuronic este într-adevăr fundamentală, deoarece determină proprietățile și funcțiile acestuia: acidul cu greutate moleculară mare are o puternică putere hidratantă și efect de film, deoarece nu poate penetra cu ușurință bariera pielii; cel cu greutate moleculară mică este utilizat pentru proprietățile sale anti-îmbătrânire, tonifiante și de netezire a vergeturilor. Asocierea calităților liporeductoare, drenante și protectoare este garantată de plantele medicinale din gel. Cofeina, activând metabolismul grăsimilor, ușurează dizolvarea depozitelor de grăsime reducând efectul de coajă de portocală. Extractul de iederă, datorită saponinelor, drenează și tonifică, în timp ce Centella asiatica, castanul sălbatic și Ginkgo biloba stimulează circulația și reduc stagnarea lichidelor. Pentru completarea formulei, uleiurile esențiale de portocală, lămâie și grapefruit care, acționând sinergic, favorizează funcționarea limfatică și drenarea lichidelor în exces.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Mod de utilizare",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Aplicați pe zonele afectate și masați ușor până la absorbția completă. Aplicați de două ori pe zi.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Nu conține perturbatori endocrini.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " Potrivit și pentru persoanele cu disfuncții tiroidiene.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "0% PEG siliconi parabeni.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "PAO:",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " 6 luni",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Compoziție",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Ingrediente:",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " Aqua, Alcohol, Polyglyceryl-10 stearate, Polyglyceryl-6 tristearate, Vitis vinifera seed oil, Caffeine, Sodium Hyaluronate, Collagen, ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "* Simmondsia chinensis seed oil",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ", Hedera helix leaf extract, Arnica montana flower extract, Ginkgo biloba leaf extract, Aesculus hippocastanum leaf extract, Centella asiatica extract, Glycerin, hydroxypropylguar, phenoxyethanol, ethylehxylglicerin, Citrus limon peel oil, Citrus aurantium dulcis peel oil, Citrus paradisi peel oil, Tocopheryl acetate, d-limonene, Citral, Linalool, Geraniol.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "*INGREDIENTE ORGANICE CERTIFICATE DE COSMOS",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "product_long_desc_ru": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Антицеллюлитный тонизирующий гель с кремовой текстурой, богатый активными компонентами, которые регенерируют, тонизируют и помогают уменьшить проявления целлюлита. Содержит биотехнологическую гиалуроновую кислоту разной молекулярной массы, поэтому увлажняет и восстанавливает тканевый барьер, даря мягкое приятное ощущение на коже. Молекулярная масса гиалуроновой кислоты действительно принципиальна, так как определяет её свойства и функции: высокомолекулярная кислота обладает сильной увлажняющей способностью и плёночным эффектом, поскольку не проникает легко через кожный барьер; низкомолекулярная используется ради антивозрастных, тонизирующих и разглаживающих растяжки свойств. Сочетание липолитических, дренажных и защитных качеств гарантируют лекарственные растения в составе геля. Кофеин, активируя жировой обмен, облегчает растворение жировых отложений, уменьшая эффект апельсиновой корки. Экстракт плюща благодаря сапонинам дренирует и тонизирует, а центелла азиатская, конский каштан и гинкго билоба стимулируют кровообращение и уменьшают застой жидкости. Формулу дополняют эфирные масла апельсина, лимона и грейпфрута, которые, действуя синергично, поддерживают работу лимфатической системы и дренаж лишней жидкости.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Способ применения",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Наносите на проблемные зоны и мягко массируйте до полного впитывания. Применяйте дважды в день.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Не содержит веществ, нарушающих работу эндокринной системы.",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " Также подходит страдающим нарушением функции щитовидной железы.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "0% PEG, силиконов, парабенов.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "PAO:",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " 6 месяцев",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Состав",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Ингредиенты:",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " Aqua, Alcohol, Polyglyceryl-10 stearate, Polyglyceryl-6 tristearate, Vitis vinifera seed oil, Caffeine, Sodium Hyaluronate, Collagen, ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "* Simmondsia chinensis seed oil",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ", Hedera helix leaf extract, Arnica montana flower extract, Ginkgo biloba leaf extract, Aesculus hippocastanum leaf extract, Centella asiatica extract, Glycerin, hydroxypropylguar, phenoxyethanol, ethylehxylglicerin, Citrus limon peel oil, Citrus aurantium dulcis peel oil, Citrus paradisi peel oil, Tocopheryl acetate, d-limonene, Citral, Linalool, Geraniol.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "*ОРГАНИЧЕСКИЕ ИНГРЕДИЕНТЫ, СЕРТИФИЦИРОВАННЫЕ COSMOS",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "source_url": "https://laboratorizanellato.it/en/prodotto/organic-toning-anti-cellulite-gel/"
+}

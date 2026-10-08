@@ -50,7 +50,7 @@ export function NavLink({
       href={href}
       aria-current={active ? 'page' : undefined}
       className={cn(
-        'relative px-3 py-2 text-sm font-medium transition-colors',
+        'relative px-3 py-2 text-base font-medium transition-colors',
         'after:absolute after:inset-x-3 after:-bottom-0.5 after:h-px after:origin-left after:scale-x-0 after:bg-brand after:transition-transform after:duration-300 hover:after:scale-x-100',
         active
           ? 'text-brand after:scale-x-100'

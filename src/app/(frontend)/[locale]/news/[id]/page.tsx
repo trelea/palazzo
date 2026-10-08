@@ -22,7 +22,7 @@ import {
 import { cn } from '@/lib/utils'
 import { lexicalExcerpt } from '@/lib/lexical'
 import { newsDesc, newsTitle, type AppLocale } from '@/lib/news'
-import { newsArticleJsonLd } from '@/lib/schema'
+import { newsArticleJsonLd, breadcrumbJsonLd } from '@/lib/schema'
 import { JsonLd } from '@/components/json-ld'
 import { pageMetadata } from '@/lib/seo'
 import type { Media, News } from '@/payload-types'
@@ -47,12 +47,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const doc = id ? await fetchNews(id) : null
   if (!doc) return {}
   const cover = doc.images?.[0]?.image
+  const ogImage = cover && typeof cover === 'object' ? (cover.url ?? undefined) : undefined
   return pageMetadata({
     locale,
     path: `/news/${id}`,
     title: newsTitle(doc, locale as AppLocale),
     description: lexicalExcerpt(newsDesc(doc, locale as AppLocale)),
-    ogImage: cover && typeof cover === 'object' && cover.url ? cover.url : undefined,
+    ogImage,
+    article: { publishedTime: doc.createdAt, modifiedTime: doc.updatedAt },
   })
 }
 
@@ -83,6 +85,7 @@ export default async function NewsDetail({ params }: Props) {
   if (!doc) notFound()
 
   const t = await getTranslations('NewsPage')
+  const tn = await getTranslations('Nav')
   const format = await getFormatter()
   const locale = (await getLocale()) as AppLocale
 
@@ -100,6 +103,13 @@ export default async function NewsDetail({ params }: Props) {
   return (
     <div className="relative isolate">
       <JsonLd data={newsArticleJsonLd(doc, locale, hero?.url ?? undefined)} />
+      <JsonLd
+        data={breadcrumbJsonLd(locale, [
+          { name: tn('home'), path: '/' },
+          { name: t('title'), path: '/news' },
+          { name: title, path: `/news/${id}` },
+        ])}
+      />
       {/* Subtle left-to-right brand fade across the full page height. */}
       <div
         aria-hidden="true"
@@ -175,7 +185,7 @@ export default async function NewsDetail({ params }: Props) {
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
                         src={img.sizes?.card?.url ?? img.url ?? ''}
-                        alt={img.alt ?? title}
+                        alt={img.alt?.trim() || title}
                         loading="lazy"
                         decoding="async"
                         className="size-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"

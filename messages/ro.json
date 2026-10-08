@@ -129,9 +129,21 @@
       "newsletterConsent": "Prin abonare accepți termenii politicii noastre de confidențialitate și ești de acord să primești emailuri informative de la Palazzo Aesthetics."
     }
   },
+  "HomeImgAlt": {
+    "room": "O cameră de tratament modernă Palazzo Aesthetics",
+    "gallery": "Ilustrații botanice încadrate pe peretele clinicii",
+    "herbalPack": "Plante oficinale, flori și ingrediente naturale ale pachetului herbal",
+    "brochures": "Brosuri și cărți de vizită Palazzo Aesthetics",
+    "therapist": "Terapeut tratând o clientă la Palazzo Aesthetics",
+    "remedies": "Remedii naturale de fitoterapie aranjate în formă de inimă"
+  },
   "Meta": {
     "tagline": "Fitoestetică & Fitoterapie",
     "description": "Palazzo Aesthetics — clinică de fitoestetică și fitoterapie în Chișinău. Îngrijire naturală pentru corp și minte: tonifierea pielii, remodelare corporală și terapii din plante. Programează-te online.",
+    "home": {
+      "title": "Palazzo Aesthetics — Fitoestetică și fitoterapie în Chișinău",
+      "description": "Palazzo Aesthetics — clinică de fitoestetică și fitoterapie în Chișinău. Îngrijire naturală pentru față și corp, tonifiere, remodelare și terapii pe bază de plante. Programează online."
+    },
     "about": {
       "title": "Despre noi",
       "description": "Descoperă povestea Palazzo Aesthetics — o tradiție de familie din 1956, care unește estetica pe bază de plante și fitoterapia naturală la Chișinău."
@@ -143,6 +155,10 @@
     "news": {
       "title": "Noutăți",
       "description": "Noutăți, evenimente și sfaturi de sănătate de la echipa Palazzo Aesthetics din Chișinău."
+    },
+    "shop": {
+      "title": "Produsele noastre",
+      "description": "Produse fitoestetice Palazzo Aesthetics: îngrijire pentru față și corp. Descoperă gama noastră."
     },
     "phytoaestetica": {
       "title": "Fitoestetică",
@@ -162,6 +178,7 @@
     "body": "Corp",
     "impacco": "Impacco",
     "news": "Noutăți",
+    "shop": "Produse",
     "contact": "Contacte",
     "book": "Programează-te",
     "openMenu": "Deschide meniul",
@@ -179,6 +196,16 @@
     "empty": "Momentan nu există noutăți — reveniți în curând.",
     "readMore": "Citește mai mult",
     "back": "Înapoi la noutăți"
+  },
+  "ShopPage": {
+    "title": "Produsele noastre",
+    "lead": "Produse fitoestetice pentru față și corp, din universul Palazzo.",
+    "empty": "Momentan nu există produse — reveniți în curând.",
+    "viewProduct": "Vezi produsul",
+    "filterAll": "Toate",
+    "filterFace": "Față",
+    "filterBody": "Corp",
+    "back": "Înapoi la produse"
   },
   "Footer": {
     "tagline": "Unde frumusețea întâlnește eleganța atemporală.",
@@ -342,7 +369,13 @@
           }
         },
         "discoverProcedures": "Proceduri",
-        "getInTouch": "Contact"
+        "getInTouch": "Contact",
+        "productsCta": {
+          "heading": "Descoperă produsele noastre",
+          "body": "Gama RE-GEN® Pro-Age pe care o folosim în fiecare ritual facial este disponibilă și pentru îngrijirea de acasă — aceleași formule biomimetice, acum în rutina ta zilnică.",
+          "button": "Descoperă produsele Face",
+          "all": "Vezi toate produsele"
+        }
       },
       "body": {
         "title": "Corpul are propriul ritm. Îngrijirea lui ar trebui să îl respecte.",
@@ -379,7 +412,13 @@
           }
         },
         "discoverProcedures": "Proceduri",
-        "getInTouch": "Contact"
+        "getInTouch": "Contact",
+        "productsCta": {
+          "heading": "Descoperă produsele noastre",
+          "body": "Formulele fitoestetice din spatele fiecărui ritual pentru corp — gelul KURA TONIC și gama cu cataplasmă activă — sunt disponibile pentru îngrijirea ta zilnică de acasă.",
+          "button": "Descoperă produsele Body",
+          "all": "Vezi toate produsele"
+        }
       },
       "cta": {
         "heading": "Programează-ți experiența de fitoestetică",

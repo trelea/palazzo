@@ -98,7 +98,7 @@ export default async function NewsPage() {
                         /* eslint-disable-next-line @next/next/no-img-element */
                         <img
                           src={cover.sizes?.card?.url ?? cover.url}
-                          alt={cover.alt ?? title}
+                          alt={cover.alt?.trim() || title}
                           loading={i < 3 ? 'eager' : 'lazy'}
                           decoding="async"
                           className="size-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"

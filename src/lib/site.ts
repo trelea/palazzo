@@ -20,7 +20,7 @@ export type ServiceKey = 'phytoaestetica' | 'face' | 'body' | 'impacco'
  */
 export type ServicePageKey = 'phytoaestetica' | 'impacco'
 
-export type LinkKey = 'home' | 'about' | 'news' | 'contact'
+export type LinkKey = 'home' | 'about' | 'news' | 'shop' | 'contact'
 
 export type ServiceLink = {
   /** Locale-agnostic internal path. */
@@ -82,6 +82,7 @@ export const NAV_ITEMS: NavItem[] = [
   { type: 'link', href: '/', key: 'home' },
   { type: 'link', href: '/about-us', key: 'about' },
   { type: 'group', key: 'services', children: SERVICE_LINKS },
+  { type: 'link', href: '/shop', key: 'shop' },
   { type: 'link', href: '/news', key: 'news' },
   { type: 'link', href: '/contacts', key: 'contact' },
 ]
@@ -105,6 +106,30 @@ export const CONTACT = {
   social: {
     instagram: 'https://www.instagram.com/palazzo.aesthetics/',
     facebook: 'https://www.facebook.com/profile.php?id=61591751587063',
+  },
+} as const
+
+/**
+ * The software agency that designed and built this website, plus its founder —
+ * surfaced in structured data, page metadata and the footer credit so the
+ * project is attributed to its developers.
+ */
+export const AGENCY = {
+  name: 'Devalon',
+  url: 'https://www.devalon.dev/',
+  description: 'Software development agency — web design and development.',
+  email: 'contact@devalon.dev',
+  emailHref: 'mailto:contact@devalon.dev',
+  phone: '+373 67 500 054',
+  phoneHref: 'tel:+37367500054',
+  person: {
+    name: 'Trelea Marius',
+    role: 'CEO & Lead Developer',
+    linkedin: 'https://md.linkedin.com/in/trelea-marius',
+    email: 'treleamarius76@gmail.com',
+    emailHref: 'mailto:treleamarius76@gmail.com',
+    phone: '+373 67 500 054',
+    phoneHref: 'tel:+37367500054',
   },
 } as const
 

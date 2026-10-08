@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import {
   ArrowDown,
+  ArrowRight,
   Crown,
   Droplets,
   Dumbbell,
@@ -13,6 +14,7 @@ import {
   ScanFace,
   Shapes,
   ShieldCheck,
+  ShoppingBag,
   Sparkles,
   Sun,
   ThermometerSun,
@@ -25,7 +27,7 @@ import { AnimatePresence, motion } from 'motion/react'
 import { useSearchParams } from 'next/navigation'
 
 import { cn } from '@/lib/utils'
-import { usePathname, useRouter } from '@/i18n/navigation'
+import { Link, usePathname, useRouter } from '@/i18n/navigation'
 import { ShimmerButton } from '@/components/ui/shimmer-button'
 import { ContactDialog } from '@/components/contact-dialog'
 import { SectionTitle } from '@/components/section-title'
@@ -142,6 +144,59 @@ function ProcedureAccordion({
   )
 }
 
+/**
+ * "Discover our products" close-out for each universe — a soft, compact
+ * invitation to the shop, pre-filtered to the tab the visitor is browsing
+ * (face / body), with a secondary link to the full range.
+ */
+function DiscoverProducts({ universe }: { universe: Universe }) {
+  const t = useTranslations(`ServicePages.phytoaestetica.${universe}`)
+  return (
+    <div id="phyto-products" className="py-12">
+      <div className="relative isolate overflow-hidden rounded-3xl border border-brand/15 bg-brand-subtle/30 px-6 py-12 text-center sm:px-12">
+        {/* Soft brand glow, anchored above the copy. */}
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute -top-24 left-1/2 -z-10 size-72 -translate-x-1/2 rounded-full bg-brand/10 blur-3xl"
+        />
+
+        <span className="mx-auto inline-flex size-12 items-center justify-center rounded-2xl bg-brand/10 text-brand">
+          <ShoppingBag className="size-6" strokeWidth={1.6} />
+        </span>
+
+        <SectionTitle className="mx-auto mt-5">{t('productsCta.heading')}</SectionTitle>
+        <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-pretty text-muted-foreground">
+          {t('productsCta.body')}
+        </p>
+
+        <div className="mx-auto mt-8 grid w-full max-w-lg grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4">
+          <ShimmerButton
+            asChild
+            type="button"
+            background="var(--brand)"
+            shimmerColor="#ffffff"
+            borderRadius="0px"
+            shimmerDuration="3s"
+            className="w-full gap-2 px-5 py-3 text-sm font-medium"
+          >
+            <Link href={`/shop?filter=${universe}`}>
+              <ShoppingBag className="size-4" />
+              {t('productsCta.button')}
+            </Link>
+          </ShimmerButton>
+          <Link
+            href="/shop"
+            className="inline-flex w-full items-center justify-center gap-2 border border-brand/30 bg-transparent px-5 py-3 text-sm font-medium whitespace-nowrap text-brand transition-colors hover:border-brand hover:bg-brand/5"
+          >
+            {t('productsCta.all')}
+            <ArrowRight className="size-4" />
+          </Link>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 function FacePanel() {
   const t = useTranslations('ServicePages.phytoaestetica.face')
   const tn = useTranslations('Nav')
@@ -237,7 +292,8 @@ function FacePanel() {
         />
       </div>
 
-      {/* ── Products removed — Face ships with Intro, RE-GEN and Procedures only. */}
+      {/* ── 4) Discover products ── */}
+      <DiscoverProducts universe="face" />
 
       <ContactDialog open={contactOpen} onOpenChange={setContactOpen} />
     </div>
@@ -325,6 +381,9 @@ function BodyPanel() {
         />
       </div>
 
+      {/* ── 3) Discover products ── */}
+      <DiscoverProducts universe="body" />
+
       <ContactDialog open={contactOpen} onOpenChange={setContactOpen} />
     </div>
   )
@@ -359,19 +418,21 @@ export function PhytoFaceBody({
   const paramSyncSkipped = useRef(false)
 
   // The bar is `fixed`: appear once "How it helps" scrolls into view and
-  // disappear past the end of this section.
+  // disappear once the "Discover our products" section scrolls into view.
   useEffect(() => {
     let ticking = false
     const update = () => {
       ticking = false
       const helps = document.getElementById('phyto-helps')
+      const products = document.getElementById('phyto-products')
       const root = rootRef.current
-      if (!helps || !root) return
+      if (!helps || !products || !root) return
       const vh = window.innerHeight
       const helpsBottom = helps.getBoundingClientRect().bottom
-      const rootBottom = root.getBoundingClientRect().bottom
-      // Appear once the end of "How it helps" comes into view.
-      setVisible(helpsBottom < vh * 0.9 && rootBottom > vh * 0.5)
+      const productsTop = products.getBoundingClientRect().top
+      // Appear once the end of "How it helps" comes into view; hide as soon as
+      // the products CTA rises into view so the bar never overlaps it.
+      setVisible(helpsBottom < vh * 0.9 && productsTop > vh * 0.85)
     }
     const onScroll = () => {
       if (!ticking) {

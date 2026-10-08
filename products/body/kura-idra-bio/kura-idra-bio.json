@@ -1,0 +1,967 @@
+{
+  "product_type": "body",
+  "product_name_en": "KURA® IDRA bio",
+  "product_name_ro": "KURA® IDRA bio",
+  "product_name_ru": "KURA® IDRA bio",
+  "product_short_desc_en": "KURA® IDRA bio phytocream with organic jojoba oil and plant extracts: Yarrow, Calendula, Organic Chamomile.\n99.2% ingredients of natural origin and organic components.\n\nWe have enclosed all the properties of nature for the health and beauty of your skin in this Moisturizer.\nDeep hydration for a bright, elastic, and silky skin.\nExcellent for soothing sunburn and irritation in general.\nImmediate results on chapped hands, also suitable for children.",
+  "product_short_desc_ro": "Fitocremă KURA® IDRA bio cu ulei organic de jojoba și extracte din plante: coada-șoricelului, gălbenele, mușețel organic.\n99,2% ingrediente de origine naturală și componente organice.\n\nAm închis toate proprietățile naturii pentru sănătatea și frumusețea pielii tale în această cremă hidratantă.\nHidratare profundă pentru o piele strălucitoare, elastică și mătăsoasă.\nExcelentă pentru calmarea arsurilor solare și a iritațiilor în general.\nRezultate imediate pe mâinile crăpate, potrivită și pentru copii.",
+  "product_short_desc_ru": "Фитокрем KURA® IDRA bio с органическим маслом жожоба и растительными экстрактами: тысячелистник, календула, органическая ромашка.\n99,2% ингредиентов натурального происхождения и органических компонентов.\n\nМы заключили все свойства природы для здоровья и красоты вашей кожи в этот увлажняющий крем.\nГлубокое увлажнение для сияющей, эластичной и шелковистой кожи.\nОтлично успокаивает солнечные ожоги и раздражения в целом.\nМгновенный результат на потрескавшихся руках, подходит и детям.",
+  "product_long_desc_en": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "This moisturizer boasts a rich and delicate texture, as well as a long hydration of the epidermis, which strengthens and protects the skin barrier making it soft and silky. The natural active ingredients of Marigold, Chamomile, Achillea, and Ruscus perform a repairing action of the damaged tissue, thanks to their properties that can soothe irritation and redness. The Mallow, plant rich in mucilage, gives the skin a particular softness, and is indicated as protection from external agents. The extraordinary emollient and nourishing action of this moisturizer is due to the presence of the Tuscan extra virgin olive oil produced according to the principles of biodynamic and certified by Demeter. The polyglycerols of olive oil – a combination of glycerols and fatty acids – are new generation PEG free emulsifiers and have the ability to retain water in cosmetics, thus reducing the use of preservatives. To complete the formulation we have jojoba oils, wheat germ, and almonds, rich in carbohydrates, proteins, minerals, enzymes, vitamins, and monounsaturated fats, including oleic acid, linoleic, palmitic, and stearic. ",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "How to Use",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Distribute on the skin and massage gently.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Formulation without animal derivatives.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "0% PEG silicone parabens.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "PAO:",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " 6 months",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Composition",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Ingredients:",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " Aqua, Rosa centifolia Flower Water, Caprylic/Capric Triglyceride, ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "*Polyglyceryl-3 cetyl ether olivate succinate",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ", Prunus amigdalus dulcis oil, Triticum Vulgare Germ Oil, ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "**Olea europea fruit oil",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ", Glycerin, Sodium PCA, Cetearyl alcohol, Tocopheryl Acetate, Phenoxyethanol, Ethylehxylglicerin, ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "*Simmondsia chinensis seed oil",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " , Malva sylvestris Leaf Extract, ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "*Chamomilla Recutita Flower Extract",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " , ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "*Calendula officinalis Flower Extract",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " , ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "*Achillea millefolium Extract",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " , Ruscus aculeatus root extract, Xanthan gum, Allantoin, Mel, Fragrance.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "* ORGANIC INGREDIENTS CERTIFIED BY COSMOS",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "** OLIVE OIL CERTIFIED BY DEMETER",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "product_long_desc_ro": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Această cremă hidratantă se mândrește cu o textură bogată și delicată, precum și cu o hidratare de durată a epidermei, care întărește și protejează bariera pielii, făcând-o moale și mătăsoasă. Principiile active naturale din gălbenele, mușețel, coada-șoricelului și ghimpe au o acțiune reparatoare asupra țesutului deteriorat, datorită proprietăților lor de calmare a iritațiilor și roșeții. Nalba, plantă bogată în mucilagii, oferă pielii o catifelare aparte și este indicată ca protecție împotriva agenților externi. Extraordinara acțiune emolientă și hrănitoare a acestei creme hidratante se datorează prezenței uleiului de măsline extravirgin toscan, produs conform principiilor biodinamicii și certificat de Demeter. Poliglicerolii uleiului de măsline – o combinație de gliceroli și acizi grași – sunt emulgatori de nouă generație fără PEG și au capacitatea de a reține apa în cosmetice, reducând astfel utilizarea conservanților. Pentru completarea formulei avem uleiuri de jojoba, germeni de grâu și migdale, bogate în carbohidrați, proteine, minerale, enzime, vitamine și grăsimi mononesaturate, inclusiv acizii oleic, linoleic, palmitic și stearic.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Mod de utilizare",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Distribuiți pe piele și masați ușor.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Formulă fără derivați de origine animală.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "0% PEG siliconi parabeni.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "PAO:",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " 6 luni",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Compoziție",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Ingrediente:",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " Aqua, Rosa centifolia Flower Water, Caprylic/Capric Triglyceride, ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "*Polyglyceryl-3 cetyl ether olivate succinate",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ", Prunus amigdalus dulcis oil, Triticum Vulgare Germ Oil, ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "**Olea europea fruit oil",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ", Glycerin, Sodium PCA, Cetearyl alcohol, Tocopheryl Acetate, Phenoxyethanol, Ethylehxylglicerin, ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "*Simmondsia chinensis seed oil",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " , Malva sylvestris Leaf Extract, ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "*Chamomilla Recutita Flower Extract",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " , ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "*Calendula officinalis Flower Extract",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " , ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "*Achillea millefolium Extract",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " , Ruscus aculeatus root extract, Xanthan gum, Allantoin, Mel, Fragrance.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "*INGREDIENTE ORGANICE CERTIFICATE DE COSMOS",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "** ULEI DE MĂSLINE CERTIFICAT DE DEMETER",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "product_long_desc_ru": {
+    "root": {
+      "type": "root",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Этот увлажняющий крем отличается насыщенной деликатной текстурой и длительным увлажнением эпидермиса, которое укрепляет и защищает кожный барьер, делая кожу мягкой и шелковистой. Натуральные активные компоненты ноготков, ромашки, тысячелистника и иглицы восстанавливают повреждённые ткани благодаря способности снимать раздражение и покраснение. Мальва, растение, богатое слизями, дарит коже особую мягкость и показана как защита от внешних факторов. Необыкновенное смягчающее и питательное действие этого крема обусловлено тосканским оливковым маслом extra virgin, произведённым по принципам биодинамики и сертифицированным Demeter. Полиглицеролы оливкового масла — сочетание глицеролов и жирных кислот — это эмульгаторы нового поколения без PEG, способные удерживать воду в косметике, тем самым сокращая использование консервантов. Формулу дополняют масла жожоба, зародышей пшеницы и миндаля, богатые углеводами, белками, минералами, ферментами, витаминами и мононенасыщенными жирами, включая олеиновую, линолевую, пальмитиновую и стеариновую кислоты.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Способ применения",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Распределите по коже и мягко массируйте.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Формула без компонентов животного происхождения.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "0% PEG, силиконов, парабенов.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "PAO:",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " 6 месяцев",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "Состав",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "heading",
+          "tag": "h4"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 1,
+              "mode": "normal",
+              "style": "",
+              "text": "Ингредиенты:",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " Aqua, Rosa centifolia Flower Water, Caprylic/Capric Triglyceride, ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "*Polyglyceryl-3 cetyl ether olivate succinate",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ", Prunus amigdalus dulcis oil, Triticum Vulgare Germ Oil, ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "**Olea europea fruit oil",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": ", Glycerin, Sodium PCA, Cetearyl alcohol, Tocopheryl Acetate, Phenoxyethanol, Ethylehxylglicerin, ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "*Simmondsia chinensis seed oil",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " , Malva sylvestris Leaf Extract, ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "*Chamomilla Recutita Flower Extract",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " , ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "*Calendula officinalis Flower Extract",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " , ",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 8,
+              "mode": "normal",
+              "style": "",
+              "text": "*Achillea millefolium Extract",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": " , Ruscus aculeatus root extract, Xanthan gum, Allantoin, Mel, Fragrance.",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        },
+        {
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "*ОРГАНИЧЕСКИЕ ИНГРЕДИЕНТЫ, СЕРТИФИЦИРОВАННЫЕ COSMOS",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "\n",
+              "type": "text",
+              "version": 1
+            },
+            {
+              "detail": 0,
+              "format": 0,
+              "mode": "normal",
+              "style": "",
+              "text": "** ОЛИВКОВОЕ МАСЛО, СЕРТИФИЦИРОВАННОЕ DEMETER",
+              "type": "text",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "type": "paragraph"
+        }
+      ],
+      "direction": null
+    }
+  },
+  "source_url": "https://laboratorizanellato.it/en/prodotto/kura-idra-bio-phytocream/"
+}
