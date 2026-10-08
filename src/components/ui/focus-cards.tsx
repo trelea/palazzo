@@ -1,6 +1,7 @@
 import { ArrowRight, PersonStanding, ScanFace, ShoppingBag, type LucideIcon } from 'lucide-react'
 
 import { Link } from '@/i18n/navigation'
+import { BrandImage } from '@/components/brand-image'
 
 /** Map a product-type label (EN/RO/RU) to an icon + badge colors. */
 function productTypeStyle(typeLabel: string): { Icon: LucideIcon; badgeClass: string } {
@@ -45,8 +46,7 @@ export function Card({ card, ctaLabel }: { card: FocusCardItem; ctaLabel: string
             decoding="async"
             className="absolute inset-0 size-full scale-200 object-cover blur-2xl"
           />
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          <BrandImage
             src={card.src}
             alt={card.alt?.trim() || card.title}
             loading={card.eager ? 'eager' : 'lazy'}

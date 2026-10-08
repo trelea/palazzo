@@ -13,6 +13,7 @@ import { AppointmentCta } from '@/components/appointment-cta'
 import { Reveal } from '@/components/reveal'
 import { AnimatedGridPattern } from '@/components/ui/animated-grid-pattern'
 import { ProductImageZoom } from '@/components/product-image-zoom'
+import { BrandImage } from '@/components/brand-image'
 import {
   Carousel,
   CarouselContent,
@@ -148,8 +149,7 @@ export default async function ProductDetail({ params }: Props) {
                     decoding="async"
                     className="absolute inset-0 size-full scale-200 object-cover blur-2xl"
                   />
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
+                  <BrandImage
                     src={hero.url}
                     alt={hero.alt?.trim() || name}
                     fetchPriority="high"
@@ -210,8 +210,7 @@ export default async function ProductDetail({ params }: Props) {
                 {rest.map((img) => (
                   <CarouselItem key={img.id} className="sm:basis-1/2 lg:basis-1/3">
                     <div className="group relative aspect-[4/3] overflow-hidden rounded-2xl border border-brand/15 shadow-sm">
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img
+                      <BrandImage
                         src={img.sizes?.card?.url ?? img.url ?? ''}
                         alt={img.alt?.trim() || name}
                         loading="lazy"

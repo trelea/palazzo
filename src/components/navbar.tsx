@@ -47,7 +47,7 @@ export default function Navbar() {
         <Wordmark />
 
         {/* Desktop links — server-rendered labels; interactivity via tiny client leaves */}
-        <ul className="hidden items-center gap-1 lg:flex">
+        <ul className="hidden items-center gap-1 lg:flex lg:gap-4">
           {NAV_ITEMS.map((item) =>
             item.type === 'group' ? (
               <li key={item.key}>

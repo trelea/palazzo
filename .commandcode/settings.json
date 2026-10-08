@@ -32,7 +32,15 @@
       "Shell(echo:*)",
       "Shell(curl -s -o /tmp/agency.html -w http %{http_code}\\n http://localhost:3011/en echo --- meta tags --- grep -o <meta name=\"author\"[^>]*> /tmp/agency.html)",
       "Shell(do:*)",
-      "Shell(node -e ['en','ro','ru'].forEach(l=>{const j=require('./messages/'+l+'.json');console.log(l, 'hasBuiltBy:', 'builtBy' in j.Footer)}) npx tsc --noEmit 2 >& 1)"
+      "Shell(node -e ['en','ro','ru'].forEach(l=>{const j=require('./messages/'+l+'.json');console.log(l, 'hasBuiltBy:', 'builtBy' in j.Footer)}) npx tsc --noEmit 2 >& 1)",
+      "Shell(curl -s -o /tmp/sk-shop.html \"http://localhost:3011/en/shop\" slug=$(grep -o '/en/shop/[a-z0-9-]*' /tmp/sk-shop.html | grep -v '/en/shop?\\|/en/shop\"' | head -1 | sed 's#/en/shop/##') curl -s -o /tmp/sk-prod.html \"http://localhost:3011/en/shop/$slug\" echo \"== shop cards ==\" echo \"skeleton spans: $(grep -o 'animate-pulse' /tmp/sk-shop.html | wc -l)\" echo \"logo imgs: $(grep -o 'palazzo-logo.svg' /tmp/sk-shop.html | wc -l)\" echo \"product imgs: $(grep -o 'api/media/file' /tmp/sk-shop.html | wc -l)\" echo \"== product page ==\" echo \"skeleton spans: $(grep -o 'animate-pulse' /tmp/sk-prod.html | wc -l)\" echo \"logo imgs: $(grep -o 'palazzo-logo.svg' /tmp/sk-prod.html | wc -l)\" echo \"== sample skeleton markup ==\" grep -o 'pointer-events-none absolute inset-0 z-30[^>]*>.\\{0,180\\}' /tmp/sk-prod.html | head -1)",
+      "Shell(node .tmp-skel.mjs)",
+      "Shell(npx eslint src/components/navbar.tsx 2 >& 1)",
+      "Shell(node -e ['en','ro','ru'].forEach(l=>{const j=require('./messages/'+l+'.json').ServicePages.phytoaestetica;console.log(l,'face:',j.face.bookNow,'| body:',j.body.bookNow)}) npx tsc --noEmit 2 >& 1)",
+      "Shell(for s in face body; do f=\"/tmp/book-$s.html\" curl -s -o \"$f\" \"http://localhost:3011/en/phytoaestetica?service=$s\" echo \"== $s ==\" echo \"Book Now occurrences: $(grep -o 'Book Now' \"$f\" | wc -l)\" echo \"booking href: $(grep -o 'href=\"https://main[^\"]*programare.html\"' \"$f\" | sort -u | head -1)\" echo \"CalendarCheck svg: $(grep -o 'lucide-calendar-check' \"$f\" | wc -l)\" done echo '-- ro body label --'; curl -s \"http://localhost:3011/ro/phytoaestetica?service=body\" | grep -o 'Programează-te' | head -1)",
+      "Shell(node -e ['en','ro','ru'].forEach(l=>{const j=require('./messages/'+l+'.json').ServicePages.phytoaestetica;console.log(l,'face:',j.face.tryProcedure,'| body:',j.body.tryProcedure,'| oldKey?',('bookNow' in j.face))}) npx tsc --noEmit 2 >& 1)",
+      "Shell(sleep:*)",
+      "Shell(node .tmp-book.mjs)"
     ],
     "deny": [],
     "defaultMode": "default"

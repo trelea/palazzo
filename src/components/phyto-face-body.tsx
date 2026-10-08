@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import {
   ArrowDown,
   ArrowRight,
+  CalendarCheck,
   Crown,
   Droplets,
   Dumbbell,
@@ -27,6 +28,7 @@ import { AnimatePresence, motion } from 'motion/react'
 import { useSearchParams } from 'next/navigation'
 
 import { cn } from '@/lib/utils'
+import { BOOKING_LINK } from '@/lib/site'
 import { Link, usePathname, useRouter } from '@/i18n/navigation'
 import { ShimmerButton } from '@/components/ui/shimmer-button'
 import { ContactDialog } from '@/components/contact-dialog'
@@ -141,6 +143,31 @@ function ProcedureAccordion({
         )
       })}
     </Accordion>
+  )
+}
+
+/**
+ * Centered booking CTA closing the procedures list for a universe, so the
+ * booking action is right where the reader finishes the last procedure.
+ */
+function BookNowButton({ label }: { label: string }) {
+  return (
+    <div className="mt-10 flex justify-center">
+      <ShimmerButton
+        asChild
+        type="button"
+        background="var(--brand)"
+        shimmerColor="#ffffff"
+        borderRadius="0px"
+        shimmerDuration="3s"
+        className="w-full gap-2 px-8 py-3 text-sm font-medium sm:w-auto sm:gap-3 sm:px-10 sm:text-base"
+      >
+        <a href={BOOKING_LINK} target="_blank" rel="noopener noreferrer">
+          <CalendarCheck className="size-4 sm:size-5" />
+          {label}
+        </a>
+      </ShimmerButton>
+    </div>
   )
 }
 
@@ -290,6 +317,7 @@ function FacePanel() {
           accordionId="face"
           icons={FACE_ICONS}
         />
+        <BookNowButton label={t('tryProcedure')} />
       </div>
 
       {/* ── 4) Discover products ── */}
@@ -379,6 +407,7 @@ function BodyPanel() {
           accordionId="body"
           icons={BODY_ICONS}
         />
+        <BookNowButton label={t('tryProcedure')} />
       </div>
 
       {/* ── 3) Discover products ── */}
