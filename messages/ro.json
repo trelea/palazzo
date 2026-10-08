@@ -412,6 +412,23 @@
         "point3": "Susține recuperarea și regenerarea naturală a corpului.",
         "point4": "Promovează relaxarea, un somn mai bun și echilibrul."
       },
+      "relief": {
+        "heading": "Unde vei simți Impacco cel mai mult",
+        "items": {
+          "muscle": {
+            "title": "Disconfort, durere și tensiune musculară",
+            "body": "Zilele lungi, efortul fizic sau pur și simplu stresul acumulat lasă urme vizibile în mușchi — o senzație de greutate, de rigiditate, un „nod” care nu se destinde de la sine. Impacco intervine exact acolo, cu o căldură profundă care ajută mușchiul să se relaxeze și corpul să respire mai ușor."
+          },
+          "joints": {
+            "title": "Disconfort la nivelul articulațiilor",
+            "body": "Genunchii, umerii sau încheieturile pot resimți, la finalul unei zile solicitante, o senzație de rigiditate sau disconfort care îngreunează mișcările simple. Impacco oferă o căldură intensă, localizată, care aduce o stare de confort și ușurință exact acolo unde ai nevoie de ea."
+          },
+          "back": {
+            "title": "Disconfort, durere și tensiune la nivelul spatelui",
+            "body": "Orele lungi petrecute la birou, la volan sau în picioare lasă adesea urme exact acolo unde nu le vedem — în zona spatelui, sub formă de tensiune, rigiditate sau o senzație de greutate care se acumulează pe parcursul zilei. Impacco aduce o căldură profundă, localizată, care ajută la relaxarea musculaturii și la o senzație de ușurință și confort pe toată zona tratată."
+          }
+        }
+      },
       "benefits": {
         "heading": "Beneficiile pe care le vei simți",
         "subtitle": "Ce îți oferă Impacco la Palazzo, în mod natural.",

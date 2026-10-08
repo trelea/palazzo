@@ -7,6 +7,7 @@ import { BOOKING_LINK } from '@/lib/site'
 import { Link } from '@/i18n/navigation'
 import { AppointmentCta } from '@/components/appointment-cta'
 import { BenefitsTabs } from '@/components/benefits-tabs'
+import { ImpaccoRelief } from '@/components/impacco-relief'
 import { IssuesTreated } from '@/components/issues-treated'
 import { PhytoFaceBody } from '@/components/phyto-face-body'
 import { SectionTitle } from '@/components/section-title'
@@ -29,7 +30,7 @@ const SERVICE_CONFIG: Record<ServicePageKey, { heroImg: string; helpsImg: string
   },
   impacco: {
     heroImg: '/phytotherapy-vibes.jpg',
-    helpsImg: '/phytotherapy-service.jpg',
+    helpsImg: '/impacco_img2.jpg',
   },
 }
 
@@ -154,24 +155,26 @@ export function ServicePage({
       {/* ── Service description ── */}
       <section
         id={isPhyto ? undefined : 'impacco-description'}
-        className="mx-auto max-w-3xl scroll-mt-24 px-4 py-20 text-center sm:px-6 lg:px-8 lg:py-28"
+        className="mx-auto max-w-3xl scroll-mt-24 px-4 py-14 text-left sm:px-6 sm:py-20 sm:text-center lg:px-8 lg:py-28"
       >
         <Reveal inView>
-          <SectionTitle className="mx-auto">{t('description.heading')}</SectionTitle>
+          <SectionTitle className="text-left sm:mx-auto sm:text-center">
+            {t('description.heading')}
+          </SectionTitle>
         </Reveal>
         <Reveal delay={0.15} inView>
-          <p className="mt-6 text-base leading-relaxed text-pretty text-muted-foreground">
+          <p className="mt-6 text-left text-base leading-relaxed text-pretty text-muted-foreground sm:text-center">
             {t('description.body1')}
           </p>
         </Reveal>
         <Reveal delay={0.25} inView>
-          <p className="mt-5 text-base leading-relaxed text-pretty text-muted-foreground">
+          <p className="mt-5 text-left text-base leading-relaxed text-pretty text-muted-foreground sm:text-center">
             {t('description.body2')}
           </p>
         </Reveal>
         {!isPhyto && (
           <Reveal delay={0.35} inView>
-            <ul className="mt-8 flex flex-wrap justify-center gap-2">
+            <ul className="mt-8 flex flex-wrap justify-start gap-2 sm:justify-center">
               {DESCRIPTION_BADGE_KEYS.map((key) => (
                 <li
                   key={key}
@@ -222,6 +225,7 @@ export function ServicePage({
           benefits + treated issues for impacco ── */}
       {service === 'impacco' ? (
         <>
+          <ImpaccoRelief />
           <BenefitsTabs />
           <IssuesTreated />
         </>

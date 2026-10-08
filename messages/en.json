@@ -412,6 +412,23 @@
         "point3": "Supports the body's natural recovery and regeneration.",
         "point4": "Promotes relaxation, better sleep and balance."
       },
+      "relief": {
+        "heading": "Where you'll feel Impacco most",
+        "items": {
+          "muscle": {
+            "title": "Muscle discomfort, pain and tension",
+            "body": "Long days, physical effort or simply accumulated stress leave visible traces in the muscles — a feeling of heaviness, stiffness, a “knot” that won't release on its own. Impacco steps in exactly there, with deep heat that helps the muscle relax and the body breathe easier."
+          },
+          "joints": {
+            "title": "Joint discomfort",
+            "body": "Knees, shoulders or wrists can feel stiff or uncomfortable at the end of a demanding day, making simple movements harder. Impacco delivers intense, localized heat that brings comfort and ease exactly where you need it."
+          },
+          "back": {
+            "title": "Back discomfort, pain and tension",
+            "body": "Long hours at the desk, behind the wheel or on your feet often leave marks where we can't see them — in the back, as tension, stiffness or a feeling of heaviness built up through the day. Impacco brings deep, localized heat that helps relax the muscles and a feeling of lightness and comfort across the treated area."
+          }
+        }
+      },
       "benefits": {
         "heading": "The benefits you'll feel",
         "subtitle": "What Impacco at Palazzo gives you, naturally.",
