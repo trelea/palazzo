@@ -9,8 +9,9 @@ import { routing } from '@/i18n/routing'
 import { OG_IMAGE, OG_LOCALE, SITE_NAME, SITE_URL } from '@/lib/seo'
 import { AGENCY } from '@/lib/site'
 import { notFound } from 'next/navigation'
-import { localBusinessJsonLd, agencyJsonLd } from '@/lib/schema'
+import { localBusinessJsonLd, agencyJsonLd, websiteJsonLd } from '@/lib/schema'
 import { JsonLd } from '@/components/json-ld'
+import { DevCredit } from '@/components/dev-credit'
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
 
@@ -97,10 +98,20 @@ export default async function RootLayout({ children, params }: Props) {
   return (
     <html lang={locale} className={`${display.variable} ${body.variable}`}>
       <body className="flex min-h-dvh flex-col">
+        {/* humans.txt credit — the Metadata API has no field for it, so the
+            link is rendered here and React 19 hoists it into <head>. It
+            coexists with the <link rel="author"> Next generates from
+            `authors` (the LinkedIn URL): same rel, distinct href/type. */}
+        <link rel="author" type="text/plain" href="/humans.txt" />
         {/* Site-wide LocalBusiness structured data — one block on every page. */}
         <JsonLd data={localBusinessJsonLd(locale, t('description'))} />
         {/* Creator/developer attribution (Devalon + founder) on every page. */}
         <JsonLd data={agencyJsonLd(locale)} />
+        {/* WebSite block crediting the agency — standalone, reusing the
+            @ids from agencyJsonLd so the entities link, not duplicate. */}
+        <JsonLd data={websiteJsonLd(locale)} />
+        {/* Console-only developer credit — invisible in the UI (renders null). */}
+        <DevCredit />
         <NextIntlClientProvider>
           <Navbar />
           <main className="flex-1">{children}</main>

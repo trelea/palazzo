@@ -1,0 +1,17 @@
+/* Palazzo Aesthetics — humans.txt
+   Source of truth: AGENCY in src/lib/site.ts (team + agency details)
+   and SITE_URL in src/lib/seo.ts (site URL). Keep in sync with those. */
+
+/* TEAM */
+Name: Trelea Marius
+Role: CEO & Lead Developer
+Organization: Devalon
+Email: contact@devalon.dev
+LinkedIn: https://md.linkedin.com/in/trelea-marius
+
+/* SITE */
+Framework: Next.js (App Router)
+i18n: next-intl (ro / en / ru)
+Styling: Tailwind CSS
+Site: https://palazzoaesthetics.md
+Developer: https://www.devalon.dev/

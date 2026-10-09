@@ -13,6 +13,15 @@ import type { News, Product } from '@/payload-types'
 
 const BUSINESS_ID = `${SITE_URL}/#business`
 
+/**
+ * Shared entity ids for the Devalon attribution. `agencyJsonLd` and
+ * `websiteJsonLd` both use them, so the two blocks' entities link by
+ * `@id` instead of duplicating.
+ */
+const AGENCY_ORG_ID = `${AGENCY.url}#organization`
+const AGENCY_PERSON_ID = `${AGENCY.url}#person`
+const WEBSITE_ID = `${SITE_URL}#website`
+
 /** True for real profile URLs, false for the bare-domain placeholders in `CONTACT.social`. */
 function isRealSocialUrl(url: string): boolean {
   return new URL(url).pathname.length > 1
@@ -133,21 +142,19 @@ export function productListJsonLd(products: { name: string; slug: string }[], lo
  * page carries the attribution.
  */
 export function agencyJsonLd(locale: string) {
-  const orgId = `${AGENCY.url}#organization`
-  const personId = `${AGENCY.url}#person`
   return {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'Organization',
-        '@id': orgId,
+        '@id': AGENCY_ORG_ID,
         name: AGENCY.name,
         url: AGENCY.url,
         description: AGENCY.description,
         email: AGENCY.email,
         telephone: AGENCY.phone,
         sameAs: [AGENCY.person.linkedin],
-        founder: { '@id': personId },
+        founder: { '@id': AGENCY_PERSON_ID },
         contactPoint: [
           {
             '@type': 'ContactPoint',
@@ -160,25 +167,56 @@ export function agencyJsonLd(locale: string) {
       },
       {
         '@type': 'Person',
-        '@id': personId,
+        '@id': AGENCY_PERSON_ID,
         name: AGENCY.person.name,
         jobTitle: AGENCY.person.role,
         url: AGENCY.person.linkedin,
         sameAs: [AGENCY.person.linkedin],
         email: AGENCY.person.email,
         telephone: AGENCY.person.phone,
-        worksFor: { '@id': orgId },
+        worksFor: { '@id': AGENCY_ORG_ID },
       },
       {
         '@type': 'WebSite',
-        '@id': `${SITE_URL}#website`,
+        '@id': WEBSITE_ID,
         name: SITE_NAME,
         url: SITE_URL,
         inLanguage: locale,
         publisher: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
-        creator: { '@id': orgId },
-        author: { '@id': personId },
+        creator: { '@id': AGENCY_ORG_ID },
+        author: { '@id': AGENCY_PERSON_ID },
       },
     ],
+  }
+}
+
+/**
+ * WebSite block crediting the agency that built the site. Emitted as a
+ * standalone block (separate from `agencyJsonLd`'s `@graph`) but with
+ * the same `@id`s, so a JSON-LD processor merges the entities rather
+ * than duplicating them.
+ */
+export function websiteJsonLd(locale: string) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': WEBSITE_ID,
+    name: SITE_NAME,
+    url: SITE_URL,
+    inLanguage: locale,
+    creator: {
+      '@type': 'Organization',
+      '@id': AGENCY_ORG_ID,
+      name: AGENCY.name,
+      url: AGENCY.url,
+      email: AGENCY.email,
+      founder: {
+        '@type': 'Person',
+        '@id': AGENCY_PERSON_ID,
+        name: AGENCY.person.name,
+        jobTitle: AGENCY.person.role,
+        sameAs: [AGENCY.person.linkedin],
+      },
+    },
   }
 }

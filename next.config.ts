@@ -3,6 +3,8 @@ import { fileURLToPath } from 'node:url'
 import { withPayload } from '@payloadcms/next/withPayload'
 import createNextIntlPlugin from 'next-intl/plugin'
 
+import { AGENCY } from './src/lib/site'
+
 const dirname = path.dirname(fileURLToPath(import.meta.url))
 
 /** @type {import('next').NextConfig} */
@@ -27,6 +29,21 @@ const nextConfig = {
       source: '/:locale(ro|en|ru)/physiotherapy',
       destination: '/:locale/phytoaestetica',
       permanent: true,
+    },
+  ],
+
+  // Developer attribution at the HTTP level — values come from AGENCY in
+  // `src/lib/site.ts` (the single source of truth; relative import because
+  // the `@/` alias isn't resolved inside the config file). The dash in
+  // `X-Developed-By` is ASCII: HTTP header values are latin-1, and Node
+  // throws ERR_INVALID_CHAR for anything above that range (e.g. an em dash).
+  headers: async () => [
+    {
+      source: '/:path*',
+      headers: [
+        { key: 'X-Developed-By', value: `${AGENCY.name} - ${AGENCY.person.name}` },
+        { key: 'X-Developer-URL', value: AGENCY.url },
+      ],
     },
   ],
 
