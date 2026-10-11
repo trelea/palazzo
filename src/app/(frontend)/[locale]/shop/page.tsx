@@ -96,7 +96,11 @@ export default async function ShopPage({
     <div className="relative isolate">
       <JsonLd
         data={productListJsonLd(
-          docs.map((doc) => ({ name: productName(doc, locale), slug: doc.slug })),
+          docs.map((doc) => ({
+            name: productName(doc, locale),
+            slug: doc.slug,
+            price: doc.product_price ?? 0,
+          })),
           locale,
         )}
       />

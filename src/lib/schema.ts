@@ -102,6 +102,13 @@ export function productJsonLd(doc: Product, locale: AppLocale, imageUrls: string
     inLanguage: locale,
     ...(absoluteImages.length ? { image: absoluteImages } : {}),
     brand: { '@type': 'Brand', name: SITE_NAME },
+    offers: {
+      '@type': 'Offer',
+      price: String(doc.product_price ?? 0),
+      priceCurrency: 'MDL',
+      url,
+      inLanguage: locale,
+    },
   }
 }
 
@@ -122,17 +129,30 @@ export function breadcrumbJsonLd(locale: string, trail: { name: string; path: st
   }
 }
 
-/** ItemList block for the `/shop` listing — ordered product URLs. */
-export function productListJsonLd(products: { name: string; slug: string }[], locale: string) {
+/** ItemList block for the `/shop` listing — ordered product URLs with offers. */
+export function productListJsonLd(
+  products: { name: string; slug: string; price?: number | null }[],
+  locale: string,
+) {
   return {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    itemListElement: products.map((product, i) => ({
-      '@type': 'ListItem',
-      position: i + 1,
-      name: product.name,
-      url: `${SITE_URL}${localePath(locale, `/shop/${product.slug}`)}`,
-    })),
+    itemListElement: products.map((product, i) => {
+      const url = `${SITE_URL}${localePath(locale, `/shop/${product.slug}`)}`
+      return {
+        '@type': 'ListItem',
+        position: i + 1,
+        name: product.name,
+        url,
+        offers: {
+          '@type': 'Offer',
+          price: String(product.price ?? 0),
+          priceCurrency: 'MDL',
+          url,
+          inLanguage: locale,
+        },
+      }
+    }),
   }
 }
 
