@@ -280,6 +280,10 @@ export interface Product {
   product_name_en: string;
   product_name_ro: string;
   product_name_ru: string;
+  /**
+   * Price in MDL. 0 means not set yet.
+   */
+  product_price: number;
   product_short_desc_en: string;
   product_short_desc_ro: string;
   product_short_desc_ru: string;
@@ -535,6 +539,7 @@ export interface ProductsSelect<T extends boolean = true> {
   product_name_en?: T;
   product_name_ro?: T;
   product_name_ru?: T;
+  product_price?: T;
   product_short_desc_en?: T;
   product_short_desc_ro?: T;
   product_short_desc_ru?: T;

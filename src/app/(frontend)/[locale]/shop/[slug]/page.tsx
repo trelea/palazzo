@@ -2,7 +2,7 @@ import { cache } from 'react'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { getLocale, getTranslations } from 'next-intl/server'
-import { ArrowLeft } from 'lucide-react'
+import { ChevronLeft } from 'lucide-react'
 import configPromise from '@payload-config'
 import { getPayload } from 'payload'
 import { RichText } from '@payloadcms/richtext-lexical/react'
@@ -22,6 +22,14 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel'
 import { Badge } from '@/components/ui/badge'
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from '@/components/ui/breadcrumb'
 import { cn } from '@/lib/utils'
 import {
   productLongDesc,
@@ -31,6 +39,7 @@ import {
   type AppLocale,
 } from '@/lib/products'
 import { productJsonLd, breadcrumbJsonLd } from '@/lib/schema'
+import { formatPriceMDL } from '@/lib/procedure-prices'
 import { JsonLd } from '@/components/json-ld'
 import { pageMetadata, truncate } from '@/lib/seo'
 import type { Media, Product } from '@/payload-types'
@@ -90,6 +99,14 @@ export default async function ProductDetail({ params }: Props) {
 
   const name = productName(doc, locale)
   const typeLabel = productTypeLabel(doc.product_type, locale)
+  /** Locale-independent filter key — links the type crumb to the filtered shop. */
+  const typeKey = (() => {
+    const type = doc.product_type
+    const key =
+      type && typeof type === 'object' ? ((type.label_en ?? '') as string).trim().toLowerCase() : ''
+    return key === 'face' || key === 'body' ? key : null
+  })()
+  const typeHref = typeKey ? `/shop?filter=${typeKey}` : '/shop'
   const tags = (doc.product_tags ?? []).filter(
     (tag): tag is Exclude<typeof tag, number> => typeof tag === 'object' && tag !== null,
   )
@@ -127,13 +144,33 @@ export default async function ProductDetail({ params }: Props) {
           className="[mask-image:radial-gradient(ellipse_70%_80%_at_50%_30%,black,transparent)]"
         />
         <Reveal>
-          <Link
-            href="/shop"
-            className="inline-flex items-center gap-2 text-sm font-medium text-brand transition-colors hover:text-brand-muted"
-          >
-            <ArrowLeft className="size-4" />
-            {t('back')}
-          </Link>
+          <Breadcrumb>
+            <BreadcrumbList className="text-xs font-normal sm:text-base">
+              <BreadcrumbItem>
+                <BreadcrumbLink asChild>
+                  <Link href="/shop" aria-label={t('back')}>
+                    <ChevronLeft className="size-4 sm:size-5" />
+                  </Link>
+                </BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator>/</BreadcrumbSeparator>
+              <BreadcrumbItem>
+                <BreadcrumbLink asChild>
+                  <Link href="/shop">{t('title')}</Link>
+                </BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator>/</BreadcrumbSeparator>
+              <BreadcrumbItem>
+                <BreadcrumbLink asChild>
+                  <Link href={typeHref}>{typeLabel}</Link>
+                </BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator>/</BreadcrumbSeparator>
+              <BreadcrumbItem>
+                <BreadcrumbPage className="max-w-40 truncate sm:max-w-64">{name}</BreadcrumbPage>
+              </BreadcrumbItem>
+            </BreadcrumbList>
+          </Breadcrumb>
         </Reveal>
         <div className="mt-8 grid items-start gap-10 lg:grid-cols-2 lg:gap-16">
           <Reveal delay={0.1}>
@@ -170,22 +207,18 @@ export default async function ProductDetail({ params }: Props) {
               <h1 className="font-heading text-2xl font-semibold tracking-tight text-balance text-foreground sm:text-3xl lg:text-4xl">
                 {name}
               </h1>
-              <div className="mt-5 flex flex-wrap items-center gap-2">
-                {typeLabel && (
-                  <p className="text-sm font-medium tracking-wider text-brand uppercase">
-                    {typeLabel}
-                  </p>
-                )}
-                {tags.length > 0 && (
-                  <div className="flex flex-wrap gap-2">
-                    {tags.map((tag) => (
-                      <Badge key={tag.id} variant="secondary">
-                        {tag[`label_${locale}`]}
-                      </Badge>
-                    ))}
-                  </div>
-                )}
-              </div>
+              <p className="mt-4 text-2xl font-normal text-foreground sm:text-3xl">
+                {formatPriceMDL(doc.product_price ?? 0, locale)}
+              </p>
+              {tags.length > 0 && (
+                <div className="mt-4 flex flex-wrap gap-2">
+                  {tags.map((tag) => (
+                    <Badge key={tag.id} variant="secondary">
+                      {tag[`label_${locale}`]}
+                    </Badge>
+                  ))}
+                </div>
+              )}
               <p className="mt-4 max-w-2xl text-base leading-relaxed text-pretty font-light text-foreground sm:text-lg">
                 {productShortDesc(doc, locale)}
               </p>

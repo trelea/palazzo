@@ -7,6 +7,7 @@ import { BOOKING_LINK } from '@/lib/site'
 import { Link } from '@/i18n/navigation'
 import { AppointmentCta } from '@/components/appointment-cta'
 import { BenefitsTabs } from '@/components/benefits-tabs'
+import { ImpaccoPricingCta } from '@/components/impacco-pricing-cta'
 import { ImpaccoRelief } from '@/components/impacco-relief'
 import { IssuesTreated } from '@/components/issues-treated'
 import { PhytoFaceBody } from '@/components/phyto-face-body'
@@ -227,6 +228,7 @@ export function ServicePage({
         <>
           <ImpaccoRelief />
           <BenefitsTabs />
+          <ImpaccoPricingCta />
           <IssuesTreated />
         </>
       ) : (

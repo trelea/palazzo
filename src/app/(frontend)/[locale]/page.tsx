@@ -230,6 +230,14 @@ function Hero() {
             <p className="mt-5 text-lg leading-snug text-pretty font-medium text-foreground sm:mt-6 sm:text-xl">
               {t('subtitleLead')}
             </p>
+            {/* Client-requested slogan — one line directly under the hero lead,
+                set in the italic display serif in brand colour. Sized a step up
+                from the lead and bold so it reads as a confident brand line,
+                yet still well below the H1. Lives in the `hero` namespace with
+                the rest of the hero copy. */}
+            <p className="mt-3 font-heading text-2xl font-bold text-pretty text-brand italic sm:mt-4 sm:text-3xl">
+              {t('slogan')}
+            </p>
             <p className="mt-4 text-base leading-relaxed text-pretty text-muted-foreground sm:mt-5 sm:text-lg">
               {t('subtitleBody1')}
             </p>

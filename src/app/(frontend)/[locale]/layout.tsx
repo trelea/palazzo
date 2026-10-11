@@ -19,6 +19,9 @@ import Footer from '@/components/footer'
 const display = Cormorant_Garamond({
   subsets: ['latin'],
   weight: ['500', '600', '700'],
+  // Italic is used by the homepage slogan; requesting the real face avoids the
+  // browser's synthetic oblique for the high-contrast display serif.
+  style: ['normal', 'italic'],
   variable: '--font-display',
   display: 'swap',
 })

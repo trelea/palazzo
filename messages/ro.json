@@ -32,6 +32,7 @@
   },
   "HomePage": {
     "hero": {
+      "slogan": "Frumusețea și tinerețea italiană, la un pas distanță de tine",
       "headline": "Arta",
       "headlineAccent": "fitoesteticii.",
       "subtitleLead": "O nouă perspectivă asupra îngrijirii feței și corpului.",
@@ -555,6 +556,19 @@
             "desc": "Datorită compresei abdominale, ficatul este detoxifiat, intestinele funcționează mai eficient, iar durerile invalidante cauzate de afecțiuni precum endometrioza se reduc semnificativ; disconfortul provocat de colită, gastrită sau durerile menstruale este, de asemenea, atenuat de efectul miorelaxant."
           }
         }
+      },
+      "pricing": {
+        "heading": "Dă-i corpului tău pauza pe care o merită",
+        "rating": "Îndrăgit de clienții Palazzo",
+        "body": "Căldură profundă, plante atent alese și timp dedicat exact zonei care te supără. Un ritual localizat, personal și profund relaxant — iar primul pas e mai simplu decât crezi.",
+        "points": {
+          "point1": "Căldură profundă, localizată exact unde te doare",
+          "point2": "Ritual personalizat, construit în jurul zonei tale",
+          "point3": "Ingrediente de origine vegetală, blânde cu pielea"
+        },
+        "priceFrom": "Începând de la",
+        "button": "Programează-te",
+        "secondary": "Vezi beneficiile"
       },
       "cta": {
         "heading": "Programează-ți ședința de Impacco",

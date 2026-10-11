@@ -1,11 +1,12 @@
 {
   "product_type": "body",
-  "product_name_en": "COMPRESS of Officinal Herbs",
-  "product_name_ro": "COMPRESĂ din Plante Officinale",
-  "product_name_ru": "КОМПРЕСС из Официнальных Трав",
-  "product_short_desc_en": "Used since 1956 as a compress in our Phytotherapy Centre Zanellato, now available for everyone in its new version as a patch.\n\nPatented compound with exceptional soothing, myorelaxant, and detoxifying action, it improves the blood circulation, nourishes deep tissues, and relieves muscle stiffness and pain\nEffective and proven, this patch is a valid alternative natural treatment.\n\nOne package contains 5 patches. We recommend the complete treatment of 10 patches (2 packages) on first use.",
-  "product_short_desc_ro": "Folosită din 1956 ca compresă în Centrul nostru de Fitoterapie Zanellato, acum disponibilă pentru toți în noua versiune de plasture.\n\nCompus brevetat cu acțiune excepțională calmantă, miorelaxantă și detoxifiantă, îmbunătățește circulația sanguină, hrănește țesuturile în profunzime și ameliorează rigiditatea și durerea musculară.\nEficient și dovedit, acest plasture este o alternativă naturală valabilă de tratament.\n\nUn pachet conține 5 plasturi. La prima utilizare recomandăm tratamentul complet de 10 plasturi (2 pachete).",
-  "product_short_desc_ru": "Используется с 1956 года как компресс в нашем Центре фитотерапии Занеллато, теперь доступна всем в новой версии — пластырь.\n\nЗапатентованный состав с исключительным успокаивающим, миорелаксирующим и детоксицирующим действием улучшает кровообращение, питает глубокие ткани и снимает мышечную скованность и боль.\nЭффективный и проверенный, этот пластырь — достойная натуральная альтернатива лечению.\n\nОдна упаковка содержит 5 пластырей. При первом применении рекомендуем полный курс из 10 пластырей (2 упаковки).",
+  "product_name_en": "COMPRESS of Officinal Herbs Respiratory",
+  "product_name_ro": "COMPRESĂ din Plante Officinale pentru Tractul Respirator",
+  "product_name_ru": "КОМПРЕСС из Официнальных Трав для Дыхательных Путей",
+  "product_price": 1800,
+  "product_short_desc_en": "Used since 1956 as a compress in our Phytotherapy Centre Zanellato, now available for everyone in its new version as a small patch for chest, back and face-adjacent zones.\n\nPatented compound with soothing, relaxing, and detoxifying action, it stimulates blood microcirculation, nourishes deep tissues, and gives a feeling of warmth and breathing comfort during seasonal changes.\nEffective and proven, this small patch is a valid natural adjuvant for everyday respiratory-tract comfort.\n\nOne package contains 5 small patches. We recommend the complete treatment of 10 patches (2 packages) on first use.",
+  "product_short_desc_ro": "Folosită din 1956 ca compresă în Centrul nostru de Fitoterapie Zanellato, acum disponibilă pentru toți în noua versiune de plasture mic pentru piept, spate și zonele adiacente feței.\n\nCompus brevetat cu acțiune calmantă, relaxantă și detoxifiantă, stimulează microcirculația sanguină, hrănește țesuturile în profunzime și oferă o senzație de căldură și confort respirator în perioadele de schimbări sezoniere.\nEficient și dovedit, acest plasture mic este un adjuvant natural valabil pentru confortul zilnic al tractului respirator.\n\nUn pachet conține 5 plasturi mici. La prima utilizare recomandăm tratamentul complet de 10 plasturi (2 pachete).",
+  "product_short_desc_ru": "Используется с 1956 года как компресс в нашем Центре фитотерапии Занеллато, теперь доступна всем в новой версии — маленький пластырь для груди, спины и зон рядом с лицом.\n\nЗапатентованный состав с успокаивающим, расслабляющим и детоксицирующим действием стимулирует микроциркуляцию крови, питает глубокие ткани и дарит ощущение тепла и комфортного дыхания в период сезонных изменений.\nЭффективный и проверенный, этот маленький пластырь — достойный натуральный адъювант для ежедневного комфорта дыхательных путей.\n\nОдна упаковка содержит 5 маленьких пластырей. При первом применении рекомендуем полный курс из 10 пластырей (2 упаковки).",
   "product_long_desc_en": {
     "root": {
       "type": "root",
@@ -23,7 +24,7 @@
               "format": 0,
               "mode": "normal",
               "style": "",
-              "text": "Compress of officinal herbs that, thanks to the stimulation of the blood microcirculation, oxygenates and regenerates the tissues in depth.",
+              "text": "Compress of officinal herbs that, thanks to the stimulation of the blood microcirculation, oxygenates and regenerates the tissues in depth, bringing comfort to the chest and upper back with a pleasant warming sensation that supports an easy-breathing feeling.",
               "type": "text",
               "version": 1
             },
@@ -41,7 +42,7 @@
               "format": 0,
               "mode": "normal",
               "style": "",
-              "text": "Compress of officinal herbs that, thanks to the stimulation of the blood microcirculation, oxygenates and regenerates the tissues in depth.",
+              "text": "Compress of officinal herbs that, thanks to the stimulation of the blood microcirculation, oxygenates and regenerates the tissues in depth, bringing comfort to the chest and upper back with a pleasant warming sensation that supports an easy-breathing feeling.",
               "type": "text",
               "version": 1
             },
@@ -59,7 +60,7 @@
               "format": 0,
               "mode": "normal",
               "style": "",
-              "text": "The specific combination of the substances contained in the cataplasm is widely acknowledged in the literature for its soothing properties. White willow and its derivatives are used for joint function, likewise Boswellia is known for its beneficial properties and used to relieve tension. The essential oils contained are also very active as soothing, myorelaxant, and detoxifying. The wellbeing generated by the compress with this cataplasm comes from the protective and softening effect of the formulation.",
+              "text": "The specific combination of the substances contained in the cataplasm is widely acknowledged in the literature for its soothing properties. The essential oils contained are very active as soothing, relaxing, and detoxifying, while the botanical extracts are known for their beneficial properties. The wellbeing generated by the compress with this cataplasm comes from the protective and softening effect of the formulation, which nourishes deep tissues and gives a feeling of warmth and breathing comfort during seasonal changes.",
               "type": "text",
               "version": 1
             },
@@ -95,7 +96,7 @@
               "format": 0,
               "mode": "normal",
               "style": "",
-              "text": "Adjuvant for all muscle-joint problems, it can also be used in combination with therapies in case of trauma, bruises, sprains, strains, low back pain, cervical pain, inflammation and pain in the hips, knees, feet, shoulders, elbows, and hands. In the same way, it can be associated to therapies in case of tallonitis, bunions, arthrosis and arthritis, sciatica, epicondylitis, and tendinitis in general.",
+              "text": "Adjuvant for everyday respiratory-tract comfort, it can be used in case of seasonal chest and upper-back tightness, neck-shoulder tension from coughing strain, and for general relaxation, as a natural adjuvant alongside usual care during seasonal changes.",
               "type": "text",
               "version": 1
             },
@@ -113,7 +114,7 @@
               "format": 0,
               "mode": "normal",
               "style": "",
-              "text": "The experience gained since 1956 at the Phytotherapy Centre Zanellato is now available for everybody and everywhere, thanks to the shipping of the practical patches that you can apply with ease at home. ",
+              "text": "The experience gained since 1956 at the Phytotherapy Centre Zanellato is now available for everybody and everywhere, thanks to the shipping of the practical small patches that you can apply with ease at home.",
               "type": "text",
               "version": 1
             }
@@ -186,7 +187,7 @@
               "format": 0,
               "mode": "normal",
               "style": "",
-              "text": "Apply the herbal patch as instructed and leave for 2 hours (do not exceed 2 hours).",
+              "text": "Apply the small herbal patch to the chest or upper back as instructed and leave for 2 hours (do not exceed 2 hours).",
               "type": "text",
               "version": 1
             },
@@ -450,7 +451,7 @@
               "format": 0,
               "mode": "normal",
               "style": "",
-              "text": "Compresă din plante officinale care, datorită stimulării microcirculației sanguine, oxigenează și regenerează țesuturile în profunzime.",
+              "text": "Compresă din plante officinale care, datorită stimulării microcirculației sanguine, oxigenează și regenerează țesuturile în profunzime, aducând confort pieptului și spatelui superior printr-o plăcută senzație de căldură care susține o senzație de respirație ușoară.",
               "type": "text",
               "version": 1
             },
@@ -468,7 +469,7 @@
               "format": 0,
               "mode": "normal",
               "style": "",
-              "text": "Compresă din plante officinale care, datorită stimulării microcirculației sanguine, oxigenează și regenerează țesuturile în profunzime.",
+              "text": "Compresă din plante officinale care, datorită stimulării microcirculației sanguine, oxigenează și regenerează țesuturile în profunzime, aducând confort pieptului și spatelui superior printr-o plăcută senzație de căldură care susține o senzație de respirație ușoară.",
               "type": "text",
               "version": 1
             },
@@ -486,7 +487,7 @@
               "format": 0,
               "mode": "normal",
               "style": "",
-              "text": "Combinația specifică a substanțelor din cataplasmă este larg recunoscută în literatura de specialitate pentru proprietățile sale calmante. Salcia albă și derivații săi sunt utilizați pentru funcția articulară, la fel boswellia este cunoscută pentru proprietățile sale benefice și utilizată pentru ameliorarea tensiunii. Uleiurile esențiale conținute sunt, de asemenea, foarte active ca și calmante, miorelaxante și detoxifiante. Starea de bine generată de compresa cu această cataplasmă provine din efectul protector și emolient al formulei.",
+              "text": "Combinația specifică a substanțelor din cataplasmă este larg recunoscută în literatura de specialitate pentru proprietățile sale calmante. Uleiurile esențiale conținute sunt foarte active ca și calmante, relaxante și detoxifiante, iar extractele botanice sunt cunoscute pentru proprietățile lor benefice. Starea de bine generată de compresa cu această cataplasmă provine din efectul protector și emolient al formulei, care hrănește țesuturile în profunzime și oferă o senzație de căldură și confort respirator în perioadele de schimbări sezoniere.",
               "type": "text",
               "version": 1
             },
@@ -522,7 +523,7 @@
               "format": 0,
               "mode": "normal",
               "style": "",
-              "text": "Adjuvant pentru toate problemele musculo-articulare, poate fi utilizat și în combinație cu terapii în caz de traume, vânătăi, entorse, întinderi, dureri lombare, dureri cervicale, inflamații și dureri de șold, genunchi, picioare, umeri, coate și mâini. În același mod, poate fi asociat terapiilor în caz de dureri de călcâi, monturi, artroză și artrită, sciatică, epicondilită și tendinite în general.",
+              "text": "Adjuvant pentru confortul zilnic al tractului respirator, poate fi utilizat în caz de senzație de constricție sezonieră la nivelul pieptului și spatelui superior, tensiune la nivelul gâtului și umerilor din cauza efortului de tuse și pentru relaxare generală, ca adjuvant natural alături de îngrijirea obișnuită în perioadele de schimbări sezoniere.",
               "type": "text",
               "version": 1
             },
@@ -540,7 +541,7 @@
               "format": 0,
               "mode": "normal",
               "style": "",
-              "text": "Experiența acumulată din 1956 la Centrul de Fitoterapie Zanellato este acum disponibilă pentru toți și peste tot, datorită livrării plasturilor practici pe care îi puteți aplica cu ușurință acasă.",
+              "text": "Experiența acumulată din 1956 la Centrul de Fitoterapie Zanellato este acum disponibilă pentru toți și peste tot, datorită livrării plasturilor mici și practici pe care îi puteți aplica cu ușurință acasă.",
               "type": "text",
               "version": 1
             }
@@ -613,7 +614,7 @@
               "format": 0,
               "mode": "normal",
               "style": "",
-              "text": "Aplicați plasturele din plante conform instrucțiunilor și lăsați 2 ore (nu depășiți 2 ore).",
+              "text": "Aplicați plasturele mic din plante pe piept sau pe partea superioară a spatelui conform instrucțiunilor și lăsați 2 ore (nu depășiți 2 ore).",
               "type": "text",
               "version": 1
             },
@@ -877,7 +878,7 @@
               "format": 0,
               "mode": "normal",
               "style": "",
-              "text": "Компресс из официнальных трав, который благодаря стимуляции микроциркуляции крови оксигенирует и глубоко регенерирует ткани.",
+              "text": "Компресс из официнальных трав, который благодаря стимуляции микроциркуляции крови оксигенирует и глубоко регенерирует ткани, даря комфорт груди и верхней части спины с приятным ощущением тепла, поддерживающим чувство лёгкого дыхания.",
               "type": "text",
               "version": 1
             },
@@ -895,7 +896,7 @@
               "format": 0,
               "mode": "normal",
               "style": "",
-              "text": "Компресс из официнальных трав, который благодаря стимуляции микроциркуляции крови оксигенирует и глубоко регенерирует ткани.",
+              "text": "Компресс из официнальных трав, который благодаря стимуляции микроциркуляции крови оксигенирует и глубоко регенерирует ткани, даря комфорт груди и верхней части спины с приятным ощущением тепла, поддерживающим чувство лёгкого дыхания.",
               "type": "text",
               "version": 1
             },
@@ -913,7 +914,7 @@
               "format": 0,
               "mode": "normal",
               "style": "",
-              "text": "Специфическое сочетание веществ катаплазмы широко признано в литературе за успокаивающие свойства. Белая ива и её производные применяются для функции суставов, босвеллия известна полезными свойствами и используется для снятия напряжения. Содержащиеся эфирные масла также весьма активны как успокаивающие, миорелаксирующие и детоксицирующие. Благополучие от компресса с этой катаплазмой идёт от защитного и смягчающего эффекта формулы.",
+              "text": "Специфическое сочетание веществ катаплазмы широко признано в литературе за успокаивающие свойства. Содержащиеся эфирные масла весьма активны как успокаивающие, расслабляющие и детоксицирующие, а растительные экстракты известны полезными свойствами. Благополучие от компресса с этой катаплазмой идёт от защитного и смягчающего эффекта формулы, которая питает глубокие ткани и дарит ощущение тепла и комфортного дыхания в период сезонных изменений.",
               "type": "text",
               "version": 1
             },
@@ -949,7 +950,7 @@
               "format": 0,
               "mode": "normal",
               "style": "",
-              "text": "Адъювант при всех мышечно-суставных проблемах, может также сочетаться с терапиями при травмах, ушибах, растяжениях, надрывах, болях в пояснице, шейных болях, воспалениях и болях бёдер, коленей, стоп, плеч, локтей и кистей. Точно так же сочетается с терапиями при пяточных болях, бурсите большого пальца стопы, артрозах и артритах, ишиасе, эпикондилите и тендинитах в целом.",
+              "text": "Адъювант для ежедневного комфорта дыхательных путей, может применяться при сезонной скованности в груди и верхней части спины, напряжении шеи и плеч от кашлевого напряжения и для общего расслабления, как натуральный адъювант наряду с обычным уходом в период сезонных изменений.",
               "type": "text",
               "version": 1
             },
@@ -967,7 +968,7 @@
               "format": 0,
               "mode": "normal",
               "style": "",
-              "text": "Опыт, накопленный с 1956 года в Центре фитотерапии Занеллато, теперь доступен всем и везде благодаря доставке практичных пластырей, которые легко применять дома.",
+              "text": "Опыт, накопленный с 1956 года в Центре фитотерапии Занеллато, теперь доступен всем и везде благодаря доставке практичных маленьких пластырей, которые легко применять дома.",
               "type": "text",
               "version": 1
             }
@@ -1040,7 +1041,7 @@
               "format": 0,
               "mode": "normal",
               "style": "",
-              "text": "Наложите травяной пластырь по инструкции и оставьте на 2 часа (не превышайте 2 часа).",
+              "text": "Наложите маленький травяной пластырь на грудь или верхнюю часть спины по инструкции и оставьте на 2 часа (не превышайте 2 часа).",
               "type": "text",
               "version": 1
             },

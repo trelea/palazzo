@@ -72,6 +72,15 @@ export const Products: CollectionConfig = {
     { name: 'product_name_ro', type: 'text', required: true, label: 'Product Name (RO)' },
     { name: 'product_name_ru', type: 'text', required: true, label: 'Product Name (RU)' },
     {
+      name: 'product_price',
+      type: 'number',
+      required: true,
+      defaultValue: 0,
+      min: 0,
+      label: 'Product Price (MDL)',
+      admin: { description: 'Price in MDL. 0 means not set yet.' },
+    },
+    {
       name: 'product_short_desc_en',
       type: 'textarea',
       required: true,

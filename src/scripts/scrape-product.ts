@@ -231,6 +231,7 @@ async function scrapeOne(
           product_name_en: extracted.title,
           product_name_ro: '',
           product_name_ru: '',
+          product_price: 0,
           product_short_desc_en: extracted.shortParas.join('\n\n'),
           product_short_desc_ro: '',
           product_short_desc_ru: '',

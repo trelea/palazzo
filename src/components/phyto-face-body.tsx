@@ -23,11 +23,17 @@ import {
   Zap,
   type LucideIcon,
 } from 'lucide-react'
-import { useTranslations } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 import { AnimatePresence, motion } from 'motion/react'
 import { useSearchParams } from 'next/navigation'
 
 import { cn } from '@/lib/utils'
+import {
+  BODY_PROCEDURE_KEYS as BODY_PROCEDURES,
+  FACE_PROCEDURE_KEYS as FACE_PROCEDURES,
+  formatPriceMDL,
+  PROCEDURE_PRICES_MDL,
+} from '@/lib/procedure-prices'
 import { BOOKING_LINK } from '@/lib/site'
 import { Link, usePathname, useRouter } from '@/i18n/navigation'
 import { ShimmerButton } from '@/components/ui/shimmer-button'
@@ -62,8 +68,6 @@ const SCIENCE: readonly { key: string; Icon: LucideIcon; className?: string }[] 
   { key: 'bromelain', Icon: Leaf },
 ]
 
-const FACE_PROCEDURES = ['grazia', 'armonia', 'rinascita', 'splendore', 'respiro'] as const
-
 /** One icon per Face procedure — shown as a chip in the FAQ trigger. */
 const FACE_ICONS: Partial<Record<string, LucideIcon>> = {
   grazia: Sparkles,
@@ -72,14 +76,6 @@ const FACE_ICONS: Partial<Record<string, LucideIcon>> = {
   splendore: Crown,
   respiro: Zap,
 }
-const BODY_PROCEDURES = [
-  'grazia',
-  'armonia',
-  'vitalita',
-  'slancio',
-  'leggerezza',
-  'splendore',
-] as const
 
 /** One icon per Body procedure — shown as a chip in the FAQ trigger. */
 const BODY_ICONS: Partial<Record<string, LucideIcon>> = {
@@ -120,19 +116,30 @@ function ProcedureAccordion({
   icons?: Partial<Record<string, LucideIcon>>
 }) {
   const t = useTranslations(namespace)
+  const locale = useLocale()
   return (
     <Accordion type="single" collapsible className="mt-8 border-y border-brand/15">
       {items.map((key) => {
         const Icon = icons?.[key]
+        const price = PROCEDURE_PRICES_MDL[key as keyof typeof PROCEDURE_PRICES_MDL]
         return (
           <AccordionItem key={key} value={`${accordionId}-${key}`}>
-            <AccordionTrigger>
+            <AccordionTrigger className="items-start">
               {Icon && (
-                <span className="inline-flex size-10 shrink-0 items-center justify-center rounded-xl bg-brand/10 text-brand">
+                <span className="mt-0.5 inline-flex size-10 shrink-0 items-center justify-center rounded-xl bg-brand/10 text-brand">
                   <Icon className="size-5" strokeWidth={1.75} />
                 </span>
               )}
-              <span>{t(`procedures.${key}.name`)}</span>
+              <span className="flex min-w-0 flex-1 flex-wrap items-center gap-x-3 gap-y-2">
+                <span className="min-w-0">{t(`procedures.${key}.name`)}</span>
+                {price !== undefined && (
+                  <span className="mt-1 ml-auto inline-flex w-full shrink-0 items-center justify-end sm:mt-0 sm:w-auto">
+                    <span className="inline-flex items-center rounded-full bg-brand px-3 py-1 font-sans text-sm font-semibold tracking-wide whitespace-nowrap tabular-nums text-brand-foreground sm:text-base">
+                      {formatPriceMDL(price, locale)}
+                    </span>
+                  </span>
+                )}
+              </span>
             </AccordionTrigger>
             <AccordionContent>
               <p className="text-base leading-relaxed text-pretty text-muted-foreground sm:text-lg">

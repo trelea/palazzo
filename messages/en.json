@@ -32,6 +32,7 @@
   },
   "HomePage": {
     "hero": {
+      "slogan": "Italian beauty and youth, one step away from you",
       "headline": "The art of",
       "headlineAccent": "phytoaesthetics.",
       "subtitleLead": "A new perspective on face and body care.",
@@ -555,6 +556,19 @@
             "desc": "Thanks to the abdominal Compress, the liver is detoxified, the intestines work more effectively, and the disabling pain caused by conditions such as endometriosis is significantly reduced; the discomfort of colitis, gastritis or menstrual pain is equally relieved by the muscle-relaxant effect."
           }
         }
+      },
+      "pricing": {
+        "heading": "Give your body the break it deserves",
+        "rating": "Loved by Palazzo clients",
+        "body": "Deep warmth, carefully chosen plants and time devoted to exactly the area that bothers you. A localized, personal and deeply relaxing ritual — and the first step is simpler than you think.",
+        "points": {
+          "point1": "Deep warmth, localized exactly where it hurts",
+          "point2": "A personalized ritual built around your area",
+          "point3": "Plant-based ingredients, gentle on the skin"
+        },
+        "priceFrom": "Starting from",
+        "button": "Book now",
+        "secondary": "See the benefits"
       },
       "cta": {
         "heading": "Book your Impacco session",

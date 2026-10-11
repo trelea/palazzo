@@ -1,7 +1,11 @@
+'use client'
+
 import { ArrowRight, PersonStanding, ScanFace, ShoppingBag, type LucideIcon } from 'lucide-react'
+import { useLocale } from 'next-intl'
 
 import { Link } from '@/i18n/navigation'
 import { BrandImage } from '@/components/brand-image'
+import { formatPriceMDL } from '@/lib/procedure-prices'
 
 /** Map a product-type label (EN/RO/RU) to an icon + badge colors. */
 function productTypeStyle(typeLabel: string): { Icon: LucideIcon; badgeClass: string } {
@@ -23,9 +27,12 @@ export type FocusCardItem = {
   /** Short excerpt revealed on hover below the title. */
   description?: string
   eager?: boolean
+  /** Gross price in MDL — always rendered as a top-right pill. */
+  price?: number | null
 }
 
 export function Card({ card, ctaLabel }: { card: FocusCardItem; ctaLabel: string }) {
+  const locale = useLocale()
   const { Icon: TypeIcon, badgeClass } = card.typeLabel
     ? productTypeStyle(card.typeLabel)
     : { Icon: ShoppingBag, badgeClass: 'border-white/40 bg-white/85 text-brand' }
@@ -67,6 +74,9 @@ export function Card({ card, ctaLabel }: { card: FocusCardItem; ctaLabel: string
           <span className="sr-only">{card.typeLabel}</span>
         </span>
       )}
+      <span className="absolute top-3 right-3 z-20 inline-flex h-10 items-center rounded-full bg-brand px-4 text-base font-semibold whitespace-nowrap text-brand-foreground shadow-sm">
+        {formatPriceMDL(card.price ?? 0, locale)}
+      </span>
       <div className="absolute inset-x-0 bottom-0 z-20 flex flex-col justify-end bg-gradient-to-t from-black/70 via-black/25 to-transparent px-4 pt-10 pb-4 transition-[padding] duration-200 ease-out group-hover:from-black group-hover:via-black/70 group-hover:pb-[10%]">
         <div className="line-clamp-2 bg-gradient-to-b from-neutral-50 to-neutral-200 bg-clip-text text-lg font-medium text-transparent md:text-xl">
           {card.title}

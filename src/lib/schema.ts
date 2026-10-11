@@ -11,7 +11,7 @@ import { OG_IMAGE, SITE_NAME, SITE_URL, localePath } from '@/lib/seo'
 import { AGENCY, CONTACT, LOGO_SRC, OPENING_HOURS } from '@/lib/site'
 import type { News, Product } from '@/payload-types'
 
-const BUSINESS_ID = `${SITE_URL}/#business`
+export const BUSINESS_ID = `${SITE_URL}/#business`
 
 /**
  * Shared entity ids for the Devalon attribution. `agencyJsonLd` and
@@ -133,6 +133,60 @@ export function productListJsonLd(products: { name: string; slug: string }[], lo
       name: product.name,
       url: `${SITE_URL}${localePath(locale, `/shop/${product.slug}`)}`,
     })),
+  }
+}
+
+/**
+ * One procedure inside a service catalog — `name`/`description` come from the
+ * locale's messages, `price` from `PROCEDURE_PRICES_MDL` (MDL only, gross,
+ * discounts never exposed).
+ */
+export type ServiceProcedureInput = {
+  name: string
+  description: string
+  price: number
+}
+
+/**
+ * `Service` block with an `OfferCatalog` of priced procedures for the
+ * phyto-aesthetics (`/phytoaestetica`, 8 deduped Face/Body rituals) and
+ * phytotherapy (`/phytotherapy`, Impacco only) pages. Every `Offer` carries
+ * `priceCurrency: 'MDL'` — the only currency the clinic uses.
+ */
+export function serviceCatalogJsonLd({
+  locale,
+  pagePath,
+  name,
+  procedures,
+}: {
+  locale: string
+  /** Locale-agnostic page path, e.g. `/phytoaestetica`. */
+  pagePath: string
+  /** Service name — the page's localized meta title. */
+  name: string
+  procedures: readonly ServiceProcedureInput[]
+}): Record<string, unknown> {
+  const url = `${SITE_URL}${localePath(locale, pagePath)}`
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name,
+    provider: { '@id': BUSINESS_ID },
+    url,
+    inLanguage: locale,
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name,
+      itemListElement: procedures.map((procedure) => ({
+        '@type': 'Offer',
+        name: procedure.name,
+        description: procedure.description,
+        price: String(procedure.price),
+        priceCurrency: 'MDL',
+        url,
+        inLanguage: locale,
+      })),
+    },
   }
 }
 

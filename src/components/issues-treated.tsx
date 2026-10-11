@@ -49,7 +49,7 @@ export function IssuesTreated() {
   const [activeKey, setActiveKey] = useState<string | null>(null)
 
   return (
-    <section className="mx-auto max-w-7xl px-4 pb-20 sm:px-6 lg:px-8 lg:pb-28">
+    <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
       <Reveal inView>
         <div className="mx-auto max-w-2xl text-center">
           <SectionTitle className="mx-auto">{t('heading')}</SectionTitle>

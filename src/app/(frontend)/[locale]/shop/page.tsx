@@ -88,6 +88,7 @@ export default async function ShopPage({
       typeKey: typeKeyOf(doc),
       description: excerpt(productShortDesc(doc, locale)),
       eager: i < 3,
+      price: doc.product_price ?? 0,
     }
   })
 

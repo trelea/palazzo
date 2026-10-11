@@ -149,6 +149,7 @@ async function main() {
       product_name_en: d.product_name_en as string,
       product_name_ro: d.product_name_ro as string,
       product_name_ru: d.product_name_ru as string,
+      product_price: (d.product_price as number | null) ?? 0,
       product_short_desc_en: d.product_short_desc_en as string,
       product_short_desc_ro: d.product_short_desc_ro as string,
       product_short_desc_ru: d.product_short_desc_ru as string,
