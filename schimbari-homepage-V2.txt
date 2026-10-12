@@ -1,0 +1,434 @@
+================================================================================
+PALAZZO AESTHETICS - SCHIMBARILE PENTRU HOMEPAGE IN VERSIUNEA V2
+================================================================================
+Proiect:      palazzo (Next.js + next-intl, locale ro / en / ru)
+Branch:       v2
+Data:         04.10.2026
+Scope:        refactorul complet al paginii de acasa (src/app/(frontend)/[locale]/page.tsx)
+              plus toate componentele, traducerile si fisierele conexe
+              (navigatie, rezervari, stil, teste)
+
+VOLUM TOTAL: 21 fisiere modificate, +972 / -586 linii
+             6 fisiere noi, 2 fisiere sterse
+
+
+================================================================================
+1. IDEEA PRINCIPALA A SCHIMBARII
+================================================================================
+Homepage-ul trece de la o prezentare "de firma" (doua discipline, cifre de
+statistica, parteneri) la o prezentare editoriala si comerciala centrata pe
+TREI OFERTE CONCRETE: Față, Corp si Impacco.
+
+Concret:
+-_site-ul nu mai vorbeste despre "fitoestetica + fitoterapia" ca discipline
+  abstracte, ci despre trei experiente pe care vizitatorul le poate accesa
+  imediat prin butoane;
+- Rezervarea nu mai se face printr-un formular/modal Cal.com integrat, ci
+  printr-un singur buton care deschide agenda externa a clinicii;
+- Naratiunea (Hero, Brand intro) a fost rescrisa de la zero in chei noi de
+  traducere, in toate cele trei limbi;
+- Datele "hard" de marketing (25+, 30+, 5000+, 98%) au fost eliminate din
+  cards, iar sectiunea de parteneri a fost eliminata complet.
+
+
+================================================================================
+2. ORDINEA SECTIUNILOR PE PAGINA (dupa V2)
+================================================================================
+  1. Hero
+  2. Brand intro ("FITOESTETICA, ÎN FELUL PALAZZO")
+  3. Services (trei carduri: Față / Corp / Impacco) + cardul "New here?"
+  4. Stats (patru puncte de Dovada, fara cifre)
+  5. Featured highlight (impacul de plante officinale)
+  6. Our story (povestea Palazzo)
+  7. Social / Instagram
+  8. Appointment CTA (formular de contact + buton de programare)
+
+  SECTIUNE ELIMINATA: Partners (marquee cu 5 logo-uri)
+
+
+================================================================================
+3. HERO
+================================================================================
+Fisiere: src/app/(frontend)/[locale]/page.tsx, messages/ro|en|ru.json
+
+3.1 Titlu nou
+  - hero.headline        : "Arta"          (fost "Nature and science,")
+  - hero.headlineAccent  : "fitoesteticii." (fost "in balance")
+  - se pastreaza efectul de gradient animat (AuroraText inline, fara client
+    boundary) pe cuvantul de accent.
+
+3.2 Subtitlu impartit in trei niveluri (fost un singur paragraf "subtitle")
+  - hero.subtitleLead  : "O noua perspectiva asupra ingrijirii fetei si corpului."
+        -> rand principal, marime mai mare (text-lg / sm:text-xl), bold, culoare
+           foreground (contrast maxim), cu `text-pretty`
+  - hero.subtitleBody1 : universul Palazzo dedicat fitoesteticii
+  - hero.subtitleBody2 : de la experiente faciale, la ritualuri corporale, la
+                         proceduri pe zone selectate (relaxare, detensionare)
+  - cheile vechi hero.subtitle, hero.ctaBook, hero.ctaLearn au fost eliminate
+
+3.3 Butoane: 2 -> 3 ( Față / Corp / Impacco )
+  Noua constanta: HERO_CATEGORY_LINKS
+    Față    -> /phytoaestetica#face      (iconita Sparkles)
+    Corp    -> /phytoaestetica#body      (iconita Dumbbell)
+    Impacco -> /phytotherapy             (iconita Leaf)
+  - labels traduse din namespace "hero" (chei noi: linkFace, linkBody, linkImpacco)
+  - "Impacco" ramane intentionat NETRADUS (numele propriu al produsului, la fel
+    ca mottoul "In natura, vita.")
+  - layout: GRID cu 2 coloane la toate dimensiunile (in loc de flex), pentru ca
+    butoanele sa aiba latimi egale indiferent de lungimea etichetei;
+    "Impacco" ocupa singur randul 2 prin `col-span-2`
+  - Față si Corp raman ShimmerButton cu fundal de brand;
+    Impacco este varianta "ghost" (outline, se umple cu brandul la hover)
+  - etichete: uppercase, tracking 0.12em, iconita 14-16px, strokeWidth 1.75
+  - marginile au fost reduse pe mobil (mt-7 in loc de mt-9) pentru a nu
+    depasii ecranul
+
+3.4 Layout si responsive
+  - inaltime sectiune: min-h-[100svh] pe mobil (100svh exclude bara de adresa
+    a browserului, deci nimic nu se ascunde sub ea), pastrat min-h-[90vh] pe
+    desktop
+  - padding sus: pt-28 -> pt-16 (era nevoie pentru navbarul de 64px; vechea
+    valoare lua o treime din ecranul unui telefon scund)
+  - coloana de text: max-w-xl -> lg:max-w-[42rem] (titlul mare nu mai taie
+    pe desktop)
+  - H1: text-5xl -> text-4xl pe mobil (sm:text-6xl si lg:text-7xl raman)
+  - poza hero: de la lg:w-[58%] la lg:w-[50%]. Wrapperul centralizat max-w-7xl
+    pune mijlocul lui la 50vw, deci linia de separare cade exact pe marginea
+    coloanei de text, la orice latime de ecran
+  - fundalul animat (GridBackdrop): -z-10 pe mobil, lg:-z-20 pe desktop (inainte
+    in DOM, ca sa fie pictat in spatele fotografiei)
+
+
+================================================================================
+4. BRAND INTRO
+================================================================================
+Fisiere: src/app/(frontend)/[locale]/page.tsx, messages/*.json
+
+4.1 Constanta INTRO_PILLARS (2 discipline) -> INTRO_VALUES (3 promisiuni)
+  - individual  -> iconita Eye      : "O privim individual"
+  - attention   -> iconita Heart    : "O ilngrijim cu atentia"
+  - value       -> iconita Sparkles : "O punem in valoare"
+
+4.2 Text nou, inlocuind unicul paragraf "intro.body"
+  - intro.heading : "FITOESTETICA, ÎN FELUL PALAZZO" (totul mare, centrat pe
+                    coloana de text, cu `text-balance`)
+  - intro.lead    : "Ingrijirea nu incepe cu o procedura. Incepe cu tine."
+                    -> promovat la font de display (font-heading, text-xl/sm:2xl)
+  - intro.belief  : nu credem in experiente identice pentru fiecare persoana
+  - intro.change  : pielea se schimba, corpul se schimba, nevoile se schimba
+  - intro.definition : fitoestetica este modul nostru de a privi ingrijirea
+  - intro.closing : nu urmarim sa transformam frumusetea intr-o formula standard
+  (cheile vechi aestheticsLine / phytoLine au fost eliminate)
+
+4.3 Aspectul celor trei promisiuni
+  - inainte: carduri cu iconita mare + titlu + subtitlu, separate de linii
+    (aspect de "pillar")
+  - acum: trei "pastile" (pill-uri) cu ShineBorder, centrate, contine iconita
+    mica + text pe o singura linie
+  - GRID, nu flex: etichetele au lungimi diferite, iar flex-wrap le producea
+    vizibil neegale; coloanele egale le blocheaza la aceeasi latime
+  - 1 coloana pe mobil, 2 coloane de la sm in sus (deci 2 + 1, nu 3 + 1);
+    pastila ramasa singura pe randul 2 pastreaza jumatate de latime, nu se intinde
+  - separator sus: border-t + pt-8; hover: fundalul trece pe brand, textul devine
+    alb, ShineBorder ramane absolut (nu intra in flux)
+
+4.4 Colajul de imagini
+  - fotografia secundara cu zidul "fisioterapie" a fost mutata din DREAPTA in
+    STANGA, cu inclinatie opusa (rotate-3 in loc de -rotate-3)
+  - dimensiuni mai mici (w-44 pe mobil, 56 pe sm, 60 pe lg; fata de 52 / 72)
+  - sectiunea are overflow-hidden, iar offset-urile au fost Pastrate mici, ca
+    rama sa nu fie taiata la marginea ecranului
+
+
+================================================================================
+5. SECTIUNEA DE SERVICII (cea mai mare schimbare)
+================================================================================
+Fisiere: src/app/(frontend)/[locale]/page.tsx, messages/*.json
+
+5.1 De la 2 discipline la 3 experiente
+  - vechi: SERVICE_META + SERVICE_LINKS din @/lib/site (2 carduri:
+    Phyto-Esthetics si Phytotherapy)
+  - nou: constanta locala HOME_SERVICE_CARDS (3 carduri), cu:
+      labelKey, descKey, focusKey, img, href, bookKey
+    1) Față    - /face.jpg      - bookKey: phytoaestetica
+    2) Corp    - /body.jpg      - bookKey: phytoaestetica
+    3) Impacco - /herbal-pack.jpg - bookKey: impacco
+  - motivul separarii de la SERVICE_LINKS: Fața si Corp sunt ZONE din
+    fitoestetica, nu discipline separate, si n-au eveniment propriu de
+    programare; de aceea "bookKey" este disciplina pe care butonul o
+    programeaza efectiv
+
+5.2 Titlu pe doua linii, centrat (services.title -> titleLine1/titleLine2)
+  - titleLine1 : "O filozofie."
+  - titleLine2 : "Trei moduri de a o trai."
+  - sunt doua <span class="block"> in interiorul UNUI singur <h2> (SEO si
+    cititoarele de ecran pastreaza un singur heading)
+  - impartirea se face in fisierele de mesaje, per limba, pentru ca textul
+    tradus nu poate fi intrerupt la un cuvant fix
+  - services.descLead ("Descopera universul Palazzo.") a fost promovat la
+    font de display
+  - services.descBody contine acum si finalul despre formele diferite ale
+    filozofiei (inainte era un <p> separat, care parea o linie orfana)
+
+5.3 Textele cardurilor (noi, lungi, cu titlu + focus)
+  - services.faceDesc / faceFocus     ("Fata si piele")
+  - services.bodyDesc / bodyFocus     ("Corp si silueta")
+  - services.impaccoDesc / impaccoFocus ("Companesa de plante")
+  - functie noua: truncateDesc(text) cu MAX_DESC_LENGTH = 384 caractere +
+    "..." - descrierile noi sunt prea lungi pentru card
+  - titlul cardului este luat din hero.linkFace / linkBody / linkImpacco
+    (aceleasi denumiri ca butoanele din hero, prin design)
+  - eticheta "Service" din<dl> foloseste in continuare numele disciplinei
+    (bookKey), iar "Focus" textul nou
+
+5.4 Imagini
+  - inainte: h-36 / sm:h-44 fixe
+  - acum: aspect-4/3 pe mobil, sm:aspect-16/9, lg revine la jumatate de latime
+  - imaginile noi: /public/face.jpg, /public/body.jpg
+
+5.5 Butoane in card (Book + Discover)
+  - "Book" (filled, secundar) deschide agenda externa (target=_blank)
+  - "Discover" (nou) = link intern catre /phytoaestetica#face, #body sau
+    /phytotherapy, cu sageata care se deplaseaza la hover (group-hover/button)
+  - "Discover" a fost 'ghost' (in vizibil pana la hover) -> 'outline'
+    recolat pentru panelul verde (border-brand-foreground/45, bg-transparent,
+    hover:bg-white/10)
+  - ambele butoane impart acelasi wrapper flex-wrap, deci au aceeasi margine
+    susica si nu ies din cardul de pe mobil
+
+5.6 Cardul "New here?" (cardul de proba)
+  - text: services.trialDesc a trecut de la "Book a free trial" la
+    "Book an appointment" (in toate cele trei limbi)
+  - corpul textului: text-sm -> text-base / sm:text-lg (era prea mic fata de
+    titlu, parea o nota de subsol)
+  - butonul ShimmerButton deschide direct agenda externa, fara dialog Cal.com
+
+
+================================================================================
+6. SECTIUNEA DE STATS
+================================================================================
+  - ELIMINATE cifrele: 25+, 30+, 5000+ clienti, 98% (componenta NumberTicker a
+    fost eliminata din import-uri si nu mai este folosita pe homepage)
+  - constanta STATS pastreaza doar Icon, labelKey, descKey
+  - cardurile au fost simplificate intr-un singur bloc: icon -> titlu ->
+    descriere, aliniate sus, fara dividerul orizontal (care evidentia si mai
+    mult spatiul mort ramas deasupra)
+  - iconita a fost marita: size-11 -> size-24, strokeWidth 1.5 -> 1.25
+    (la dublu dimensiune, grosimea veche parea prea grea)
+  - centrate cu `self-center` pe elementul iconita (Card-ul este flex col, deci
+    text-align-ul mostenit nu ajungea la un element de sine statator)
+  - text-balance / text-pretty pe titlu si descriere (cards inguste, centrate)
+
+
+================================================================================
+7. SECTIUNEA "OUR STORY"
+================================================================================
+  - imaginea a fost schimbata: /our-team.jpg -> /our-story.jpg
+  - textul alternativ a fost corespunzator schimbat
+    (echipa fotografiata -> brosuri si carduri de vizitatori)
+  - comentariul de cod "echipa Palazzo fotografiata in clinica" a fost eliminat
+
+
+================================================================================
+8. SECTIUNEA "PARTNERS" - ELIMINATA COMPLET
+================================================================================
+  - eliminata functia Partners() si lista de 5 parteneri
+    (North East 34079, Padel Academy, CrossFit Verona, Natura Vita,
+     Officinalis), inclusiv TODO-ul despre inlocuirea cu logo-uri reale
+  - eliminat importul componentei Marquee
+  - sectiunea nu mai este randata in Home()
+  - cheile de mesaj "HomePage.partners" au ramas in fisiere (nefolosite)
+
+
+================================================================================
+9. REZERVARI: CAL.COM -> LINK EXTERN
+================================================================================
+9.1 Noua constanta unica (src/lib/site.ts)
+  BOOKING_LINK = "https://main.d32keiqm81x88z.amplifyapp.com/programare.html"
+  - toate butoanele de programare din site duc acum aici, in tab nou
+  - dispar: CAL_COM_USERNAME, CAL_EVENT_SLUGS (maparea slug-urilor per eveniment
+    si limba) si functia calBookingLink()
+
+9.2 fisiere sterse
+  - src/lib/cal.ts (configuratiile embed Cal.com)
+  - src/components/cal-embed-init.tsx (initializarea listener-ului de click)
+
+9.3 fisier redus
+  - src/components/book-appointment-dialog.tsx: din 145+ linii (dialog cu
+    selector de serviciu + deschidere programare Cal.com) la doua
+    incapsule simple de link extern (BookServiceTrigger si BookAppointmentDialog
+    pastrate doar ca API de compatibilitate)
+
+9.4 toate butoanele de pe homepage au fost convertite
+  - pattern: <ShimmerButton asChild ...> <a href={BOOKING_LINK} target="_blank"
+    rel="noopener noreferrer"> ... </a> </ShimmerButton>
+  - afectate: navbar (desktop), meniul mobil (fundul drawerului), cele trei
+    carduri de servicii, cardul "New here?", AppointmentCta si paginile de
+    serviciu (ServicePage)
+  - AppointmentCta a pierdut prop-ul `service` (nu mai exista logica
+    conditionata de pagina)
+
+9.5 efecte secundare in paginile de serviciu
+  - ServicePage primeste acum `service: ServicePageKey` si nu mai monteaza
+    CalEmbedInit
+  - atributele data-cal-namespace / data-cal-link / data-cal-config au fost
+    eliminate de pe butoane
+
+
+================================================================================
+10. NAVIGATIE, MENIU SERVICII SI FOOTER
+================================================================================
+10.1 Modelul de date (src/lib/site.ts)
+  - ServiceKey   = 'phytoaestetica' | 'face' | 'body' | 'impacco'
+    (acum include si cheile pentru linkurile-ancora)
+  - ServicePageKey NOU = 'phytoaestetica' | 'impacco'
+    (serviciile care au pagina proprie; Față/Corp sunt doar ancora in pagina
+     de fitoestetica)
+  - tip nou: ServiceEntry = ServiceLink + children (obligatoriu, nu optional)
+  - SERVICE_LINKS a devenit tuple literal "as const satisfies" cu:
+      phytoaestetica -> children: [ face (/phytoaestetica#face),
+                                   body (/phytoaestetica#body) ]
+      impacco        -> children: []
+  - cheile de traducere "phytotherapy" din meniuri au fost inlocuite cu
+    "impacco", iar "face" si "body" sunt noi
+
+10.2 Meniul desktop de Servicii (src/components/services-menu.tsx)
+  - deschidere la HOVER (nu doar la click): intenterie cu intarzieri
+    120ms la deschidere si 180ms la inchidere, ca sa absoarbe miscarea
+    graba a cursorului
+  - modal={false} - obligatoriu pentru un meniu la hover (altfel Radix blocheaza
+    pointer-events pe body si meniul se aprinde/stinge in bucla)
+  - punte invizibila (before:) peste spatiul dintre trigger si panou
+  - randul Phyto-Esthetics deschide un SUBMENU (flyout) cu Față si Corp,
+    cu aliniere explicata (align="start", alignOffset={-8})
+  - iconite noi: ScanFace (Față), PersonStanding (Corp), Leaf (Impacco)
+  - starea "activ" se calculeaza si din linkurile copil
+
+10.3 Meniul mobil
+  - sub-linkurile sunt listate mereu expandate, cu o linie verticala de
+    delimitare, fara buton de deschidere suplimentar
+  - iconite noi, active state sincronizat cu traseul curent
+
+10.4 Footer
+  - lista de Servicii este PLATA: phytoaestetica, face, body, impacco
+    (flatMap: fiecare serviciu urmat de copiii lui, in ordinea din cod)
+  - renuntat intentionat la imbricarea din navbar - in footer nu exista
+    hover/focus care sa dezvaluie un submeniu
+
+
+================================================================================
+11. TRADUCERI (ro.json / en.json / ru.json - cate ~61 linii modificate fiecare)
+================================================================================
+  - namespace Hero: headline, headlineAccent rescrise; subtitle impartit in
+    subtitleLead / subtitleBody1 / subtitleBody2; eliminate ctaBook, ctaLearn;
+    noi linkFace / linkBody / linkImpacco
+  - namespace Intro: heading nou ("FITOESTETICA, ÎN FELUL PALAZZO"),
+    body inlocuit de lead / belief / change / definition / closing,
+    eliminate aestheticsLine / phytoLine, nou obiect values cu 3 chei
+  - namespace Services: title inlocuit de titleLine1 / titleLine2; noi descLead,
+    descBody, faceDesc/Focus, bodyDesc/Focus, impaccoDesc/Focus; trialDesc
+    rescris; phytotherapyDesc pastrat pentru pagina de serviciu
+  - namespace Nav: phytotherapy -> impacco; noi face, body
+  - namespace AboutPage.services: phytotherapyDesc -> impaccoDesc
+  - namespace ServicePages: phytotherapy -> impacco (titlu "What is Impacco?",
+    "How Impacco helps", "Book your Impacco session", etc.)
+  - cheile AboutPage/Cta/etc. pentru butoane au fost verificate pentru a se
+    potrivi cu noul flux (fara dialog)
+
+
+================================================================================
+12. STIL, ANIMATII SI COMPONENTE NOI
+================================================================================
+  - src/components/ui/shine-border.tsx - NOU
+    contur luminos animat in jurul elementelor; absolut, ca sa nu intre in flux
+  - globals.css - NOU: utilitarul --animate-shine si keyframes "shine"
+    (0% -> 100% -> 0% background-position, 14s linear infinit),
+    folosit de ShineBorder in pastilele din Brand intro
+  - globals.css - hero-fade-x recalibrat pentru noua latime a fotografiei
+    (50% in loc de 58%): opririle gradientului au fost mutate
+    (55% -> 20%, 44% -> 42%, 62% -> 64%) ca estomparea sa ramana la fel de fina
+    la marginea coloanei de text
+
+
+================================================================================
+13. PAGINI CONEXE ACTUALIZATE (din cauza schimbarilor de mai sus)
+================================================================================
+  - src/app/(frontend)/[locale]/phytotherapy/page.tsx
+    -> <ServicePage service="impacco" />
+  - src/app/(frontend)/[locale]/about-us/page.tsx
+    -> SERVICE_META tipata cu ServicePageKey, cheie "impacco"; se explica de ce
+       se afiseaza doar doua carduri (Față/Corp sunt ancora, nu pagini)
+  - src/components/benefits-tabs.tsx si src/components/issues-treated.tsx
+    -> namespace schimbat din ServicePages.phytotherapy.* in
+       ServicePages.impacco.*
+  - src/components/service-page.tsx
+    -> ServicePageKey, BOOKING_LINK, fara CalEmbedInit
+
+
+================================================================================
+14. TESTE SI CONFIGURATIE
+================================================================================
+  - tests/int/services-menu.int.spec.tsx - NOU (test de integrare pentru meniul
+    de servicii, in format .tsx)
+  - tests/int/stubs/next-navigation.ts - NOU (stub pentru next/navigation)
+  - vitest.config.mts
+    - alias "next/navigation" catre stub
+    - include extins la tests/int/**/*.int.spec.{ts,tsx}
+    - next-intl in "server.deps.inline", altfel importul intern catre
+      next/navigation ocolea aliasul
+
+
+================================================================================
+15. DE RETINUT / PUNCTE DESCHISE
+================================================================================
+  - ANCORE INEXISTENTE: linkurile /phytoaestetica#face si #body nu au inca un
+    id="face" / id="body" niciunde in pagina de fitoestetica. Butoanele din
+    hero si cele din cardurile de servicii naveaza corect, dar aterizeaza in
+    varful paginii. Adaugarea celor doua id-uri repara toate cele patru
+    linkuri deodata.
+  - BOOKING_LINK este acelasi link extern in toate punctele site-ului; daca se
+    schimba agenda, se actualizeaza intr-un singur loc (src/lib/site.ts).
+  - cheile HomePage.partners si serviciile phytoaesteticaDesc /
+    phytotherapyDesc au ramas nefolosite pe homepage (folosite pe paginile de
+    servicii / Despre noi).
+  - Traducerile noastre au fost scrise simultan in ro / en / ru; la orice
+    cheie noua trebuie pastrat obiceiul de a completa toate cele trei fisiere.
+
+
+================================================================================
+16. SUMAR DE FISIERE
+================================================================================
+MODIFICAATE (21):
+  src/app/(frontend)/[locale]/page.tsx            (refactor major, +510/-...)
+  src/app/(frontend)/[locale]/globals.css        (animatie shine, hero-fade-x)
+  src/app/(frontend)/[locale]/about-us/page.tsx
+  src/app/(frontend)/[locale]/phytotherapy/page.tsx
+  src/components/appointment-cta.tsx
+  src/components/benefits-tabs.tsx
+  src/components/book-appointment-dialog.tsx
+  src/components/footer.tsx
+  src/components/issues-treated.tsx
+  src/components/mobile-menu.tsx
+  src/components/navbar.tsx
+  src/components/service-page.tsx
+  src/components/services-menu.tsx
+  src/lib/site.ts
+  messages/ro.json, messages/en.json, messages/ru.json
+  public/intro2.jpeg ( imagine inlocuita )
+  vitest.config.mts
+
+NOI (6):
+  public/face.jpg
+  public/body.jpg
+  public/our-story.jpg
+  src/components/ui/shine-border.tsx
+  tests/int/services-menu.int.spec.tsx
+  tests/int/stubs/next-navigation.ts
+
+STERSE (2):
+  src/lib/cal.ts
+  src/components/cal-embed-init.tsx
+
+================================================================================
+SFARSIT DOCUMENT
+================================================================================

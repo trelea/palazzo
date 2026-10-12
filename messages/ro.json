@@ -32,20 +32,40 @@
   },
   "HomePage": {
     "hero": {
-      "headline": "Natură și știință,",
-      "headlineAccent": "în echilibru",
-      "subtitle": "Îngrijire estetică pe bază de plante și puterea blândă a plantelor medicinale — frumusețe și stare de bine pentru corp și minte.",
-      "ctaBook": "Programează o probă gratuită",
-      "ctaLearn": "Povestea noastră"
+      "slogan": "Frumusețea și tinerețea italiană, la un pas distanță de tine",
+      "headline": "Arta",
+      "headlineAccent": "fitoesteticii.",
+      "subtitleLead": "O nouă perspectivă asupra îngrijirii feței și corpului.",
+      "subtitleBody1": "La Palazzo, am construit un univers dedicat fitoesteticii — unde formulele inspirate de potențialul plantelor, tradiția Cataplasmei Galenice și ritualurile specializate de îngrijire se întâlnesc într-o experiență personalizată.",
+      "subtitleBody2": "De la experiențe faciale create pentru nevoile pielii, la ritualuri corporale dedicate îngrijirii, tonifierii și stării de bine, până la proceduri aplicate în zone atent selectate, dedicate relaxării, eliminării senzației de discomfort și detensionării.",
+      "linkFace": "Față",
+      "linkBody": "Corp",
+      "linkImpacco": "Impacco"
     },
     "intro": {
-      "heading": "Palazzo Aesthetics",
-      "body": "Îmbinăm îngrijirea fitoestetică modernă cu tradiția consacrată a fitoterapiei. Rădăcinile noastre istorice, alături de o formare medicală continuă, ne permit să oferim o soluție naturală și eficientă pentru fiecare nevoie — atât pentru sănătatea, cât și pentru frumusețea ta.",
-      "aestheticsLine": "Tratamente estetice pe bază de plante care tonifică, remodelează și redau strălucirea pielii.",
-      "phytoLine": "Remedii din plante, dintr-o tradiție îndelungată a fitoterapiei."
+      "lead": "Îngrijirea nu începe cu o procedură. Începe cu tine.",
+      "belief": "La Palazzo, nu credem în experiențe identice pentru fiecare persoană.",
+      "change": "Pielea se schimbă. Corpul se schimbă. Nevoile se schimbă. De aceea, fiecare experiență începe prin înțelegerea a ceea ce ai nevoie în acel moment.",
+      "heading": "FITOESTETICA, ÎN FELUL PALAZZO",
+      "definition": "Fitoestetica este modul nostru de a privi îngrijirea — printr-o abordare în care potențialul ingredientelor de origine vegetală, formulele specializate și tehnicile de aplicare se întâlnesc în ritualuri create pentru față și corp.",
+      "closing": "Nu urmărim să transformăm frumusețea într-o formulă standard.",
+      "values": {
+        "individual": "O privim individual",
+        "attention": "O îngrijim cu atenție",
+        "value": "O punem în valoare"
+      }
     },
     "services": {
-      "title": "Serviciile noastre",
+      "titleLine1": "O filozofie.",
+      "titleLine2": "Trei moduri de a o trăi.",
+      "descLead": "Descoperă universul Palazzo.",
+      "descBody": "Fiecare experiență Palazzo pornește de la aceeași filozofie: o abordare atentă, personalizată, în care ingredientele de origine vegetală, formulele specializate și modul de aplicare sunt alese în funcție de nevoile fiecărei persoane. Această filozofie prinde forme diferite.",
+      "faceDesc": "Fiecare piele este diferită. De aceea, experiențele noastre de fitoestetică facială nu pornesc de la o abordare standard, ci de la nevoile, aspectul și particularitățile pielii tale.\nÎn centrul universului FACE se află Re-GEN — un concept de îngrijire facială care reunește formule specializate, ingrediente atent selectate și tehnici integrate într-o experiență creată pentru a susține hidratarea, revitalizarea și aspectul echilibrat al pielii.",
+      "faceFocus": "Față și piele",
+      "bodyDesc": "La Palazzo, experiențele dedicate corpului pornesc de la o perspectivă simplă: aspectul pielii este influențat de mai mult decât ceea ce se vede la suprafață.\nDe aceea, ritualurile noastre combină tehnici manuale atent integrate cu formule fitoestetice specializate și ingrediente selectate pentru capacitatea lor de a susține îngrijirea tonusului, compactității și aspectului pielii.\nDe la ritualuri dedicate zonelor care necesită mai multă atenție, până la experiențe care pun accent pe activare, drenaj și relaxare, fiecare procedură este construită ca un moment în care corpul primește timpul și îngrijirea de care are nevoie.",
+      "bodyFocus": "Corp și siluetă",
+      "impaccoDesc": "Tensiunea se acumulează. Corpul se contractă. Anumite zone rămân suprasolicitate mai mult decât ne dăm seama.\nInspirat de tradiția Cataplasmei Galenice, Impacco este o experiență localizată creată pentru zone atent selectate, în care căldura, plantele și timpul de acțiune se întâlnesc într-un ritual cu o identitate aparte.\nPrin acțiunea sa tradițională de contra-iritație, Cataplasma creează o activare intensă la nivel local, însoțită de o senzație progresivă de căldură și de stimularea microcirculației. Aplicarea ocluzivă contribuie la menținerea condițiilor necesare pentru ca ingredientele formulei să acționeze în timp, transformând fiecare Impacco într-o experiență profundă și personală.",
+      "impaccoFocus": "Compresa de plante",
       "phytoaesteticaDesc": "Programe și produse fitoestetice personalizate, dezvoltate în peste 65 de ani de experiență și cercetare asupra proprietăților benefice ale plantelor medicinale. Tratamente care îți lasă pielea radiantă, întinerită și tonifiată și reduc vizibil semnele celulitei — totul în timp ce te relaxezi.",
       "phytotherapyDesc": "Proprietățile curative ale plantelor officinale, valorificate în tratamente și ritualuri de îngrijire pentru corp și minte. Compresa noastră emblematică din plante și extractele naturale lucrează blând cu corpul tău pentru a calma inflamația, a reda echilibrul și a susține starea de bine zi de zi.",
       "serviceLabel": "Serviciu",
@@ -54,7 +74,7 @@
       "phytotherapyFocus": "Îngrijire naturală din plante",
       "discover": "Descoperă",
       "trialTitle": "Ești la prima vizită?",
-      "trialDesc": "Programează o probă gratuită și încearcă pe propria piele unul dintre tratamentele noastre.",
+      "trialDesc": "Programează o vizită și încearcă pe propria piele unul dintre tratamentele noastre.",
       "trialCta": "Programează-te"
     },
     "stats": {
@@ -73,7 +93,7 @@
       "eyebrow": "Unicitate & calitate certificată",
       "title": "Inima îngrijirii noastre: Impacul de Plante Officinale",
       "body": "Compresa noastră emblematică din plante, cu puternica sa acțiune antiinflamatoare naturală, este baza versatilă a tuturor specializărilor noastre — de la fitoestetică la fitoterapie. Creată cu respect pentru natură, este esența a tot ceea ce facem.",
-      "cta": "Explorează fitoterapia"
+      "cta": "Explorează Impacco"
     },
     "story": {
       "heading": "Povestea noastră",
@@ -89,7 +109,15 @@
       "cta": "Descoperă"
     },
     "partners": {
-      "heading": "Partenerii noștri"
+      "heading": "Partenerii noștri",
+      "eyebrow": "Din 1956 · Italia",
+      "body": "Colaborăm cu Laboratori Zanellato, casa Cataplasmei Galenice create în 1956 de Dr. Leone Zanellato — tradiția și cercetarea din spatele conceptului Palazzo.",
+      "partnerName": "Laboratori Zanellato",
+      "partnerDesc": "Creatorii Cataplasmei Galenice. Partenerul nostru pentru formule, cercetare și dezvoltare continuă din 1956.",
+      "point1": "Tradiție din 1956",
+      "point2": "Cataplasma Galenică",
+      "point3": "Cercetare continuă",
+      "visitCta": "Vizitează laboratorul"
     },
     "cta": {
       "newClientHeading": "Ești un client nou?",
@@ -102,9 +130,21 @@
       "newsletterConsent": "Prin abonare accepți termenii politicii noastre de confidențialitate și ești de acord să primești emailuri informative de la Palazzo Aesthetics."
     }
   },
+  "HomeImgAlt": {
+    "room": "O cameră de tratament modernă Palazzo Aesthetics",
+    "gallery": "Ilustrații botanice încadrate pe peretele clinicii",
+    "herbalPack": "Plante oficinale, flori și ingrediente naturale ale pachetului herbal",
+    "brochures": "Brosuri și cărți de vizită Palazzo Aesthetics",
+    "therapist": "Terapeut tratând o clientă la Palazzo Aesthetics",
+    "remedies": "Remedii naturale de fitoterapie aranjate în formă de inimă"
+  },
   "Meta": {
     "tagline": "Fitoestetică & Fitoterapie",
     "description": "Palazzo Aesthetics — clinică de fitoestetică și fitoterapie în Chișinău. Îngrijire naturală pentru corp și minte: tonifierea pielii, remodelare corporală și terapii din plante. Programează-te online.",
+    "home": {
+      "title": "Palazzo Aesthetics — Fitoestetică și fitoterapie în Chișinău",
+      "description": "Palazzo Aesthetics — clinică de fitoestetică și fitoterapie în Chișinău. Îngrijire naturală pentru față și corp, tonifiere, remodelare și terapii pe bază de plante. Programează online."
+    },
     "about": {
       "title": "Despre noi",
       "description": "Descoperă povestea Palazzo Aesthetics — o tradiție de familie din 1956, care unește estetica pe bază de plante și fitoterapia naturală la Chișinău."
@@ -116,6 +156,10 @@
     "news": {
       "title": "Noutăți",
       "description": "Noutăți, evenimente și sfaturi de sănătate de la echipa Palazzo Aesthetics din Chișinău."
+    },
+    "shop": {
+      "title": "Produsele noastre",
+      "description": "Produse fitoestetice Palazzo Aesthetics: îngrijire pentru față și corp. Descoperă gama noastră."
     },
     "phytoaestetica": {
       "title": "Fitoestetică",
@@ -131,8 +175,11 @@
     "about": "Despre noi",
     "services": "Servicii",
     "phytoaestetica": "Fitoestetică",
-    "phytotherapy": "Fitoterapie",
+    "face": "Față",
+    "body": "Corp",
+    "impacco": "Impacco",
     "news": "Noutăți",
+    "shop": "Produse",
     "contact": "Contacte",
     "book": "Programează-te",
     "openMenu": "Deschide meniul",
@@ -151,6 +198,16 @@
     "readMore": "Citește mai mult",
     "back": "Înapoi la noutăți"
   },
+  "ShopPage": {
+    "title": "Produsele noastre",
+    "lead": "Produse fitoestetice pentru față și corp, din universul Palazzo.",
+    "empty": "Momentan nu există produse — reveniți în curând.",
+    "viewProduct": "Vezi produsul",
+    "filterAll": "Toate",
+    "filterFace": "Față",
+    "filterBody": "Corp",
+    "back": "Înapoi la produse"
+  },
   "Footer": {
     "tagline": "Unde frumusețea întâlnește eleganța atemporală.",
     "explore": "Explorează",
@@ -166,17 +223,19 @@
   },
   "AboutPage": {
     "title": "Despre noi",
-    "lead": "Suntem o echipă de specialiști în estetică și stare de bine, care cred că îngrijirea trebuie să fie personală, naturală și bazată pe dovezi.",
+    "lead": "Everything begins with the Cataplasma Galenica. Palazzo aduce la Chișinău o tradiție născută în Italia, în 1956 — o filozofie a îngrijirii construită în jurul potențialului plantelor, al cercetării și al grijii pentru fiecare persoană.",
     "story": {
       "heading": "Povestea noastră",
-      "body1": "Palazzo a început cu o clinică mică și o convingere mare — că vindecarea adevărată vine din tratarea omului în întregime, nu doar a simptomului.",
-      "body2": "De-a lungul anilor ne-am dezvoltat într-o practică multidisciplinară, îmbinând îngrijirea fitoestetică cu puterea naturală a fitoterapiei sub același acoperiș.",
-      "body3": "Astăzi, aceeași convingere ne ghidează în tot ceea ce facem: metode moderne, remedii naturale și răbdarea de a însoți fiecare persoană până la rezultate durabile."
+      "body1": "În centrul filozofiei Palazzo se află un concept cu rădăcini într-o tradiție dezvoltată în Italia în urmă cu aproape șapte decenii.",
+      "body2": "Cataplasma Galenică a fost creată în 1956 de Dr. Leone Zanellato și a devenit, de-a lungul anilor, punctul de plecare al unei abordări construite în jurul potențialului plantelor, al cercetării și al experienței acumulate prin aplicare și dezvoltare continuă.",
+      "body3": "Formula reunește ingrediente de origine vegetală într-o compoziție concepută pentru aplicare locală. Uleiurile ozonizate reprezintă un element important al conceptului, contribuind la crearea unui mediu favorabil absorbției ingredientelor active în piele și susținând procesele naturale de microcirculație și oxigenare.",
+      "body4": "Mai mult decât o simplă aplicare pe piele, Cataplasma Galenică transformă formula, timpul și modul de aplicare într-o singură experiență. Un concept în care tradiția întâlnește o nouă perspectivă asupra îngrijirii.",
+      "body5": "Astăzi, aceeași convingere ne ghidează în tot ceea ce facem: metode moderne, remedii naturale și devotamentul cu care însoțim fiecare persoană până la rezultate durabile."
     },
     "who": {
       "heading": "Cine suntem",
-      "body1": "În spatele Palazzo se află o echipă unită de specialiști în estetică și experți în fitoterapie care iubesc cu adevărat ceea ce fac.",
-      "body2": "Învățăm împreună, împărtășim ce funcționează și rămânem aproape de oamenii de care avem grijă — astfel încât fiecare plan este construit în jurul tău, nu după un șablon."
+      "body1": "Suntem echipa care duce mai departe acest concept la Chișinău — specialiști în estetică și fitoterapie uniți de aceeași disciplină a grijii: timp, atenție și consecvență pentru fiecare persoană.",
+      "body2": "La Palazzo, fiecare plan pornește de la om, nu de la un șablon. Ascultăm, observăm și construim împreună un parcurs personal — cu metode moderne, remedii naturale și prezență reală, pas cu pas."
     },
     "why": {
       "heading": "De ce să ne alegi",
@@ -210,7 +269,7 @@
       "heading": "Serviciile noastre",
       "subtitle": "Două discipline, o singură abordare integrată pentru sănătatea ta.",
       "phytoaesteticaDesc": "Programe estetice pe bază de plante care tonifică pielea, reduc celulita și redau strălucirea naturală.",
-      "phytotherapyDesc": "Remedii naturale, pe bază de plante, care îți completează tratamentul și sprijină recuperarea.",
+      "impaccoDesc": "Remedii naturale, pe bază de plante, care îți completează tratamentul și sprijină recuperarea.",
       "cta": "Află mai mult"
     }
   },
@@ -219,12 +278,12 @@
       "hero": {
         "title": "Simte-te frumoasă cu",
         "titleAccent": "Fitoestetică",
-        "subtitle": "Programe fitoestetice personalizate, născute din peste 65 de ani de cercetare asupra plantelor medicinale — piele radiantă și tonifiată, prin excelența naturii și a științei.",
+        "subtitle": "Programe fitoestetice personalizate, născute din peste 70 de ani de cercetare asupra plantelor medicinale — piele radiantă și tonifiată, prin excelența naturii și a științei.",
         "cta": "Programează-te"
       },
       "description": {
         "heading": "Ce este fitoestetica?",
-        "body1": "Fitoestetica valorifică proprietățile benefice ale plantelor medicinale în programe și produse estetice personalizate, dezvoltate în peste 65 de ani de experiență și cercetare.",
+        "body1": "Fitoestetica valorifică proprietățile benefice ale plantelor medicinale în programe și produse estetice personalizate, dezvoltate în peste 70 de ani de experiență și cercetare.",
         "body2": "La Palazzo, personalul nostru specializat îți stă la dispoziție pentru a-ți crea programul personalizat — doar excelența naturii și a științei, ca să te simți mai bine în interior și să te apreciezi mai mult în exterior."
       },
       "helps": {
@@ -235,55 +294,133 @@
         "point3": "Fermifică și remodelează silueta cu îngrijire pe bază de plante.",
         "point4": "Te lasă să te relaxezi complet în timp ce tratamentul lucrează."
       },
-      "treatments": {
-        "heading": "PhytoTreatments",
-        "subtitle": "Un parcurs complet către frumusețea naturală — de la consultație la tratament, nutriție și echilibru mental.",
-        "tabs": {
-          "consultation": {
-            "label": "Consultație",
-            "title": "Consultația inițială fizio-estetică",
-            "p1": "Fizio-estetica ia naștere din îmbinarea fizioterapiei cu medicina estetică, pentru a identifica și trata afecțiunile care provoacă imperfecțiunile pielii. Spre deosebire de estetica clasică, ce acționează asupra pielii doar din exterior, ea intervine asupra funcțiilor fiziologice ale corpului, pentru a-i reda o frumusețe naturală.",
-            "p2": "Starea de bine este restabilită prin tratamente avansate neinvazive și produse fitoterapeutice exclusive, cu efect de slăbire, anticelulitic, tonifiant, anti-îmbătrânire și drenant."
+      "face": {
+        "title": "Pentru o piele care are propriile nevoi.",
+        "intro1": "Fiecare piele este diferită. De aceea, experiențele noastre de fitoestetică facială nu pornesc de la o abordare standard, ci de la nevoile, aspectul și particularitățile pielii tale.",
+        "intro2": "În centrul universului FACE se află Re-GEN — un concept de îngrijire facială care reunește formule specializate, ingrediente atent selectate și tehnici integrate într-o experiență creată pentru a susține hidratarea, revitalizarea și aspectul echilibrat al pielii.",
+        "conceptTitle": "Gama RE-GEN® Pro-Age",
+        "conceptBody": "Gama RE-GEN® Pro-Age, dezvoltată de Laboratori Zanellato, pornește de la o idee simplă: pielea matură nu are nevoie să fie \"combătută\", ci sprijinită cu exact ce a pierdut în timp. De aici și numele — Pro-Age, nu Anti-Age. Este întâlnirea dintre biomimetism — ingrediente identice structural cu cele din pielea umană — și o tehnologie de formulare inovatoare, dezvoltată în laboratoarele din Verona.",
+        "science": {
+          "ceramide": {
+            "title": "Ceramide — bariera pielii, reconstruită",
+            "body": "Formulele RE-GEN livrează ceramide identice structural cu cele din pielea umană, care se integrează natural în \"cimentul\" celular și ajută la refacerea barierei de protecție. Rezultatul: piele vizibil mai hidratată, mai fermă la atingere."
           },
-          "cellularReactivation": {
-            "label": "Reactivare celulară",
-            "h1": "Reactivare celulară fitoterapeutică pentru față",
-            "p1": "În decembrie 2022 am lansat noua mască facială Re-GEN.",
-            "p2": "Cataplasma noastră Galenică, adaptată pentru pielea feței și îmbogățită cu principii active anti-îmbătrânire, stă la baza produsului. Ea este aplicată pe o mască elegantă din silicon auriu, care se adaptează oricărei forme a feței.",
-            "p3": "Testele științifice i-au demonstrat capacitatea de a stimula reînnoirea celulară, de a elimina celulele moarte, de a încetini îmbătrânirea, de a tonifia țesuturile și de a netezi ridurile, de a drena și dezumfla pungile de sub ochi și de a capta radicalii liberi care sting tenul și provoacă impurități. Principiile active pătrund adânc în straturile pielii datorită ozonizării, o tehnică specială de procesare dezvoltată în laboratoarele noastre.",
-            "p4": "Pielea ta va fi regenerată într-o singură oră!",
-            "h2": "Reactivare celulară fitoterapeutică pentru corp",
-            "p5": "Compresa noastră exclusivă cu Cataplasmă Galenică a fost creată în 1956 și îmbunătățită constant de atunci. Este tratamentul nostru emblematic, care îmbină efectul terapeutic cu îmbunătățirea estetică.",
-            "p6": "Compresa are o puternică acțiune antiinflamatoare, favorizând reactivarea celulară, absorbția lichidelor care provoacă retenția de apă și reducerea grăsimii localizate în zonele critice.",
-            "p7": "Rezultatul? Țesuturi detoxifiate, piele tonifiată și imperfecțiuni vizibil reduse."
+          "peptide": {
+            "title": "Complexul de peptide biomimetice",
+            "body": "Complexul de multi-peptide biomimetice acționează ca un mesager celular, susținând activitatea naturală de sinteză a colagenului și elastinei. Pielea primește \"semnalele\" de care are nevoie pentru a-și susține singură structura și fermitatea."
           },
-          "lymphaticDrainage": {
-            "label": "Drenaj limfatic",
-            "title": "Drenaj limfatic manual avansat",
-            "p1": "Un tip special de masaj fizioterapeutic, ale cărui manevre stimulează sau reactivează circulația limfatică corectă și elimină excesul de lichid interstițial.",
-            "p2": "Datorită unui curs de specializare în drenaj limfatic manual avansat, fizioterapeuții noștri pot folosi eficient trei tehnici diferite, în funcție de nevoile pacientului: tehnicile Leduc, Vodder și Belgrad.",
-            "p3": "Scopul final este restabilirea stării de bine psihofizice a persoanei, acționând la rădăcina problemelor medicale cu implicații estetice, precum: celulita, retenția de apă, umflăturile, limfedemul, lipedemul și insuficiența circulatorie. Te va ajuta, de asemenea, să elimini reziduurile de medicamente și toxinele alimentare și să îți întărești sistemul imunitar."
+          "ozone": {
+            "title": "Tehnologia de ozonizare — inovația de la Verona",
+            "body": "Un element distinctiv, exclusiv Zanellato: tehnologia de ozonizare a uleiurilor vegetale (Perilla, in, ovăz) — un procedeu brevetat, aplicat gamei RE-GEN, care intensifică senzația de căldură activă și stimulează vizibil microcirculația locală încă din timpul aplicării. Este semnătura tehnologică ce ne diferențiază de orice altă gamă cosmetică de pe piață."
           },
-          "posturalReeducation": {
-            "label": "Reeducare posturală",
-            "p1": "O greșeală frecventă este subestimarea influenței posturii asupra bunei funcționări a corpului și asupra imperfecțiunilor sale, precum celulita și balonarea abdominală.",
-            "p2": "Prin reeducare posturală țintită, scopul este readucerea corpului la o stare de bine generală."
+          "hydro": {
+            "title": "Fitocomplex Multi-Hydrosol — hidratare stratificată",
+            "body": "Combinat cu acid hialuronic de diferite greutăți moleculare, oferă o hidratare în mai multe straturi: moleculele mari acționează la suprafață, cu efect optic imediat de netezire, în timp ce micro-moleculele pătrund în profunzime."
           },
-          "nutrition": {
-            "label": "Nutriție",
-            "p1": "Te vom conduce către dieta și planul de suplimente ideale pentru tine, printr-un parcurs inovator — fără posturi impuse, fără numărat calorii și fără rețete complicate.",
-            "p2": "Abordarea noastră modernă este potrivită celor care au puțin timp, dar nu vor să renunțe la o alimentație sănătoasă."
-          },
-          "personalTraining": {
-            "label": "Antrenament personal",
-            "p1": "Cu experiență în sportul de performanță și calificări atât de instructor, cât și de fizioterapeut specializat, antrenorul nostru personal îți va crea un plan de antrenament eficient, personalizat nevoilor tale.",
-            "p2": "Împreună veți găsi activitatea fizică potrivită stilului tău de viață, ținând cont de programul și preferințele tale personale."
-          },
-          "mentalCoaching": {
-            "label": "Coaching mental",
-            "p1": "Un factor-cheie în orice parcurs de wellness este menținerea unei atitudini pozitive față de obiceiurile alimentare și imaginea corporală. De aceea, parcursul tău este ghidat de un facilitator certificat de mindfulness.",
-            "p2": "Pe tot parcursul programului vei primi sprijin și motivație ori de câte ori întâmpini provocări sau nesiguranțe. Prin aceste ședințe îți vei dezvolta o relație sănătoasă și conștientă atât cu mâncarea, cât și cu propriul corp."
+          "bromelain": {
+            "title": "Bromelina — exfoliere blândă",
+            "body": "Enzima naturală bromelina oferă o exfoliere enzimatică blândă a celulelor moarte de la suprafața pielii, pentru reducerea aspectului de \"față obosită\" și o strălucire imediată a tenului."
           }
+        },
+        "discover": "Descoperă Face",
+        "proceduresHeading": "Procedurile FACE",
+        "procedures": {
+          "grazia": {
+            "name": "GRAZIA — Ritual Re-GEN Totale — Chip & Brațe",
+            "body": "Eleganța completă, de la chip până la brațe. Ritualul facial Re-GEN regenerează pielea din interior — ceramide, peptide biomimetice care repornesc producerea de colagen și elastină, datorită prezenței acidului gamma-aminobutiric (GABA) obținem relaxarea ridurilor de expresie și acel efect botox-like. De asemenea uleiurile ozonizate brevetate Zanellato, printr-un proces de hormeză produce o „gimnastică vasculară” ce trezește celulele pielii — în timp ce ritualul pentru brațe combină cataplasma activă, cu efect vascular validat prin studii clinice, și gelul KURA TONIC, pentru ardere localizată și o siluetă mai fermă. Un singur ritual, două povești de frumusețe."
+          },
+          "armonia": {
+            "name": "ARMONIA — Ritual Re-GEN Totale — Chip & Silhouette",
+            "body": "Echilibrul perfect între chip și siluetă. Ritualul facial Re-GEN regenerează pielea din interior prin ceramide, peptide biomimetice, oferă efectul botox-like și uleiurile ozonizate brevetate Zanellato ce îmbunătățesc microcirculația locală, în timp ce ritualul pentru picioare și abdomen combină cataplasma activă — cu efect vascular validat prin studii clinice — și gelul KURA TONIC, pentru drenaj și o siluetă mai fermă. Armonia dintre față și corp, într-o singură ședință Palazzo."
+          },
+          "rinascita": {
+            "name": "RINASCITA — Ritual Re-GEN Viso",
+            "body": "Este ritualul pe care ți-l dedici ție. Îți lăsăm chipul în mâinile noastre pentru un masaj sculptural și limfodrenant care relaxează fiecare mușchi, apoi îl învelim în masca activă Re-GEN, unde bromelina exfoliază blând și trezește microcirculația. Ceramidele, fitosfingozina și colesterolul refac imediat bariera pielii, iar peptidele biomimetice se cuplează cu receptorii celulari și dau nucleului celulei comanda să producă colagen nou, tip I și III: nu acoperim ridurile pe deasupra, ci repornim în celulă mecanismul care le reface din interior. Serul conține și acidul gamma-aminobutiric (GABA), care acționează asupra micro-contracturilor musculare de sub piele și relaxează vizibil ridurile de expresie — un efect natural, comparat adesea cu botoxul, dar fără ac și fără toxină. Uleiurile ozonizate — brevet exclusiv Zanellato — declanșează un stres oxidativ controlat, numit hormeză, care îți trezește propriile enzime antioxidante, îți îmbunătățește microcirculația locală și îi oferă un ten curat, luminos, tânăr, dar cel mai important — sănătos. Fitoestrogenii din ovăz completează tabloul, compensând declinul hormonal al pielii mature și stimulând producția de acid hialuronic propriu. Filozofia Re-GEN e Pro-Age, nu Anti-Age: nu luptăm cu pielea matură, îi dăm exact ce-i lipsește ca să strălucească din nou, cu ajutorul naturii."
+          },
+          "splendore": {
+            "name": "SPLENDORE — Ritual Palazzo Signature — Corp Integral",
+            "body": "Ritualul nostru de suflet, pentru zilele în care vrei să te ocupi de tine, din cap până-n picioare. Ritualul facial Re-GEN complet — ceramide, peptide biomimetice care repornesc colagenul și elastina din interior, GABA cu efect natural de relaxare a ridurilor de expresie (tip botox), uleiurile ozonizate brevetate Zanellato și procesul de hormeză care trezește energia proprie a pielii — se combină cu ritualurile pentru brațe și picioare, unde cataplasma activă și gelul KURA TONIC lucrează împreună: ardere localizată, drenaj limfatic și o siluetă vizibil mai fermă. Cea mai completă experiență din meniul Palazzo."
+          },
+          "respiro": {
+            "name": "RESPIRO — Ritual Viso Express",
+            "body": "Un moment de respiro pentru chipul tău, chiar și atunci când timpul e scurt. Masajul de drenaj limfatic sculptează și relaxează, în timp ce serul și crema Re-GEN — cu ceramide, peptide biomimetice (inclusiv SYN®-COLL, pentru colagen nou) și GABA, cu efect natural de relaxare a ridurilor de expresie, tip botox — refac bariera pielii și dau celulei energia de regenerare prin hormeză, printr-un mix de uleiuri ozonizate brevetate Zanellato. Fără mască, dar cu același efect de luminozitate și liniște imediată."
+          }
+        },
+        "productsHeading": "Produsele RE-GEN, pas cu pas",
+        "products": {
+          "mask": {
+            "name": "Masca Facială",
+            "body": "O experiență intensivă de curățare profundă și oxigenare. Formula, îmbogățită cu uleiuri ozonizate și extracte calmante, stimulează microcirculația locală și oferă acea senzație caracteristică de căldură intensă."
+          },
+          "milk": {
+            "name": "Laptele Demachiant",
+            "body": "O curățare biomimetică, blândă cu pielea — dizolvă impuritățile printr-o fază lipidică delicată, care respectă echilibrul natural al pielii."
+          },
+          "tonic": {
+            "name": "Loțiunea Tonică (Multi-Hydrosol)",
+            "body": "Un distilat fito-botanic care reechilibrează și hidratează instantaneu, pregătind pielea pentru pașii următori ai ritualului."
+          },
+          "serum": {
+            "name": "Serul Facial (Multi-Peptide și Ceramide)",
+            "body": "Cel mai concentrat produs din gamă — susține activitatea naturală a pielii de a-și reface fermitatea și densitatea, cu efect vizibil de netezire."
+          },
+          "cream": {
+            "name": "Crema Facială Restructuring",
+            "body": "Bogată în uleiuri prețioase și ceramide biomimetice, sigilează hidratarea și ajută la refacerea barierei de protecție. Vitaminele C și E completează formula cu protecție antioxidantă."
+          }
+        },
+        "discoverProcedures": "Proceduri",
+        "getInTouch": "Contact",
+        "tryProcedure": "Încearcă o procedură",
+        "productsCta": {
+          "heading": "Descoperă produsele noastre",
+          "body": "Gama RE-GEN® Pro-Age pe care o folosim în fiecare ritual facial este disponibilă și pentru îngrijirea de acasă — aceleași formule biomimetice, acum în rutina ta zilnică.",
+          "button": "Descoperă produsele Face",
+          "all": "Vezi toate produsele"
+        }
+      },
+      "body": {
+        "title": "Corpul are propriul ritm. Îngrijirea lui ar trebui să îl respecte.",
+        "intro1": "La Palazzo, experiențele dedicate corpului pornesc de la o perspectivă simplă: aspectul pielii este influențat de mai mult decât ceea ce se vede la suprafață.",
+        "intro2": "De aceea, ritualurile noastre combină tehnici manuale atent integrate cu formule fitoestetice specializate și ingrediente selectate pentru capacitatea lor de a susține îngrijirea tonusului, compactității și aspectului pielii.",
+        "intro3": "De la ritualuri dedicate zonelor care necesită mai multă atenție, până la experiențe care pun accent pe activare, drenaj și relaxare, fiecare procedură este construită ca un moment în care corpul primește timpul și îngrijirea de care are nevoie.",
+        "intro4": "Pentru că un corp îngrijit nu înseamnă doar cum arată. Înseamnă și cum se simte.",
+        "explore": "Explorează universul Body",
+        "proceduresHeading": "Procedurile BODY",
+        "procedures": {
+          "grazia": {
+            "name": "GRAZIA — Ritual Re-GEN Totale — Chip & Brațe",
+            "body": "Eleganța completă, de la chip până la brațe. Ritualul facial Re-GEN regenerează pielea din interior — ceramide, peptide biomimetice care repornesc producerea de colagen și elastină, datorită prezenței acidului gamma-aminobutiric (GABA) obținem relaxarea ridurilor de expresie și acel efect botox-like. De asemenea uleiurile ozonizate brevetate Zanellato, printr-un proces de hormeză produce o „gimnastică vasculară” ce trezește celulele pielii — în timp ce ritualul pentru brațe combină cataplasma activă, cu efect vascular validat prin studii clinice, și gelul KURA TONIC, pentru ardere localizată și o siluetă mai fermă. Un singur ritual, două povești de frumusețe."
+          },
+          "armonia": {
+            "name": "ARMONIA — Ritual Re-GEN Totale — Chip & Silhouette",
+            "body": "Echilibrul perfect între chip și siluetă. Ritualul facial Re-GEN regenerează pielea din interior prin ceramide, peptide biomimetice, oferă efectul botox-like și uleiurile ozonizate brevetate Zanellato ce îmbunătățesc microcirculația locală, în timp ce ritualul pentru picioare și abdomen combină cataplasma activă — cu efect vascular validat prin studii clinice — și gelul KURA TONIC, pentru drenaj și o siluetă mai fermă. Armonia dintre față și corp, într-o singură ședință Palazzo."
+          },
+          "vitalita": {
+            "name": "VITALITÀ — Ritual KURA Corp Integral",
+            "body": "Un ritual pentru tot corpul, gândit pentru cine vrea rezultate vizibile, de la brațe până la picioare. Exfoliere, masaj anticelulitic și de drenaj limfatic pe ambele zone, urmate de învelirea activă în cataplasmă Zanellato — un șoc vascular controlat, validat prin studii clinice, care relaxează capilarele limfatice și reduce edemul în profunzime, contribuind la tonifierea și micșorarea vizibilă a circumferinței zonelor acționate. Ritualul se încheie cu gelul KURA TONIC pe brațe și picioare deopotrivă, unde cofeina arde depozitele de grăsime localizată, extractele vegetale grăbesc drenajul, iar colagenul și acidul hialuronic lasă pielea vizibil mai fermă."
+          },
+          "slancio": {
+            "name": "SLANCIO — Ritual KURA Brațe",
+            "body": "Brațele tale merită propriul ritual de răsfăț. Începem cu o exfoliere fină, apoi un masaj anticelulitic și de drenaj limfatic, urmat de învelirea în manșoanele Zanellato cu cataplasmă activă — acolo unde camforul și muștarul negru declanșează un adevărat șoc vascular controlat, validat de către personalități notorii în domeniul limfologiei mondiale: capilarele limfatice se relaxează, absorbind excesul de lichid din interstițiu, edemul scade, pielea se hidratează în profunzime. Încheiem cu gelul KURA TONIC: cofeina pură arde depozitele de grăsime localizată, extractele de iederă, Centella Asiatica și castan sălbatic accelerează drenajul vascular, iar colagenul în 3 greutăți moleculare diferite și acidul hialuronic contribuie la fermitate, micșorare în dimensiuni și în final la brațe suple și tonifiate."
+          },
+          "leggerezza": {
+            "name": "LEGGEREZZA — Ritual KURA Picioare & Abdomen",
+            "body": "Ritualul perfect pentru senzația de picioare ușoare. Exfoliere fină, masaj anticelulitic și de drenaj limfatic, apoi învelirea în jambierele Zanellato cu cataplasmă — același șoc vascular controlat, ce contribuie substanțial la eliminarea lichidului din interstițiu și activarea arderii grăsimii local. La final, gelul KURA TONIC își face treaba: cofeină pentru ardere localizată de grăsimi, extracte vegetale pentru potențarea drenajului limfatic, colagen în 3 greutăți moleculare diferite și acid hialuronic ce ajută la mascarea și acoperirea vergeturilor, un ritual întreg pentru a scăpa de celulită, vergeturi și pentru a avea o siluetă de invidiat."
+          },
+          "splendore": {
+            "name": "SPLENDORE — Ritual Palazzo Signature — Corp Integral",
+            "body": "Ritualul nostru de suflet, pentru zilele în care vrei să te ocupi de tine, din cap până-n picioare. Ritualul facial Re-GEN complet — ceramide, peptide biomimetice care repornesc colagenul și elastina din interior, GABA cu efect natural de relaxare a ridurilor de expresie (tip botox), uleiurile ozonizate brevetate Zanellato și procesul de hormeză care trezește energia proprie a pielii — se combină cu ritualurile pentru brațe și picioare, unde cataplasma activă și gelul KURA TONIC lucrează împreună: ardere localizată, drenaj limfatic și o siluetă vizibil mai fermă. Cea mai completă experiență din meniul Palazzo."
+          }
+        },
+        "discoverProcedures": "Proceduri",
+        "getInTouch": "Contact",
+        "tryProcedure": "Încearcă o procedură",
+        "productsCta": {
+          "heading": "Descoperă produsele noastre",
+          "body": "Formulele fitoestetice din spatele fiecărui ritual pentru corp — gelul KURA TONIC și gama cu cataplasmă activă — sunt disponibile pentru îngrijirea ta zilnică de acasă.",
+          "button": "Descoperă produsele Body",
+          "all": "Vezi toate produsele"
         }
       },
       "cta": {
@@ -292,29 +429,51 @@
         "button": "Programează acum"
       }
     },
-    "phytotherapy": {
+    "impacco": {
       "hero": {
         "title": "Vindecă-te natural cu",
-        "titleAccent": "Fitoterapie",
+        "titleAccent": "Impacco",
         "subtitle": "Puterea vindecătoare a plantelor — remedii naturale, susținute științific, care îți sprijină corpul blând și eficient.",
-        "cta": "Programează-te"
+        "cta": "Descoperă Impacco"
       },
       "description": {
-        "heading": "Ce este fitoterapia?",
-        "body1": "Fitoterapia este utilizarea terapeutică a plantelor și a compușilor lor activi pentru a preveni și trata bolile — una dintre cele mai vechi forme de medicină, rafinată de știința modernă.",
-        "body2": "La Palazzo, îmbinăm cunoștințele botanice tradiționale cu cercetările actuale pentru a crea remedii naturale care îți completează îngrijirea, sprijină recuperarea și întăresc echilibrul natural al corpului."
+        "heading": "Ce este Impacco?",
+        "body1": "Uneori, corpul îți spune exact unde are nevoie de atenție. Tensiunea se acumulează. Corpul se contractă. Anumite zone rămân suprasolicitate mai mult decât ne dăm seama. Inspirat de tradiția Cataplasmei Galenice, Impacco este o experiență localizată creată pentru zone atent selectate, în care căldura, plantele și timpul de acțiune se întâlnesc într-un ritual cu o identitate aparte.",
+        "body2": "Prin acțiunea sa tradițională de contra-iritație, Cataplasma creează o activare intensă la nivel local, însoțită de o senzație progresivă de căldură și de stimularea microcirculației. Aplicarea ocluzivă contribuie la menținerea condițiilor necesare pentru ca ingredientele formulei să acționeze în timp, transformând fiecare Impacco într-o experiență profundă și personală. Este momentul în care alegi să te oprești și să acorzi atenție exact zonei care are nevoie de tine.",
+        "badges": {
+          "relax": "Pentru relaxare",
+          "release": "Pentru detensionare",
+          "comfort": "Pentru diminuarea senzației de disconfort"
+        }
       },
       "helps": {
-        "heading": "Cum te ajută fitoterapia",
+        "heading": "Cum te ajută Impacco",
         "body": "Terapia pe bază de plante lucrează cu corpul tău, nu împotriva lui, oferind sprijin blând și eficient pentru o gamă largă de probleme cotidiene.",
         "point1": "Calmează inflamația cu compuși naturali puternici.",
         "point2": "Susține sistemul imunitar și vitalitatea generală.",
         "point3": "Susține recuperarea și regenerarea naturală a corpului.",
         "point4": "Promovează relaxarea, un somn mai bun și echilibrul."
       },
+      "relief": {
+        "heading": "Unde vei simți Impacco cel mai mult",
+        "items": {
+          "muscle": {
+            "title": "Disconfort, durere și tensiune musculară",
+            "body": "Zilele lungi, efortul fizic sau pur și simplu stresul acumulat lasă urme vizibile în mușchi — o senzație de greutate, de rigiditate, un „nod” care nu se destinde de la sine. Impacco intervine exact acolo, cu o căldură profundă care ajută mușchiul să se relaxeze și corpul să respire mai ușor."
+          },
+          "joints": {
+            "title": "Disconfort la nivelul articulațiilor",
+            "body": "Genunchii, umerii sau încheieturile pot resimți, la finalul unei zile solicitante, o senzație de rigiditate sau disconfort care îngreunează mișcările simple. Impacco oferă o căldură intensă, localizată, care aduce o stare de confort și ușurință exact acolo unde ai nevoie de ea."
+          },
+          "back": {
+            "title": "Disconfort, durere și tensiune la nivelul spatelui",
+            "body": "Orele lungi petrecute la birou, la volan sau în picioare lasă adesea urme exact acolo unde nu le vedem — în zona spatelui, sub formă de tensiune, rigiditate sau o senzație de greutate care se acumulează pe parcursul zilei. Impacco aduce o căldură profundă, localizată, care ajută la relaxarea musculaturii și la o senzație de ușurință și confort pe toată zona tratată."
+          }
+        }
+      },
       "benefits": {
         "heading": "Beneficiile pe care le vei simți",
-        "subtitle": "Ce îți oferă fitoterapia la Palazzo, în mod natural.",
+        "subtitle": "Ce îți oferă Impacco la Palazzo, în mod natural.",
         "tabs": {
           "muscleJoint": {
             "label": "Musculo-articular",
@@ -398,8 +557,21 @@
           }
         }
       },
+      "pricing": {
+        "heading": "Dă-i corpului tău pauza pe care o merită",
+        "rating": "Îndrăgit de clienții Palazzo",
+        "body": "Căldură profundă, plante atent alese și timp dedicat exact zonei care te supără. Un ritual localizat, personal și profund relaxant — iar primul pas e mai simplu decât crezi.",
+        "points": {
+          "point1": "Căldură profundă, localizată exact unde te doare",
+          "point2": "Ritual personalizat, construit în jurul zonei tale",
+          "point3": "Ingrediente de origine vegetală, blânde cu pielea"
+        },
+        "priceFrom": "Începând de la",
+        "button": "Programează-te",
+        "secondary": "Vezi beneficiile"
+      },
       "cta": {
-        "heading": "Programează-ți ședința de fitoterapie",
+        "heading": "Programează-ți ședința de Impacco",
         "body": "Descoperă ce poate face pentru tine îngrijirea naturală, pe bază de plante. Suntem aici să te ajutăm.",
         "button": "Programează acum"
       }

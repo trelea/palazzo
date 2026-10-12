@@ -31,33 +31,25 @@ const EFFECTS = {
 } as const
 
 /** Conditions the Galenic Cataplasm treats; copy lives under
- * `ServicePages.phytotherapy.issues.items.<key>` (`title` + `desc`).
+ * `ServicePages.impacco.issues.items.<key>` (`title` + `desc`).
  * Bento layout on a 6-col grid: spans of 2 (1/3), 3 (1/2), 4 (2/3), 6 (full). */
 const ISSUES = [
   { key: 'shoulder', img: '/issues/shoulder.jpg', span: 'lg:col-span-3', effect: 'slideRight' },
   { key: 'knee', img: '/issues/knee.jpg', span: 'lg:col-span-3', effect: 'slideUp' },
   { key: 'handElbow', img: '/issues/hand-elbow.jpg', span: 'lg:col-span-4', effect: 'flipDown' },
   { key: 'foot', img: '/issues/foot.jpg', span: 'lg:col-span-2', effect: 'slideLeft' },
-  { key: 'neuralgia', img: '/issues/neuralgia.jpg', span: 'lg:col-span-2', effect: 'zoom' },
-  { key: 'spine', img: '/issues/spine.jpg', span: 'lg:col-span-2', effect: 'slideDown' },
-  { key: 'respiratory', img: '/issues/respiratory.jpg', span: 'lg:col-span-2', effect: 'flipUp' },
-  { key: 'circulatory', img: '/issues/circulatory.jpg', span: 'lg:col-span-2', effect: 'slideUp' },
-  { key: 'skin', img: '/issues/skin.jpg', span: 'lg:col-span-4', effect: 'slideRight' },
-  {
-    key: 'abdominal',
-    img: '/issues/abdominal.jpg',
-    span: 'sm:col-span-2 lg:col-span-6',
-    effect: 'zoom',
-  },
+  { key: 'spine', img: '/issues/spine.jpg', span: 'lg:col-span-3', effect: 'slideDown' },
+  { key: 'circulatory', img: '/issues/circulatory.jpg', span: 'lg:col-span-3', effect: 'slideUp' },
+  { key: 'skin', img: '/issues/skin.jpg', span: 'sm:col-span-2 lg:col-span-6', effect: 'slideRight' },
 ] as const
 
 export function IssuesTreated() {
-  const t = useTranslations('ServicePages.phytotherapy.issues')
+  const t = useTranslations('ServicePages.impacco.issues')
   // Touch screens have no hover — tapping a card toggles its overlay instead.
   const [activeKey, setActiveKey] = useState<string | null>(null)
 
   return (
-    <section className="mx-auto max-w-7xl px-4 pb-20 sm:px-6 lg:px-8 lg:pb-28">
+    <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
       <Reveal inView>
         <div className="mx-auto max-w-2xl text-center">
           <SectionTitle className="mx-auto">{t('heading')}</SectionTitle>

@@ -32,20 +32,40 @@
   },
   "HomePage": {
     "hero": {
-      "headline": "Nature and science,",
-      "headlineAccent": "in balance",
-      "subtitle": "Plant-based aesthetic care and the gentle power of medicinal herbs — beauty and wellbeing for body and mind.",
-      "ctaBook": "Book a free trial",
-      "ctaLearn": "Our story"
+      "slogan": "Italian beauty and youth, one step away from you",
+      "headline": "The art of",
+      "headlineAccent": "phytoaesthetics.",
+      "subtitleLead": "A new perspective on face and body care.",
+      "subtitleBody1": "At Palazzo, we have built a world dedicated to phyto-aesthetics — where formulas inspired by the potential of plants, the tradition of the Galenic Cataplasm and specialised care rituals come together in a personalised experience.",
+      "subtitleBody2": "From facial experiences created for your skin's needs, to body rituals dedicated to care, toning and wellbeing, through to treatments applied to carefully selected areas, focused on relaxation, easing discomfort and releasing tension.",
+      "linkFace": "Face",
+      "linkBody": "Body",
+      "linkImpacco": "Impacco"
     },
     "intro": {
-      "heading": "Palazzo Aesthetics",
-      "body": "We combine modern phyto-aesthetic care with the time-honoured tradition of phytotherapy. Our historical roots, paired with continuous medical training, let us offer a natural and effective solution for every need — for your health and your beauty alike.",
-      "aestheticsLine": "Plant-powered aesthetic treatments that tone, sculpt and let your skin glow.",
-      "phytoLine": "Plant-based remedies drawn from a long phytotherapy tradition."
+      "lead": "Care doesn't begin with a procedure. It begins with you.",
+      "belief": "At Palazzo, we don't believe in identical experiences for every person.",
+      "change": "Skin changes. The body changes. Needs change. That is why every experience begins with understanding what you need in that moment.",
+      "heading": "PHYTOAESTHETICS, THE PALAZZO WAY",
+      "definition": "Phyto-aesthetics is how we see care — through an approach where the potential of plant-based ingredients, specialised formulations and application techniques come together in rituals created for face and body.",
+      "closing": "We don't set out to turn beauty into a standard formula.",
+      "values": {
+        "individual": "We look at it individually",
+        "attention": "We care for it with attention",
+        "value": "We bring out its best"
+      }
     },
     "services": {
-      "title": "Our services",
+      "titleLine1": "One philosophy.",
+      "titleLine2": "Three ways to experience it.",
+      "descLead": "Discover the Palazzo universe.",
+      "descBody": "Every Palazzo experience begins with the same philosophy: a careful, personalised approach, where plant-based ingredients, specialised formulations and the way they are applied are chosen according to each person's needs. This philosophy takes different forms.",
+      "faceDesc": "Every skin is different. That is why our facial phyto-aesthetic experiences do not start from a standard approach, but from the needs, appearance and particularities of your skin.\nAt the heart of the FACE universe lies Re-GEN — a facial care concept that brings together specialized formulas, carefully selected ingredients and integrated techniques in an experience designed to support hydration, revitalization and the balanced appearance of the skin.",
+      "faceFocus": "Face & skin",
+      "bodyDesc": "At Palazzo, body experiences start from a simple perspective: the appearance of the skin is influenced by more than what is visible on the surface.\nThat is why our rituals combine carefully integrated manual techniques with specialized phyto-aesthetic formulas and ingredients selected for their ability to support the care of skin tone, compactness and appearance.\nFrom rituals dedicated to areas that need more attention, to experiences that focus on activation, drainage and relaxation, each procedure is built as a moment in which the body receives the time and care it needs.",
+      "bodyFocus": "Body & contour",
+      "impaccoDesc": "Tension accumulates. The body contracts. Certain areas remain overworked more than we realize.\nInspired by the tradition of Galenical Cataplasm, Impacco is a localized experience created for carefully selected areas, where heat, plants and action time meet in a ritual with its own identity.\nThrough its traditional counter-irritant action, the Cataplasm creates intense local activation accompanied by a progressive sensation of heat and the stimulation of microcirculation. The occlusive application contributes to maintaining the necessary conditions for the ingredients in the formula to act over time, transforming each Impacco into a profound and personal experience.",
+      "impaccoFocus": "The herbal compress",
       "phytoaesteticaDesc": "Customised phyto-aesthetic programmes and products developed through over 65 years of experience and research into the beneficial properties of medicinal plants. Treatments that leave your skin radiant, rejuvenated and toned and visibly reduce the signs of cellulite — all while you relax.",
       "phytotherapyDesc": "The healing properties of officinal herbs, harnessed in treatments and care rituals for body and mind. Our signature herbal compress and natural extracts work gently with your body to soothe inflammation, restore balance and support lasting, everyday wellbeing.",
       "serviceLabel": "Service",
@@ -54,7 +74,7 @@
       "phytotherapyFocus": "Natural herbal care",
       "discover": "Discover",
       "trialTitle": "New here?",
-      "trialDesc": "Book a free trial and experience one of our treatments first-hand.",
+      "trialDesc": "Book an appointment and experience one of our treatments first-hand.",
       "trialCta": "Book now"
     },
     "stats": {
@@ -73,7 +93,7 @@
       "eyebrow": "Uniqueness & certified quality",
       "title": "The heart of our care: the Officinal Herbal Pack",
       "body": "Our signature herbal compress, with its powerful natural anti-inflammatory action, is the versatile base across all our specializations — from phyto-esthetics to phytotherapy. Crafted with respect for nature, it is the essence of everything we do.",
-      "cta": "Explore phytotherapy"
+      "cta": "Explore Impacco"
     },
     "story": {
       "heading": "Our story",
@@ -89,7 +109,15 @@
       "cta": "Discover"
     },
     "partners": {
-      "heading": "Our partners"
+      "heading": "Our partners",
+      "eyebrow": "Since 1956 · Italy",
+      "body": "We partner with Laboratori Zanellato, home of the Galenic Cataplasm created in 1956 by Dr. Leone Zanellato — the tradition and research behind the Palazzo concept.",
+      "partnerName": "Laboratori Zanellato",
+      "partnerDesc": "Creators of the Galenic Cataplasm. Our partner for formulas, research and continuous development since 1956.",
+      "point1": "Tradition since 1956",
+      "point2": "Galenic Cataplasm",
+      "point3": "Continuous research",
+      "visitCta": "Visit the laboratory"
     },
     "cta": {
       "newClientHeading": "Are you a new client?",
@@ -102,9 +130,21 @@
       "newsletterConsent": "By subscribing you accept the terms of our privacy policy and consent to receive information emails from Palazzo Aesthetics."
     }
   },
+  "HomeImgAlt": {
+    "room": "A modern Palazzo Aesthetics treatment room",
+    "gallery": "Framed botanical illustrations on the clinic wall",
+    "herbalPack": "Officinal herbs, flowers and natural ingredients of the herbal pack",
+    "brochures": "Palazzo Aesthetics brochures and business cards",
+    "therapist": "Therapist treating a client at Palazzo Aesthetics",
+    "remedies": "Natural phytotherapy remedies arranged in a heart"
+  },
   "Meta": {
     "tagline": "Phyto-Esthetics & Phytotherapy",
     "description": "Palazzo Aesthetics — phyto-esthetics and phytotherapy clinic in Chișinău. Natural care for body and mind: skin toning, body contouring and plant-based therapies. Book your appointment online.",
+    "home": {
+      "title": "Palazzo Aesthetics — Phyto-Esthetics & Phytotherapy in Chișinău",
+      "description": "Palazzo Aesthetics — phyto-esthetics and phytotherapy clinic in Chișinău. Natural face and body care, toning, contouring and herbal therapies. Book online."
+    },
     "about": {
       "title": "About us",
       "description": "Discover the story of Palazzo Aesthetics — a family tradition of care since 1956, uniting plant-based aesthetics and natural phytotherapy in Chișinău."
@@ -116,6 +156,10 @@
     "news": {
       "title": "News",
       "description": "Updates, events and health tips from the Palazzo Aesthetics team in Chișinău."
+    },
+    "shop": {
+      "title": "Our Products",
+      "description": "Palazzo Aesthetics phyto-aesthetic products: face and body care. Discover our range."
     },
     "phytoaestetica": {
       "title": "Phyto-Esthetics",
@@ -131,8 +175,11 @@
     "about": "About",
     "services": "Services",
     "phytoaestetica": "Phyto-Esthetics",
-    "phytotherapy": "Phytotherapy",
+    "face": "Face",
+    "body": "Body",
+    "impacco": "Impacco",
     "news": "News",
+    "shop": "Products",
     "contact": "Contact",
     "book": "Book appointment",
     "openMenu": "Open menu",
@@ -151,6 +198,16 @@
     "readMore": "Read more",
     "back": "Back to news"
   },
+  "ShopPage": {
+    "title": "Our Products",
+    "lead": "Phyto-aesthetic face and body products from the Palazzo universe.",
+    "empty": "No products yet — check back soon.",
+    "viewProduct": "View product",
+    "filterAll": "All",
+    "filterFace": "Face",
+    "filterBody": "Body",
+    "back": "Back to products"
+  },
   "Footer": {
     "tagline": "Where beauty meets timeless elegance.",
     "explore": "Explore",
@@ -166,17 +223,19 @@
   },
   "AboutPage": {
     "title": "About us",
-    "lead": "We're a team of aesthetic and wellbeing specialists who believe care should be personal, natural and grounded in evidence.",
+    "lead": "Everything begins with the Cataplasma Galenica. Palazzo brings to Chișinău a tradition born in Italy in 1956 — a philosophy of care built around the potential of plants, research and care for each person.",
     "story": {
       "heading": "Our story",
-      "body1": "Palazzo began with a small clinic and a big conviction — that real recovery comes from treating the whole person, not just the symptom.",
-      "body2": "Over the years we've grown into a multidisciplinary practice, pairing phyto-aesthetic care with the natural power of phytotherapy under one roof.",
-      "body3": "Today that same conviction guides everything we do: modern methods, natural remedies and the patience to see each person through to lasting results."
+      "body1": "At the heart of the Palazzo philosophy lies a concept rooted in a tradition developed in Italy almost seven decades ago.",
+      "body2": "The Galenic Cataplasm was created in 1956 by Dr. Leone Zanellato and has become, over the years, the starting point of an approach built around the potential of plants, research and experience gained through continuous application and development.",
+      "body3": "The formula brings together plant-based ingredients in a composition designed for local application. Ozonized oils are an important element of the concept, helping to create a favourable environment for the absorption of active ingredients into the skin and supporting the natural processes of microcirculation and oxygenation.",
+      "body4": "More than a simple application on the skin, the Galenic Cataplasm turns formula, time and method of application into a single experience. A concept where tradition meets a new perspective on care.",
+      "body5": "Today that same conviction guides everything we do: modern methods, natural remedies and the dedication with which we accompany each person towards lasting results."
     },
     "who": {
       "heading": "Who we are",
-      "body1": "Behind Palazzo is a close-knit team of aesthetic specialists and phytotherapy experts who genuinely love what they do.",
-      "body2": "We learn together, share what works, and stay close to the people we care for — so every plan is built around you, not a template."
+      "body1": "We are the team carrying this concept forward in Chișinău — aesthetic and phytotherapy specialists united by the same discipline of care: time, attention and consistency for each person.",
+      "body2": "At Palazzo, every plan starts from the person, not from a template. We listen, observe and build a personal journey together — with modern methods, natural remedies and real presence, step by step."
     },
     "why": {
       "heading": "Why choose us",
@@ -210,7 +269,7 @@
       "heading": "Our services",
       "subtitle": "Two disciplines, one integrated approach to your health.",
       "phytoaesteticaDesc": "Plant-based aesthetic programmes that tone the skin, reduce cellulite and restore natural radiance.",
-      "phytotherapyDesc": "Natural, plant-based remedies that complement your treatment and support recovery.",
+      "impaccoDesc": "Natural, plant-based remedies that complement your treatment and support recovery.",
       "cta": "Learn more"
     }
   },
@@ -219,12 +278,12 @@
       "hero": {
         "title": "Feel beautiful with",
         "titleAccent": "Phyto-Esthetics",
-        "subtitle": "Customised phyto-aesthetic programmes born from over 65 years of research into medicinal plants — radiant, toned skin through the excellence of nature and science.",
+        "subtitle": "Customised phyto-aesthetic programmes born from 70+ years of research into medicinal plants — radiant, toned skin through the excellence of nature and science.",
         "cta": "Book an appointment"
       },
       "description": {
         "heading": "What is phyto-esthetics?",
-        "body1": "Phyto-esthetics harnesses the beneficial properties of medicinal plants in customised aesthetic programmes and products, developed through more than 65 years of experience and research.",
+        "body1": "Phyto-esthetics harnesses the beneficial properties of medicinal plants in customised aesthetic programmes and products, developed through more than 70 years of experience and research.",
         "body2": "At Palazzo, our specialised staff is at your disposal to design your personalised programme — only the excellence of nature and science, to make you feel better inside and appreciate yourself more outside."
       },
       "helps": {
@@ -235,55 +294,133 @@
         "point3": "Firms and sculpts the silhouette with plant-based care.",
         "point4": "Lets you unwind completely while the treatment works."
       },
-      "treatments": {
-        "heading": "PhytoTreatments",
-        "subtitle": "A complete path to natural beauty — from consultation to treatment, nutrition and mindset.",
-        "tabs": {
-          "consultation": {
-            "label": "Consultation",
-            "title": "Initial Physio-Aesthetic Consultation",
-            "p1": "Physio-aesthetics arises from the union of physiotherapy and aesthetic medicine, in order to identify and treat the conditions that cause skin imperfections. Unlike aesthetics, which acts on the skin only from the outside, it intervenes in the physiological functions of the body to give it a natural beauty.",
-            "p2": "Wellness is restored through advanced non-invasive treatments and exclusive phytotherapeutic products with slimming, anti-cellulite, toning, anti-aging and draining effects."
+      "face": {
+        "title": "For skin with its own needs.",
+        "intro1": "Every skin is different. That's why our facial phyto-aesthetic experiences don't start from a standard approach, but from the needs, appearance and particularities of your skin.",
+        "intro2": "At the heart of the FACE universe lies Re-GEN — a facial care concept that brings together specialised formulas, carefully selected ingredients and techniques woven into an experience designed to support hydration, revitalisation and a balanced-looking skin.",
+        "conceptTitle": "The RE-GEN® Pro-Age range",
+        "conceptBody": "The RE-GEN® Pro-Age range, developed by Laboratori Zanellato, starts from a simple idea: mature skin doesn't need to be “fought”, but supported with exactly what it has lost over time. Hence the name — Pro-Age, not Anti-Age. It is the meeting of biomimicry — ingredients structurally identical to those in human skin — and an innovative formulation technology developed in the Verona laboratories.",
+        "science": {
+          "ceramide": {
+            "title": "Ceramides — the skin barrier, rebuilt",
+            "body": "RE-GEN formulas deliver ceramides structurally identical to those in human skin, integrating naturally into the cellular “cement” and helping restore the protective barrier. The result: visibly more hydrated skin, firmer to the touch."
           },
-          "cellularReactivation": {
-            "label": "Cellular reactivation",
-            "h1": "Phytotherapy cellular reactivation for the Face",
-            "p1": "In December 2022 we launched the new Re-GEN Face Mask.",
-            "p2": "Our Galenic Cataplasm, adapted for facial skin and enriched with anti-aging active ingredients, is the basis of the product. It is spread on an elegant golden silicone mask that adapts to every face shape.",
-            "p3": "Scientific tests have shown its ability to stimulate cell turnover, eliminate dead cells, slow aging, tone tissues and smooth wrinkles, drain and deflate the bags under the eyes, and capture the free radicals that dull the complexion and cause impurities. The active ingredients penetrate deep into the layers of the skin thanks to ozonisation, a special processing technique developed in our laboratories.",
-            "p4": "Your skin will be regenerated in just one hour!",
-            "h2": "Phytotherapy cellular reactivation for the Body",
-            "p5": "Our exclusive Galenic Cataplasm Compress was created in 1956 and has been constantly improved ever since. It is our flagship treatment, combining a healing effect with aesthetic improvement.",
-            "p6": "The Compress has a powerful anti-inflammatory action, promoting cellular reactivation, the absorption of the body fluids that cause water retention, and the reduction of localised fat in critical areas.",
-            "p7": "The result? Detoxified tissues, toned skin and visibly reduced blemishes."
+          "peptide": {
+            "title": "Biomimetic peptide complex",
+            "body": "The biomimetic multi-peptide complex acts as a cellular messenger, supporting the skin's natural synthesis of collagen and elastin. The skin receives the “signals” it needs to support its own structure and firmness."
           },
-          "lymphaticDrainage": {
-            "label": "Lymphatic Drainage",
-            "title": "Advanced Manual Lymphatic Drainage",
-            "p1": "A special type of physiotherapy massage whose manoeuvres boost or reactivate proper lymphatic circulation and eliminate excess interstitial fluid.",
-            "p2": "Thanks to a specialisation course in Advanced Manual Lymphatic Drainage, our physiotherapists can effectively use three different techniques according to the patient's needs: the Leduc, Vodder and Belgrade techniques.",
-            "p3": "The ultimate goal is to restore the person's psychophysical well-being, acting at the root of medical issues with aesthetic implications such as cellulite, water retention, swelling, lymphoedema, lipoedema and circulatory failure. It also helps you eliminate drug residues and food toxins and strengthens your immune system."
+          "ozone": {
+            "title": "Ozonisation technology — the Verona innovation",
+            "body": "A distinctive element, exclusive to Zanellato: the ozonisation technology for plant oils (perilla, flax, oat) — a patented process applied to the RE-GEN range, which intensifies the sensation of active warmth and visibly stimulates local microcirculation from the moment of application. It is the technological signature that sets us apart from any other cosmetic range on the market."
           },
-          "posturalReeducation": {
-            "label": "Postural re-education",
-            "p1": "A frequent mistake is to underestimate the influence of posture on the proper functioning of the body and on its imperfections, such as cellulite and abdominal bloating.",
-            "p2": "Through targeted postural re-education, the goal is to bring the body back to a state of overall well-being."
+          "hydro": {
+            "title": "Multi-Hydrosol phytocomplex — layered hydration",
+            "body": "Combined with hyaluronic acid of different molecular weights, it offers multi-layer hydration: large molecules act at the surface with an immediate visible smoothing effect, while micro-molecules penetrate in depth."
           },
-          "nutrition": {
-            "label": "Nutrition",
-            "p1": "We will lead you to your ideal diet and supplementation plan through an innovative path — without imposed fasting, calorie counting or complicated recipes.",
-            "p2": "Our modern approach is suitable for those who have little time but do not want to give up a healthy diet."
-          },
-          "personalTraining": {
-            "label": "Personal Training",
-            "p1": "With a background in competitive sports and qualifications as both an instructor and a specialised physiotherapist, our personal trainer will create an effective, personalised training plan tailored to your needs.",
-            "p2": "Working together, you'll find the physical activity that best suits your lifestyle, taking into account your schedule and personal preferences."
-          },
-          "mentalCoaching": {
-            "label": "Mental Coaching",
-            "p1": "A key factor in any wellness journey is maintaining a positive mindset towards eating habits and body image. That's why your journey is guided by a certified Mindfulness Facilitator.",
-            "p2": "Throughout your journey, you'll receive support and motivation whenever you face challenges or uncertainties. Through these sessions, you'll develop a healthy and mindful relationship with both food and your body."
+          "bromelain": {
+            "title": "Bromelain — gentle exfoliation",
+            "body": "The natural enzyme bromelain offers a gentle enzymatic exfoliation of dead cells from the skin surface, reducing the “tired face” look and giving an immediate glow."
           }
+        },
+        "discover": "Discover Face",
+        "proceduresHeading": "FACE procedures",
+        "procedures": {
+          "grazia": {
+            "name": "GRAZIA — Re-GEN Totale Ritual — Face & Arms",
+            "body": "Complete elegance, from face to arms. The Re-GEN facial ritual regenerates the skin from within — ceramides and biomimetic peptides that restart collagen and elastin production, while gamma-aminobutyric acid (GABA) relaxes expression lines with a botox-like effect. The patented Zanellato ozonised oils trigger, through hormesis, a “vascular gymnastics” that wakes up skin cells — while the arm ritual combines the active cataplasm, with a clinically validated vascular effect, and KURA TONIC gel for targeted fat burning and a firmer silhouette. One ritual, two beauty stories."
+          },
+          "armonia": {
+            "name": "ARMONIA — Re-GEN Totale Ritual — Face & Silhouette",
+            "body": "The perfect balance between face and silhouette. The Re-GEN facial ritual regenerates the skin from within with ceramides, biomimetic peptides, a botox-like effect and patented Zanellato ozonised oils that improve local microcirculation, while the legs and abdomen ritual combines the active cataplasm — with a clinically validated vascular effect — and KURA TONIC gel, for drainage and a firmer silhouette. Harmony between face and body in a single Palazzo session."
+          },
+          "rinascita": {
+            "name": "RINASCITA — Re-GEN Viso Ritual",
+            "body": "The ritual you dedicate to yourself. We take your face into our hands for a sculptural, lymph-draining massage that relaxes every muscle, then wrap it in the Re-GEN active mask, where bromelain gently exfoliates and wakes up microcirculation. Ceramides, phytosphingosine and cholesterol immediately restore the skin barrier, while biomimetic peptides bind to cell receptors and command the cell nucleus to produce new collagen, type I and III: we do not cover wrinkles on the surface, we restart the mechanism that rebuilds them from within. The serum also contains gamma-aminobutyric acid (GABA), which acts on micro-contractions beneath the skin and visibly relaxes expression lines — a natural effect, often compared to botox, but with no needle and no toxin. The ozonised oils — an exclusive Zanellato patent — trigger a controlled oxidative stress, called hormesis, which wakes up your own antioxidant enzymes, improves local microcirculation and leaves a clean, luminous, young and, most importantly, healthy complexion. Oat phytoestrogens complete the picture, compensating the hormonal decline of mature skin and stimulating your own hyaluronic acid production. The Re-GEN philosophy is Pro-Age, not Anti-Age: we do not fight mature skin, we give it exactly what it misses so it can glow again, with nature’s help."
+          },
+          "splendore": {
+            "name": "SPLENDORE — Palazzo Signature Ritual — Full Body",
+            "body": "Our signature ritual, for days when you want to care for yourself from head to toe. The complete Re-GEN facial ritual — ceramides, biomimetic peptides that restart collagen and elastin from within, GABA with a natural botox-like relaxation of expression lines, patented Zanellato ozonised oils and the hormesis process that wakes up the skin’s own energy — combines with the arm and leg rituals, where the active cataplasm and KURA TONIC gel work together: targeted fat burning, lymphatic drainage and a visibly firmer silhouette. The most complete experience on the Palazzo menu."
+          },
+          "respiro": {
+            "name": "RESPIRO — Viso Express Ritual",
+            "body": "A moment to breathe for your face, even when time is short. Lymphatic drainage massage sculpts and relaxes, while the Re-GEN serum and cream — with ceramides, biomimetic peptides (including SYN®-COLL for new collagen) and GABA, with a natural botox-like relaxation of expression lines — restore the skin barrier and give the cell regeneration energy through hormesis, via a blend of patented Zanellato ozonised oils. No mask, but the same immediate glow and calm."
+          }
+        },
+        "productsHeading": "RE-GEN products, step by step",
+        "products": {
+          "mask": {
+            "name": "Facial Mask",
+            "body": "An intensive experience of deep cleansing and oxygenation. The formula, enriched with ozonised oils and soothing extracts, stimulates local microcirculation and delivers that characteristic sensation of intense warmth."
+          },
+          "milk": {
+            "name": "Cleansing Milk",
+            "body": "A biomimetic cleanse, gentle on the skin — dissolves impurities through a delicate lipid phase that respects the skin's natural balance."
+          },
+          "tonic": {
+            "name": "Tonic Lotion (Multi-Hydrosol)",
+            "body": "A phyto-botanical distillate that instantly rebalances and hydrates, preparing the skin for the next steps of the ritual."
+          },
+          "serum": {
+            "name": "Facial Serum (Multi-Peptide & Ceramides)",
+            "body": "The most concentrated product in the range — supports the skin's natural activity of restoring firmness and density, with a visible smoothing effect."
+          },
+          "cream": {
+            "name": "Restructuring Facial Cream",
+            "body": "Rich in precious oils and biomimetic ceramides, it seals in hydration and helps restore the protective barrier. Vitamins C and E complete the formula with antioxidant protection."
+          }
+        },
+        "discoverProcedures": "Procedures",
+        "getInTouch": "Contact us",
+        "tryProcedure": "Try a procedure",
+        "productsCta": {
+          "heading": "Discover our products",
+          "body": "The RE-GEN® Pro-Age range we use in every facial ritual is available for your home care too — the same biomimetic formulas, now in your daily routine.",
+          "button": "Explore Face products",
+          "all": "View all products"
+        }
+      },
+      "body": {
+        "title": "The body has its own rhythm. Its care should respect it.",
+        "intro1": "At Palazzo, body experiences start from a simple perspective: the appearance of the skin is influenced by more than what is visible on the surface.",
+        "intro2": "That's why our rituals combine carefully integrated manual techniques with specialised phyto-aesthetic formulas and ingredients selected for their ability to support the care of tone, compactness and skin appearance.",
+        "intro3": "From rituals dedicated to areas that need more attention, to experiences focused on activation, drainage and relaxation, each procedure is built as a moment in which the body receives the time and care it needs.",
+        "intro4": "Because a cared-for body isn't just about how it looks. It's also about how it feels.",
+        "explore": "Explore the Body universe",
+        "proceduresHeading": "BODY procedures",
+        "procedures": {
+          "grazia": {
+            "name": "GRAZIA — Re-GEN Totale Ritual — Face & Arms",
+            "body": "Complete elegance, from face to arms. The Re-GEN facial ritual regenerates the skin from within — ceramides and biomimetic peptides that restart collagen and elastin production, while gamma-aminobutyric acid (GABA) relaxes expression lines with a botox-like effect. The patented Zanellato ozonised oils trigger, through hormesis, a “vascular gymnastics” that wakes up skin cells — while the arm ritual combines the active cataplasm, with a clinically validated vascular effect, and KURA TONIC gel for targeted fat burning and a firmer silhouette. One ritual, two beauty stories."
+          },
+          "armonia": {
+            "name": "ARMONIA — Re-GEN Totale Ritual — Face & Silhouette",
+            "body": "The perfect balance between face and silhouette. The Re-GEN facial ritual regenerates the skin from within with ceramides, biomimetic peptides, a botox-like effect and patented Zanellato ozonised oils that improve local microcirculation, while the legs and abdomen ritual combines the active cataplasm — with a clinically validated vascular effect — and KURA TONIC gel, for drainage and a firmer silhouette. Harmony between face and body in a single Palazzo session."
+          },
+          "vitalita": {
+            "name": "VITALITÀ — KURA Full-Body Ritual",
+            "body": "A whole-body ritual for those who want visible results, from arms to legs. Exfoliation, anti-cellulite and lymphatic drainage massage on both areas, followed by the active Zanellato cataplasm wrap — a controlled vascular shock, clinically validated, that relaxes lymphatic capillaries and deeply reduces edema, helping tone and visibly reduce the circumference of the treated areas. The ritual ends with KURA TONIC gel on arms and legs alike, where caffeine burns localised fat deposits, plant extracts speed up drainage, and collagen and hyaluronic acid leave the skin visibly firmer."
+          },
+          "slancio": {
+            "name": "SLANCIO — KURA Arms Ritual",
+            "body": "Your arms deserve their own pampering ritual. We start with a fine exfoliation, then an anti-cellulite and lymphatic drainage massage, followed by wrapping in Zanellato sleeves with active cataplasm — where camphor and black mustard trigger a true controlled vascular shock, validated by world-renowned figures in lymphology: lymphatic capillaries relax, absorbing excess interstitial fluid, edema decreases, skin is deeply hydrated. We finish with KURA TONIC gel: pure caffeine burns localised fat deposits, ivy, Centella Asiatica and horse chestnut extracts accelerate vascular drainage, while collagen in 3 different molecular weights and hyaluronic acid contribute to firmness, size reduction and finally slim, toned arms."
+          },
+          "leggerezza": {
+            "name": "LEGGEREZZA — KURA Legs & Abdomen Ritual",
+            "body": "The perfect ritual for light legs. Fine exfoliation, anti-cellulite and lymphatic drainage massage, then wrapping in Zanellato leggings with cataplasm — the same controlled vascular shock, which substantially helps eliminate interstitial fluid and activate local fat burning. Finally, KURA TONIC gel does its job: caffeine for targeted fat burning, plant extracts to boost lymphatic drainage, collagen in 3 different molecular weights and hyaluronic acid that helps mask and cover stretch marks — a whole ritual to get rid of cellulite and stretch marks and to gain an enviable silhouette."
+          },
+          "splendore": {
+            "name": "SPLENDORE — Palazzo Signature Ritual — Full Body",
+            "body": "Our signature ritual, for days when you want to care for yourself from head to toe. The complete Re-GEN facial ritual — ceramides, biomimetic peptides that restart collagen and elastin from within, GABA with a natural botox-like relaxation of expression lines, patented Zanellato ozonised oils and the hormesis process that wakes up the skin’s own energy — combines with the arm and leg rituals, where the active cataplasm and KURA TONIC gel work together: targeted fat burning, lymphatic drainage and a visibly firmer silhouette. The most complete experience on the Palazzo menu."
+          }
+        },
+        "discoverProcedures": "Procedures",
+        "getInTouch": "Contact us",
+        "tryProcedure": "Try a procedure",
+        "productsCta": {
+          "heading": "Discover our products",
+          "body": "The phyto-aesthetic formulas behind every body ritual — the KURA TONIC gel and the active cataplasm range — are available for your daily care at home.",
+          "button": "Explore Body products",
+          "all": "View all products"
         }
       },
       "cta": {
@@ -292,29 +429,51 @@
         "button": "Book now"
       }
     },
-    "phytotherapy": {
+    "impacco": {
       "hero": {
         "title": "Heal naturally with",
-        "titleAccent": "Phytotherapy",
+        "titleAccent": "Impacco",
         "subtitle": "The healing power of plants — natural, science-backed remedies that support your body gently and effectively.",
-        "cta": "Book an appointment"
+        "cta": "Discover Impacco"
       },
       "description": {
-        "heading": "What is phytotherapy?",
-        "body1": "Phytotherapy is the therapeutic use of plants and their active compounds to prevent and treat illness — one of the oldest forms of medicine, refined by modern science.",
-        "body2": "At Palazzo, we pair traditional botanical knowledge with current research to create natural remedies that complement your care, support recovery and strengthen your body's own balance."
+        "heading": "What is Impacco?",
+        "body1": "Sometimes your body tells you exactly where it needs attention. Tension accumulates. The body contracts. Certain areas remain overworked more than we realize. Inspired by the tradition of Galenical Cataplasm, Impacco is a localized experience created for carefully selected areas, where heat, plants and action time meet in a ritual with its own identity.",
+        "body2": "Through its traditional counter-irritant action, the Cataplasm creates intense local activation accompanied by a progressive sensation of heat and the stimulation of microcirculation. The occlusive application contributes to maintaining the necessary conditions for the ingredients in the formula to act over time, transforming each Impacco into a profound and personal experience. It's the moment you choose to pause and give attention to exactly the area that needs you.",
+        "badges": {
+          "relax": "For relaxation",
+          "release": "For release",
+          "comfort": "For easing discomfort"
+        }
       },
       "helps": {
-        "heading": "How phytotherapy helps",
+        "heading": "How Impacco helps",
         "body": "Plant-based therapy works with your body rather than against it, offering gentle, effective support for a wide range of everyday concerns.",
         "point1": "Calms inflammation with potent natural compounds.",
         "point2": "Supports the immune system and overall vitality.",
         "point3": "Supports the body's natural recovery and regeneration.",
         "point4": "Promotes relaxation, better sleep and balance."
       },
+      "relief": {
+        "heading": "Where you'll feel Impacco most",
+        "items": {
+          "muscle": {
+            "title": "Muscle discomfort, pain and tension",
+            "body": "Long days, physical effort or simply accumulated stress leave visible traces in the muscles — a feeling of heaviness, stiffness, a “knot” that won't release on its own. Impacco steps in exactly there, with deep heat that helps the muscle relax and the body breathe easier."
+          },
+          "joints": {
+            "title": "Joint discomfort",
+            "body": "Knees, shoulders or wrists can feel stiff or uncomfortable at the end of a demanding day, making simple movements harder. Impacco delivers intense, localized heat that brings comfort and ease exactly where you need it."
+          },
+          "back": {
+            "title": "Back discomfort, pain and tension",
+            "body": "Long hours at the desk, behind the wheel or on your feet often leave marks where we can't see them — in the back, as tension, stiffness or a feeling of heaviness built up through the day. Impacco brings deep, localized heat that helps relax the muscles and a feeling of lightness and comfort across the treated area."
+          }
+        }
+      },
       "benefits": {
         "heading": "The benefits you'll feel",
-        "subtitle": "What phytotherapy at Palazzo gives you, naturally.",
+        "subtitle": "What Impacco at Palazzo gives you, naturally.",
         "tabs": {
           "muscleJoint": {
             "label": "Muscle-joint",
@@ -398,8 +557,21 @@
           }
         }
       },
+      "pricing": {
+        "heading": "Give your body the break it deserves",
+        "rating": "Loved by Palazzo clients",
+        "body": "Deep warmth, carefully chosen plants and time devoted to exactly the area that bothers you. A localized, personal and deeply relaxing ritual — and the first step is simpler than you think.",
+        "points": {
+          "point1": "Deep warmth, localized exactly where it hurts",
+          "point2": "A personalized ritual built around your area",
+          "point3": "Plant-based ingredients, gentle on the skin"
+        },
+        "priceFrom": "Starting from",
+        "button": "Book now",
+        "secondary": "See the benefits"
+      },
       "cta": {
-        "heading": "Book your phytotherapy session",
+        "heading": "Book your Impacco session",
         "body": "Discover what natural, plant-based care can do for you. We're here to help.",
         "button": "Book now"
       }
