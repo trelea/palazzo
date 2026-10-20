@@ -17,6 +17,7 @@ const nextConfig = {
     ],
   },
   serverExternalPackages: ['jose'],
+  trailingSlash: false,
 
   // Physiotherapy was replaced by phyto-esthetics; keep old indexed URLs alive.
   redirects: async () => [
