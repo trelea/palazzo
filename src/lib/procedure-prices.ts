@@ -11,7 +11,7 @@
  */
 export const PROCEDURE_PRICES_MDL = {
   grazia: 2550,
-  armonia: 3400,
+  armonia: 3700,
   rinascita: 1600,
   splendore: 4700,
   respiro: 1200,
